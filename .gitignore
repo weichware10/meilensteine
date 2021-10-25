@@ -1,2 +1,2 @@
 # Hier zu ignorierende Dateiendungen / Dateinahmen / Verzeichnisse auflisten!
-.DS_Store
+*.DS_Store
