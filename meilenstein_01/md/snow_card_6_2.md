@@ -1,0 +1,35 @@
+# {6.2} {Datenanalyse Client}
+
+| Req-ID |  Req-Type  | Events/UCs          |
+|--------|------------|---------------------|
+| 6.2    | Funktional | Datenanalyse Client |
+
+### Description
+Analyse der erhobenen eingelesenen Daten in Form von Anzeige der Reihenfolge, Anzeige des zeitlichen Verlaufes, Heatmaps, Liniendiagramme, Kerzendiagramme und Analyse der Ähnlichkeiten von verschiedenen Datensätzen.
+
+### Rationale
+Wird benötigt, um die erhobenen Daten auszuwerten und in einheitlichen Formaten darzustellen.
+
+### Originator
+Problemstellung
+
+### Fit Criterion
+Ausgabe der verschiedenen Formate der ausgewerteten Daten.
+
+#### Ratings
+| Customer Satisfation | Customer Dissatisfation | Priority |
+|----------------------|-------------------------|----------|
+| 4                    | 5                       | 3        |
+
+### Supporting Material
+keine
+
+### Conflicts
+keine
+
+### History
+erstellt am 23.10.2021
+Änderung: keine
+zuletzt bearbeitet von: Philip
+
+---

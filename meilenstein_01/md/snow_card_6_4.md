@@ -1,0 +1,35 @@
+# {6.4} {Datenanalyse Client}
+
+| Req-ID |  Req-Type        | Events/UCs          |
+|--------|------------------|---------------------|
+| 6.4    | Nicht-Funktional | Datenanalyse Client |
+
+### Description
+Ausgewertete Daten sollen übersichtlich und verständlich dargestellt werden.
+
+### Rationale
+Sodass Personen, die wenig bis kaum Übung mit den Darstellungsformaten der ausgewerteten Daten haben, diese auch verstehen können. 
+
+### Originator
+Philip
+
+### Fit Criterion
+Umfrage mit Beispielen unter verschiedenen Personen (wenig, mittelmäßig und viel Erfahrung). 
+
+#### Ratings
+| Customer Satisfation | Customer Dissatisfation | Priority |
+|----------------------|-------------------------|----------|
+| 3                    | 2                       | 2        |
+
+### Supporting Material
+keine
+
+### Conflicts
+keine
+
+### History
+erstellt am 23.10.2021
+Änderung: keine
+zuletzt bearbeitet von: Philip
+
+---

@@ -1,0 +1,35 @@
+# {6.1} {Datenanalyse Client}
+
+| Req-ID |  Req-Type  | Events/UCs          |
+|--------|------------|---------------------|
+| 6.1    | Funktional | Datenanalyse Client |
+
+### Description
+Auslesen der erhobenen Daten aus dem Speichermedium und laden des benutzten Bilds.
+
+### Rationale
+Wird benötigt, um die Daten für die Datenanalyse zu beschaffen bzw. bereit zu stellen. 
+
+### Originator
+Problemstellung
+
+### Fit Criterion
+Die erhobenen Daten und das Bild befinden sich im Speicher des Datenanalyse Clients und können von diesem ausgegeben bzw. angezeigt werden.
+
+#### Ratings
+| Customer Satisfation | Customer Dissatisfation | Priority |
+|----------------------|-------------------------|----------|
+| 2                    | 5                       | 3        |
+
+### Supporting Material
+keine
+
+### Conflicts
+keine
+
+### History
+erstellt am 23.10.2021
+Änderung: keine
+zuletzt bearbeitet von: Philip
+
+---
