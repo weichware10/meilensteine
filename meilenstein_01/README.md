@@ -40,7 +40,7 @@
 
 ---
 ## Teilnehmer und Rollen.
-In diesem Meilenstein haben wir jeweils einer Person eine Funktion zugeordnet, welche sich mit dieser auseinandersetzt und die SnowCards dafür erstellt. Nachdem alle ihre SnowCards ausgefüllt und hochgeladen haben, haben wir diese als Gruppe nochmal betrachtet und Verbesserungsmöglichkeiten besprochen. Die 7. Person in unser Gruppe hat sich in diesem ersten Meilenstein hauptsächlich um den Bericht und die Organisation gekümmert, sodass alle Daten ordentlich zusammenkommen. Des weitern hat sie sich auch schon vor dem Gruppenmeeting die einzelnen SnowCards angeschaut.  
+In diesem Meilenstein haben wir jeweils einer Person eine Funktion zugeordnet, welche sich mit dieser auseinandersetzt und die SnowCards dafür erstellt. Nachdem alle ihre SnowCards ausgefüllt und hochgeladen haben, haben wir diese als Gruppe nochmal betrachtet und Verbesserungsmöglichkeiten besprochen. Die 7. Person in unser Gruppe hat sich in diesem ersten Meilenstein hauptsächlich um den Bericht und die Organisation gekümmert, sodass alle Daten ordentlich zusammenkommen. Des Weiteren hat sie sich auch schon vor dem Gruppenmeeting die einzelnen SnowCards angeschaut.  
 
 Unsere Aufteilung der Aufgaben war dementsprechend:
 | Aufgabe                                                  | Person                                     |
