@@ -13,7 +13,7 @@ Vor der Abgabe erfolgte ein abschließendes Teammeeting, zur Beendigung des Meil
 
 ## Was waren die Herausforderungen und Probleme ? Wie wurden sie gelöst ?
 - Definition der Prioritäten auf den SnowCards
-    - Zuerst wurden wegen Fehlender Absprache verschiedene Skalen zur Bewertung der Prioritäten verwendet. Dabei Varriierte die Menge von 1-3 bis 1-5 und 1 galt teilweiße als höchste Priorität, aber als auch kleinste Priorität.
+    - Zuerst wurden wegen fehlender Absprache verschiedene Skalen zur Bewertung der Prioritäten verwendet. Dabei variierte die Menge von 1-3 bis 1-5 und 1 galt teilweiße als höchste Priorität, aber als auch kleinste Priorität.
     - Lösung: Nachdem der Fehler bemerkt wurde, wurde das Problem in der Gruppe besprochen und sich auf folgende Konvention geeinigt:
         |                 |         1        |          2          |      3       |         4         |    5    |
         |-----------------|------------------|---------------------|--------------|-------------------|---------|
