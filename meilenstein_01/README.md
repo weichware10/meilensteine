@@ -5,7 +5,7 @@
     - Besprechend er Aufgabenstellung
     - Teambuilding
     - Aufteilung der SnowCards
-    - Absprache zu einem Git-Modell (siehe git.pdf)
+    - Absprache zu einem Git-Modell (siehe gitflow.pdf)
 - Dezentrale Überprüfungen der SnowCards 
 
 ## Was waren die Herausforderungen und Probleme ? Wie wurden sie gelöst ?
