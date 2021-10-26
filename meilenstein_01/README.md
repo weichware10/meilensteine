@@ -25,10 +25,7 @@
     - Konsequenz: Hilfsangebote durch kundige Teammitglieder (Auffrischung bis Grundlagen)
 
 ## Was lief gut ? Was lief nicht gut ?
-- + 
-    - gute Teamarbiet (ausgenommen Mac Nutzer)
-- -
-    - Mac Nutzer
+- gute Teamarbeit
 
 ## Was haben Sie gelernt ?
 - Kommunikation ist Lava: Absprachen sind essenziell, gerade wenn mehrere Menschen ähnliche Aufgaben lösen sollen und gewisse Standards eingehalten werden müssen.
