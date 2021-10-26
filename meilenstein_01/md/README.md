@@ -1,5 +1,5 @@
 # Snow Cards
-## Legende Rankings:
+## Legende Ratings:
 |                 |         1        |          2          |      3       |         4         |    5    |
 |-----------------|------------------|---------------------|--------------|-------------------|---------|
 | Satisfaction    | sehr zufrieden   | etwas zufrieden     | zufrieden    | weniger zufrieden | neutral |
