@@ -8,7 +8,7 @@ Inhalte:
 - Aufteilung der Aufgaben (SnowCards, Dokumentation)
 - Absprache zu einem Git-Modell (siehe gitflow.pdf)  
 
-Danach folgte das dezentrale Erarbieten und Überprüfungen der SnowCards. 
+Danach folgte das dezentrale Erarbieten und Überprüfen der SnowCards. 
 Vor der Abgabe erfolgte ein abschließendes Teammeeting, zur Beendigung des Meilensteins.  
 
 ## Was waren die Herausforderungen und Probleme ? Wie wurden sie gelöst ?
