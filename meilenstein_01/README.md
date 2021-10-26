@@ -3,10 +3,10 @@
 ## Was ist bis jetzt passiert ?
 Als erstes trafen wir uns mit der ganzen Gruppe. 
 Inhalte:    
-    - Erarbeitung eines Verständnisses für die Aufgabenstellung -> aussreichendes einheitliches Verständniss 
-    - Teambuilding zum besseren Arbeiten
-    - Aufteilung der Aufgaben (SnowCards, Dokummentation)
-    - Absprache zu einem Git-Modell (siehe gitflow.pdf)  
+- Erarbeitung eines Verständnisses für die Aufgabenstellung -> aussreichendes einheitliches Verständniss 
+- Teambuilding zum besseren Arbeiten
+- Aufteilung der Aufgaben (SnowCards, Dokummentation)
+- Absprache zu einem Git-Modell (siehe gitflow.pdf)  
 
 Danach folgte das dezentrale Erarbieten und Überprüfungen der SnowCards. 
 Vor der Abgabe erfolgte ein abschließendes Teammeeting, zur Beendigung des Meilensteins.  
