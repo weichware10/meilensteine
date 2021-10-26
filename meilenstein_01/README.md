@@ -3,7 +3,7 @@
 ## Was ist bis jetzt passiert ?
 Als erstes trafen wir uns mit der ganzen Gruppe. 
 Inhalte:    
-- Erarbeitung eines Verständnisses für die Aufgabenstellung -> aussreichendes einheitliches Verständniss 
+- Erarbeitung eines Verständnisses für die Aufgabenstellung -> ausreichendes einheitliches Verständniss 
 - Teambuilding zum besseren Arbeiten
 - Aufteilung der Aufgaben (SnowCards, Dokummentation)
 - Absprache zu einem Git-Modell (siehe gitflow.pdf)  
