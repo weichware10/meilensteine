@@ -1,39 +1,49 @@
 # Bericht zum Meilenstein 1
 ---
 ## Was ist bis jetzt passiert ?
-- Ein Treffen mit der ganzen Gruppe. Inhalte:    
-    - Besprechen der Aufgabenstellung
-    - Teambuilding
-    - Aufteilung der SnowCards
-    - Absprache zu einem Git-Modell (siehe gitflow.pdf)
-- Dezentrale Überprüfungen der SnowCards 
-- Ein Treffen vor Abgabe für die Abschließende Absprache des Meilensteins
+Als erstes trafen wir uns mit der ganzen Gruppe. 
+Inhalte:    
+    - Erarbeitung eines Verständnisses für die Aufgabenstellung -> aussreichendes einheitliches Verständniss 
+    - Teambuilding zum besseren Arbeiten
+    - Aufteilung der Aufgaben (SnowCards, Dokummentation)
+    - Absprache zu einem Git-Modell (siehe gitflow.pdf)  
+
+Danach folgte das dezentrale Erarbieten und Überprüfungen der SnowCards. 
+Vor der Abgabe erfolgte ein abschließendes Teammeeting, zur Beendigung des Meilensteins.  
 
 ## Was waren die Herausforderungen und Probleme ? Wie wurden sie gelöst ?
 - Deffinition der Prioritäten auf den SnowCards
     - Zuerst wurden wegen Fehlender Absprache verschiedene Skalen zur Bewertung der Prioritäten verwendet. Dabei Varriierte die Menge von 1-3 bis 1-5 und 1 galt teilweiße als höchste Priorität, aber als auch kleinste Priorität.
-    - Lösung: Nachdem der Fehler bemerkt wurde, wurde das Problem in der Gruppe besprochen und sich auf Folgendes geeinigt:
+    - Lösung: Nachdem der Fehler bemerkt wurde, wurde das Problem in der Gruppe besprochen und sich auf folgende Konvention geeinigt:
         |                 |         1        |          2          |      3       |         4         |    5    |
         |-----------------|------------------|---------------------|--------------|-------------------|---------|
         | Satisfaction    | sehr zufrieden   | etwas zufrieden     | zufrieden    | weniger zufrieden | neutral |
         | Dissatisfaction | sehr unzufrieden | etwas unzufrieden   | unzufrieden  | kaum unzufrieden  | neutral |
         | Priorität       | sehr hoch        | hoch                | weniger hoch | /                 | /       |  
 
-- MAc OS Opfer wurde fast aus der Gruppe gemobbt  
-
-- Für einige Teammitglieder war das arbieten mit git noch neu.
+- Für einige Teammitglieder war das Arbeiten mit Git noch neu.
     - Konsequenz: Hilfsangebote durch kundige Teammitglieder (Auffrischung bis Grundlagen)
+    - Das Arbieten mit Git wurde für folgende Meilensteine verinnerlicht
+    - Trotz anfänglichem Zögern hat sich das gegenseitige Überprüfen der Arbiet per Rewiew durchgesetzt  
 
 ## Was lief gut ? Was lief nicht gut ?
-- gute Teamarbeit
+| gut                                         | nicht gut                                   |
+|---------------------------------------------|---------------------------------------------|
+| schnelle Kommunikation in der Gruppe        | Absprache bei der Skala für die Prioritäten |
+| gute Organisation im Team                   | Anfängliche schwierigkeiten mit Git         |
+| Motivierte Aufgabenerledingung              |                                             | 
+| funktionstüchtige Tools                     |                                             |   
 
 ## Was haben Sie gelernt ?
-- Kommunikation ist Lava: Absprachen sind essenziell, gerade wenn mehrere Menschen ähnliche Aufgaben lösen sollen und gewisse Standards eingehalten werden müssen.
+- Kommunikation ist wichtig: Absprachen sind essenziell, gerade wenn mehrere Menschen ähnliche Aufgaben lösen sollen und gewisse Standards eingehalten werden müssen.
+- Was eine SnowCard ist und wie man sie erstellt
+- Umgang mit Git  
 
 ## Was würden sie beim nächsten Mal anders machen ?
 - Mehr Kommunkikation:
-    - privat
+    - im Privaten
     - im Team (Teammeetings)
+- Auch zu beginn des Meilensteins bereits Regeln und Konventionen zentral Dokummentieren (Wichtig: möglichst ständige Erreichbarkeit)  
 
 ---
 ## Teilnehmer und Rollen.
