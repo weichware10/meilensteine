@@ -1,2 +1,0 @@
-## Snow Cards in DOCX
----
