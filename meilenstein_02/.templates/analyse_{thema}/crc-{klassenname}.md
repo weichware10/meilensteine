@@ -8,3 +8,10 @@ CRC-Karte - {Klassenname}
 ## Kollaborationen
 1.
 2.
+
+---
+#### Notizen:
+<!-- Hier Notizen zum Denkprozess, Hintergrundgedanken, Klarstellungen hinzufügen  -->
+
+#### Changelog:
+<!-- Hier eventuelle Abänderungen dokumentieren -->
