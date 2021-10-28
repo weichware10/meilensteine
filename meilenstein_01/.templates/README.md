@@ -1,3 +1,3 @@
 # Templates
-Bitte in Markdown, PDF und docx abspeichern, und in die dazugehörigen Ordner ablegen.  
+Bitte in Markdown abspeichern, und in `snowcards` ablegen.  
 Benennung folgt Req-ID.
