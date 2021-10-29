@@ -7,10 +7,10 @@
 <!-- Snow Cards können bei diesem Schritt helfen! -->
 
 ## Was ist der erwartete Input?
-###Input vom System:
+### Input vom System:
 - 
 
-###Input vom Benutzer:
+### Input vom Benutzer:
 - String in das Eingabefenster
 (Einstellungen für Config File)
 
