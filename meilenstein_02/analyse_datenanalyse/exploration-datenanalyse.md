@@ -47,10 +47,10 @@
 <!-- Erstmal alle aufschreiben, dann auswählen! (Kriterien siehe Vorgehensweise) -->
 <!-- Warum sind die Klassen existent? Wenn das zu beantworten ist - u good! -->
 <!-- ausgewählte Klassen mit Link, andere einklammern und CRC-Karte löschen -->
-- Client
-- Daten
+- [Client](crc-client.md)
+- [Daten](crc-daten.md)
+- [Analyse](crc-analyse.md)
+- [Export](crc-export.md)
 - Speichermedium
-- Analyse
-- Export
 - [Klassenname](crc-{klassenname}.md)
 - (nichtAusgewählteKlasse)
