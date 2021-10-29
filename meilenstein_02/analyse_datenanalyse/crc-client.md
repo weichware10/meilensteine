@@ -1,6 +1,6 @@
 CRC-Karte - Client
 
-# {Klassenname}
+# Client
 ## Verantwortlichkeiten
 <!-- Wissen, welches verwaltet und angeboten wird, Aktion die angeboten werden, öffentliche Leistung -->
 <!-- "Walkthrough" -> Szenarien zur Anwendung des Systems -->
