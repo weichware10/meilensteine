@@ -49,6 +49,8 @@
 <!-- ausgewählte Klassen mit Link, andere einklammern und CRC-Karte löschen -->
 - Client
 - Daten
+- Speichermedium
 - Analyse
+- Export
 - [Klassenname](crc-{klassenname}.md)
 - (nichtAusgewählteKlasse)
