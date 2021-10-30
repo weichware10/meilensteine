@@ -3,7 +3,7 @@
     - [ ] Klassen finden, Verantwortlichkeiten, Zusammenarbeit
     - [ ] Nomen Phrasen aufschreiben
     - [ ] Alle möglichen Klassen auswählen und als CRC-Karten dokumentieren
-    - [ ] Verfeinern der Kandidatenliste. Hinweise:
+    - [ ] Verfeinern der Kandidatenliste.
 - [ ] Detaillierte Analyse
     - [ ] gemeinsame Verantwortlichkeiten ⇒ Klassenhierarchien
     - [ ] Konkretisierung der Kollaboration
