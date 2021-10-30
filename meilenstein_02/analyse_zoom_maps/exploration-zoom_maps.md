@@ -46,7 +46,7 @@ Input Nutzer:
 - input aufnehmen (raw)
 - input verrechnen (config + aktuelle position) (gibt weiter an Bild und Speichermedium) -->
 <!-- - Umwandlung Benutzerinput in Zoomwert (Input -> Zoom -> Bild verändert sich -> Info Speichermedium weitergeben) -->
-- [Tutorial](crc-Tutorial.md)
+- [ZoomTutorial](crc-ZoomTutorial.md)
 - [ZoomInput](crc-ZoomInput.md)
 - [ZoomCalculator](crc-ZoomCalculator.md)
-- [Bild](crc-Bild.md)
+- [ZoomBild](crc-ZoomBild.md)
