@@ -23,12 +23,14 @@
 <!-- Alle relevanten Sachen aufschreiben, später kann aussortiert werden! -->
     - Speicher/Schreiben
     - Lesen/Suchen
-    - Löschen
+    - Löschen/Aendern
     - Sortieren
 
 ## Liste der Klassen:
 <!-- Erstmal alle aufschreiben, dann auswählen! (Kriterien siehe Vorgehensweise) -->
 <!-- Warum sind die Klassen existent? Wenn das zu beantworten ist - u good! -->
 <!-- ausgewählte Klassen mit Link, andere einklammern und CRC-Karte löschen -->
-- [Klassenname](crc-{klassenname}.md)
-- (nichtAusgewählteKlasse)
+- [Suchen](crc-{Suchen}.md)
+- [Speichern](crc-{Speichern}.md)
+- [Aendern](crc-{Aendern}.md)
+- (Sortieren)

@@ -6,7 +6,7 @@
      - Neben dem **Als was** etwas abgespeichert werden soll gibt es noch andere Anforderungen
      - Das Speichermedium besitzt eine große Oberklasse **Funktionen**
      - Die Funktionen die zum aktuellen Zeitpunkt zur Verfügung gestellt werden sollen, sind **Speichern/Schreiben**, **Suchen/Lesen** und **Ändern**
-     - Damit ist gemeint, dass die Funktion **Suchen** dem *DataClient* zur Verfügung stehen soll und die Funktionen **Speichern** und **Löschen**, den Funktionen *Zoom Maps*, *Codecharts* und *Webcam basiertes Eyetracking*
+     - Damit ist gemeint, dass die Funktion **Suchen** dem *DataClient* zur Verfügung stehen soll und die Funktionen **Speichern** und **Löschen/Aendern**, den Funktionen *Zoom Maps*, *Codecharts* und *Webcam basiertes Eyetracking*
      - Da die 3 großen Funktionen aus mehreren Unterfunktione besteht, werden diese zu jeweils 3 Klassen
 2. Was macht die Klasse ***Suchen*** ?
      - Diese muss nur dem DataClient zur Verfügung gestellt werden
@@ -21,7 +21,7 @@
      - Stellt jeder Funktion eine einheitliche Speicherung der Infromationen in der Datei sicher
      - muss in Absprache mit den Funktionen erstellt werden
      - besitzt die Möglichkeit den Dateien Namen zu geben, ansonsten standard -> Datum der Erstellung
-4. Was macht die Klasse ***Löschen***
+4. Was macht die Klasse ***Löschen/Aendern***
      - Sie ermöglicht es alte Datensätze zu löschen
      - Steht dem Dataclient zur Verfügung (Falls gewünscht ist, das nach der Analyse die Daten gelöscht werden sollen (oder weil nur die graphische Information von interesse ist))
 
