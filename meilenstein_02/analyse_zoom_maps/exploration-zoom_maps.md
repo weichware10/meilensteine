@@ -39,5 +39,14 @@ Input Nutzer:
 <!-- Erstmal alle aufschreiben, dann auswählen! (Kriterien siehe Vorgehensweise) -->
 <!-- Warum sind die Klassen existent? Wenn das zu beantworten ist - u good! -->
 <!-- ausgewählte Klassen mit Link, andere einklammern und CRC-Karte löschen -->
-- [Klassenname](crc-{klassenname}.md)
-- (nichtAusgewählteKlasse)
+<!-- - [Klassenname](crc-{klassenname}.md) -->
+<!-- - (nichtAusgewählteKlasse) -->
+
+<!-- - Zoomer (Input mit Config File zu Zoomwert konvertieren + Location + weitergeben)
+- input aufnehmen (raw)
+- input verrechnen (config + aktuelle position) (gibt weiter an Bild und Speichermedium) -->
+<!-- - Umwandlung Benutzerinput in Zoomwert (Input -> Zoom -> Bild verändert sich -> Info Speichermedium weitergeben) -->
+- [Tutorial](crc-Tutorial.md)
+- [ZoomInput](crc-ZoomInput.md)
+- [ZoomCalculator](crc-ZoomCalculator.md)
+- [Bild](crc-Bild.md)
