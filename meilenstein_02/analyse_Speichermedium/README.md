@@ -1,0 +1,47 @@
+# Analyse - Speichermedium
+<!-- Hier Notizen zum Denkprozess! -->
+1. Welche Aufgaben hat das Speichermedium/soll es zur Verfügung stellen?
+     - Es muss zuerst die Art des Speichermediums entschieden werden.. (Datenbank oder Datei) ..
+     Da dies noch in Besprechung ist, gehe ich aktuell von eine Datei aus.
+     - Neben dem **Als was** etwas abgespeichert werden soll gibt es noch andere Anforderungen
+     - Das Speichermedium besitzt eine große Oberklasse **Funktionen**
+     - Die Funktionen die zum aktuellen Zeitpunkt zur Verfügung gestellt werden sollen, sind **Speichern/Schreiben**, **Suchen/Lesen** und **Ändern**
+     - Damit ist gemeint, dass die Funktion **Suchen** dem *DataClient* zur Verfügung stehen soll und die Funktionen **Speichern** und **Löschen**, den Funktionen *Zoom Maps*, *Codecharts* und *Webcam basiertes Eyetracking*
+     - Da die 3 großen Funktionen aus mehreren Unterfunktione besteht, werden diese zu jeweils 3 Klassen
+2. Was macht die Klasse ***Suchen*** ?
+     - Diese muss nur dem DataClient zur Verfügung gestellt werden
+     - DataClient kann speziell nach Informationen suchen
+     - Besitzt für alle 3 Funktionen spezielle Suchen, für die jeweiligen Daten
+     - Besitzt die Möglichkeit nach Dateinnamen als auch nach allen Daten von einer Funktion zu suchen
+     - Kann einzelne Daten (falls notwendig) als auch einen kompletten Datensatz ausgeben
+3. Was macht die Klasse ***Speichern***
+     - Diese Klasse steht den drei Funktionen zur Verfügung
+     - Es wird für jede Funktion eine eigene Datei erstellt in der die Informationen gespeichert werden, dadurch wird verhindert das es zu "Vermischungen" der Daten kommt
+     - durch das getrennte Speichern wird auch die Klasse *Suchen* leichter zu implementieren
+     - Stellt jeder Funktion eine einheitliche Speicherung der Infromationen in der Datei sicher
+     - muss in Absprache mit den Funktionen erstellt werden
+     - besitzt die Möglichkeit den Dateien Namen zu geben, ansonsten standard -> Datum der Erstellung
+4. Was macht die Klasse ***Löschen***
+     - Sie ermöglicht es alte Datensätze zu löschen
+     - Steht dem Dataclient zur Verfügung (Falls gewünscht ist, das nach der Analyse die Daten gelöscht werden sollen (oder weil nur die graphische Information von interesse ist))
+
+## Verantwortlichkeiten
+<!-- Wissen, welches verwaltet und angeboten wird, Aktion die angeboten werden, öffentliche Leistung -->
+<!-- "Walkthrough" -> Szenarien zur Anwendung des Systems -->
+<!-- Nichts, was eine andere Klasse machen könnte -->
+<!-- Die Sachen die die Klasse macht -> keiner anderen Klasse geben -->
+<!-- zentrale Verantwortlichkeiten vs verteilt -->
+
+## Kollaborationen
+<!-- Benutzeranfragen an Dienste, die benötigt werden um Veranwortlichkeiten zu erfüllen -->
+<!-- enthüllen Kontroll- und Informationsflüsse, und somit Subsysteme -->
+<!-- Können fehlende Verantwortlichkeiten offenbaren, bzw. fehlerhaft zugewiesene -->
+
+## Finden von Abstrakten Klassen
+<!-- Konkrete Klassen: Instanziierung und Vererbung
+     Abstrakte Klassen: Nur Vererbung! -->
+<!-- Unterklassen sollten alle geerbten Verantwortlichkeiten unterstützen, eher noch mehr -->
+<!-- Gemeinsame Verantwortlichkeiten sollten so weit hoch wie möglich geschoben werden -->
+<!-- Abstrakte Klassen erben nie von Konkreten Klassen! -->
+<!-- Klassen die keine neue Funktionalität hinzufügen sollten eliminiert werden! -->
+<!-- Letzte Folien der Vorlesung sind hilfreich hierfür! -->
