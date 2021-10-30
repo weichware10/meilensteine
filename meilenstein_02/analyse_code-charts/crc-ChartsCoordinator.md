@@ -7,8 +7,8 @@ CRC-Karte - {Klassenname}
 <!-- Nichts, was eine andere Klasse machen könnte -->
 <!-- Die Sachen die die Klasse macht -> keiner anderen Klasse geben -->
 <!-- zentrale Verantwortlichkeiten vs verteilt -->
-1.
-2.
+1. gibt die Befehle für Bild, Raster und Eingabefenster zum Wechsel
+2. 
 
 ## Kollaborationen
 <!-- Kann die Klasse die Verantwortlichkeiten selbstädnig erfüllen? Was benötigt sie von welcher Klasse? -->
