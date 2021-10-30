@@ -48,4 +48,4 @@ fremde Module:
 <!-- Klassen die keine neue Funktionalität hinzufügen sollten eliminiert werden! -->
 <!-- Letzte Folien der Vorlesung sind hilfreich hierfür! -->
 - Abstrakte Oberklasse "Analyse", von der Heatmap, Diagramm und Verlauf erbt
-	- benötigen alle Grundfunktionen zur Darstellung
+	- benötigen alle Grundfunktionen zur Analyse und Darstellung
