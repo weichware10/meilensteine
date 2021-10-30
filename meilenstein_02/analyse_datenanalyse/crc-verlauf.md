@@ -1,34 +1,24 @@
-CRC-Karte - Client
+CRC-Karte - Verlauf
 
-# Client
+# Verlauf
 ## Verantwortlichkeiten
 <!-- Wissen, welches verwaltet und angeboten wird, Aktion die angeboten werden, öffentliche Leistung -->
 <!-- "Walkthrough" -> Szenarien zur Anwendung des Systems -->
 <!-- Nichts, was eine andere Klasse machen könnte -->
 <!-- Die Sachen die die Klasse macht -> keiner anderen Klasse geben -->
 <!-- zentrale Verantwortlichkeiten vs verteilt -->
-1. Abfrage der Daten (Was für Daten?, Zeitraum?, etc.)  
-2. Auswahl der Analyseformen
-3. Anzeige der Analyse  
-4. Auswahl Export
+1. Erstellen einer Übersicht über den zeitlichen Verlauf der Blicke
 
 ## Kollaborationen
 <!-- Kann die Klasse die Verantwortlichkeiten selbstädnig erfüllen? Was benötigt sie von welcher Klasse? -->
 <!-- Was weiß die Klasse? Welche anderen Klassen benötigen die Informationen? -->
-1. Speicher-Modul
-2. Analyse
-3. Export
+1. Analyse (Oberklasse)
+2. Client
 
 ---
 #### Notizen:
 <!-- Hier Notizen zum Denkprozess, Hintergrundgedanken, Klarstellungen hinzufügen  -->
-- Client besitzt zentrale Verantwortlichkeiten
-- Speicher-Modul stellt Daten bereit und Client fragt/holt benötigte Daten ab
-- Übermittelt Daten an Analyse
-- Empfängt analysierten Daten von Analyse
-  - Ausgabe im Client
-  - Export
-
+-  auf Grundlage der Tabelle, zu welcher Zeit welche Bildkoordinate betrachtet wurde: Visualisierung Reihenfolge/Verlauf der Blicke (Punkte mit Pfeilen verbunden)
 
 #### Changelog:
 <!-- Hier eventuelle Abänderungen dokumentieren -->

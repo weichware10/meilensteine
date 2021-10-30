@@ -1,34 +1,30 @@
-CRC-Karte - Client
+CRC-Karte - Heatmap
 
-# Client
+# Heatmap
 ## Verantwortlichkeiten
 <!-- Wissen, welches verwaltet und angeboten wird, Aktion die angeboten werden, öffentliche Leistung -->
 <!-- "Walkthrough" -> Szenarien zur Anwendung des Systems -->
 <!-- Nichts, was eine andere Klasse machen könnte -->
 <!-- Die Sachen die die Klasse macht -> keiner anderen Klasse geben -->
 <!-- zentrale Verantwortlichkeiten vs verteilt -->
-1. Abfrage der Daten (Was für Daten?, Zeitraum?, etc.)  
-2. Auswahl der Analyseformen
-3. Anzeige der Analyse  
-4. Auswahl Export
+1. Erstellen der Heatmap
+2. Überlagerung der Heatmap mit dem benutzten Bild
+3. Vergleich zweier Heatmaps
 
 ## Kollaborationen
 <!-- Kann die Klasse die Verantwortlichkeiten selbstädnig erfüllen? Was benötigt sie von welcher Klasse? -->
 <!-- Was weiß die Klasse? Welche anderen Klassen benötigen die Informationen? -->
-1. Speicher-Modul
-2. Analyse
-3. Export
+1. Analyse (Oberklasse)
+2. Client
 
 ---
 #### Notizen:
 <!-- Hier Notizen zum Denkprozess, Hintergrundgedanken, Klarstellungen hinzufügen  -->
-- Client besitzt zentrale Verantwortlichkeiten
-- Speicher-Modul stellt Daten bereit und Client fragt/holt benötigte Daten ab
-- Übermittelt Daten an Analyse
-- Empfängt analysierten Daten von Analyse
-  - Ausgabe im Client
-  - Export
-
+-  Tabelle: zu welcher Zeit welche Bildkoordinate (in Oberklasse ausgelagert)
+-  Häufigkeiten zu jeder Bildkoordinate berechnen (in Oberklasse ausgelagert)
+-  Heatmap auf Grundlage dieser Häufigkeiten erstellen
+-  Erstellte Heatmap kann über Bild gelegt werden
+-  
 
 #### Changelog:
 <!-- Hier eventuelle Abänderungen dokumentieren -->

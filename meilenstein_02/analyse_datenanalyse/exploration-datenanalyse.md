@@ -48,9 +48,11 @@
 <!-- Warum sind die Klassen existent? Wenn das zu beantworten ist - u good! -->
 <!-- ausgewählte Klassen mit Link, andere einklammern und CRC-Karte löschen -->
 - [Client](crc-client.md)
-- [Daten](crc-daten.md)
 - [Analyse](crc-analyse.md)
+- [Heatmap](crc-heatmap.md)
+- [Diagramm](crc-diagramm.md)
+- [Verlauf](crc-verlauf.md)
 - [Export](crc-export.md)
-- Speichermedium
-- [Klassenname](crc-{klassenname}.md)
-- (nichtAusgewählteKlasse)
+- (Daten)
+<!--- [Klassenname](crc-{klassenname}.md) -->
+<!--- (nichtAusgewählteKlasse) -->

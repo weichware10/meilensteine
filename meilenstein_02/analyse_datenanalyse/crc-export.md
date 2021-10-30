@@ -7,8 +7,8 @@ CRC-Karte - Export
 <!-- Nichts, was eine andere Klasse machen könnte -->
 <!-- Die Sachen die die Klasse macht -> keiner anderen Klasse geben -->
 <!-- zentrale Verantwortlichkeiten vs verteilt -->
-1. Umwandeln der Analyse in PDF, Bilder
-2.
+1. Erstellen einer PDF mit ausgewählten Darstellungen
+2. Export/Speicherung dieser PDF  
 
 ## Kollaborationen
 <!-- Kann die Klasse die Verantwortlichkeiten selbstädnig erfüllen? Was benötigt sie von welcher Klasse? -->
@@ -19,6 +19,8 @@ CRC-Karte - Export
 ---
 #### Notizen:
 <!-- Hier Notizen zum Denkprozess, Hintergrundgedanken, Klarstellungen hinzufügen  -->
+-  Bekommt Informationen vom Client, welche Darstellungen der Daten exportiert werden sollen
+-  Erstellt danach eine PDF mit den ausgewählten Darstellungen der Daten
 
 #### Changelog:
 <!-- Hier eventuelle Abänderungen dokumentieren -->

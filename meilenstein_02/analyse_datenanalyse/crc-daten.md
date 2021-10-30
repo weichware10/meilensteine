@@ -8,7 +8,7 @@ CRC-Karte - Daten
 <!-- Die Sachen die die Klasse macht -> keiner anderen Klasse geben -->
 <!-- zentrale Verantwortlichkeiten vs verteilt -->
 1. Daten auslesen
-2. 
+2. Speicherung der Daten
 
 ## Kollaborationen
 <!-- Kann die Klasse die Verantwortlichkeiten selbstädnig erfüllen? Was benötigt sie von welcher Klasse? -->
