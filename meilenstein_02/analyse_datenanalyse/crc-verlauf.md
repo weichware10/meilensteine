@@ -18,7 +18,7 @@ CRC-Karte - Verlauf
 ---
 #### Notizen:
 <!-- Hier Notizen zum Denkprozess, Hintergrundgedanken, Klarstellungen hinzufügen  -->
--  auf Grundlage der Tabelle, zu welcher Zeit welche Bildkoordinate betrachtet wurde: Visualisierung Reihenfolge/Verlauf der Blicke (Punkte mit Pfeilen verbunden)
+- auf Grundlage der Tabelle, zu welcher Zeit welche Bildkoordinate betrachtet wurde: Visualisierung Reihenfolge/Verlauf der Blicke (Punkte mit Pfeilen verbunden)
 
 #### Changelog:
 <!-- Hier eventuelle Abänderungen dokumentieren -->

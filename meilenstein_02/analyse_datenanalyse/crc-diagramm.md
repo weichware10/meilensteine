@@ -7,7 +7,7 @@ CRC-Karte - Diagramm
 <!-- Nichts, was eine andere Klasse machen könnte -->
 <!-- Die Sachen die die Klasse macht -> keiner anderen Klasse geben -->
 <!-- zentrale Verantwortlichkeiten vs verteilt -->
-1. Berechnung Länge (Zeitdauer) der Blicke
+1. Berechnung Zeitdauer der Blicke
 2. Erstellen der Diagramme
 
 ## Kollaborationen
@@ -19,11 +19,11 @@ CRC-Karte - Diagramm
 ---
 #### Notizen:
 <!-- Hier Notizen zum Denkprozess, Hintergrundgedanken, Klarstellungen hinzufügen  -->
--  Tabelle: zu welcher Zeit welche Bildkoordinate (in Oberklasse ausgelagert)
--  Häufigkeiten zu jeder Bildkoordinate berechnen (in Oberklasse ausgelagert)
-  -  Einteilung Bild in Bereiche: Häufigkeit wie oft Bereiche angeschaut wurden
--  Berechnung wie lange auf eine Bildkoordinate geschaut wurde bei einem Blick
-  -  Kategorisierung der Blicklängen (<0.5s, <1s, etc.) + dazugehörige Häufigkeiten
+- Tabelle: zu welcher Zeit welche Bildkoordinate (in Oberklasse ausgelagert)
+- Häufigkeiten zu jeder Bildkoordinate berechnen (in Oberklasse ausgelagert)
+	- Einteilung Bild in Bereiche: Häufigkeit wie oft Bereiche angeschaut wurden
+- Berechnung wie lange auf eine Bildkoordinate geschaut wurde bei einem Blick
+	- Kategorisierung der Blicklängen (<0.5s, <1s, etc.) + dazugehörige Häufigkeiten
 
 #### Changelog:
 <!-- Hier eventuelle Abänderungen dokumentieren -->

@@ -19,8 +19,8 @@ CRC-Karte - Export
 ---
 #### Notizen:
 <!-- Hier Notizen zum Denkprozess, Hintergrundgedanken, Klarstellungen hinzufügen  -->
--  Bekommt Informationen vom Client, welche Darstellungen der Daten exportiert werden sollen
--  Erstellt danach eine PDF mit den ausgewählten Darstellungen der Daten
+- Bekommt Informationen vom Client, welche Darstellungen der Daten exportiert werden sollen
+- Erstellt danach eine PDF mit den ausgewählten Darstellungen der Daten
 
 #### Changelog:
 <!-- Hier eventuelle Abänderungen dokumentieren -->

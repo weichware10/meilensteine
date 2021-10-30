@@ -20,11 +20,11 @@ CRC-Karte - Heatmap
 ---
 #### Notizen:
 <!-- Hier Notizen zum Denkprozess, Hintergrundgedanken, Klarstellungen hinzufügen  -->
--  Tabelle: zu welcher Zeit welche Bildkoordinate (in Oberklasse ausgelagert)
--  Häufigkeiten zu jeder Bildkoordinate berechnen (in Oberklasse ausgelagert)
--  Heatmap auf Grundlage dieser Häufigkeiten erstellen
--  Erstellte Heatmap kann über Bild gelegt werden
--  
+- Tabelle: zu welcher Zeit welche Bildkoordinate (in Oberklasse ausgelagert)
+- Häufigkeiten zu jeder Bildkoordinate berechnen (in Oberklasse ausgelagert)
+- Heatmap auf Grundlage dieser Häufigkeiten erstellen
+- Erstellte Heatmap kann über Bild gelegt werden
+- Es werden für zwei Datensätze jeweils eine Heatmap erstellt und diese miteinander verglichen bsp. durch Überlagerung
 
 #### Changelog:
 <!-- Hier eventuelle Abänderungen dokumentieren -->

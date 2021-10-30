@@ -8,9 +8,9 @@ CRC-Karte - Analyse
 <!-- Die Sachen die die Klasse macht -> keiner anderen Klasse geben -->
 <!-- zentrale Verantwortlichkeiten vs verteilt -->
 1. Funktionen zur Analyse der Daten  
-  -  Berechnung der Häufigkeit pro Bildkoordinate (wie oft auf diese geschaut wurde)
-  -  Erstellen einer Tabelle: zu welcher Zeit welche Bildkoordinate betrachtet
-2. Funktionen zur Darstellung der Daten 
+	- Berechnung der Häufigkeit pro Bildkoordinate (wie oft auf diese geschaut wurde)
+	- Erstellen einer Tabelle: zu welcher Zeit welche Bildkoordinate betrachtet
+2. Funktionen zur Darstellung der Daten  
 
 ## Kollaborationen
 <!-- Kann die Klasse die Verantwortlichkeiten selbstädnig erfüllen? Was benötigt sie von welcher Klasse? -->
@@ -24,13 +24,13 @@ CRC-Karte - Analyse
 ---
 #### Notizen:
 <!-- Hier Notizen zum Denkprozess, Hintergrundgedanken, Klarstellungen hinzufügen  -->
--  Abstrakte Klasse
--  Bekommt vom Client die benötigten Daten  
--  Verantwortlich für gesamte Analyse  
-  -  Klasse Heatmap
-  -  Klasse Diagramm
-  -  Klasse Verlauf
--  Ergebnisse an Client übermitteln  
+- Abstrakte Klasse
+- Bekommt vom Client die benötigten Daten  
+- Verantwortlich für gesamte Analyse  
+	- Klasse Heatmap
+	- Klasse Diagramm
+	- Klasse Verlauf
+- Ergebnisse an Client übermitteln  
 
 #### Changelog:
 <!-- Hier eventuelle Abänderungen dokumentieren -->

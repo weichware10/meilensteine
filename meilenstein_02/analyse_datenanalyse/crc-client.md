@@ -26,8 +26,8 @@ CRC-Karte - Client
 - Speicher-Modul stellt Daten bereit und Client fragt/holt benötigte Daten ab
 - Übermittelt Daten an Analyse
 - Empfängt analysierten Daten von Analyse
-  - Ausgabe im Client
-  - Export
+	- Ausgabe im Client
+	- Export
 
 
 #### Changelog:
