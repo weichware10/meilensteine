@@ -9,7 +9,7 @@ CRC-Karte - Client
 <!-- zentrale Verantwortlichkeiten vs verteilt -->
 1. Abfrage der Daten (Was für Daten?, Zeitraum?, etc.)  
 2. Auswahl der Analyseformen
-3. Anzeige der Analyse  
+3. Anzeige der Darstellungen der Analyse
 4. Auswahl Export
 
 ## Kollaborationen
