@@ -38,9 +38,9 @@ Input vom Benutzer:
 - Eingabefenster
 - Zeiten des Wechselns
 - zweidimensionales Raster von Strings
-- Einstellung
-- Größe der Raster
-- feste oder relative Größe
+- (Einstellung)
+- (Größe der Raster)
+- (feste oder relative Größe)
 - vorhandene Daten
 - Eingaben dieselbe Stelle
 
