@@ -1,4 +1,4 @@
-# Initial Exploration Zoom Maps
+# Initiale Exploration Zoom Maps
 
 <!-- Hier alles aufschreiben, was interessant erscheint! -->
 

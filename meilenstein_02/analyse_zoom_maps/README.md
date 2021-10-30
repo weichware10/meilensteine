@@ -1,5 +1,7 @@
-# Analyse - {Thema}
+# Analyse - Zoom Maps
 <!-- Hier Notizen zum Denkprozess! -->
+Nutzerinputs werden in ZoomInput aufgenommen und an ZoomCalculator weitergegeben, wo die Inputs mit Hilfe von Informationen aus dem Config-Modul verarbeitet werden. Die verarbeiteten Daten werden an das Speichermedium weitergegeben, sowie an ZoomBild, wodurch das Bild (aus Config vorgegeben) entsprechend verändert wird.
+Einstellungen des Tutorials werden im Config-Modul gespeichert.
 
 ## Verantwortlichkeiten
 <!-- Wissen, welches verwaltet und angeboten wird, Aktion die angeboten werden, öffentliche Leistung -->
@@ -7,11 +9,27 @@
 <!-- Nichts, was eine andere Klasse machen könnte -->
 <!-- Die Sachen die die Klasse macht -> keiner anderen Klasse geben -->
 <!-- zentrale Verantwortlichkeiten vs verteilt -->
+- ZoomInput:
+     - Input aufnehmen
+- ZoomCalculator:
+     - Input von ZooomInput verrechnen
+- ZoomBild:
+     - Errechnete Aktion von ZoomCalculator umsetzen, Bild darstellen
+- ZoomTutorial:
+     - Zeigen eines Tutorials, Input bezüglich wiederholter Anzeige an CFG-Modul senden
+     
 
 ## Kollaborationen
 <!-- Benutzeranfragen an Dienste, die benötigt werden um Veranwortlichkeiten zu erfüllen -->
 <!-- enthüllen Kontroll- und Informationsflüsse, und somit Subsysteme -->
 <!-- Können fehlende Verantwortlichkeiten offenbaren, bzw. fehlerhaft zugewiesene -->
+- intern müssen rohe Daten und verarbeitete Daten weitergereicht werden
+
+fremde Module:
+- CFG-Modul:
+     - interface mit ZoomTutorial, ZoomCalculator und ZoomBild
+- Speicher-Modul:
+     - Interface mit Zoom-Calculator
 
 ## Finden von Abstrakten Klassen
 <!-- Konkrete Klassen: Instanziierung und Vererbung
@@ -21,3 +39,9 @@
 <!-- Abstrakte Klassen erben nie von Konkreten Klassen! -->
 <!-- Klassen die keine neue Funktionalität hinzufügen sollten eliminiert werden! -->
 <!-- Letzte Folien der Vorlesung sind hilfreich hierfür! -->
+- Mehrere Klassen haben Interface mit CFG-Modul, lohnt es sich eine abstrakte Oberklasse dafür einzurichten?  
+     - nein, da die Klassen sehr unterschiedliche Werte abfragen.
+- Abstrakte Oberklasse "Bild", von der ZoomBild erbt und welche auch in anderen Modulen genutzt werden kann
+- Abstrakte Oberklasse "Tutorial", von der ZoomTutorial erbt
+     - hier würde sich ein Interface mit CFG-Modul schon eher lohnen, da die Abfragen ungefähr gleich sind  
+       (soll das Zoom-/CodeCharts-/Eyetracking-Tutorial angezeigt werden?)
