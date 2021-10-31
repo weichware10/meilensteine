@@ -73,5 +73,3 @@ Die ConfigGUI wird in 2 Fällen benutzt und kommuniziert  mit dem ConfigClient:
 <!-- Klassen die keine neue Funktionalität hinzufügen sollten eliminiert werden! -->
 <!-- Letzte Folien der Vorlesung sind hilfreich hierfür! -->
 - keine Abstrahierung gefunden
-
----
