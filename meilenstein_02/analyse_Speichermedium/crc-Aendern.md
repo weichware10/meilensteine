@@ -1,5 +1,25 @@
 CRC-Karte - Aendern
-
+<table>
+<tbody>
+  <tr>
+    <td>
+        <a href='crc-Speichern.md'>
+            ← Speichern
+        </a>
+    </td>
+    <td>
+        <a href='README.md'>
+            Analyse
+        </a>
+    </td>
+    <td>
+        <a href='crc-Suchen.md'>
+            Suchen →
+        </a>
+    </td>
+  </tr>
+</tbody>
+</table>
 # Aendern
 ## Verantwortlichkeiten
 <!-- Wissen, welches verwaltet und angeboten wird, Aktion die angeboten werden, öffentliche Leistung -->
