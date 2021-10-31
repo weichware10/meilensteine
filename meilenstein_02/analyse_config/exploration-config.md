@@ -28,7 +28,7 @@
 <!-- - [Klassenname](crc-{klassenname}.md)
 - (nichtAusgewählteKlasse) -->
 
-- ConfigLoader
-- ConfigWriter
-- ConfigGUI
-- ConfigClient
+- [ConfigLoader](crc-ConfigLoader.md)
+- [ConfigWriter](crc-ConfigWriter.md)
+- [ConfigGUI](crc-ConfigGUI.md)
+- [ConfigClient](crc-ConfigClient.md)
