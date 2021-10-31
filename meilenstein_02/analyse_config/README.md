@@ -1,4 +1,4 @@
-# Analyse - {Thema}
+# Analyse - Config
 <!-- Hier Notizen zum Denkprozess! -->
 
 ## Verantwortlichkeiten

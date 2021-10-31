@@ -1,4 +1,4 @@
-# Initial Exploration {Thema}
+# Initial Exploration Config
 
 <!-- Hier alles aufschreiben, was interessant erscheint! -->
 
