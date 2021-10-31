@@ -1,4 +1,25 @@
 CRC-Karte - ZoomTutorial
+<table>
+<tbody>
+  <tr>
+    <td>
+        <a href='crc-ZoomInput.md'>
+            ← ZoomInput
+        </a>
+    </td>
+    <td>
+        <a href='README.md'>
+            Analyse
+        </a>
+    </td>
+    <td>
+        <a href='crc-ZoomBild.md'>
+            ZoomBild →
+        </a>
+    </td>
+  </tr>
+</tbody>
+</table>
 
 # ZoomTutorial
 ## Verantwortlichkeiten
