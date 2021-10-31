@@ -42,13 +42,7 @@ Es wird erwartet, dass der DataClient nach Dateien, Ordnern, als auch einzelnen 
 
 # Analyse - Speichermedium
 <!-- Hier Notizen zum Denkprozess! -->
-- ***Es muss zuerst die Art des Speichermediums entschieden werden***.. (Datenbank oder Datei) ..
-***Da dies noch in Besprechung ist, gehe ich aktuell von eine Datei aus.***
-- Neben dem **Als was** etwas abgespeichert werden soll gibt es noch andere Anforderungen
-- Es existiert eine abstrakte Oberklasse **SpeicherClient**, die in Verbindungen mit den Funktionen an sich steht
-- Die Funktionen die zum aktuellen Zeitpunkt zur Verfügung gestellt werden sollen, sind **Speichern/Schreiben**, **Suchen/Lesen** und **Ändern**
-- Damit ist gemeint, dass die Funktion **Suchen** dem *DataClient* zur Verfügung stehen soll und die Funktionen **Speichern** und **Löschen/Aendern**, den Funktionen *Zoom Maps*, *Codecharts*, *Webcam basiertes Eyetracking* und *ConfigFile*
-- Da die 3 großen Funktionen aus mehreren Unterfunktione besteht, werden diese zu jeweils 3 Klassen
+Das Modul/Der Client "Speichermedium" kümmert sich um die Verwaltung der Daten, welche die drei Funktionen dokumentieren/analysieren. Diese werden dann auf Anfrage vom DataClient wieder ausgegben, im gewünschten Format (einzelne Informationen oder Datensätze).
      
 ## Verantwortlichkeiten
 <!-- Wissen, welches verwaltet und angeboten wird, Aktion die angeboten werden, öffentliche Leistung -->
