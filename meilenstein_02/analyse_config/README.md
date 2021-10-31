@@ -1,4 +1,4 @@
-# Analyse - Config
+# Initial Exploration Datenanalyse Client
 <!-- Hier alles aufschreiben, was interessant erscheint! -->
 
 ## Was sind die Ziele des Systems?
@@ -33,7 +33,13 @@
 - [ConfigClient](crc-ConfigClient.md)
 
 ---
+# Analyse - Config
 <!-- Hier Notizen zum Denkprozess! -->
+Das Config-Modul stellt nach außen hin 2 Funktionen zur Verfügung: Das Setten und Getten von Einstellungen. Intern wird dies über einen Writer und Loader geregelt, die die Kommunikation mit dem Config File regeln.  
+Außerdem werden die Einstellungen intern gespeichert, um nicht bei jedem Aufruf das Config File neu zu parsen.
+Die ConfigGUI wird in 2 Fällen benutzt und kommuniziert  mit dem ConfigClient:
+- standalone Client zur Konfiguration
+- integrierte GUI zum Verändern der Konfiguration
 
 ## Verantwortlichkeiten
 <!-- Wissen, welches verwaltet und angeboten wird, Aktion die angeboten werden, öffentliche Leistung -->
@@ -41,15 +47,23 @@
 <!-- Nichts, was eine andere Klasse machen könnte -->
 <!-- Die Sachen die die Klasse macht -> keiner anderen Klasse geben -->
 <!-- zentrale Verantwortlichkeiten vs verteilt -->
-- ConfigClient stellt zentrale Schnittstelle zu anderen Modulen und GUI dar
-- ConfigClient koordiniert Arbeit von Loader und Writer
+- ConfigClient:
+     - stellt zentrale Schnittstelle zu anderen Modulen und GUI dar
+     - koordiniert Arbeit von Loader und Writer
+- ConfigLoader:
+     - Laden aus Config File in interne Struktur
+- ConfigWriter:
+     - Speichern aus interner Struktur in Config File
+- ConfigGUI:
+     - Visualisierung, Interface zum Anpassen, Anzeige der Dokumenation
+
 
 ## Kollaborationen
 <!-- Benutzeranfragen an Dienste, die benötigt werden um Veranwortlichkeiten zu erfüllen -->
 <!-- enthüllen Kontroll- und Informationsflüsse, und somit Subsysteme -->
 <!-- Können fehlende Verantwortlichkeiten offenbaren, bzw. fehlerhaft zugewiesene -->
 - ConfigClient zentrale Verbindungsstelle, alle anderen Klassen kommunizieren nur mit ConfigClient
-
+- ConfigClient kommuniziert mit anderen Modulen
 ## Finden von Abstrakten Klassen
 <!-- Konkrete Klassen: Instanziierung und Vererbung
      Abstrakte Klassen: Nur Vererbung! -->
