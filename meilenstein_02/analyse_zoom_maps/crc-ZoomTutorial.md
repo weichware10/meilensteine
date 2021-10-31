@@ -7,12 +7,12 @@ CRC-Karte - ZoomTutorial
             ← ZoomInput
         </a>
     </td>
-    <td%'>
+    <td>
         <a href='README.md'>
             Analyse
         </a>
     </td>
-    <td'>
+    <td>
         <a href='crc-ZoomBild.md'>
             ZoomBild →
         </a>
