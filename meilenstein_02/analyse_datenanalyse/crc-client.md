@@ -1,4 +1,25 @@
 CRC-Karte - Client
+<table>
+<tbody>
+  <tr>
+    <td>
+        <a href='crc-analyse.md'>
+            ← Analyse
+        </a>
+    </td>
+    <td>
+        <a href='README.md'>
+            Analyse
+        </a>
+    </td>
+    <td>
+        <a href='crc-diagramm.md'>
+            Diagramm →
+        </a>
+    </td>
+  </tr>
+</tbody>
+</table>
 
 # Client
 ## Verantwortlichkeiten

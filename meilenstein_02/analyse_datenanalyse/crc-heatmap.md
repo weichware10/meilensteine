@@ -1,4 +1,25 @@
 CRC-Karte - Heatmap
+<table>
+<tbody>
+  <tr>
+    <td>
+        <a href='crc-export.md'>
+            ← Export
+        </a>
+    </td>
+    <td>
+        <a href='README.md'>
+            Analyse
+        </a>
+    </td>
+    <td>
+        <a href='crc-verlauf.md'>
+            Verlauf →
+        </a>
+    </td>
+  </tr>
+</tbody>
+</table>
 
 # Heatmap
 ## Verantwortlichkeiten

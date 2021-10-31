@@ -1,4 +1,25 @@
 CRC-Karte - Diagramm
+<table>
+<tbody>
+  <tr>
+    <td>
+        <a href='crc-client.md'>
+            ← Client
+        </a>
+    </td>
+    <td>
+        <a href='README.md'>
+            Analyse
+        </a>
+    </td>
+    <td>
+        <a href='crc-export.md'>
+            Export →
+        </a>
+    </td>
+  </tr>
+</tbody>
+</table>
 
 # Diagramm
 ## Verantwortlichkeiten

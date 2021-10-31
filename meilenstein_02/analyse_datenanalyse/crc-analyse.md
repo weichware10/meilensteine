@@ -1,4 +1,25 @@
 CRC-Karte - Analyse
+<table>
+<tbody>
+  <tr>
+    <td>
+        <a href='crc-verlauf.md'>
+            ← Verlauf
+        </a>
+    </td>
+    <td>
+        <a href='README.md'>
+            Analyse
+        </a>
+    </td>
+    <td>
+        <a href='crc-client.md'>
+            Client →
+        </a>
+    </td>
+  </tr>
+</tbody>
+</table>
 
 # Analyse
 ## Verantwortlichkeiten

@@ -1,4 +1,25 @@
 CRC-Karte - Export
+<table>
+<tbody>
+  <tr>
+    <td>
+        <a href='crc-diagramm.md'>
+            ← Diagramm
+        </a>
+    </td>
+    <td>
+        <a href='README.md'>
+            Analyse
+        </a>
+    </td>
+    <td>
+        <a href='crc-heatmap.md'>
+            Heatmap →
+        </a>
+    </td>
+  </tr>
+</tbody>
+</table>
 
 # Export
 ## Verantwortlichkeiten

@@ -53,7 +53,7 @@
 - [Diagramm](crc-diagramm.md)
 - [Verlauf](crc-verlauf.md)
 - [Export](crc-export.md)
-- (Daten)
+<!--- (Daten) -->
 <!--- [Klassenname](crc-{klassenname}.md) -->
 <!--- (nichtAusgewählteKlasse) -->
 
