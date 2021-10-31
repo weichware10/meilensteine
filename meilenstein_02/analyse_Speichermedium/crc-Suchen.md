@@ -19,10 +19,10 @@ CRC-Karte - Suchen
 ---
 #### Notizen:
 <!-- Hier Notizen zum Denkprozess, Hintergrundgedanken, Klarstellungen hinzufügen  -->
-     - Diese muss nur dem DataClient zur Verfügung gestellt werden
-     - DataClient kann speziell nach Informationen suchen
-     - Besitzt für alle 3 Funktionen spezielle Suchen, für die jeweiligen Daten
-     - Besitzt die Möglichkeit nach Dateinnamen als auch nach allen Daten von einer Funktion zu suchen
-     - Kann einzelne Daten (falls notwendig) als auch einen kompletten Datensatz ausgeben
+- Diese muss nur dem DataClient zur Verfügung gestellt werden
+- DataClient kann speziell nach Informationen suchen
+- Besitzt für alle 3 Funktionen spezielle Suchen, für die jeweiligen Daten
+- Besitzt die Möglichkeit nach Dateinnamen als auch nach allen Daten von einer Funktion zu suchen
+- Kann einzelne Daten (falls notwendig) als auch einen kompletten Datensatz ausgeben
 #### Changelog:
 <!-- Hier eventuelle Abänderungen dokumentieren -->

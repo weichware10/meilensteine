@@ -19,8 +19,8 @@ CRC-Karte - Aendern
 ---
 #### Notizen:
 <!-- Hier Notizen zum Denkprozess, Hintergrundgedanken, Klarstellungen hinzufügen  -->
-     - Sie ermöglicht es alte Datensätze zu löschen
-     - Steht dem Dataclient zur Verfügung (Falls gewünscht ist, das nach der Analyse die Daten gelöscht werden sollen (oder weil nur die graphische Information von interesse ist))
+- Sie ermöglicht es alte Datensätze zu löschen
+- Steht dem Dataclient zur Verfügung (Falls gewünscht ist, das nach der Analyse die Daten gelöscht werden sollen (oder weil nur die graphische Information von interesse ist))
 
 #### Changelog:
 <!-- Hier eventuelle Abänderungen dokumentieren -->

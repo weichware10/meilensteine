@@ -20,11 +20,11 @@ CRC-Karte - Speichern
 ---
 #### Notizen:
 <!-- Hier Notizen zum Denkprozess, Hintergrundgedanken, Klarstellungen hinzufügen  -->
-     - Diese Klasse steht den drei Funktionen zur Verfügung
-     - Es wird für jede Funktion eine eigene Datei erstellt in der die Informationen gespeichert werden, dadurch wird verhindert das es zu "Vermischungen" der Daten kommt
-     - durch das getrennte Speichern wird auch die Klasse *Suchen* leichter zu implementieren
-     - Stellt jeder Funktion eine einheitliche Speicherung der Infromationen in der Datei sicher
-     - muss in Absprache mit den Funktionen erstellt werden
-     - besitzt die Möglichkeit den Dateien Namen zu geben, ansonsten standard -> Datum der Erstellung
+- Diese Klasse steht den drei Funktionen zur Verfügung
+- Es wird für jede Funktion eine eigene Datei erstellt in der die Informationen gespeichert werden, dadurch wird verhindert das es zu "Vermischungen" der Daten kommt
+- durch das getrennte Speichern wird auch die Klasse *Suchen* leichter zu implementieren
+- Stellt jeder Funktion eine einheitliche Speicherung der Infromationen in der Datei sicher
+- muss in Absprache mit den Funktionen erstellt werden
+- besitzt die Möglichkeit den Dateien Namen zu geben, ansonsten standard -> Datum der Erstellung
 #### Changelog:
 <!-- Hier eventuelle Abänderungen dokumentieren -->
