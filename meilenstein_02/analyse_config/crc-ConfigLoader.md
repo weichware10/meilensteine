@@ -1,4 +1,25 @@
 CRC-Karte - ConfigLoader
+<table>
+<tbody>
+  <tr>
+    <td>
+        <a href='crc-ConfigGUI.md'>
+            ← ConfigGUI
+        </a>
+    </td>
+    <td>
+        <a href='README.md'>
+            Analyse
+        </a>
+    </td>
+    <td>
+        <a href='crc-ConfigWriter.md'>
+            ConfigWriter →
+        </a>
+    </td>
+  </tr>
+</tbody>
+</table>
 
 # ConfigLoader
 ## Verantwortlichkeiten
