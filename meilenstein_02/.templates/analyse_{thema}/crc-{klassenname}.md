@@ -1,4 +1,25 @@
 CRC-Karte - {Klassenname}
+<table>
+<tbody>
+  <tr>
+    <td>
+        <a href='crc-{klassenname}.md'>
+            ← {klassenname}
+        </a>
+    </td>
+    <td>
+        <a href='README.md'>
+            Analyse
+        </a>
+    </td>
+    <td>
+        <a href='crc-{klassenname}.md'>
+            {klassenname} →
+        </a>
+    </td>
+  </tr>
+</tbody>
+</table>
 
 # {Klassenname}
 ## Verantwortlichkeiten
