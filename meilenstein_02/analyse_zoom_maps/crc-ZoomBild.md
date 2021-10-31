@@ -1,4 +1,26 @@
 CRC-Karte - ZoomBild
+<table style="width: 100%; border: none;" cellspacing="0" cellpadding="0">
+<tbody>
+  <tr>
+    <td style='text-align: left; width: 33%'>
+        <a href='crc-ZoomTutorial.md'>
+            ← ZoomTutorial
+        </a>
+    </td>
+    <td style='text-align: center; width: 33%'>
+        <a href='README.md'>
+            Analyse
+        </a>
+    </td>
+    <td style='text-align: right; width: 33%'>
+        <a href='crc-ZoomCalculator.md'>
+            ZoomCalculator →
+        </a>
+    </td>
+  </tr>
+</tbody>
+</table>
+
 
 # ZoomBild
 ## Verantwortlichkeiten
