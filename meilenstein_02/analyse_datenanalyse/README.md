@@ -95,6 +95,7 @@ Der Datenanalyse Client ruft die benötigten Daten vom Speicher-Modul ab und nac
 <!-- enthüllen Kontroll- und Informationsflüsse, und somit Subsysteme -->
 <!-- Können fehlende Verantwortlichkeiten offenbaren, bzw. fehlerhaft zugewiesene -->
 - Übertragung interner Daten zwischen den Klassen notwendig  
+  
 fremde Module:  
 - Speicher-Modul:
 	- Interface mit Client
