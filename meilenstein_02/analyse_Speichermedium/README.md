@@ -83,7 +83,6 @@ Alle fünf:
 <!-- Abstrakte Klassen erben nie von Konkreten Klassen! -->
 <!-- Klassen die keine neue Funktionalität hinzufügen sollten eliminiert werden! -->
 <!-- Letzte Folien der Vorlesung sind hilfreich hierfür! -->
-Abstrakte Klasse -> Editing (Umfasst Klasse Suchen und Löschen/Ändern)
 
 ---
 ## Notizen
