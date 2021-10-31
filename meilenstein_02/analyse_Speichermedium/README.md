@@ -45,7 +45,7 @@
      - ***Es muss zuerst die Art des Speichermediums entschieden werden***.. (Datenbank oder Datei) ..
      ***Da dies noch in Besprechung ist, gehe ich aktuell von eine Datei aus.***
      - Neben dem **Als was** etwas abgespeichert werden soll gibt es noch andere Anforderungen
-     - Das Speichermedium besitzt eine große Oberklasse **Funktionen**
+     - Es existiert eine Abstrakte Oberklasse **Speichefunktionen* die in Verbindungen mit den Funktionen an sich steht
      - Die Funktionen die zum aktuellen Zeitpunkt zur Verfügung gestellt werden sollen, sind **Speichern/Schreiben**, **Suchen/Lesen** und **Ändern**
      - Damit ist gemeint, dass die Funktion **Suchen** dem *DataClient* zur Verfügung stehen soll und die Funktionen **Speichern** und **Löschen/Aendern**, den Funktionen *Zoom Maps*, *Codecharts*, *Webcam basiertes Eyetracking* und *ConfigFile*
      - Da die 3 großen Funktionen aus mehreren Unterfunktione besteht, werden diese zu jeweils 3 Klassen
@@ -100,3 +100,4 @@ Alle fünf:
 <!-- Klassen die keine neue Funktionalität hinzufügen sollten eliminiert werden! -->
 <!-- Letzte Folien der Vorlesung sind hilfreich hierfür! -->
 Abstrakte Klasse -> Editing (Umfasst Klasse Suchen und Löschen/Ändern)
+Abstrake Klasse -> Speicherfunktionen (Umfasst alle anderen Klassem)
