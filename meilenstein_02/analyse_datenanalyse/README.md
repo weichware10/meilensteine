@@ -71,6 +71,7 @@ Der Datenanalyse Client ruft die benötigten Daten vom Speicher-Modul ab und nac
 - Client
      - Abfrage der Daten
      - Auswahl der Analyseformen
+	 - Übergabe der Daten an Analyse
      - Anzeige der Darstellungen der Analyse
      - Auswahl Export
 - Analyse

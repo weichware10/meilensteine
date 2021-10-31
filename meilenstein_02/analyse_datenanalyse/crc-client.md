@@ -9,8 +9,9 @@ CRC-Karte - Client
 <!-- zentrale Verantwortlichkeiten vs verteilt -->
 1. Abfrage der Daten (Was für Daten?, Zeitraum?, etc.)  
 2. Auswahl der Analyseformen
-3. Anzeige der Darstellungen der Analyse
-4. Auswahl Export
+3. Übergabe der Daten an Analyse
+4. Anzeige der Darstellungen der Analyse
+5. Auswahl Export
 
 ## Kollaborationen
 <!-- Kann die Klasse die Verantwortlichkeiten selbstädnig erfüllen? Was benötigt sie von welcher Klasse? -->
