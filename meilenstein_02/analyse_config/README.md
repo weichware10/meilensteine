@@ -73,3 +73,9 @@ Die ConfigGUI wird in 2 Fällen benutzt und kommuniziert  mit dem ConfigClient:
 <!-- Klassen die keine neue Funktionalität hinzufügen sollten eliminiert werden! -->
 <!-- Letzte Folien der Vorlesung sind hilfreich hierfür! -->
 - keine Abstrahierung gefunden
+
+---
+
+## Notizen
+- In der Zukunft wird eine Kollaboration mit dem Speichermedium nötig sein, damit der AnalyseClient die Konfiguration aus dem Speichermedium ablesen kann / wengistens eine ID. Das ist aber noch sehr unklar, da dies sehr von der Entscheidung Datei / Datenbank abhängt.
+- In einer Datenbank wäre es ein leichtes, eine ID der Konfiguration abzuspeichern.
