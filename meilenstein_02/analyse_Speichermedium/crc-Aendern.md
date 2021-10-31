@@ -20,6 +20,7 @@ CRC-Karte - Aendern
   </tr>
 </tbody>
 </table>
+
 # Aendern
 ## Verantwortlichkeiten
 <!-- Wissen, welches verwaltet und angeboten wird, Aktion die angeboten werden, öffentliche Leistung -->
