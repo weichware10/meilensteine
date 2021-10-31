@@ -28,26 +28,30 @@ Input vom Benutzer:
 
 ## Was sind Nomen Phrasen?
 <!-- Alle relevanten Sachen aufschreiben, später kann aussortiert werden! -->
-- Code Charts Tool
+- (Code Charts Tool)
 - Bild
-- Zeit
-- Matrix
+- (Zeit)
+- Matrix -> Raster
 - Eingabemöglichkeit
-- Punkt
-- String
+- (Punkt)
+- (String)
 - Eingabefenster
-- Zeiten des Wechselns
-- zweidimensionales Raster von Strings
+- (Zeiten des Wechselns)
+- (zweidimensionales Raster von Strings)
 - (Einstellung)
 - (Größe der Raster)
 - (feste oder relative Größe)
-- vorhandene Daten
-- Eingaben dieselbe Stelle
+- (vorhandene Daten)
+- (Eingaben dieselbe Stelle)
 
 
 ## Liste der Klassen:
 <!-- Erstmal alle aufschreiben, dann auswählen! (Kriterien siehe Vorgehensweise) -->
 <!-- Warum sind die Klassen existent? Wenn das zu beantworten ist - u good! -->
 <!-- ausgewählte Klassen mit Link, andere einklammern und CRC-Karte löschen -->
-- [Klassenname](crc-{klassenname}.md)
-- (nichtAusgewählteKlasse)
+- [ChartsCoodinator](crc-ChartsCoordinator.md)
+- [ChartsBild](crc-ChartsBild.md)
+- [ChartsRaster](crc-ChartsRaster.md)
+- [ChartsEingabefenster](crc-ChartsEingabefenster.md)
+- [ChartsInterner_Speicher](crc-ChartsInterner_Speicher.md)
+- [ChartsTutorial](crc-ChartsTutorial.md)
