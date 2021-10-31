@@ -95,6 +95,7 @@ Der Datenanalyse Client ruft die benötigten Daten vom Speicher-Modul ab und nac
 <!-- Benutzeranfragen an Dienste, die benötigt werden um Veranwortlichkeiten zu erfüllen -->
 <!-- enthüllen Kontroll- und Informationsflüsse, und somit Subsysteme -->
 <!-- Können fehlende Verantwortlichkeiten offenbaren, bzw. fehlerhaft zugewiesene -->
+- Client mit zentraler Verantworlichkeit, andere Klassen kommunizieren mit diesem   
 - Übertragung interner Daten zwischen den Klassen notwendig  
   
 fremde Module:  
