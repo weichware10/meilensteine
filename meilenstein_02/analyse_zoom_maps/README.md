@@ -81,7 +81,7 @@ Einstellungen des Tutorials werden im Config-Modul gespeichert.
 
 fremde Module:
 - CFG-Modul:
-     - interface mit ZoomTutorial, ZoomCalculator und ZoomBild
+     - Interface mit ZoomTutorial, ZoomCalculator und ZoomBild
 - Speicher-Modul:
      - Interface mit Zoom-Calculator
 
