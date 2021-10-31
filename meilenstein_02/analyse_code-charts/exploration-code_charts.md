@@ -16,10 +16,10 @@ Input vom System:
 - Sammlung von Strings
 - wenn realtive Größe eingestellt, muss nach vorherigen Imputs geschaut werden
   (oder Abrufen an welcher Stelle das Raster wie klein sein muss)
-
+- Tutorial
 Input vom Benutzer:
 - String in das Eingabefenster
-
+- Eingabe in das Tutorialfenster (don't show again / schließen)
 ## Was ist der erwartete Output?
 - welches Bild
 - welcher String 
