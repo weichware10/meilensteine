@@ -1,4 +1,4 @@
-# Initial Exploration Datenanalyse Client
+# Initial Exploration Config
 <!-- Hier alles aufschreiben, was interessant erscheint! -->
 
 ## Was sind die Ziele des Systems?
