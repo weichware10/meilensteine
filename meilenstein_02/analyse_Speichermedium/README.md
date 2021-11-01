@@ -50,23 +50,23 @@ Das Modul/Der Client "Speichermedium" kümmert sich um die Verwaltung der Daten,
 <!-- Nichts, was eine andere Klasse machen könnte -->
 <!-- Die Sachen die die Klasse macht -> keiner anderen Klasse geben -->
 <!-- zentrale Verantwortlichkeiten vs verteilt -->
-Speichern:
-- Die Daten aus den Funktionen, sowie der ConfigFile in einem Speichermedium sichern
-Suchen:
-- Informationen dem DataClient auf Anfrage zur Verfügung stellen
-Löschen:
-- Daten entfernen
+- Speichern:
+     - Die Daten aus den Funktionen, sowie der ConfigFile in einem Speichermedium sichern
+- Suchen:
+     - Informationen dem DataClient auf Anfrage zur Verfügung stellen
+- Löschen:
+     - Daten entfernen
 
 ## Kollaborationen
 <!-- Benutzeranfragen an Dienste, die benötigt werden um Veranwortlichkeiten zu erfüllen -->
 <!-- enthüllen Kontroll- und Informationsflüsse, und somit Subsysteme -->
 <!-- Können fehlende Verantwortlichkeiten offenbaren, bzw. fehlerhaft zugewiesene -->
-DataClient:
-- Gibt ihm mit der Klasse Suchen, die Informationen weiter
-Drei Funktionen:
-- Greifen auf die Klasse Speichern zu und können somit die Daten abspeichern
-Alle vier:
-- können auf die Klasse löschen/ändern zugreifen
+- DataClient:
+     - Gibt ihm mit der Klasse Suchen, die Informationen weiter
+- Drei Funktionen:
+     - Greifen auf die Klasse Speichern zu und können somit die Daten abspeichern
+- Alle vier:
+     - können auf die Klasse löschen/ändern zugreifen
 
 
 ## Finden von Abstrakten Klassen
