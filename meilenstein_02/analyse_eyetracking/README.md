@@ -41,8 +41,9 @@
 
 ---
 
-# Analyse - {Thema}
+# Analyse - Eyetracking
 <!-- Hier Notizen zum Denkprozess! -->
+Die Klasse Augen ist für die erfassung der Augen da und ermittelt die Koordinaten der Augen. In der Bildschirm Klasse wird der Bildschirm für die Berechnung festgehalten. Für die Speicherung ist die Klasse Results zuständig. Diese spiechet die Daten in einer Koordinaten-Zeitstempel-Kombination. Die Setup Klasse ist dazu da, den Belichtungswert, den Abstand und die Winkel zwischen User, Kamera und Bildschirm festzuhalten.
 
 ## Verantwortlichkeiten
 <!-- Wissen, welches verwaltet und angeboten wird, Aktion die angeboten werden, öffentliche Leistung -->
@@ -50,11 +51,30 @@
 <!-- Nichts, was eine andere Klasse machen könnte -->
 <!-- Die Sachen die die Klasse macht -> keiner anderen Klasse geben -->
 <!-- zentrale Verantwortlichkeiten vs verteilt -->
+- Auge:
+     - Klasse in der der Zustand der Augen festgestellt wird
+     - Ermöglicht die Koordinaten-Ermittlung
+- Karte:
+     - Klasse in der der Zustand des Bildschirms festgehalten wird
+- Results:
+     - Speichert Koordinaten/Zeitstempel Kombinationen
+- Setup:
+     - Abstand User/Kamera/Bildschirm wird festgehalten
+     - Winkel User/Kamera/ Bildschirm wird festgehalten
+     - Belichtungswert wird festgehalten
+     - Kalibrierung wird festgehalten
 
 ## Kollaborationen
 <!-- Benutzeranfragen an Dienste, die benötigt werden um Veranwortlichkeiten zu erfüllen -->
 <!-- enthüllen Kontroll- und Informationsflüsse, und somit Subsysteme -->
 <!-- Können fehlende Verantwortlichkeiten offenbaren, bzw. fehlerhaft zugewiesene -->
+- die Daten werden intern weitergereicht
+
+Fremde Module:
+- Config Modul:
+     - interface mit der Klasse Karte
+- User-Input:
+     - interface mit der Klasse Setup
 
 ## Finden von Abstrakten Klassen
 <!-- Konkrete Klassen: Instanziierung und Vererbung
@@ -64,3 +84,4 @@
 <!-- Abstrakte Klassen erben nie von Konkreten Klassen! -->
 <!-- Klassen die keine neue Funktionalität hinzufügen sollten eliminiert werden! -->
 <!-- Letzte Folien der Vorlesung sind hilfreich hierfür! -->
+- keine sinnvolle Möglichkeit für abstrakte Klassen
