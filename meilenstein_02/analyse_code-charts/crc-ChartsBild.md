@@ -41,8 +41,8 @@ CRC-Karte - ChartsBild
 ---
 #### Notizen:
 <!-- Hier Notizen zum Denkprozess, Hintergrundgedanken, Klarstellungen hinzufügen  -->
-- Config-File gibt an welches Bild gezeigt wird
-- bekommt von Coordinator den Aufruf das Bild anzuzeigen
+- Config-File: gibt an welches Bild gezeigt wird
+- Coordinator: bekommt von Coordinator den Aufruf das Bild anzuzeigen
 
 #### Changelog:
 <!-- Hier eventuelle Abänderungen dokumentieren -->

@@ -60,7 +60,7 @@ Input vom Benutzer:
 
 # Analyse - CodeCharts
 <!-- Hier Notizen zum Denkprozess! -->
-Das Interner Speicher Modul erfasst die Daten der Klassen Eingabefenster und Raster, bearbeitet sie und gibt die weiter an die Klassen Coordinator und das Speichermedium. Die Config File bestimmt sämtliche Einstellungen und gibt sie an die entsprechenden Klassen weiter. Die Klassen Bild, Raster und Eingabefenster sind für die Anzeige und Eingabe verantwortlich. Die Coordinator Klasse steuert die Klassen Bild, Raster und Eingabefenster und berechnet die Rastergröße.
+Das Interner Speicher Modul erfasst die Daten der Klassen Bild, Eingabefenster und Raster, bearbeitet sie und gibt die weiter an die Klassen Coordinator und das Speichermedium. Die Config File bestimmt sämtliche Einstellungen und gibt sie an die entsprechenden Klassen weiter. Die Klassen Bild, Raster und Eingabefenster sind für die Anzeige und Eingabe verantwortlich. Die Coordinator Klasse steuert die Klassen Bild, Raster und Eingabefenster und berechnet die Rastergröße.
 
 ## Verantwortlichkeiten
 <!-- Wissen, welches verwaltet und angeboten wird, Aktion die angeboten werden, öffentliche Leistung -->
@@ -78,11 +78,12 @@ Das Interner Speicher Modul erfasst die Daten der Klassen Eingabefenster und Ras
 - ChartsEingabefenster:
      - zeigt das Eingabefenster
      - nimmt den Nutzerinput entgegen
-- ChartsInterner Speicher:
+- ChartsInternerSpeicher:
      - fasst die Daten geordnet zusammen
-     - verpackt die Dten in eine Datei
+     - (verpackt die Daten in eine Datei)
 - ChartsTutorial:    
      - zeigt das Tutorial (auch mehrfach möglich)
+     - sendet eventuellen Nutzerinput an Config-File
 
 ## Kollaborationen
 <!-- Benutzeranfragen an Dienste, die benötigt werden um Veranwortlichkeiten zu erfüllen -->
@@ -90,11 +91,11 @@ Das Interner Speicher Modul erfasst die Daten der Klassen Eingabefenster und Ras
 <!-- Können fehlende Verantwortlichkeiten offenbaren, bzw. fehlerhaft zugewiesene -->
 - Daten werden intern weitergereicht
 
-frende Module:
+Fremde Module:
 - Config-File:
-     - interface mit Bild, Raster, Tutorial und Coordinator Klasse
+     - interface mit den Klassen Tutorial, Bild, Coordinator und InternerSpeicher
 - Speichermedium:
-     - interface mit Interner Speicher Klasse
+     - interface mit der Klasse InternerSpeicher
 
 ## Finden von Abstrakten Klassen
 <!-- Konkrete Klassen: Instanziierung und Vererbung
@@ -105,5 +106,5 @@ frende Module:
 <!-- Klassen die keine neue Funktionalität hinzufügen sollten eliminiert werden! -->
 <!-- Letzte Folien der Vorlesung sind hilfreich hierfür! -->
 - abstakte Oberklasse "Bild", von der die Klasse ChartsBild erbt und welche auch in anderen Modulen verwendet werden kann
--abstakte Oberklasse "Tutorial", von der die Kalsse ChartsTurtorial ebrt und welche auch in anderen Modulen verwendet werden kann
-- eine abstrakte Oberklasse für das Config-FIle Modul lohnt sich nicht, da die Klassen des  CodeCharts Moduls sehr unterschiedliche Werte abfragen
+- abstakte Oberklasse "Tutorial", von der die Kalsse ChartsTurtorial ebrt und welche auch in anderen Modulen verwendet werden kann
+- eine abstrakte Oberklasse für das Config-FIle Modul lohnt sich nicht, da die Klassen des CodeCharts Moduls sehr unterschiedliche Werte abfragen

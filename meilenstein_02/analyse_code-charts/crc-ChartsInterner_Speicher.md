@@ -1,4 +1,27 @@
-CRC-Karte - ChartsInterner_Speicher
+CRC-Karte - ChartsInternerSpeicher
+<table>
+<tbody>
+  <tr>
+    <td>
+        <a href='crc-ChartsEingabefenster.md'>
+            ← ChartsEingabefenster
+        </a>
+    </td>
+    <td>
+        <a href='README.md'>
+            Analyse
+        </a>
+    </td>
+    <td>
+        <a href='crc-ChartsTutorial.md'>
+            ChartsTutorial →
+        </a>
+    </td>
+  </tr>
+</tbody>
+</table>
+
+
 
 # ChartsInterner_Speicher
 ## Verantwortlichkeiten
@@ -7,24 +30,22 @@ CRC-Karte - ChartsInterner_Speicher
 <!-- Nichts, was eine andere Klasse machen könnte -->
 <!-- Die Sachen die die Klasse macht -> keiner anderen Klasse geben -->
 <!-- zentrale Verantwortlichkeiten vs verteilt -->
-1. bringt die gegebenen Informationen zu einem einheitlichen Format zusammen und ordnet Diese
-2. erstellt eine Datei
+1. bringt die gegebenen Informationen in einem einheitlichen und geordneten Format zusammen
+2. (erstellt eine Datei)
 
 ## Kollaborationen
 <!-- Kann die Klasse die Verantwortlichkeiten selbstädnig erfüllen? Was benötigt sie von welcher Klasse? -->
 <!-- Was weiß die Klasse? Welche anderen Klassen benötigen die Informationen? -->
-1. Coordinator
-2. Raster
-3. Eingabefenster
-4. Speichermedium
+1. Config-File
+2. Coordinator
+3. Speichermedium
 
 ---
 #### Notizen:
 <!-- Hier Notizen zum Denkprozess, Hintergrundgedanken, Klarstellungen hinzufügen  -->
-- bekommt String-Koordinate aus dem Raster von der Raster Klasse
-- bekommt den String aus Eingabefenster Klasse
-- sendet Daten für die Berechnung der Rastergröße an Coordinator
-- sendet die Datei an das Speichermedium
+- Config-File: Config File schickt Bild an den I.S.
+- Coordinator: C. schickt Stringkoordinaten, String, Rasterdimension an I.S. -> I.S. schickt Infos über bisherige Durchläufe zurück
+- Speichermedium: Zum Ende eines Durchlaufs werden die gesammelten Daten an das Speichermedium weitergeleitet (eventuell in Form einer Datei) und aus dem I.S. gelöscht
 
 #### Changelog:
 <!-- Hier eventuelle Abänderungen dokumentieren -->

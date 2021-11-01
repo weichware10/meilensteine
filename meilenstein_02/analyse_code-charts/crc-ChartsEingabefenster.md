@@ -1,4 +1,27 @@
 CRC-Karte - ChartsEingabefenster
+<table>
+<tbody>
+  <tr>
+    <td>
+        <a href='crc-ChartsRaster.md'>
+            ← ChartsRaster
+        </a>
+    </td>
+    <td>
+        <a href='README.md'>
+            Analyse
+        </a>
+    </td>
+    <td>
+        <a href='crc-ChartsInterner_Speicher.md'>
+            ChartsInternerSpeicher →
+        </a>
+    </td>
+  </tr>
+</tbody>
+</table>
+
+
 
 # ChartsEingabefenster
 ## Verantwortlichkeiten
@@ -8,19 +31,17 @@ CRC-Karte - ChartsEingabefenster
 <!-- Die Sachen die die Klasse macht -> keiner anderen Klasse geben -->
 <!-- zentrale Verantwortlichkeiten vs verteilt -->
 1. zeigt das Eingabefenster an
-2. Benutzer-Input -> String aus Raster durch Tastatureingabe
+2. Nimmt Nutzer-Input auf und gibt ihn weiter
 
 ## Kollaborationen
 <!-- Kann die Klasse die Verantwortlichkeiten selbstädnig erfüllen? Was benötigt sie von welcher Klasse? -->
 <!-- Was weiß die Klasse? Welche anderen Klassen benötigen die Informationen? -->
 1. Coordinator
-2. Interner Speicher
 
 ---
 #### Notizen:
 <!-- Hier Notizen zum Denkprozess, Hintergrundgedanken, Klarstellungen hinzufügen  -->
-- wird von Coordinator aufgerufen das Eingabefenster anzuzeigen
-- sendet die Eingabe an Interner Speicher
+- Coordinator: ruft Eingabefenster auf -> Eingabefenster gibt Nutzer-Input (String) an den Coordinator zurück
 
 #### Changelog:
 <!-- Hier eventuelle Abänderungen dokumentieren -->
