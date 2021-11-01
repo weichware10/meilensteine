@@ -89,7 +89,7 @@ Das Modul/Der Client "Speichermedium" kümmert sich um die Verwaltung der Daten,
 - Es existiert eine Oberklasse **SpeicherClient**, die in Verbindungen mit den Funktionen an sich steht
 - Die Funktionen die zum aktuellen Zeitpunkt zur Verfügung gestellt werden sollen, sind **Speichern/Schreiben**, **Suchen/Lesen** und **Ändern**
 - Damit ist gemeint, dass die Funktion **Suchen** dem *DataClient* zur Verfügung stehen soll und die Funktionen **Speichern** und **Löschen/Aendern**, den Funktionen *Zoom Maps*, *Codecharts und *Webcam basiertes Eyetracking*
-- Da die 3 großen Funktionen aus mehreren Unterfunktione besteht, werden diese zu jeweils 3 Klassen
+- Da die 3 großen Funktionen aus mehreren Unterfunktionen besteht, werden diese zu jeweils 3 Klassen
 2. Was macht die Klasse ***Suchen*** ?
 - Diese muss nur dem DataClient zur Verfügung gestellt werden
 - DataClient kann speziell nach Informationen suchen
