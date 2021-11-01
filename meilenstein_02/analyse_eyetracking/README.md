@@ -1,11 +1,13 @@
 # Initial Exploration Eyetracking
 
+<!-- Hier alles aufschreiben, was interessant erscheint! -->
 - Wie errechnet man die Koordinaten die die Pupillen ansehen?
 - Wie kalibriert man am Besten?
 - Gibt es einen idealen Abstand?
 - Wie sychronisiert man Bild und Koordinaten um nicht riesige Videodateien anzulegen?
 
 ## Was sind die Ziele des Systems?
+<!-- Snow Cards können bei diesem Schritt helfen! -->
 - Ziel des Systems ist den Bereich des Bildschirms festzustellen auf den der Nutzer konzentriert ist.
 - Die Koordinaten und der Zeitstempel werden weitergegeben, damit zu jedem Zeitpunkt klar ist auf welchen Teil des Bilds der Nutzer geschaut hat.
 
@@ -17,6 +19,7 @@
 - ggf. Zeitstempel
 
 ## Was sind Nomen Phrasen?
+<!-- Alle relevanten Sachen aufschreiben, später kann aussortiert werden! -->
 - Webcam basierte Eyetracking
 - Person
 - beliebig geladenes Bild
@@ -28,10 +31,13 @@
 - Blickbereich
 
 ## Liste der Klassen:
-- [Auge](crc-Auge.md)
-- [Karte](crc-Karte.md)
-- [Setup](crc-Setup.md)
-- [Results](crc-Results.md)
+<!-- Erstmal alle aufschreiben, dann auswählen! (Kriterien siehe Vorgehensweise) -->
+<!-- Warum sind die Klassen existent? Wenn das zu beantworten ist - u good! -->
+<!-- ausgewählte Klassen mit Link, andere einklammern und CRC-Karte löschen -->
+- [Auge](crc-auge.md)
+- [Karte](crc-karte.md)
+- [Results](crc-results.md)
+- [Setup](crc-setup.md)
 
 ---
 
