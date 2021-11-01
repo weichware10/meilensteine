@@ -13,7 +13,7 @@ CRC-Karte - ChartsTutorial
         </a>
     </td>
     <td>
-        <a href='crc-ChartsCoordinatior.md'>
+        <a href='crc-ChartsCoordinator.md'>
             ChartsCoordinator →
         </a>
     </td>
