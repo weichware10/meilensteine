@@ -1,25 +1,4 @@
 CRC-Karte - Setup
-<table>
-<tbody>
-  <tr>
-    <td>
-        <a href='crc-results.md'>
-            ← Results
-        </a>
-    </td>
-    <td>
-        <a href='README.md'>
-            Analyse
-        </a>
-    </td>
-    <td>
-        <a href='crc-auge.md'>
-            Auge →
-        </a>
-    </td>
-  </tr>
-</tbody>
-</table>
 
 <table>
 <tbody>
