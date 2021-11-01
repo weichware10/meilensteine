@@ -3,4 +3,3 @@ Klassen:
 - Speicherung
 - Auslesen
 - Matrix
-- 
