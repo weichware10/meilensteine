@@ -1,4 +1,27 @@
 CRC-Karte - ChartsBild
+<table>
+<tbody>
+  <tr>
+    <td>
+        <a href='crc-ChartsCoordinator.md'>
+            ← ChartsCoordinator
+        </a>
+    </td>
+    <td>
+        <a href='README.md'>
+            Analyse
+        </a>
+    </td>
+    <td>
+        <a href='crc-ChartsRaster.md'>
+            ChartsRaster →
+        </a>
+    </td>
+  </tr>
+</tbody>
+</table>
+
+
 
 # ChartsBild
 ## Verantwortlichkeiten
@@ -18,8 +41,8 @@ CRC-Karte - ChartsBild
 ---
 #### Notizen:
 <!-- Hier Notizen zum Denkprozess, Hintergrundgedanken, Klarstellungen hinzufügen  -->
-- Config-File gibt an welches Bild gezeigt wird
-- bekommt von Coordinator den Aufruf das Bild anzuzeigen
+- Config-File: gibt an welches Bild gezeigt wird
+- Coordinator: bekommt von Coordinator den Aufruf das Bild anzuzeigen
 
 #### Changelog:
 <!-- Hier eventuelle Abänderungen dokumentieren -->

@@ -1,6 +1,0 @@
-Klassen:
-- Eingabefenster
-- Speicherung
-- Auslesen
-- Matrix
-- 

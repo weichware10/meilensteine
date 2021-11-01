@@ -1,4 +1,27 @@
 CRC-Karte - ChartsRaster
+<table>
+<tbody>
+  <tr>
+    <td>
+        <a href='crc-ChartsBild.md'>
+            ← ChartsBild
+        </a>
+    </td>
+    <td>
+        <a href='README.md'>
+            Analyse
+        </a>
+    </td>
+    <td>
+        <a href='crc-ChartsEingabefenster.md'>
+            ChartsEingabefenster →
+        </a>
+    </td>
+  </tr>
+</tbody>
+</table>
+
+
 
 # ChartsRaster
 ## Verantwortlichkeiten
@@ -7,21 +30,17 @@ CRC-Karte - ChartsRaster
 <!-- Nichts, was eine andere Klasse machen könnte -->
 <!-- Die Sachen die die Klasse macht -> keiner anderen Klasse geben -->
 <!-- zentrale Verantwortlichkeiten vs verteilt -->
-1. die gegebenen Strings in Raster anzeigen
+1. die gegebenen Strings innerhalb eines Rasters anzeigen
 
 ## Kollaborationen
 <!-- Kann die Klasse die Verantwortlichkeiten selbstädnig erfüllen? Was benötigt sie von welcher Klasse? -->
 <!-- Was weiß die Klasse? Welche anderen Klassen benötigen die Informationen? -->
-1. Config-File
-2. Coordinator
-3. Interner Speicher
+1. Coordinator
 
 ---
 #### Notizen:
 <!-- Hier Notizen zum Denkprozess, Hintergrundgedanken, Klarstellungen hinzufügen  -->
-- bekommt die anzuzeigenden Strings und den Aufbau des Rasters von der Config-File
-- bekommt von Coordinator den Aufruf das Raster mit den Strings anzuzeigen
-- sendet die Koordinate des Strings an Interner Speicher
+- Wird vom Coordinator aufgerufen + bekommt Dimensionen + Strings übergeben
 
 #### Changelog:
 <!-- Hier eventuelle Abänderungen dokumentieren -->
