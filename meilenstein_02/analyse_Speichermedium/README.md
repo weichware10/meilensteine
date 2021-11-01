@@ -86,9 +86,9 @@ Das Modul/Der Client "Speichermedium" kümmert sich um die Verwaltung der Daten,
 - ***Es muss zuerst die Art des Speichermediums entschieden werden***.. (Datenbank oder Datei) ..
 ***Da dies noch in Besprechung ist, gehe ich aktuell von eine Datei aus.***
 - Neben dem **Als was** etwas abgespeichert werden soll gibt es noch andere Anforderungen
-- Es existiert eine abstrakte Oberklasse **SpeicherClient**, die in Verbindungen mit den Funktionen an sich steht
+- Es existiert eine Oberklasse **SpeicherClient**, die in Verbindungen mit den Funktionen an sich steht
 - Die Funktionen die zum aktuellen Zeitpunkt zur Verfügung gestellt werden sollen, sind **Speichern/Schreiben**, **Suchen/Lesen** und **Ändern**
-- Damit ist gemeint, dass die Funktion **Suchen** dem *DataClient* zur Verfügung stehen soll und die Funktionen **Speichern** und **Löschen/Aendern**, den Funktionen *Zoom Maps*, *Codecharts*, *Webcam basiertes Eyetracking* und *ConfigFile*
+- Damit ist gemeint, dass die Funktion **Suchen** dem *DataClient* zur Verfügung stehen soll und die Funktionen **Speichern** und **Löschen/Aendern**, den Funktionen *Zoom Maps*, *Codecharts und *Webcam basiertes Eyetracking*
 - Da die 3 großen Funktionen aus mehreren Unterfunktione besteht, werden diese zu jeweils 3 Klassen
 2. Was macht die Klasse ***Suchen*** ?
 - Diese muss nur dem DataClient zur Verfügung gestellt werden
@@ -105,4 +105,6 @@ Das Modul/Der Client "Speichermedium" kümmert sich um die Verwaltung der Daten,
 - besitzt die Möglichkeit den Dateien Namen zu geben, ansonsten standard -> Datum der Erstellung
 4. Was macht die Klasse ***Löschen/Aendern***
 - Sie ermöglicht es alte Datensätze zu löschen
-- Steht dem Dataclient zur Verfügung (Falls gewünscht ist, das nach der Analyse die Daten gelöscht werden sollen (oder weil nur die graphische Information von interesse ist))
+- Steht dem Dataclient zur Verfügung (Falls gewünscht ist, das nach der Analyse die Daten gelöscht werden sollen (oder weil nur die graphische Information von interesse ist))  
+
+- In der Zukunft, könnte je nach Wahl des Speichermediums, eine Kollaboration mit dem Config-Modul nötig sein, damit der Datenanalyseclient auf die benutzte Konfiguration zugreifen kann.
