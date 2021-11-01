@@ -14,7 +14,7 @@ Input vom System:
 - Umstellen zwischen fester und relativer Größe
 - Bild
 - Sammlung von Strings
-- wenn realtive Größe eingestellt, muss nach vorherigen Imputs geschaut werden
+- wenn relative Größe eingestellt, muss nach vorherigen Imputs geschaut werden
   (oder Abrufen an welcher Stelle das Raster wie klein sein muss)
 - Tutorial
 Input vom Benutzer:
