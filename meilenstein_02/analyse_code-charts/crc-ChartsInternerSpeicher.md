@@ -23,7 +23,7 @@ CRC-Karte - ChartsInternerSpeicher
 
 
 
-# ChartsInterner_Speicher
+# ChartsInternerSpeicher
 ## Verantwortlichkeiten
 <!-- Wissen, welches verwaltet und angeboten wird, Aktion die angeboten werden, öffentliche Leistung -->
 <!-- "Walkthrough" -> Szenarien zur Anwendung des Systems -->

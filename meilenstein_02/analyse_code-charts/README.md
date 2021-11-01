@@ -53,7 +53,7 @@ Input vom Benutzer:
 - [ChartsBild](crc-ChartsBild.md)
 - [ChartsRaster](crc-ChartsRaster.md)
 - [ChartsEingabefenster](crc-ChartsEingabefenster.md)
-- [ChartsInterner_Speicher](crc-ChartsInterner_Speicher.md)
+- [ChartsInternerSpeicher](crc-ChartsInternerSpeicher.md)
 - [ChartsTutorial](crc-ChartsTutorial.md)
 
 ----

@@ -13,7 +13,7 @@ CRC-Karte - ChartsEingabefenster
         </a>
     </td>
     <td>
-        <a href='crc-ChartsInterner_Speicher.md'>
+        <a href='crc-ChartsInternerSpeicher.md'>
             ChartsInternerSpeicher →
         </a>
     </td>

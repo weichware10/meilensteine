@@ -3,7 +3,7 @@ CRC-Karte - ChartsTutorial
 <tbody>
   <tr>
     <td>
-        <a href='crc-ChartsInterner_Speicher.md'>
+        <a href='crc-ChartsInternerSpeicher.md'>
             ← ChartsInternerSpeicher
         </a>
     </td>
