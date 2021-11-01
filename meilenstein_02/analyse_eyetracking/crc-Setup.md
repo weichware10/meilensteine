@@ -31,7 +31,6 @@ CRC-Karte - Setup
 
 
 ## Kollaborationen
-1. Benötigt Eingaben von User
 
 ---
 #### Notizen:
