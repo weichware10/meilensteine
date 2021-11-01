@@ -43,7 +43,8 @@
 
 # Analyse - Eyetracking
 <!-- Hier Notizen zum Denkprozess! -->
-Die Klasse Augen ist für die erfassung der Augen da und ermittelt die Koordinaten der Augen. In der Bildschirm Klasse wird der Bildschirm für die Berechnung festgehalten. Für die Speicherung ist die Klasse Results zuständig. Diese spiechet die Daten in einer Koordinaten-Zeitstempel-Kombination. Die Setup Klasse ist dazu da, den Belichtungswert, den Abstand und die Winkel zwischen User, Kamera und Bildschirm festzuhalten.
+Die Klasse Augen ist für die Erfassung der Augen da und ermittelt die Koordinaten der Augen. In der Bildschirm Klasse wird der Bildschirm für die Berechnung festgehalten. Für die Speicherung ist die Klasse Results zuständig. Diese speichert die Daten in einer Koordinaten-Zeitstempel-Kombination. Die Setup Klasse ist dazu da den Belichtungswert, den Abstand und die Winkel zwischen User, Kamera und Bildschirm festzuhalten.
+
 
 ## Verantwortlichkeiten
 <!-- Wissen, welches verwaltet und angeboten wird, Aktion die angeboten werden, öffentliche Leistung -->
