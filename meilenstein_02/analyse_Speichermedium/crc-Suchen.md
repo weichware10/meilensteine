@@ -20,6 +20,7 @@ CRC-Karte - Suchen
   </tr>
 </tbody>
 </table>
+
 # Suchen
 ## Verantwortlichkeiten
 <!-- Wissen, welches verwaltet und angeboten wird, Aktion die angeboten werden, öffentliche Leistung -->
