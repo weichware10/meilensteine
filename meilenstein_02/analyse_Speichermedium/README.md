@@ -84,7 +84,7 @@ Das Modul/Der Client "Speichermedium" kümmert sich um die Verwaltung der Daten,
 **Gedanken von Anfang bis Ende über das Speichermedium**
 1. Welche Aufgaben hat das Speichermedium/soll es zur Verfügung stellen?
 - ***Es muss zuerst die Art des Speichermediums entschieden werden***.. (Datenbank oder Datei) ..
-***Da dies noch in Besprechung ist, gehe ich aktuell von eine Datei aus.***
+***Da dies noch in Besprechung ist, gehe ich aktuell von einer Datei aus.***
 - Neben dem **Als was** etwas abgespeichert werden soll gibt es noch andere Anforderungen
 - Es existiert eine Oberklasse **SpeicherClient**, die in Verbindungen mit den Funktionen an sich steht
 - Die Funktionen die zum aktuellen Zeitpunkt zur Verfügung gestellt werden sollen, sind **Speichern/Schreiben**, **Suchen/Lesen** und **Ändern**
