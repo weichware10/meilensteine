@@ -73,8 +73,6 @@ Die Klasse Augen ist für die erfassung der Augen da und ermittelt die Koordinat
 Fremde Module:
 - Config Modul:
      - interface mit der Klasse Karte
-- User-Input:
-     - interface mit der Klasse Setup
 
 ## Finden von Abstrakten Klassen
 <!-- Konkrete Klassen: Instanziierung und Vererbung
