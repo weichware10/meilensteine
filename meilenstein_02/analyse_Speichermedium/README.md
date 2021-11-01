@@ -65,7 +65,7 @@ DataClient:
 - Gibt ihm mit der Klasse Suchen, die Informationen weiter
 Drei Funktionen:
 - Greifen auf die Klasse Speichern zu und können somit die Daten abspeichern
-Alle fünf:
+Alle vier:
 - können auf die Klasse löschen/ändern zugreifen
 
 
