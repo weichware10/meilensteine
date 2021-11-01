@@ -105,4 +105,6 @@ Alle vier:
 - besitzt die Möglichkeit den Dateien Namen zu geben, ansonsten standard -> Datum der Erstellung
 4. Was macht die Klasse ***Löschen/Aendern***
 - Sie ermöglicht es alte Datensätze zu löschen
-- Steht dem Dataclient zur Verfügung (Falls gewünscht ist, das nach der Analyse die Daten gelöscht werden sollen (oder weil nur die graphische Information von interesse ist))
+- Steht dem Dataclient zur Verfügung (Falls gewünscht ist, das nach der Analyse die Daten gelöscht werden sollen (oder weil nur die graphische Information von interesse ist))  
+
+- In der Zukunft, könnte je nach Wahl des Speichermediums, eine Kollaboration mit dem Config-Modul nötig sein, damit der Datenanalyseclient auf die benutzte Konfiguration zugreifen kann.
