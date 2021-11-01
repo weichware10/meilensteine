@@ -34,10 +34,10 @@
 <!-- Erstmal alle aufschreiben, dann auswählen! (Kriterien siehe Vorgehensweise) -->
 <!-- Warum sind die Klassen existent? Wenn das zu beantworten ist - u good! -->
 <!-- ausgewählte Klassen mit Link, andere einklammern und CRC-Karte löschen -->
-- [Auge](crc-auge.md)
-- [Karte](crc-karte.md)
-- [Results](crc-results.md)
-- [Setup](crc-setup.md)
+- [Auge](crc-Auge.md)
+- [Karte](crc-Karte.md)
+- [Results](crc-Results.md)
+- [Setup](crc-Setup.md)
 
 ---
 
