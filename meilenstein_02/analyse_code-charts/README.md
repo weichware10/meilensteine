@@ -74,7 +74,7 @@ Das Interner Speicher Modul erfasst die Daten der Klassen Bild, Eingabefenster u
 - ChartsBild:
      - zeigt das Bild
 - ChartsRaster:
-     - zegt das Raster mit Strings
+     - zeigt das Raster mit Strings
 - ChartsEingabefenster:
      - zeigt das Eingabefenster
      - nimmt den Nutzerinput entgegen
