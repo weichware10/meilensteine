@@ -13,7 +13,7 @@ CRC-Karte - ChartsRaster
         </a>
     </td>
     <td>
-        <a href='crc-Eingabefenster.md'>
+        <a href='crc-ChartsEingabefenster.md'>
             ChartsEingabefenster →
         </a>
     </td>
