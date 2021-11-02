@@ -23,12 +23,13 @@
 - (Weiterhin) Nutzung von Git und GitHub
 - Arbeiten und Formatierungen in Markdown-Dateien
 - Module und deren Klassen klar voneinander abzutrennen
+- Identifikation von Verantwortlichkeiten und Kollaborationen von Klassen
 - Zeitiger Beginn der Arbeit am Meilenstein, sorgte für eine bessere Aufteilung der Arbeit
 
 ## Was würden sie beim nächsten Mal anders machen ?
 - Noch höhere Genauigkeit bezüglich der Formate und Richtlinien
 - Vorlesung zum Thema des Meilensteins vor Gruppenmeeting anschauen
-- Schnellere Bekanntgabe von Krankheitsfällen
+- Schnellere Bekanntgabe von Krankheitsfällen und daraus resultierende notwendige Unterstützung
 ---
 ## Teilnehmer und Rollen.
 In diesem Meilenstein haben wir jeden Bestandteil zwei Personen zugeordnet, welche sich um die detailierte Analyse und das erstellen der CRC-Karten kümmern.  
