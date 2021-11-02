@@ -2,19 +2,23 @@
 ---
 ## Was ist seit dem letzten Meilenstein passiert ?
 - Treffen 28.10.2021 (siehe [28.10.2021](28_10_21.md))
-- Erledigen der Aufgaben in zweier Teams
+- Umsetzung der Kritik an den SnowCards
+- Erledigen der Aufgaben in zweier Teams mit Hilfe von Git und GitHub, sodass es keine Komplikationen bei der Arbeit an den gleichen Dokumenten gab
 - individuelles Reviewen
 
 ## Was waren die Herausforderungen und Probleme ? Wie wurden sie gelöst ?
-...
+- Zu Beginn wurden über Schnittstellen zwischen den einzelnen Modulen Annahmen getroffen, sodass im Nachhinein Fehler ausgebessert werden mussten -> Schnittstellen wurden genau definiert und mit allen Beteiligten besprochen
+- Weiterhin Anfängerschwierigkeiten bei der Nutzung von Git und Github -> Gegenseitige Hilfe
 
 ## Was lief gut ? Was lief nicht gut ?
-| gut                                | nicht gut                                                       |
-|------------------------------------|-----------------------------------------------------------------|
-| Regeln und Konventionen zum Anfang | Fehlende Menschen beim Teaqmmeeting durch Krankheit oder Unfall |
+| gut                                | nicht gut                                                      |
+|------------------------------------|----------------------------------------------------------------|
+| Regeln und Konventionen zum Anfang | Fehlende Menschen beim Teammeeting durch Krankheit oder Unfall |
+| gutes reviewen                     |                                                                |
 
 ## Was haben Sie gelernt ?
-...
+- (Weiterhin) Nutzung von Git und GitHub
+- Module und deren Klassen klar voneinander abzutrennen
 
 ## Was würden sie beim nächsten Mal anders machen ?
 ...
