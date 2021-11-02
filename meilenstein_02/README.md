@@ -2,7 +2,7 @@
 ---
 ## Was ist seit dem letzten Meilenstein passiert ?
 - Treffen 28.10.2021 (siehe [28.10.2021](28_10_21.md))
-- Umsetzung der Kritik an den SnowCards
+- Umsetzung der Kritik an den SnowCards (siehe [weichware-10/dokumente](https://github.com/weichware-10/dokumente))
 - Erledigen der Aufgaben in zweier Teams mit Hilfe von Git und GitHub, sodass es keine Komplikationen bei der Arbeit an den gleichen Dokumenten gab
 - individuelles Reviewen
 
