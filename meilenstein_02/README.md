@@ -26,7 +26,7 @@
 - Arbeiten und Formatierungen in Markdown-Dateien
 - Module und deren Klassen klar voneinander abzutrennen
 - Identifikation von Verantwortlichkeiten und Kollaborationen von Klassen
-- Zeitiger Beginn der Arbeit am Meilenstein, sorgte für eine bessere Aufteilung der Arbeit
+- Zeitiger Beginn der Arbeit am Meilenstein, sorgte für eine bessere Aufteilung der Arbeit und zeitlichen Spielraum, was beim Krankheitsfall wichtig war
 
 ## Was würden sie beim nächsten Mal anders machen ?
 - Noch höhere Genauigkeit bezüglich der Formate und Richtlinien
