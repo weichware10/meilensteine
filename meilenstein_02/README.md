@@ -7,7 +7,9 @@
 - individuelles Reviewen
 
 ## Was waren die Herausforderungen und Probleme ? Wie wurden sie gelöst ?
-- Zu Beginn wurden über Schnittstellen zwischen den einzelnen Modulen Annahmen getroffen, sodass im Nachhinein Fehler ausgebessert werden mussten -> Schnittstellen wurden genau definiert und mit allen Beteiligten besprochen
+- Zu Beginn wurden über Schnittstellen zwischen den einzelnen Modulen Annahmen getroffen, sodass im Nachhinein Fehler ausgebessert werden mussten
+    - Schnittstellen wurden genau definiert und mit allen Beteiligten besprochen
+    - Fremde Module wurden als "Blackbox" angesehen, sodass man sich keine Gedanken um die interne Funktionsweise der anderen Module machen musste - nur Schnittstelle wurde als gegeben angenommen und mit dem jeweiligen Team abgesprochen
 - Weiterhin Anfängerschwierigkeiten bei der Nutzung von Git und GitHub -> Gegenseitige Hilfe
 - Krankheitsbedingte Ausfälle -> Aufteilung in 2er-Gruppen hat dies abgedämpft  
 
