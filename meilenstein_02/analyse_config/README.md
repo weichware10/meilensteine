@@ -78,4 +78,4 @@ Die ConfigGUI wird in 2 Fällen benutzt und kommuniziert  mit dem ConfigClient:
 
 ## Notizen
 - In der Zukunft wird eine Kollaboration mit dem Speichermedium nötig sein, damit der AnalyseClient die Konfiguration aus dem Speichermedium ablesen kann / wengistens eine ID. Das ist aber noch sehr unklar, da dies sehr von der Entscheidung Datei / Datenbank abhängt.
-- In einer Datenbank wäre es ein leichtes, eine ID der Konfiguration abzuspeichern.
+- Sollte man sowohl die Konfiguration als auch das Speichermedium als Datenbank realisieren, wäre es einfach, im Speichermedium eine ID der Konfiguration abzuspeichern, und so eine Verbindung herzustellen
