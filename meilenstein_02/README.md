@@ -8,20 +8,26 @@
 
 ## Was waren die Herausforderungen und Probleme ? Wie wurden sie gelöst ?
 - Zu Beginn wurden über Schnittstellen zwischen den einzelnen Modulen Annahmen getroffen, sodass im Nachhinein Fehler ausgebessert werden mussten -> Schnittstellen wurden genau definiert und mit allen Beteiligten besprochen
-- Weiterhin Anfängerschwierigkeiten bei der Nutzung von Git und Github -> Gegenseitige Hilfe
+- Weiterhin Anfängerschwierigkeiten bei der Nutzung von Git und GitHub -> Gegenseitige Hilfe
+- Krankheitsbedingte Ausfälle -> Aufteilung in 2er-Gruppen hat dies abgedämpft  
 
 ## Was lief gut ? Was lief nicht gut ?
-| gut                                | nicht gut                                                      |
-|------------------------------------|----------------------------------------------------------------|
-| Regeln und Konventionen zum Anfang | Fehlende Menschen beim Teammeeting durch Krankheit oder Unfall |
-| gutes reviewen                     |                                                                |
+| gut                                     | nicht gut                                                        |
+|-----------------------------------------|------------------------------------------------------------------|
+| Regeln und Konventionen zum Anfang      | Fehlende Mitglieder beim Teammeeting durch Krankheit oder Unfall |
+| Arbeit auf GitHub (bzgl. Reviews, etc.) |                                                                  |
+| schnelle Problemlösung                  |                                                                  |
+| Kommunikation (bis auf Kleinigkeiten)   |                                                                  |
 
 ## Was haben Sie gelernt ?
 - (Weiterhin) Nutzung von Git und GitHub
+- Arbeiten und Formatierungen in Markdown-Dateien
 - Module und deren Klassen klar voneinander abzutrennen
 
 ## Was würden sie beim nächsten Mal anders machen ?
-...
+- Noch höhere Genauigkeit bezüglich der Formate
+- Vorlesung zum Thema des Meilensteins vor Gruppenmeeting anschauen
+- Schnellere Bekanntgabe des Kranksheitsfalls
 ---
 ## Teilnehmer und Rollen.
 In diesem Meilenstein haben wir jeden Bestandteil zwei Personen zugeordnet, welche sich um die detailierte Analyse und das erstellen der CRC-Karten kümmern.  
