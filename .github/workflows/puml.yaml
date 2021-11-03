@@ -15,6 +15,7 @@ jobs:
         run: |
           pip install plantuml
           find ./meilenstein_03 -type f \( -iname "*.puml" \) -exec python -m plantuml {} \;
+          find ./meilenstein_03 -type f \( -iname "*.puml" \) -exec python -m plantuml -s plantuml.com/plantuml/proxy?fmt=svg {} \;
       - name: Commit and push changes
         run: |
           git config --global user.name "joshuajeschek"
