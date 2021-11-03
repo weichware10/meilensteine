@@ -9,7 +9,9 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2
-      - name: run plantuml
-        run: |
-          pip install plantuml
-          python -m plantuml | ls -R *.puml
+      - name: List PUML files
+        run: ls -R *.puml
+      # - name: run plantuml
+      #   run: |
+      #     pip install plantuml
+      #     python -m plantuml | ls -R *.puml
