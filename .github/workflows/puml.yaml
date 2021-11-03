@@ -31,11 +31,9 @@ jobs:
     - run: |
         pip install plantuml
         echo ${{ steps.files.outputs.all }}
-      # for file in ${{ steps.files.outputs.all }}; do
-      #   if endsWith(file, '.puml'); then
-      #     python -m plantuml $file
-      #   fi
-      # done
+        for file in ${{ steps.files.outputs.all }}; do
+          echo $file
+        done
 
     # COMMIT PNGs
     - uses: EndBug/add-and-commit@v7
