@@ -2,10 +2,7 @@ name: render-puml
 on:
   push:
     paths:
-      - '**.pu'
-      - '**.pml'
       - '**.puml'
-      - '**.plantuml'
 jobs:
   render:
     runs-on: ubuntu-latest
