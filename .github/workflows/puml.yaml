@@ -21,7 +21,7 @@ jobs:
     - name: Generate PNG
       run: |
         pip install plantuml
-        find ./meilenstein_03 -type f \( -iname \*.pu -o -iname \*.pml -o -iname \*.puml -o -iname \*.plantuml \) -exec python -m plantuml {} \;
+        find ./meilenstein_03 -type f \( -iname \*.pu -o -iname \*.pml -o -iname \*.puml -o -iname \*.plantuml \) -mmin -5 -exec python -m plantuml {} \;
     - uses: EndBug/add-and-commit@v7
       with:
         message: Render PlantUML PNGs
