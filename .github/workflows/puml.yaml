@@ -2,7 +2,7 @@ name: render-puml
 on:
   push:
     paths:
-      - 'meilenstein_03/**'
+      - 'meilenstein_03/**.puml'
 jobs:
   render:
     runs-on: ubuntu-latest
