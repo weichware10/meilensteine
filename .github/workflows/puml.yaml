@@ -9,11 +9,5 @@ jobs:
     steps:
     - name: checkout
       uses: actions/checkout@v2
-    - name: plantuml
-      id: plantuml
+    - name: Generate Plantuml
       uses: grassedge/generate-plantuml-action@v1.5
-      with:
-        path: meilenstein_03/**
-        message: "Render PlantUML files"
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
