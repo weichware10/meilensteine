@@ -26,15 +26,17 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     # GENERATE PNGs
-    - id: files
+    - name: Get Changed Files
+      id: files
       uses: jitterbit/get-changed-files@v1
-    - run: |
+    - name: Generate PNGs
+      run: |
         pip install plantuml
         echo ${{ steps.files.outputs.all }}
         for file in ${{ steps.files.outputs.all }}; do
           if [[ $file == *.puml ]]
           then
-            echo "heyeheyehy";
+            python -m plantuml $file
           fi
         done
 
