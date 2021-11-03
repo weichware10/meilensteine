@@ -11,5 +11,7 @@ jobs:
       uses: actions/checkout@v2
     - name: Generate Plantuml
       uses: grassedge/generate-plantuml-action@v1.5
+      with:
+        path: 'meilenstein_03/**'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
