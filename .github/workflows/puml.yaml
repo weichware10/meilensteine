@@ -6,21 +6,30 @@ on:
       - '**.pml'
       - '**.puml'
       - '**.plantuml'
+  pull_request:
+    paths:
+      - '**.pu'
+      - '**.pml'
+      - '**.puml'
+      - '**.plantuml'
 jobs:
   render:
     runs-on: ubuntu-latest
     steps:
     - name: checkout
       uses: actions/checkout@v2
-    - name: Changed Files Exporter
-      uses: umani/changed-files@v3.3.0
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        pattern: '^.*\.(pu|pml|puml|plantuml)$'
-    - name: Echo Changed Files
+        fetch-depth: 2
+    - name: Get changed files
+      id: changed-files
+      uses: tj-actions/changed-files@v11.5
+      with:
+        files: '**.(pu|pml|puml|plantuml)'
+    - name: List all modified files
       run: |
-        echo ${{ env.files_created }}
-        echo ${{ env.files_updated }}
+        for file in ${{ steps.changed-files.outputs.all_modified_files }}; do
+          echo "$file was modified"
+        done
     - name: Generate SVG
       uses: grassedge/generate-plantuml-action@v1.5
       with:
