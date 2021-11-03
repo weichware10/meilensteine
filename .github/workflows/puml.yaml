@@ -9,9 +9,11 @@ jobs:
     steps:
     - name: checkout
       uses: actions/checkout@v2
-    - name: Generate Plantuml
+    - name: Generate PNG
+      run: |
+        pip install plantuml
+        find ./meilenstein_03 -type f \( -iname "*.puml" \) -exec python -m plantuml {} \;
+    - name: Generate SVG
       uses: grassedge/generate-plantuml-action@v1.5
-      with:
-        path: 'meilenstein_03/**'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

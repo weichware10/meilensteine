@@ -3,5 +3,5 @@ Class011 <|-- Class021
 Class031 *-- Class041
 Class051 o-- Class061
 Class071 .. Class081
-Class091 -- Class101
+Class091 -- Class1011
 @enduml
