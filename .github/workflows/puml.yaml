@@ -6,12 +6,6 @@ on:
       - '**.pml'
       - '**.puml'
       - '**.plantuml'
-  # pull_request:
-  #   paths:
-  #     - '**.pu'
-  #     - '**.pml'
-  #     - '**.puml'
-  #     - '**.plantuml'
 jobs:
   render:
     runs-on: ubuntu-latest
@@ -37,7 +31,7 @@ jobs:
     - run: |
         pip install plantuml
         for file in ${{ steps.files.outputs.all }}; do
-          if [contains($file, '.puml')]; then
+          if endsWith($file, '.puml'); then
             python -m plantuml $file
           fi
         done
