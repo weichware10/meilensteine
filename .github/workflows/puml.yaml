@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v2
       - name: List PUML files
         run: find ./meilenstein_03 -type f \( -iname "*.puml" \)
-      # - name: run plantuml
-      #   run: |
-      #     pip install plantuml
-      #     python -m plantuml | ls -R *.puml
+      - name: run plantuml
+        run: |
+          pip install plantuml
+          python -m plantuml | find ./meilenstein_03 -type f \( -iname "*.puml" \)
