@@ -6,12 +6,12 @@ on:
       - '**.pml'
       - '**.puml'
       - '**.plantuml'
-  pull_request:
-    paths:
-      - '**.pu'
-      - '**.pml'
-      - '**.puml'
-      - '**.plantuml'
+  # pull_request:
+  #   paths:
+  #     - '**.pu'
+  #     - '**.pml'
+  #     - '**.puml'
+  #     - '**.plantuml'
 jobs:
   render:
     runs-on: ubuntu-latest
