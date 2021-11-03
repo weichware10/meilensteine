@@ -7,6 +7,7 @@ jobs:
   render:
     runs-on: ubuntu-latest
     steps:
+    - name: echo
     - uses: actions/checkout@v2
     - run: |
       echo "hElLo WoRlD"
