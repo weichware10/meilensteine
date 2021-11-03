@@ -59,8 +59,8 @@ jobs:
         for file in ${{ steps.files.outputs.removed }}; do
           if [[ $file == *.puml ]]
           then
-            rm "${file/.puml/.png}"
-            rm "${file/.puml/.svg}"
+            rm "${file/.puml/.png}" || true
+            rm "${file/.puml/.svg}" || true
           fi
         done
   
