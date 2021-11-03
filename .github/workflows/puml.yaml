@@ -14,4 +14,4 @@ jobs:
       - name: run plantuml
         run: |
           pip install plantuml
-          find ./meilenstein_03 -type f \( -iname "*.puml" \) | python -m plantuml
+          find ./meilenstein_03 -type f \( -iname "*.puml" \) -exec python -m plantuml {} \;
