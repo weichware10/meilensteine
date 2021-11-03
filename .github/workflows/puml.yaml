@@ -16,29 +16,46 @@ jobs:
   render:
     runs-on: ubuntu-latest
     steps:
+
+    # CHECKOUT
     - name: checkout
       uses: actions/checkout@v2
       with:
         fetch-depth: 0
-    - name: Get changed files
-      id: changed-files
-      uses: tj-actions/changed-files@v11.5
-      with:
-        files: |
-          .(pu|pml|puml|plantuml)$
+
+    # GENERATE SVGs
     - name: Generate SVGs
       uses: grassedge/generate-plantuml-action@v1.5
       with:
         message: Render PlantUML SVGs
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - name: Generate PNGs
-      run: |
+
+    # GENERATE PNGs
+    - id: files
+      uses: jitterbit/get-changed-files@v1
+    - run: |
         pip install plantuml
-        for file in ${{ steps.changed-files.outputs.all_modified_files }}; do
-          python -m plantuml $file
+        for file in ${{ steps.files.outputs.all }}; do
+          if [contains($file, '.puml')]; then
+            python -m plantuml $file
         done
+
+    # COMMIT PNGs
     - uses: EndBug/add-and-commit@v7
       with:
         message: Render PlantUML PNGs
         default_author: github_actions
+
+    # - name: Get changed files
+    #   id: changed-files
+    #   uses: tj-actions/changed-files@v11.5
+    #   with:
+    #     files: |
+    #       .(pu|pml|puml|plantuml)$
+    # - name: Generate PNGs
+    #   run: |
+    #     pip install plantuml
+    #     for file in ${{ steps.changed-files.outputs.all_modified_files }}; do
+    #       python -m plantuml $file
+    #     done
