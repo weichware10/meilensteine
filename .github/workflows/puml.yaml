@@ -2,18 +2,27 @@ name: render-puml
 on:
   push:
     paths:
-      - 'meilenstein_03/**.puml'
+      - '**.pu'
+      - '**.pml'
+      - '**.puml'
+      - '**.plantuml'
 jobs:
   render:
     runs-on: ubuntu-latest
     steps:
     - name: checkout
       uses: actions/checkout@v2
+    - name: Generate SVG
+      uses: grassedge/generate-plantuml-action@v1.5
+      with:
+        message: Render PlantUML SVGs
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Generate PNG
       run: |
         pip install plantuml
-        find ./meilenstein_03 -type f \( -iname "*.puml" \) -exec python -m plantuml {} \;
-    - name: Generate SVG
-      uses: grassedge/generate-plantuml-action@v1.5
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        find ./meilenstein_03 -type f \( -iname "*.{pu,pml,puml,plantuml}" \) -exec python -m plantuml {} \;
+    - uses: EndBug/add-and-commit@v7
+      with:
+        message: Render PlantUML PNGs
+        default_author: github_actions
