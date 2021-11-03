@@ -30,11 +30,12 @@ jobs:
       uses: jitterbit/get-changed-files@v1
     - run: |
         pip install plantuml
-        for file in ${{ steps.files.outputs.all }}; do
-          if endsWith(file, '.puml'); then
-            python -m plantuml $file
-          fi
-        done
+        echo ${{ steps.files.outputs.all }}
+      # for file in ${{ steps.files.outputs.all }}; do
+      #   if endsWith(file, '.puml'); then
+      #     python -m plantuml $file
+      #   fi
+      # done
 
     # COMMIT PNGs
     - uses: EndBug/add-and-commit@v7
