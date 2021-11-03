@@ -1,13 +1,15 @@
 name: render-plant-uml
 on:
   push:
+    # branches:
+    #   - '*''
     paths:
-    - 'meilenstein_03/**'
+      - 'meilenstein_03/**'
 jobs:
   render:
     runs-on: ubuntu-latest
     steps:
-    - name: echo
-    - uses: actions/checkout@v2
-    - run: |
-      echo "hElLo WoRlD"
+      - name: echo
+      - uses: actions/checkout@v2
+      - run: |
+        echo "hElLo WoRlD"
