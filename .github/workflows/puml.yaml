@@ -24,7 +24,8 @@ jobs:
       id: changed-files
       uses: tj-actions/changed-files@v11.5
       with:
-        files: .(pu|pml|puml|plantuml)$
+        files: |
+          .(pu|pml|puml|plantuml)$
     - name: List all modified files
       run: |
         for file in ${{ steps.changed-files.outputs.all_modified_files }}; do
