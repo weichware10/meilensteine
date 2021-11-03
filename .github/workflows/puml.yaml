@@ -34,9 +34,13 @@ jobs:
     - name: Generate PNGs
       run: |
         pip install plantuml
-        echo ${{ steps.files.outputs.added_modified }}
-        echo ${{ steps.files.outputs.renamed }}
         for file in ${{ steps.files.outputs.added_modified }}; do
+          if [[ $file == *.puml ]]
+          then
+            python -m plantuml $file
+          fi
+        done
+        for file in ${{ steps.files.outputs.renamed }}; do
           if [[ $file == *.puml ]]
           then
             python -m plantuml $file
@@ -50,7 +54,21 @@ jobs:
         default_author: github_actions
 
     # DELETE REMOVED FILES
-    # - name: Delete removed files
+    - name: Delete removed files
+      run: |
+        for file in ${{ steps.files.outputs.removed }}; do
+          if [[ $file == *.puml ]]
+          then
+            rm "${file/.puml/.png}"
+            rm "${file/.puml/.svg}"
+          fi
+        done
+  
+    # COMMIT DELETED FILES
+    - uses: EndBug/add-and-commit@v7
+      with:
+        message: Deleted rendered PlantUML
+        default_author: github_actions
 
     # - name: Get changed files
     #   id: changed-files
