@@ -7,19 +7,13 @@ jobs:
   render:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
-        uses: actions/checkout@v2
-      - name: List PUML files
-        run: find ./meilenstein_03 -type f \( -iname "*.puml" \)
-      - name: run plantuml
-        run: |
-          pip install plantuml
-          find ./meilenstein_03 -type f \( -iname "*.puml" \) -exec python -m plantuml {} \;
-          find ./meilenstein_03 -type f \( -iname "*.puml" \) -exec python -m plantuml -s plantuml.com/plantuml/proxy?fmt=svg {} \;
-      - name: Commit and push changes
-        run: |
-          git config --global user.name "joshuajeschek"
-          git config --global user.email "joshua.jeschek@gmail.com"
-          git add -A
-          git commit -m "UML rerender"
-          git push
+    - name: checkout
+      uses: actions/checkout@v2
+    - name: plantuml
+      id: plantuml
+      uses: grassedge/generate-plantuml-action@v1.5
+      with:
+        path: .
+        message: "Render PlantUML files"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
