@@ -26,22 +26,18 @@ jobs:
       with:
         files: |
           .(pu|pml|puml|plantuml)$
-    - name: List all modified files
+    - name: Generate PNGs
       run: |
         for file in ${{ steps.changed-files.outputs.all_modified_files }}; do
-          echo "$file was modified"
+          python -m plantuml $file
         done
-    # - name: Generate SVG
-    #   uses: grassedge/generate-plantuml-action@v1.5
-    #   with:
-    #     message: Render PlantUML SVGs
-    #   env:
-    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    # - name: Generate PNG
-    #   run: |
-    #     pip install plantuml
-    #     find ./meilenstein_03 -type f \( -iname \*.pu -o -iname \*.pml -o -iname \*.puml -o -iname \*.plantuml \) -exec python -m plantuml {} \;
-    # - uses: EndBug/add-and-commit@v7
-    #   with:
-    #     message: Render PlantUML PNGs
-    #     default_author: github_actions
+    - uses: EndBug/add-and-commit@v7
+      with:
+        message: Render PlantUML PNGs
+        default_author: github_actions
+    - name: Generate SVG
+      uses: grassedge/generate-plantuml-action@v1.5
+      with:
+        message: Render PlantUML SVGs
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
