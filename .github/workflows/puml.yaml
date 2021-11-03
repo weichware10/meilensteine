@@ -12,4 +12,4 @@ jobs:
     - name: Generate Plantuml
       uses: grassedge/generate-plantuml-action@v1.5
       env:
-        GITHUB_TOKEN: ${{ secrets.WEICHBOT_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
