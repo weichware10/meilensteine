@@ -19,8 +19,8 @@ jobs:
         pattern: '^.*\.(pu|pml|puml|plantuml)$'
     - name: Echo Changed Files
       run: |
-        echo ${{files_created}}
-        echo ${{files_updated}}
+        echo ${{ env.files_created }}
+        echo ${{ env.files_updated }}
     - name: Generate SVG
       uses: grassedge/generate-plantuml-action@v1.5
       with:
