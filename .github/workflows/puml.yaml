@@ -12,4 +12,4 @@ jobs:
       - name: run plantuml
         run: |
           pip install plantuml
-          python -m plantuml -h
+          python -m plantuml | ls -R *.puml
