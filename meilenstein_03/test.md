@@ -1,2 +1,2 @@
 # testdatei wegen änderungen
-- one step
+- git pip install
