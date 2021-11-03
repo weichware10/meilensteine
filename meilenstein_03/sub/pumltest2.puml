@@ -1,7 +1,7 @@
 @startuml test
 Class011 <|-- Class021
 Class031 *-- Class041
-Class051 o-- Class061
+Class051 o-- nowichangedthis
 Class071 .. Class081
 Class091 -- Class1011
 @enduml
