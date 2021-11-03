@@ -10,7 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: echo
+      - name: checkout
         uses: actions/checkout@v2
+      - name: echo
         run: |
           echo "hElLo WoRlD"
