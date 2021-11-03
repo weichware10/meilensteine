@@ -11,5 +11,5 @@ jobs:
         uses: actions/checkout@v2
       - name: run plantuml
         run: |
-          pip install plantuml
+          pip install git+https://github.com/SamuelMarks/python-plantuml#egg=plantuml
           plantuml.py -h
