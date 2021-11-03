@@ -1,2 +1,2 @@
 # testdatei wegen änderungen
-- install plantuml
+- one step
