@@ -15,3 +15,10 @@ jobs:
         run: |
           pip install plantuml
           find ./meilenstein_03 -type f \( -iname "*.puml" \) -exec python -m plantuml {} \;
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "joshuajeschek"
+          git config --global user.email "joshua.jeschek@gmail.com"
+          git add -A
+          git commit -m "UML rerender"
+          git push
