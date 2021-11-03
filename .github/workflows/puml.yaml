@@ -31,7 +31,7 @@ jobs:
     - run: |
         pip install plantuml
         for file in ${{ steps.files.outputs.all }}; do
-          if endsWith($file, '.puml'); then
+          if endsWith(file, '.puml'); then
             python -m plantuml $file
           fi
         done
