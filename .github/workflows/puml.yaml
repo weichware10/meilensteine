@@ -1,8 +1,6 @@
-name: render-plant-uml
+name: render-puml
 on:
   push:
-    # branches:
-    #   - '*''
     paths:
       - 'meilenstein_03/**'
 jobs:
@@ -11,6 +9,7 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2
-      - name: echo
-        run: |
-          echo "hElLo WoRlD"
+      - name: pip install
+        run: pip install plantuml
+      - name: run plantuml
+        run: plantuml.py -h
