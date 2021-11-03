@@ -1,0 +1,70 @@
+name: render-puml
+on:
+  push:
+    paths:
+      - '**.puml'
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+
+    # CHECKOUT
+    - name: checkout
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    # GENERATE SVGs
+    - name: Generate SVGs
+      uses: grassedge/generate-plantuml-action@v1.5
+      with:
+        message: Render PlantUML SVGs
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    # GET CHANGED FILES
+    - name: Get Changed Files
+      id: files
+      uses: jitterbit/get-changed-files@v1
+
+    # GENERATE PNGs
+    - name: Generate PNGs
+      run: |
+        pip install plantuml
+        for file in ${{ steps.files.outputs.added_modified }}; do
+          if [[ $file == *.puml ]]
+          then
+            python -m plantuml $file
+          fi
+        done
+        for file in ${{ steps.files.outputs.renamed }}; do
+          if [[ $file == *.puml ]]
+          then
+            python -m plantuml $file
+          fi
+        done
+
+    # COMMIT PNGs
+    - name: Commit PNGs
+      uses: EndBug/add-and-commit@v7
+      with:
+        message: Render PlantUML PNGs
+        default_author: github_actions
+
+    # DELETE REMOVED FILES
+    - name: Delete removed files
+      run: |
+        for file in ${{ steps.files.outputs.removed }}; do
+          if [[ $file == *.puml ]]
+          then
+            rm "${file/.puml/.png}" || true
+            rm "${file/.puml/.svg}" || true
+          fi
+        done
+
+    # COMMIT DELETED FILES
+    - name: Commit deleted files
+      uses: EndBug/add-and-commit@v7
+      with:
+        message: Deleted rendered PlantUML
+        default_author: github_actions
