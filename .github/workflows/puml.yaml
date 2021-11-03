@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2
-      - name: pip install
-        run: pip install plantuml
       - name: run plantuml
-        run: plantuml.py -h
+        run: |
+          pip install plantuml
+          plantuml.py -h
