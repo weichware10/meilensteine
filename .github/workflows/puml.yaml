@@ -32,7 +32,10 @@ jobs:
         pip install plantuml
         echo ${{ steps.files.outputs.all }}
         for file in ${{ steps.files.outputs.all }}; do
-          echo $file
+          if [[ $file == *.puml ]]
+          then
+            echo "heyeheyehy";
+          fi
         done
 
     # COMMIT PNGs
