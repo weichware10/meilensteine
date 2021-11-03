@@ -12,6 +12,15 @@ jobs:
     steps:
     - name: checkout
       uses: actions/checkout@v2
+    - name: Changed Files Exporter
+      uses: umani/changed-files@v3.3.0
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        pattern: '^.*\.(pu|pml|puml|plantuml)$'
+    - name: Echo Changed Files
+      run: |
+        echo ${{files_created}}
+        echo ${{files_updated}}
     - name: Generate SVG
       uses: grassedge/generate-plantuml-action@v1.5
       with:
