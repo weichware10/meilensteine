@@ -11,3 +11,5 @@ jobs:
       uses: actions/checkout@v2
     - name: Generate Plantuml
       uses: grassedge/generate-plantuml-action@v1.5
+      env:
+        GITHUB_TOKEN: ${{ secrets.WEICHBOT_TOKEN }}
