@@ -28,6 +28,7 @@ jobs:
           .(pu|pml|puml|plantuml)$
     - name: Generate PNGs
       run: |
+        pip install plantuml
         for file in ${{ steps.changed-files.outputs.all_modified_files }}; do
           python -m plantuml $file
         done
