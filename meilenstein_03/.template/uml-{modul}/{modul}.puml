@@ -1,5 +1,5 @@
 @startuml {modul}
-abstract AbstrakteKlasse
+abstract Abstrakt
 class Klasse
-Klasse <|-- AbstrakteKlasse
+Klasse <|-- Abstrakt
 @enduml
