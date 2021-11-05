@@ -1,0 +1,32 @@
+@startuml zoommaps
+
+abstract Bild
+abstract Tutorial
+
+package ZoomMaps {
+  class ZoomTutorial {
+
+  }
+
+  class ZoomInput {
+  }
+
+  class ZoomCalculator {
+  }
+
+  class ZoomBild {
+
+  }
+  
+}
+
+package SpeicherMedium {
+  
+}
+
+Bild <|-- ZoomBild
+Tutorial <|-- ZoomTutorial
+ZoomInput -- ZoomCalculator
+ZoomCalculator -- ZoomBild
+ZoomCalculator -- SpeicherMedium
+@enduml
