@@ -1,0 +1,45 @@
+@startuml {modul}
+abstract        abstract
+abstract class  "abstract class"
+annotation      annotation
+circle          circle
+()              circle_short_form
+class           class
+diamond         diamond
+<>              diamond_short_form
+entity          entity
+enum            enum
+interface       interface
+
+Class01 <|-- Class02
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 -- Class10
+
+Class01 <|.. Class02
+Class03 --> Class04
+Class05 ..> Class06
+Class07 ..|> Class08
+Class09 <--* Class10
+
+Class01 #-- Class02
+Class03 x-- Class04
+Class05 }-- Class06
+Class07 +-- Class08
+Class09 ^-- Class10
+
+Class101 "1" *-- "many" Class102 : contains
+Class103 o-- Class104 : aggregation
+Class105 --> "1" Class106
+
+class Dummy {
+  String data
+  void methods()
+}
+
+class Flight {
+   flightNumber : Integer
+   departureTime : Date
+}
+@enduml
