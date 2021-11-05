@@ -20,13 +20,19 @@ package ZoomMaps {
   
 }
 
-package SpeicherMedium {
-  
-}
+package SpeicherMedium {}
 
+package Config {}
+
+' Vererbungen
 Bild <|-- ZoomBild
 Tutorial <|-- ZoomTutorial
+
+' Interaktionen
 ZoomInput -- ZoomCalculator
 ZoomCalculator -- ZoomBild
+
+' Andere Module
 ZoomCalculator -- SpeicherMedium
+ZoomCalculator -- Config
 @enduml
