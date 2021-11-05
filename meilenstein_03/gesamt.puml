@@ -1,0 +1,17 @@
+@startuml gesamt
+actor   Sarah
+actor   Philip
+actor   David
+actor   Justin
+actor   Joni
+actor   Nils
+actor   Josh
+"weichware-10" as (w10)
+Sarah .. w10
+Philip .. w10
+David .. w10
+Justin .. w10
+Joni .. w10
+Nils .. w10
+Josh .. w10
+@enduml
