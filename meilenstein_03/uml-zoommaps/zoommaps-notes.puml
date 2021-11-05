@@ -16,6 +16,13 @@ abstract Tutorial<t: TutorialType> {
   - {abstract} tutorial() : void
 }
 
+enum TutorialType {
+  ZOOM
+  EYETRACKING
+  CODECHARTS
+}
+
+' Notes
 note left of Tutorial::start
     Startet Tutorial, beinhaltet interne Aufrufe
 end note
@@ -27,15 +34,11 @@ note left of Tutorial::tutorial
     Beinhaltet eigentliche Implementierung der Tutorials
 end note
 
-enum TutorialType {
-  ZOOM
-  EYETRACKING
-  CODECHARTS
-}
-
+' Interaktionen
 Tutorial::t -r- TutorialType
 Tutorial::show -- System
 Tutorial -- Config
+
 
 ' --- BILD ---
 
@@ -44,22 +47,26 @@ abstract Bild {
   + show() : void
 }
 
-
+' === ZOOM MAPS ===
 package ZoomMaps {
 
+    ' Zoom Input
     class ZoomInput {
         - onClick() : void
         - onScroll() : void
     }
 
+    ' Notiz
     note left of ZoomInput
         Kann sich noch ändern, je nachdem wie Schnittstelle zum System aussieht
     end note
 
+    ' Zoom Tutorial 
     class ZoomTutorial {
         - tutorial() : void
     }
   
+    ' Zoom Calculator
     class ZoomCalculator {
         - speed: float
         - position: float[3]
@@ -70,10 +77,12 @@ package ZoomMaps {
         - save(position: float[3]) : boolean
     }
 
+    ' Notiz
     note right of ZoomCalculator
         Typ von raw_input noch unbekannt
     end note
 
+    ' Zoom Bild
     class ZoomBild {
         + move(float[3]): float[3]
     }
@@ -94,6 +103,7 @@ package ZoomMaps {
   
 }
 
+' Blackboxen / Andere Module
 package Config {}
 
 package SpeicherMedium {}

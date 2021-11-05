@@ -16,26 +16,17 @@ abstract Tutorial<t: TutorialType> {
   - {abstract} tutorial() : void
 }
 
-note left of Tutorial::start
-    Startet Tutorial, beinhaltet interne Aufrufe
-end note
-note left of Tutorial::getConfigState
-    Sendet eine Anfrage an das Config-Modul,
-    abhängig vom Typ des Tutorials
-end note
-note left of Tutorial::tutorial
-    Beinhaltet eigentliche Implementierung der Tutorials
-end note
-
 enum TutorialType {
   ZOOM
   EYETRACKING
   CODECHARTS
 }
 
+' Interaktionen
 Tutorial::t -r- TutorialType
 Tutorial::show -- System
 Tutorial -- Config
+
 
 ' --- BILD ---
 
@@ -44,48 +35,53 @@ abstract Bild {
   + show() : void
 }
 
-
+' === ZOOM MAPS ===
 package ZoomMaps {
 
-  class ZoomInput {
-    - onClick() : void
-    - onScroll() : void
-  }
+    ' Zoom Input
+    class ZoomInput {
+        - onClick() : void
+        - onScroll() : void
+    }
 
-  class ZoomTutorial {
-    - tutorial() : void
-  }
+    ' Zoom Tutorial 
+    class ZoomTutorial {
+        - tutorial() : void
+    }
   
-  class ZoomCalculator {
-    - speed: float
-    - position: float[3]
-    __public method__
-    + processInput(raw_input: unknown) : void
-    __private methods__
-    - calculate(raw_input: unknown) : float[3]
-    - save(position: float[3]) : boolean
-  }
+    ' Zoom Calculator
+    class ZoomCalculator {
+        - speed: float
+        - position: float[3]
+        __public method__
+        + processInput(raw_input: unknown) : void
+        __private methods__
+        - calculate(raw_input: unknown) : float[3]
+        - save(position: float[3]) : boolean
+    }
 
-  class ZoomBild {
-    + move(float[3]): float[3]
-  }
+    ' Zoom Bild
+    class ZoomBild {
+        + move(float[3]): float[3]
+    }
 
 
-  ' Vererbungen
-  Bild <|-- ZoomBild
-  Tutorial <|-- ZoomTutorial
+    ' Vererbungen
+    Bild <|-- ZoomBild
+    Tutorial <|-- ZoomTutorial
 
-  ' Interaktionen
-  ZoomInput -- ZoomCalculator::processInput
-  ZoomCalculator::processInput  -- ZoomBild::move : > moves
+    ' Interaktionen
+    ZoomInput -- ZoomCalculator::processInput
+    ZoomCalculator::processInput  -- ZoomBild::move : > moves
 
-  ' Andere Module
-  ZoomCalculator::save -- SpeicherMedium : > saves Data
-  ZoomCalculator::speed -r- Config : < speed
-  ZoomInput -r- System : > listens to
+    ' Andere Module
+    ZoomCalculator::save -- SpeicherMedium : > saves Data
+    ZoomCalculator::speed -r- Config : < speed
+    ZoomInput -r- System : > listens to
   
 }
 
+' Blackboxen / Andere Module
 package Config {}
 
 package SpeicherMedium {}
