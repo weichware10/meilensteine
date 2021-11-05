@@ -1,45 +1,125 @@
-@startuml {modul}
-abstract        abstract
-abstract class  "abstract class"
-annotation      annotation
-circle          circle
-()              circle_short_form
-class           class
-diamond         diamond
-<>              diamond_short_form
-entity          entity
-enum            enum
-interface       interface
+@startuml code_charts
+' skinparam backgroundColor transparent
+'() System #DA70D5
+top to bottom direction
 
-Class01 <|-- Class02
-Class03 *-- Class04
-Class05 o-- Class06
-Class07 .. Class08
-Class09 -- Class10
-
-Class01 <|.. Class02
-Class03 --> Class04
-Class05 ..> Class06
-Class07 ..|> Class08
-Class09 <--* Class10
-
-Class01 #-- Class02
-Class03 x-- Class04
-Class05 }-- Class06
-Class07 +-- Class08
-Class09 ^-- Class10
-
-Class101 "1" *-- "many" Class102 : contains
-Class103 o-- Class104 : aggregation
-Class105 --> "1" Class106
-
-class Dummy {
-  String data
-  void methods()
+' --- TUTORIAL ---
+abstract Tutorial<t: TutorialType> {
+  - t: TutorialType
+  __public method__
+  + start() : void
+  __private methods__
+  - getConfigState() : boolean
+  - setConfigState(state: boolean) : void
+  - show() : boolean
+  __abstract methods__
+  - {abstract} tutorial() : void
 }
 
-class Flight {
-   flightNumber : Integer
-   departureTime : Date
+enum TutorialType {
+  ZOOM
+  EYETRACKING
+  CODECHARTS
 }
+
+' Interaktionen
+Tutorial::t -l- TutorialType
+Tutorial -d- Config
+
+
+' --- BILD ---
+
+abstract Bild {
+  + load(url: String) : void
+  + show() : void
+}
+
+' === CODE CHARTS ===
+package CodeCharts {
+
+    ' CodeCharts Tutorial 
+    class CodeChartsTutorial {
+        - tutorial() : void
+    }
+  
+    ' CodeCharts Coordinator
+    class CodeChartsCoordinator {
+        - speed: float
+        - position: float[3]
+        __public method__
+        + processInput(raw_input: unknown) : void
+        __private methods__
+        - calculate(raw_input: unknown) : float[3]
+        - save(position: float[3]) : boolean
+    }
+
+    ' CodeCharts Computer
+    class CodeChartsComputer {
+        - speed: float
+        - position: float[3]
+        __public method__
+        + processInput(raw_input: unknown) : void
+        __private methods__
+        - calculate(raw_input: unknown) : float[3]
+        - save(position: float[3]) : boolean
+    }
+
+    ' CodeCharts Interner Speicher
+    class CodeChartsInternerSpeicher {
+        - speed: float
+        - position: float[3]
+        __public method__
+        + processInput(raw_input: unknown) : void
+        __private methods__
+        - calculate(raw_input: unknown) : float[3]
+        - save(position: float[3]) : boolean
+    }
+
+    ' CodeCharts Bild
+    class CodeChartsBild {
+        + move(position: float[3]): float[3]
+    }
+
+    ' CodeCharts Raster
+    class CodeChartsRaster {
+        + move(position: float[3]): float[3]
+    }
+
+    ' CodeCharts Eingabefenster
+    class CodeChartsEingabefenster {
+        + move(position: float[3]): float[3]
+    }
+
+
+    ' Vererbungen
+    Bild <|-d- CodeChartsBild
+    Tutorial <|-d- CodeChartsTutorial
+
+    ' Interaktionen
+    CodeChartsCoordinator -u- CodeChartsComputer::processInput
+    CodeChartsCoordinator -u- CodeChartsBild::processInput
+    CodeChartsCoordinator -d- CodeChartsEingabefenster::processInput
+    CodeChartsInternerSpeicher::processInput -l- CodeChartsCoordinator
+    CodeChartsComputer -r- CodeChartsRaster
+
+
+    
+
+
+
+
+
+    ' Andere Module
+    CodeChartsInternerSpeicher::save -d- SpeicherMedium : > saves Data
+    CodeChartsCoordinator::speed -d- Config : < speed
+    CodeChartsBild -d- Config : < gets picture
+    CodeChartsInternerSpeicher -u- Config : < gets picture
+  
+}
+
+' Blackboxen / Andere Module
+package Config {}
+
+package SpeicherMedium {}
+
 @enduml
