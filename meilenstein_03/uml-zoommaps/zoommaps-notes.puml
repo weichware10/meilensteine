@@ -36,8 +36,7 @@ end note
 
 ' Interaktionen
 Tutorial::t -r- TutorialType
-Tutorial::show -- System
-Tutorial -- Config
+Tutorial -l- Config
 
 
 ' --- BILD ---
@@ -98,7 +97,7 @@ package ZoomMaps {
 
     ' Andere Module
     ZoomCalculator::save -- SpeicherMedium : > saves Data
-    ZoomCalculator::speed -r- Config : < speed
+    ZoomCalculator::speed -l- Config : < speed
     ZoomInput -r- System : > listens to
   
 }
