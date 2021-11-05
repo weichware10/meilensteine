@@ -1,0 +1,101 @@
+@startuml zoommaps
+' skinparam backgroundColor transparent
+() System #DA70D5
+top to bottom direction
+
+' --- TUTORIAL ---
+abstract Tutorial<t: TutorialType> {
+  - t: TutorialType
+  __public method__
+  + start() : void
+  __private methods__
+  - getConfigState() : boolean
+  - setConfigState(state: boolean) : void
+  - show() : boolean
+  __abstract methods__
+  - {abstract} tutorial() : void
+}
+
+note left of Tutorial::start
+    Startet Tutorial, beinhaltet interne Aufrufe
+end note
+note left of Tutorial::getConfigState
+    Sendet eine Anfrage an das Config-Modul,
+    abhängig vom Typ des Tutorials
+end note
+note left of Tutorial::tutorial
+    Beinhaltet eigentliche Implementierung der Tutorials
+end note
+
+enum TutorialType {
+  ZOOM
+  EYETRACKING
+  CODECHARTS
+}
+
+Tutorial::t -r- TutorialType
+Tutorial::show -- System
+Tutorial -- Config
+
+' --- BILD ---
+
+abstract Bild {
+  + load(url: String) : void
+  + show() : void
+}
+
+
+package ZoomMaps {
+
+    class ZoomInput {
+        - onClick() : void
+        - onScroll() : void
+    }
+
+    note left of ZoomInput
+        Kann sich noch ändern, je nachdem wie Schnittstelle zum System aussieht
+    end note
+
+    class ZoomTutorial {
+        - tutorial() : void
+    }
+  
+    class ZoomCalculator {
+        - speed: float
+        - position: float[3]
+        __public method__
+        + processInput(raw_input: unknown) : void
+        __private methods__
+        - calculate(raw_input: unknown) : float[3]
+        - save(position: float[3]) : boolean
+    }
+
+    note right of ZoomCalculator
+        Typ von raw_input noch unbekannt
+    end note
+
+    class ZoomBild {
+        + move(float[3]): float[3]
+    }
+
+
+    ' Vererbungen
+    Bild <|-- ZoomBild
+    Tutorial <|-- ZoomTutorial
+
+    ' Interaktionen
+    ZoomInput -- ZoomCalculator::processInput
+    ZoomCalculator::processInput  -- ZoomBild::move : > moves
+
+    ' Andere Module
+    ZoomCalculator::save -- SpeicherMedium : > saves Data
+    ZoomCalculator::speed -r- Config : < speed
+    ZoomInput -r- System : > listens to
+  
+}
+
+package Config {}
+
+package SpeicherMedium {}
+
+@enduml

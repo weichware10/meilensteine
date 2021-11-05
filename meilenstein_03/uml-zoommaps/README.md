@@ -1,6 +1,6 @@
-# UML Diagramm {Modul}
+# UML Diagramm ZoomMaps
 
-![Diagram]({modul}.svg)
+![Diagram](zoommaps.svg)
 
 ---
 ## Notizen
