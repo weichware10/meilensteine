@@ -1,4 +1,6 @@
 # Bericht zum Meilenstein 2
+## UML-Diagramm:
+![UML-Diagramm](gesamt.svg)
 ---
 ## Was ist seit dem letzten Meilenstein passiert ?
 
