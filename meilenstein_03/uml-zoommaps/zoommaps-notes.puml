@@ -84,7 +84,7 @@ package ZoomMaps {
 
     ' Zoom Bild
     class ZoomBild {
-        + move(float[3]): float[3]
+        + move(position: float[3]): float[3]
     }
 
 
