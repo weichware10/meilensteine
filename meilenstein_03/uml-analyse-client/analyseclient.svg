@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="817px" preserveAspectRatio="none" style="width:1420px;height:817px;background:#FFFFFF;" version="1.1" viewBox="0 0 1420 817" width="1420px" zoomAndPan="magnify"><defs><filter height="300%" id="f15fsuav9ra3v6" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[275afd699dfec56c5bd304e04a3d58a6]
+cluster Analyse-Client--><polygon fill="#FFFFFF" filter="url(#f15fsuav9ra3v6)" points="80,6,202,6,209,28.2969,1235,28.2969,1235,810,80,810,80,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="80" x2="209" y1="28.2969" y2="28.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="116" x="84" y="20.9951">Analyse-Client</text><!--MD5=[ed6624c6556d5e7b1bd23032162d20b7]
+class Client--><rect codeLine="5" fill="#FEFECE" filter="url(#f15fsuav9ra3v6)" height="159.2422" id="Client" style="stroke:#A80036;stroke-width:1.5;" width="349" x="502.5" y="316"/><ellipse cx="656.25" cy="332" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M658.5938,327.6719 C657.6563,327.2344 657.0625,327.0938 656.1875,327.0938 C653.5625,327.0938 651.5625,329.1719 651.5625,331.8906 L651.5625,333.0156 C651.5625,335.5938 653.6719,337.4844 656.5625,337.4844 C657.7813,337.4844 658.9375,337.1875 659.6875,336.6406 C660.2656,336.2344 660.5938,335.7813 660.5938,335.3906 C660.5938,334.9375 660.2031,334.5469 659.7344,334.5469 C659.5156,334.5469 659.3125,334.625 659.125,334.8125 C658.6719,335.2969 658.6719,335.2969 658.4844,335.3906 C658.0625,335.6563 657.375,335.7813 656.6094,335.7813 C654.5625,335.7813 653.2656,334.6875 653.2656,332.9844 L653.2656,331.8906 C653.2656,330.1094 654.5156,328.7969 656.25,328.7969 C656.8281,328.7969 657.4375,328.9531 657.9063,329.2031 C658.3906,329.4844 658.5625,329.7031 658.6563,330.1094 C658.7188,330.5156 658.75,330.6406 658.8906,330.7656 C659.0313,330.9063 659.2656,331.0156 659.4844,331.0156 C659.75,331.0156 660.0156,330.875 660.1875,330.6563 C660.2969,330.5 660.3281,330.3125 660.3281,329.8906 L660.3281,328.4688 C660.3281,328.0313 660.3125,327.9063 660.2188,327.75 C660.0625,327.4844 659.7813,327.3438 659.4844,327.3438 C659.1875,327.3438 658.9844,327.4375 658.7656,327.75 L658.5938,327.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="33" x="676.75" y="336.1543">Client</text><line style="stroke:#A80036;stroke-width:1.5;" x1="503.5" x2="850.5" y1="348" y2="348"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="510.5" y="356"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="59" x="522.5" y="362.2104">data: Data</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="510.5" y="368.8047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="122" x="522.5" y="375.0151">analyseTypes: Types</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="510.5" y="381.6094"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="137" x="522.5" y="387.8198">analyzedData: unknown</text><ellipse cx="513.5" cy="414.2188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="323" x="522.5" y="417.4292">getData(start: Date, end: Date, dataType: Tool): boolean</text><ellipse cx="513.5" cy="427.0234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="160" x="522.5" y="430.2339">setAnalyseTypes(): boolean</text><ellipse cx="513.5" cy="439.8281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="133" x="522.5" y="443.0386">analyseData(): boolean</text><ellipse cx="513.5" cy="452.6328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="160" x="522.5" y="455.8433">displayAnalyzedData(): void</text><ellipse cx="513.5" cy="465.4375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="522.5" y="468.6479">export(): boolean</text><line style="stroke:#A80036;stroke-width:1.5;" x1="503.5" x2="633.5" y1="400.8164" y2="400.8164"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="87" x="633.5" y="404.1245">public methods</text><line style="stroke:#A80036;stroke-width:1.5;" x1="720.5" x2="850.5" y1="400.8164" y2="400.8164"/><!--MD5=[90fa35dfc7d13cf977fc160ba1111d24]
+class Analyse--><rect codeLine="18" fill="#FEFECE" filter="url(#f15fsuav9ra3v6)" height="73.6094" id="Analyse" style="stroke:#A80036;stroke-width:1.5;" width="299" x="528.5" y="720"/><ellipse cx="650.75" cy="736" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M652.8281,737.8125 L653.2188,738.7969 L652.8281,738.7969 C652.375,738.7969 652.2656,738.8125 652.1094,738.9219 C651.8594,739.0781 651.7031,739.3594 651.7031,739.6563 C651.7031,739.9219 651.8438,740.1719 652.0625,740.3281 C652.2031,740.4531 652.4063,740.5 652.8281,740.5 L655.1875,740.5 C655.5469,740.5 655.7656,740.4688 655.9063,740.375 C656.1563,740.2344 656.3125,739.9375 656.3125,739.6563 C656.3125,739.375 656.1719,739.125 655.9531,738.9688 C655.7813,738.8281 655.625,738.7969 655.1563,738.7969 L651.7656,730.5938 L648.0938,730.5938 C647.6406,730.5938 647.5156,730.6094 647.3594,730.7031 C647.1094,730.875 646.9531,731.1563 646.9531,731.4375 C646.9531,731.7188 647.0938,731.9688 647.3125,732.1406 C647.4844,732.25 647.6563,732.2813 648.0938,732.2813 L649.1719,732.2813 L646.5313,738.7969 C646.1094,738.7969 645.9531,738.8125 645.7969,738.9219 C645.5469,739.0781 645.3906,739.3594 645.3906,739.6563 C645.3906,740.2188 645.7656,740.5 646.5156,740.5 L648.7813,740.5 C649.1406,740.5 649.3594,740.4688 649.4844,740.375 C649.75,740.2344 649.8906,739.9375 649.8906,739.6563 C649.8906,739.375 649.7656,739.125 649.5469,738.9531 C649.375,738.8281 649.2344,738.7969 648.7813,738.7969 L648.3906,738.7969 L648.7813,737.8125 L652.8281,737.8125 Z M652.125,736.1094 L649.4531,736.1094 L650.7969,732.8438 L652.125,736.1094 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="46" x="671.25" y="740.1543">Analyse</text><line style="stroke:#A80036;stroke-width:1.5;" x1="529.5" x2="826.5" y1="752" y2="752"/><line style="stroke:#A80036;stroke-width:1.5;" x1="529.5" x2="826.5" y1="760" y2="760"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="536.5" y="768"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="240" x="548.5" y="774.2104">calcRelFreq(data: Data): List&lt;List&lt;Float&gt;&gt;</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="536.5" y="780.8047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="273" x="548.5" y="787.0151">createTimeTable(data: Data): List&lt;List&lt;Float&gt;&gt;</text><!--MD5=[3f91f8027f14bf24ffa62a72d32476ac]
+class Heatmap--><rect codeLine="24" fill="#FEFECE" filter="url(#f15fsuav9ra3v6)" height="95.2188" id="Heatmap" style="stroke:#A80036;stroke-width:1.5;" width="321" x="897.5" y="549"/><ellipse cx="1026.75" cy="565" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1029.0938,560.6719 C1028.1563,560.2344 1027.5625,560.0938 1026.6875,560.0938 C1024.0625,560.0938 1022.0625,562.1719 1022.0625,564.8906 L1022.0625,566.0156 C1022.0625,568.5938 1024.1719,570.4844 1027.0625,570.4844 C1028.2813,570.4844 1029.4375,570.1875 1030.1875,569.6406 C1030.7656,569.2344 1031.0938,568.7813 1031.0938,568.3906 C1031.0938,567.9375 1030.7031,567.5469 1030.2344,567.5469 C1030.0156,567.5469 1029.8125,567.625 1029.625,567.8125 C1029.1719,568.2969 1029.1719,568.2969 1028.9844,568.3906 C1028.5625,568.6563 1027.875,568.7813 1027.1094,568.7813 C1025.0625,568.7813 1023.7656,567.6875 1023.7656,565.9844 L1023.7656,564.8906 C1023.7656,563.1094 1025.0156,561.7969 1026.75,561.7969 C1027.3281,561.7969 1027.9375,561.9531 1028.4063,562.2031 C1028.8906,562.4844 1029.0625,562.7031 1029.1563,563.1094 C1029.2188,563.5156 1029.25,563.6406 1029.3906,563.7656 C1029.5313,563.9063 1029.7656,564.0156 1029.9844,564.0156 C1030.25,564.0156 1030.5156,563.875 1030.6875,563.6563 C1030.7969,563.5 1030.8281,563.3125 1030.8281,562.8906 L1030.8281,561.4688 C1030.8281,561.0313 1030.8125,560.9063 1030.7188,560.75 C1030.5625,560.4844 1030.2813,560.3438 1029.9844,560.3438 C1029.6875,560.3438 1029.4844,560.4375 1029.2656,560.75 L1029.0938,560.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="54" x="1047.25" y="569.1543">Heatmap</text><line style="stroke:#A80036;stroke-width:1.5;" x1="898.5" x2="1217.5" y1="581" y2="581"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="905.5" y="589"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="159" x="917.5" y="595.2104">heatmap: List&lt;List&lt;Float&gt;&gt;</text><ellipse cx="908.5" cy="621.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="213" x="917.5" y="624.8198">createHeatmap(data: Data): unknown</text><ellipse cx="908.5" cy="634.4141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="295" x="917.5" y="637.6245">compHeatmaps(otherHeatmap: Heatmap): unknown</text><line style="stroke:#A80036;stroke-width:1.5;" x1="898.5" x2="1014.5" y1="608.207" y2="608.207"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="87" x="1014.5" y="611.5151">public methods</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1101.5" x2="1217.5" y1="608.207" y2="608.207"/><!--MD5=[a75dc2f5d5c9a4a0489ea15a737b99a8]
+class Verlauf--><rect codeLine="32" fill="#FEFECE" filter="url(#f15fsuav9ra3v6)" height="99.2188" id="Verlauf" style="stroke:#A80036;stroke-width:1.5;" width="369" x="493.5" y="547"/><ellipse cx="652.75" cy="563" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M655.0938,558.6719 C654.1563,558.2344 653.5625,558.0938 652.6875,558.0938 C650.0625,558.0938 648.0625,560.1719 648.0625,562.8906 L648.0625,564.0156 C648.0625,566.5938 650.1719,568.4844 653.0625,568.4844 C654.2813,568.4844 655.4375,568.1875 656.1875,567.6406 C656.7656,567.2344 657.0938,566.7813 657.0938,566.3906 C657.0938,565.9375 656.7031,565.5469 656.2344,565.5469 C656.0156,565.5469 655.8125,565.625 655.625,565.8125 C655.1719,566.2969 655.1719,566.2969 654.9844,566.3906 C654.5625,566.6563 653.875,566.7813 653.1094,566.7813 C651.0625,566.7813 649.7656,565.6875 649.7656,563.9844 L649.7656,562.8906 C649.7656,561.1094 651.0156,559.7969 652.75,559.7969 C653.3281,559.7969 653.9375,559.9531 654.4063,560.2031 C654.8906,560.4844 655.0625,560.7031 655.1563,561.1094 C655.2188,561.5156 655.25,561.6406 655.3906,561.7656 C655.5313,561.9063 655.7656,562.0156 655.9844,562.0156 C656.25,562.0156 656.5156,561.875 656.6875,561.6563 C656.7969,561.5 656.8281,561.3125 656.8281,560.8906 L656.8281,559.4688 C656.8281,559.0313 656.8125,558.9063 656.7188,558.75 C656.5625,558.4844 656.2813,558.3438 655.9844,558.3438 C655.6875,558.3438 655.4844,558.4375 655.2656,558.75 L655.0938,558.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="42" x="673.25" y="567.1543">Verlauf</text><line style="stroke:#A80036;stroke-width:1.5;" x1="494.5" x2="861.5" y1="579" y2="579"/><ellipse cx="504.5" cy="606.8047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="202" x="513.5" y="610.0151">createVerlauf(data: Data): unknown</text><line style="stroke:#A80036;stroke-width:1.5;" x1="494.5" x2="637.5" y1="593.4023" y2="593.4023"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="637.5" y="596.7104">public method</text><line style="stroke:#A80036;stroke-width:1.5;" x1="718.5" x2="861.5" y1="593.4023" y2="593.4023"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="501.5" y="633.4141"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="343" x="513.5" y="639.6245">drawDiagramm(diagrammData: List&lt;List&lt;Float&gt;&gt;): unknown</text><line style="stroke:#A80036;stroke-width:1.5;" x1="494.5" x2="634" y1="623.0117" y2="623.0117"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="88" x="634" y="626.3198">private method</text><line style="stroke:#A80036;stroke-width:1.5;" x1="722" x2="861.5" y1="623.0117" y2="623.0117"/><!--MD5=[33dbb5cd9b1593568d30e59c5983c72e]
+class Diagramm--><rect codeLine="40" fill="#FEFECE" filter="url(#f15fsuav9ra3v6)" height="124.8281" id="Diagramm" style="stroke:#A80036;stroke-width:1.5;" width="362" x="96" y="534"/><ellipse cx="242.25" cy="550" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M244.5938,545.6719 C243.6563,545.2344 243.0625,545.0938 242.1875,545.0938 C239.5625,545.0938 237.5625,547.1719 237.5625,549.8906 L237.5625,551.0156 C237.5625,553.5938 239.6719,555.4844 242.5625,555.4844 C243.7813,555.4844 244.9375,555.1875 245.6875,554.6406 C246.2656,554.2344 246.5938,553.7813 246.5938,553.3906 C246.5938,552.9375 246.2031,552.5469 245.7344,552.5469 C245.5156,552.5469 245.3125,552.625 245.125,552.8125 C244.6719,553.2969 244.6719,553.2969 244.4844,553.3906 C244.0625,553.6563 243.375,553.7813 242.6094,553.7813 C240.5625,553.7813 239.2656,552.6875 239.2656,550.9844 L239.2656,549.8906 C239.2656,548.1094 240.5156,546.7969 242.25,546.7969 C242.8281,546.7969 243.4375,546.9531 243.9063,547.2031 C244.3906,547.4844 244.5625,547.7031 244.6563,548.1094 C244.7188,548.5156 244.75,548.6406 244.8906,548.7656 C245.0313,548.9063 245.2656,549.0156 245.4844,549.0156 C245.75,549.0156 246.0156,548.875 246.1875,548.6563 C246.2969,548.5 246.3281,548.3125 246.3281,547.8906 L246.3281,546.4688 C246.3281,546.0313 246.3125,545.9063 246.2188,545.75 C246.0625,545.4844 245.7813,545.3438 245.4844,545.3438 C245.1875,545.3438 244.9844,545.4375 244.7656,545.75 L244.5938,545.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="61" x="262.75" y="554.1543">Diagramm</text><line style="stroke:#A80036;stroke-width:1.5;" x1="97" x2="457" y1="566" y2="566"/><ellipse cx="107" cy="593.8047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="252" x="116" y="597.0151">createRelFreqImgArea(data: Data): unknown</text><ellipse cx="107" cy="606.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="244" x="116" y="609.8198">createViewTimeDistr(data: Data): unknown</text><line style="stroke:#A80036;stroke-width:1.5;" x1="97" x2="233.5" y1="580.4023" y2="580.4023"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="87" x="233.5" y="583.7104">public methods</text><line style="stroke:#A80036;stroke-width:1.5;" x1="320.5" x2="457" y1="580.4023" y2="580.4023"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="104" y="633.2188"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="160" x="116" y="639.4292">calcViewTimeDistr(): float[4]</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="104" y="646.0234"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="336" x="116" y="652.2339">drawDiagramm(diagrammData: float[4], type: int): unknown</text><line style="stroke:#A80036;stroke-width:1.5;" x1="97" x2="233" y1="622.8164" y2="622.8164"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="88" x="233" y="626.1245">private method</text><line style="stroke:#A80036;stroke-width:1.5;" x1="321" x2="457" y1="622.8164" y2="622.8164"/><!--MD5=[ff5b00e4f788038bc8b9934b246a9c20]
+class Types--><rect codeLine="50" fill="#FEFECE" filter="url(#f15fsuav9ra3v6)" height="210.4609" id="Types" style="stroke:#A80036;stroke-width:1.5;" width="415" x="614.5" y="41"/><ellipse cx="799.25" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M801.5938,52.6719 C800.6563,52.2344 800.0625,52.0938 799.1875,52.0938 C796.5625,52.0938 794.5625,54.1719 794.5625,56.8906 L794.5625,58.0156 C794.5625,60.5938 796.6719,62.4844 799.5625,62.4844 C800.7813,62.4844 801.9375,62.1875 802.6875,61.6406 C803.2656,61.2344 803.5938,60.7813 803.5938,60.3906 C803.5938,59.9375 803.2031,59.5469 802.7344,59.5469 C802.5156,59.5469 802.3125,59.625 802.125,59.8125 C801.6719,60.2969 801.6719,60.2969 801.4844,60.3906 C801.0625,60.6563 800.375,60.7813 799.6094,60.7813 C797.5625,60.7813 796.2656,59.6875 796.2656,57.9844 L796.2656,56.8906 C796.2656,55.1094 797.5156,53.7969 799.25,53.7969 C799.8281,53.7969 800.4375,53.9531 800.9063,54.2031 C801.3906,54.4844 801.5625,54.7031 801.6563,55.1094 C801.7188,55.5156 801.75,55.6406 801.8906,55.7656 C802.0313,55.9063 802.2656,56.0156 802.4844,56.0156 C802.75,56.0156 803.0156,55.875 803.1875,55.6563 C803.2969,55.5 803.3281,55.3125 803.3281,54.8906 L803.3281,53.4688 C803.3281,53.0313 803.3125,52.9063 803.2188,52.75 C803.0625,52.4844 802.7813,52.3438 802.4844,52.3438 C802.1875,52.3438 801.9844,52.4375 801.7656,52.75 L801.5938,52.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="37" x="819.75" y="61.1543">Types</text><line style="stroke:#A80036;stroke-width:1.5;" x1="615.5" x2="1028.5" y1="73" y2="73"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="622.5" y="81"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="634.5" y="87.2104">heatmap: boolean</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="622.5" y="93.8047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="136" x="634.5" y="100.0151">compHeatmap: boolean</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="622.5" y="106.6094"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="634.5" y="112.8198">verlauf: boolean</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="622.5" y="119.4141"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="133" x="634.5" y="125.6245">relFrqImgArea: boolean</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="622.5" y="132.2188"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="135" x="634.5" y="138.4292">viewTimeDistr: boolean</text><ellipse cx="625.5" cy="164.8281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="389" x="634.5" y="168.0386">Types(heatmap: boolean, compHeatmap: boolean, verlauf: boolean,</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="279" x="634.5" y="180.8433">relFrqImgArea: boolean, viewTimeDistr: boolean)</text><ellipse cx="625.5" cy="190.4375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="132" x="634.5" y="193.6479">getHeatmap(): boolean</text><ellipse cx="625.5" cy="203.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="165" x="634.5" y="206.4526">getCompHeatmap(): boolean</text><ellipse cx="625.5" cy="216.0469" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="121" x="634.5" y="219.2573">getVerlauf(): boolean</text><ellipse cx="625.5" cy="228.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="163" x="634.5" y="232.062">getRelFrqImgArea(): boolean</text><ellipse cx="625.5" cy="241.6563" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="163" x="634.5" y="244.8667">getViewTimeDistr(): boolean</text><line style="stroke:#A80036;stroke-width:1.5;" x1="615.5" x2="778.5" y1="151.4258" y2="151.4258"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="87" x="778.5" y="154.7339">public methods</text><line style="stroke:#A80036;stroke-width:1.5;" x1="865.5" x2="1028.5" y1="151.4258" y2="151.4258"/><!--MD5=[5910e465cccb2cec379e83a41f7f6503]
+class Tool--><rect codeLine="67" fill="#FEFECE" filter="url(#f15fsuav9ra3v6)" height="86.4141" id="Tool" style="stroke:#A80036;stroke-width:1.5;" width="91" x="488.5" y="103"/><ellipse cx="518.35" cy="119" fill="#EB937F" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M517.1469,119.875 L518.6,119.875 L518.6,119.9844 C518.6,120.3906 518.6313,120.5469 518.7094,120.7031 C518.8656,120.9531 519.1469,121.1094 519.4438,121.1094 C519.6938,121.1094 519.9594,120.9688 520.1156,120.75 C520.2406,120.5938 520.2719,120.4375 520.2719,119.9844 L520.2719,118.0625 C520.2719,117.9063 520.2719,117.8594 520.2563,117.7031 C520.1938,117.2344 519.8813,116.9219 519.4281,116.9219 C519.1781,116.9219 518.9125,117.0625 518.7406,117.2813 C518.6313,117.4531 518.6,117.6094 518.6,118.0625 L518.6,118.1875 L517.1469,118.1875 L517.1469,115.7813 L521.1313,115.7813 L521.1313,116.6406 C521.1313,117.0469 521.1625,117.2188 521.2406,117.375 C521.4125,117.625 521.6938,117.7813 521.975,117.7813 C522.2406,117.7813 522.5063,117.6406 522.6781,117.4219 C522.7875,117.25 522.8188,117.1094 522.8188,116.6406 L522.8188,114.0938 L515.1938,114.0938 C514.7563,114.0938 514.6313,114.1094 514.475,114.2031 C514.225,114.3594 514.0688,114.6563 514.0688,114.9375 C514.0688,115.2188 514.2094,115.4688 514.4281,115.6406 C514.5844,115.75 514.7719,115.7813 515.1938,115.7813 L515.4438,115.7813 L515.4438,122.2969 L515.1938,122.2969 C514.7875,122.2969 514.6313,122.3125 514.475,122.4219 C514.225,122.5938 514.0688,122.8594 514.0688,123.1563 C514.0688,123.4219 514.2094,123.6719 514.4281,123.8281 C514.5688,123.9531 514.8031,124 515.1938,124 L523.1938,124 L523.1938,121.4219 C523.1938,120.9844 523.1625,120.8438 523.0844,120.6875 C522.9125,120.4375 522.6313,120.2813 522.35,120.2813 C522.0844,120.2813 521.8188,120.3906 521.6469,120.6406 C521.5375,120.7969 521.5063,120.9375 521.5063,121.4219 L521.5063,122.2969 L517.1469,122.2969 L517.1469,119.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="26" x="535.65" y="123.1543">Tool</text><line style="stroke:#A80036;stroke-width:1.5;" x1="489.5" x2="578.5" y1="135" y2="135"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="35" x="494.5" y="149.2104">ZOOM</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="494.5" y="162.0151">EYETRACKING</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="79" x="494.5" y="174.8198">CODECHARTS</text><line style="stroke:#A80036;stroke-width:1.5;" x1="489.5" x2="578.5" y1="181.4141" y2="181.4141"/><polygon fill="#FFFFFF" filter="url(#f15fsuav9ra3v6)" points="1251,366,1389,366,1396,388.2969,1403,388.2969,1403,418.5938,1251,418.5938,1251,366" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1251" x2="1396" y1="388.2969" y2="388.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="132" x="1255" y="380.9951">SpeicherMedium</text><polygon fill="#FFFFFF" filter="url(#f15fsuav9ra3v6)" points="16,366,50,366,57,388.2969,64,388.2969,64,418.5938,16,418.5938,16,366" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="57" y1="388.2969" y2="388.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="28" x="20" y="380.9951">GUI</text><!--MD5=[0142a10273876a6498763cbca717bc4b]
+link Heatmap to Analyse--><path codeLine="74" d="M946.299,644.091 C894.734,665.599 833.843,690.997 783.114,712.157 " fill="none" id="Heatmap-to-Analyse" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="785.719,718.654,764.565,719.893,780.329,705.733,785.719,718.654" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[49c5c3aad5e065304b1f0455c88d6c6a]
+link Verlauf to Analyse--><path codeLine="75" d="M678,646.349 C678,663.226 678,682.273 678,699.699 " fill="none" id="Verlauf-to-Analyse" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="685,699.897,678,719.897,671,699.897,685,699.897" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[eec8e75ff2920fb7be4f9035a3a6b788]
+link Diagramm to Analyse--><path codeLine="76" d="M432.611,659.007 C477.858,676.891 526.319,696.046 568.124,712.57 " fill="none" id="Diagramm-to-Analyse" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="570.801,706.101,586.828,719.963,565.655,719.121,570.801,706.101" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[95258cd7d39ab7a285f919f85cf3b3cb]
+link Tool to Client--><path codeLine="79" d="M511.916,189.203 C475.11,263.879 413.537,411.5 502,411.5 " fill="none" id="Tool-Client" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[1446ce79daee994e8460d46ead5e4cd4]
+link Types to Client--><path codeLine="80" d="M872.301,251.225 C894.579,309.492 905.395,370.5 853,370.5 " fill="none" id="Types-Client" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[458e23c55b866563aae54fc87d28c1cd]
+link Client to Heatmap--><path codeLine="81" d="M853,435.5 C927.267,435.5 990.735,501.565 1026.62,548.791 " fill="none" id="Client-Heatmap" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[28cbb4bcdbacbdc16d11542d97316c4d]
+link Client to Verlauf--><path codeLine="82" d="M853,435.5 C919.792,435.5 831.625,499.77 758.091,546.843 " fill="none" id="Client-Verlauf" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[5a584ab670d8f56708f0929dbbb811bb]
+link Client to Diagramm--><path codeLine="83" d="M502,435.5 C431.3,435.5 367.377,488.616 325.891,533.64 " fill="none" id="Client-Diagramm" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a87d96e800f80cea43c305ec593e7c40]
+link Client to SpeicherMedium--><path codeLine="86" d="M853,411.5 C926.665,411.5 943.529,430.153 1017,435.5 C1051.58,438.016 1060.48,438.686 1095,435.5 C1143.71,431.005 1197.47,421.287 1240.86,412.225 " fill="none" id="Client-SpeicherMedium" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1240.86" x2="1250.8" y1="412.225" y2="410.122"/><polygon fill="#000000" points="1017,427.0571,1026.0396,430.0129,1026.0506,424.135,1017,427.0571" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="63" x="1031" y="431.5669">gets Data</text><!--MD5=[9822db7b09904f80840f9bff3b6da10d]
+link GUI to Client--><path codeLine="95" d="M64.168,398.452 C102.7321,408.082 182.661,426.872 251.5,435.5 C358.64,448.928 388.681,447.601 491.789,447.505 " fill="none" id="GUI-Client" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="491.789" x2="502" y1="447.505" y2="447.5"/><polygon fill="#000000" points="251.5326,426.4966,260.1838,430.4472,260.8537,424.6076,251.5326,426.4966" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="265.5" y="431.5669">output</text><!--MD5=[19fef63f15ae301311c48146d273f5ad]
+@startuml
+' === ANALYSE CLIENT ===
+package Analyse-Client{
+  
+  ' Client
+  class Client {
+    - data: Data
+    - analyseTypes: Types
+    - analyzedData: unknown
+    __public methods__
+    + getData(start: Date, end: Date, dataType: Tool): boolean
+    + setAnalyseTypes(): boolean
+    + analyseData(): boolean
+    + displayAnalyzedData(): void
+    + export(): boolean
+  }
+
+  ' Analyse
+  abstract Analyse {
+    - calcRelFreq(data: Data): List<List<Float>>
+    - createTimeTable(data: Data): List<List<Float>>
+  }
+
+  ' Heatmap
+  class Heatmap {
+    - heatmap: List<List<Float>>
+    __public methods__
+    + createHeatmap(data: Data): unknown
+    + compHeatmaps(otherHeatmap: Heatmap): unknown
+  }
+
+  ' Verlauf
+  class Verlauf {
+    __public method__
+    + createVerlauf(data: Data): unknown
+    __private method__
+    - drawDiagramm(diagrammData: List<List<Float>>): unknown
+  }
+
+  ' Diagramm
+  class Diagramm {
+    __public methods__
+    + createRelFreqImgArea(data: Data): unknown
+    + createViewTimeDistr(data: Data): unknown
+    __private method__
+    - calcViewTimeDistr(): float[4]
+    - drawDiagramm(diagrammData: float[4], type: int): unknown
+  }
+
+  ' Types
+  class Types {
+    - heatmap: boolean
+    - compHeatmap: boolean
+    - verlauf: boolean
+    - relFrqImgArea: boolean
+    - viewTimeDistr: boolean
+    __public methods__
+    + Types(heatmap: boolean, compHeatmap: boolean, verlauf: boolean,
+     relFrqImgArea: boolean, viewTimeDistr: boolean)
+    + getHeatmap(): boolean
+    + getCompHeatmap(): boolean
+    + getVerlauf(): boolean
+    + getRelFrqImgArea(): boolean
+    + getViewTimeDistr(): boolean
+  }
+
+  ' Typen der erhobenen Daten
+  enum Tool {
+    ZOOM
+    EYETRACKING
+    CODECHARTS
+  }
+
+  ' Vererbung
+  Analyse <|-u- Heatmap
+  Analyse <|-u- Verlauf
+  Analyse <|-u- Diagramm
+
+  ' Interaktionen
+  Client::getData -u- Tool
+  Client::analyseTypes -u- Types
+  Client::analyseData -d- Heatmap 
+  Client::analyseData -d- Verlauf
+  Client::analyseData -d- Diagramm
+
+  ' Andere Module
+  Client::getData -r- SpeicherMedium : < gets Data
+
+}
+' Blackbox
+package SpeicherMedium {}
+
+package GUI {}
+
+' Interaktion
+Client::displayAnalyzedData -l- GUI : > output
+@enduml
+
+@startuml
+package Analyse-Client{
+  
+  class Client {
+    - data: Data
+    - analyseTypes: Types
+    - analyzedData: unknown
+    __public methods__
+    + getData(start: Date, end: Date, dataType: Tool): boolean
+    + setAnalyseTypes(): boolean
+    + analyseData(): boolean
+    + displayAnalyzedData(): void
+    + export(): boolean
+  }
+
+  abstract Analyse {
+    - calcRelFreq(data: Data): List<List<Float>>
+    - createTimeTable(data: Data): List<List<Float>>
+  }
+
+  class Heatmap {
+    - heatmap: List<List<Float>>
+    __public methods__
+    + createHeatmap(data: Data): unknown
+    + compHeatmaps(otherHeatmap: Heatmap): unknown
+  }
+
+  class Verlauf {
+    __public method__
+    + createVerlauf(data: Data): unknown
+    __private method__
+    - drawDiagramm(diagrammData: List<List<Float>>): unknown
+  }
+
+  class Diagramm {
+    __public methods__
+    + createRelFreqImgArea(data: Data): unknown
+    + createViewTimeDistr(data: Data): unknown
+    __private method__
+    - calcViewTimeDistr(): float[4]
+    - drawDiagramm(diagrammData: float[4], type: int): unknown
+  }
+
+  class Types {
+    - heatmap: boolean
+    - compHeatmap: boolean
+    - verlauf: boolean
+    - relFrqImgArea: boolean
+    - viewTimeDistr: boolean
+    __public methods__
+    + Types(heatmap: boolean, compHeatmap: boolean, verlauf: boolean,
+     relFrqImgArea: boolean, viewTimeDistr: boolean)
+    + getHeatmap(): boolean
+    + getCompHeatmap(): boolean
+    + getVerlauf(): boolean
+    + getRelFrqImgArea(): boolean
+    + getViewTimeDistr(): boolean
+  }
+
+  enum Tool {
+    ZOOM
+    EYETRACKING
+    CODECHARTS
+  }
+
+  Analyse <|-u- Heatmap
+  Analyse <|-u- Verlauf
+  Analyse <|-u- Diagramm
+
+  Client::getData -u- Tool
+  Client::analyseTypes -u- Types
+  Client::analyseData -d- Heatmap 
+  Client::analyseData -d- Verlauf
+  Client::analyseData -d- Diagramm
+
+  Client::getData -r- SpeicherMedium : < gets Data
+
+}
+package SpeicherMedium {}
+
+package GUI {}
+
+Client::displayAnalyzedData -l- GUI : > output
+@enduml
+
+PlantUML version 1.2021.13beta8(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
