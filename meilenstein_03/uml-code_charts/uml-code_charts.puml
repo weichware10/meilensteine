@@ -39,55 +39,69 @@ package CodeCharts {
 
     ' CodeCharts Tutorial 
     class CodeChartsTutorial {
-        - tutorial() : void
+      - t: TutorialType
+      __public method__
+      + start() : void
+      __private methods__
+      - getConfigState() : boolean
+      - setConfigState(state: boolean) : void
+      - show() : boolean
+      __abstract methods__
+      - {abstract} tutorial() : void
     }
   
     ' CodeCharts Coordinator
     class CodeChartsCoordinator {
-        - speed: float
-        - position: float[3]
+        - speed: float[2]
+        - isTutorial: boolean
+        - isRelative: boolean
+        - dimensions: int[2]
+        - strings: String[..]
         __public method__
-        + processInput(raw_input: unknown) : void
+        + startCodeCharts() : void
         __private methods__
-        - calculate(raw_input: unknown) : float[3]
-        - save(position: float[3]) : boolean
-    }
-
-    ' CodeCharts Computer
-    class CodeChartsComputer {
-        - speed: float
-        - position: float[3]
-        __public method__
-        + processInput(raw_input: unknown) : void
-        __private methods__
-        - calculate(raw_input: unknown) : float[3]
-        - save(position: float[3]) : boolean
+        - loadConfigData() : boolean
+        - tryTutorial() : void
     }
 
     ' CodeCharts Interner Speicher
     class CodeChartsInternerSpeicher {
-        - speed: float
-        - position: float[3]
         __public method__
-        + processInput(raw_input: unknown) : void
-        __private methods__
-        - calculate(raw_input: unknown) : float[3]
-        - save(position: float[3]) : boolean
+        + addPic(pic: unknown) : void
+        + addSizeAndKord(size: int[2], coordinates: int[2]) : void
+        + saveData() : boolean
     }
 
     ' CodeCharts Bild
     class CodeChartsBild {
-        + move(position: float[3]): float[3]
+        ' Unsicher ob es sinnvoll ist das Bild vorzuladen
+        + load(url: String) : void
+        + show() : void
     }
 
     ' CodeCharts Raster
     class CodeChartsRaster {
-        + move(position: float[3]): float[3]
+        ' Unsicher ob es sinnvoll ist alle vorherigen Durchläufe auf einmal zu laden
+        - dimensions: int[2]
+        - strings: String[..]
+        - kords: int[2]
+        __public method__ 
+        + setData(dimensions: int[2], strings: String[..]):void
+        + show() : void
+        + calculate() : void
+        __private methods__
+        - loadPastRuns() : void
+        - sendData() : void
     }
 
     ' CodeCharts Eingabefenster
     class CodeChartsEingabefenster {
-        + move(position: float[3]): float[3]
+        __public method__
+        + show() : String
+        __private methods__
+        - checkButton() : boolean
+        - validateString(input: String): boolean
+        - ErrorMessage() : void
     }
 
 
@@ -98,22 +112,14 @@ package CodeCharts {
     ' Interaktionen
     CodeChartsCoordinator -u- CodeChartsComputer::processInput
     CodeChartsCoordinator -u- CodeChartsBild::processInput
+    CodeChartsCoordinator -- CodeChartsRaster
     CodeChartsCoordinator -d- CodeChartsEingabefenster::processInput
     CodeChartsInternerSpeicher::processInput -l- CodeChartsCoordinator
-    CodeChartsComputer -r- CodeChartsRaster
-
-
-    
-
-
-
-
+    CodeChartsCoordinator::tryTutorial -- CodeChartsTutorial
 
     ' Andere Module
     CodeChartsInternerSpeicher::save -d- SpeicherMedium : > saves Data
     CodeChartsCoordinator::speed -d- Config : < speed
-    CodeChartsBild -d- Config : < gets picture
-    CodeChartsInternerSpeicher -u- Config : < gets picture
   
 }
 
