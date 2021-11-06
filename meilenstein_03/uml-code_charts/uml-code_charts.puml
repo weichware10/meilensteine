@@ -110,16 +110,20 @@ package CodeCharts {
     Tutorial <|-d- CodeChartsTutorial
 
     ' Interaktionen
-    CodeChartsCoordinator -u- CodeChartsComputer::processInput
-    CodeChartsCoordinator -u- CodeChartsBild::processInput
-    CodeChartsCoordinator -- CodeChartsRaster
-    CodeChartsCoordinator -d- CodeChartsEingabefenster::processInput
-    CodeChartsInternerSpeicher::processInput -l- CodeChartsCoordinator
+    CodeChartsCoordinator::startCodeCharts -- CodeChartsBild
+    CodeChartsCoordinator::loadConfigData -- CodeChartsRaster
+    CodeChartsCoordinator::startCodeCharts -- CodeChartsEingabefenster
     CodeChartsCoordinator::tryTutorial -- CodeChartsTutorial
+    ' load & send Kante?
+    CodeChartsRaster -- CodeChartsInternerSpeicher
+    CodeChartsEingabefenster -- CodeChartsRaster
+
+
 
     ' Andere Module
-    CodeChartsInternerSpeicher::save -d- SpeicherMedium : > saves Data
-    CodeChartsCoordinator::speed -d- Config : < speed
+    CodeChartsInternerSpeicher::saveData -- SpeicherMedium : > saves Data
+    ' von startCodeCharts oder von loadConfigData
+    CodeChartsCoordinator::startCodeCharts -- Config : < gets Initial Data
   
 }
 
