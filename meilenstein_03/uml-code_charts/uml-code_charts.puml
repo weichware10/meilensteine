@@ -110,13 +110,14 @@ package CodeCharts {
     Tutorial <|-d- CodeChartsTutorial
 
     ' Interaktionen
-    CodeChartsCoordinator::startCodeCharts -- CodeChartsBild
-    CodeChartsCoordinator::loadConfigData -- CodeChartsRaster
-    CodeChartsCoordinator::startCodeCharts -- CodeChartsEingabefenster
-    CodeChartsCoordinator::tryTutorial -- CodeChartsTutorial
+    ' Bild & Raster mehrere Anbindungen (startCodeCharts, loadConfigData)
+    CodeChartsCoordinator: -- CodeChartsBild : >
+    CodeChartsCoordinator: -- CodeChartsRaster : >
+    CodeChartsCoordinator::startCodeCharts -- CodeChartsEingabefenster : >
+    CodeChartsCoordinator::tryTutorial -- CodeChartsTutorial : >
     ' load & send Kante?
-    CodeChartsRaster -- CodeChartsInternerSpeicher
-    CodeChartsEingabefenster -- CodeChartsRaster
+    CodeChartsRaster -- CodeChartsInternerSpeicher : < >
+    CodeChartsEingabefenster -- CodeChartsRaster : >
 
 
 
