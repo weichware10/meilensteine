@@ -1,0 +1,99 @@
+@startuml analyseclient
+
+' === ANALYSE CLIENT ===
+package Analyse-Client{
+  
+  ' Client
+  class Client {
+    - data: Data
+    - analyseTypes: Types
+    - analyzedData: unknown
+    __public methods__
+    + getData(start: Date, end: Date, dataType: Tool): boolean
+    + setAnalyseTypes(): boolean
+    + analyseData(): boolean
+    + displayAnalyzedData(): void
+    + export(): boolean
+  }
+
+  ' Analyse
+  abstract Analyse {
+    - calcRelFreq(data: Data): List<List<Float>>
+    - createTimeTable(data: Data): List<List<Float>>
+  }
+
+  ' Heatmap
+  class Heatmap {
+    - heatmap: List<List<Float>>
+    __public methods__
+    + createHeatmap(data: Data): unknown
+    + compHeatmaps(otherHeatmap: Heatmap): unknown
+  }
+
+  ' Verlauf
+  class Verlauf {
+    __public method__
+    + createVerlauf(data: Data): unknown
+    __private method__
+    - drawDiagramm(diagrammData: List<List<Float>>): unknown
+  }
+
+  ' Diagramm
+  class Diagramm {
+    __public methods__
+    + createRelFreqImgArea(data: Data): unknown
+    + createViewTimeDistr(data: Data): unknown
+    __private method__
+    - calcViewTimeDistr(): float[4]
+    - drawDiagramm(diagrammData: float[4], type: int): unknown
+  }
+
+  ' Types
+  class Types {
+    - heatmap: boolean
+    - compHeatmap: boolean
+    - verlauf: boolean
+    - relFrqImgArea: boolean
+    - viewTimeDistr: boolean
+    __public methods__
+    + Types(heatmap: boolean, compHeatmap: boolean, verlauf: boolean,
+     relFrqImgArea: boolean, viewTimeDistr: boolean)
+    + getHeatmap(): boolean
+    + getCompHeatmap(): boolean
+    + getVerlauf(): boolean
+    + getRelFrqImgArea(): boolean
+    + getViewTimeDistr(): boolean
+  }
+
+  ' Typen der erhobenen Daten
+  enum Tool {
+    ZOOM
+    EYETRACKING
+    CODECHARTS
+  }
+
+  ' Vererbung
+  Analyse <|-u- Heatmap
+  Analyse <|-u- Verlauf
+  Analyse <|-u- Diagramm
+
+  ' Interaktionen
+  Client::getData -u- Tool
+  Client::analyseTypes -u- Types
+  Client::analyseData -d- Heatmap 
+  Client::analyseData -d- Verlauf
+  Client::analyseData -d- Diagramm
+
+  ' Andere Module
+  Client::getData -r- SpeicherMedium : < gets Data
+
+}
+' Blackbox
+package SpeicherMedium {}
+
+package GUI {}
+
+' Interaktion
+Client::displayAnalyzedData -l- GUI : > output
+
+@enduml
