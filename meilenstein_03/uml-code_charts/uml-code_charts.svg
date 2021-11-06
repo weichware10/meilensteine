@@ -1,1 +1,282 @@
-undefined
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1028px" preserveAspectRatio="none" style="width:1388px;height:1028px;background:#FFFFFF;" version="1.1" viewBox="0 0 1388 1028" width="1388px" zoomAndPan="magnify"><defs><filter height="300%" id="f1midrd0fx4tqx" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[bd4ed236a13575a9dcf49b2316e757e7]
+cluster CodeCharts--><polygon fill="#FFFFFF" filter="url(#f1midrd0fx4tqx)" points="170.5,6,269.5,6,276.5,28.2969,973.5,28.2969,973.5,906,170.5,906,170.5,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="170.5" x2="276.5" y1="28.2969" y2="28.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="93" x="174.5" y="20.9951">CodeCharts</text><!--MD5=[81d462353594d8875238471802618d21]
+class CodeChartsTutorial--><rect codeLine="40" fill="#FEFECE" filter="url(#f1midrd0fx4tqx)" height="167.2422" id="CodeChartsTutorial" style="stroke:#A80036;stroke-width:1.5;" width="236" x="721.5" y="299"/><ellipse cx="778.25" cy="315" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M780.5938,310.6719 C779.6563,310.2344 779.0625,310.0938 778.1875,310.0938 C775.5625,310.0938 773.5625,312.1719 773.5625,314.8906 L773.5625,316.0156 C773.5625,318.5938 775.6719,320.4844 778.5625,320.4844 C779.7813,320.4844 780.9375,320.1875 781.6875,319.6406 C782.2656,319.2344 782.5938,318.7813 782.5938,318.3906 C782.5938,317.9375 782.2031,317.5469 781.7344,317.5469 C781.5156,317.5469 781.3125,317.625 781.125,317.8125 C780.6719,318.2969 780.6719,318.2969 780.4844,318.3906 C780.0625,318.6563 779.375,318.7813 778.6094,318.7813 C776.5625,318.7813 775.2656,317.6875 775.2656,315.9844 L775.2656,314.8906 C775.2656,313.1094 776.5156,311.7969 778.25,311.7969 C778.8281,311.7969 779.4375,311.9531 779.9063,312.2031 C780.3906,312.4844 780.5625,312.7031 780.6563,313.1094 C780.7188,313.5156 780.75,313.6406 780.8906,313.7656 C781.0313,313.9063 781.2656,314.0156 781.4844,314.0156 C781.75,314.0156 782.0156,313.875 782.1875,313.6563 C782.2969,313.5 782.3281,313.3125 782.3281,312.8906 L782.3281,311.4688 C782.3281,311.0313 782.3125,310.9063 782.2188,310.75 C782.0625,310.4844 781.7813,310.3438 781.4844,310.3438 C781.1875,310.3438 780.9844,310.4375 780.7656,310.75 L780.5938,310.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="114" x="798.75" y="319.1543">CodeChartsTutorial</text><line style="stroke:#A80036;stroke-width:1.5;" x1="722.5" x2="956.5" y1="331" y2="331"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="729.5" y="339"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="741.5" y="345.2104">t: TutorialType</text><ellipse cx="732.5" cy="371.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="68" x="741.5" y="374.8198">start() : void</text><line style="stroke:#A80036;stroke-width:1.5;" x1="722.5" x2="799" y1="358.207" y2="358.207"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="799" y="361.5151">public method</text><line style="stroke:#A80036;stroke-width:1.5;" x1="880" x2="956.5" y1="358.207" y2="358.207"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="729.5" y="398.2188"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="151" x="741.5" y="404.4292">getConfigState() : boolean</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="729.5" y="411.0234"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="210" x="741.5" y="417.2339">setConfigState(state: boolean) : void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="729.5" y="423.8281"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="741.5" y="430.0386">show() : boolean</text><line style="stroke:#A80036;stroke-width:1.5;" x1="722.5" x2="792.5" y1="387.8164" y2="387.8164"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="792.5" y="391.1245">private methods</text><line style="stroke:#A80036;stroke-width:1.5;" x1="886.5" x2="956.5" y1="387.8164" y2="387.8164"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="729.5" y="453.4375"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="84" x="741.5" y="459.6479">tutorial() : void</text><line style="stroke:#A80036;stroke-width:1.5;" x1="722.5" x2="790" y1="443.0352" y2="443.0352"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="99" x="790" y="446.3433">abstract methods</text><line style="stroke:#A80036;stroke-width:1.5;" x1="889" x2="956.5" y1="443.0352" y2="443.0352"/><!--MD5=[d6943c12ae734dbe1975a5489f85ab8f]
+class CodeChartsCoordinator--><rect codeLine="53" fill="#FEFECE" filter="url(#f1midrd0fx4tqx)" height="176.0469" id="CodeChartsCoordinator" style="stroke:#A80036;stroke-width:1.5;" width="178" x="480.5" y="45"/><ellipse cx="497.75" cy="61" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M500.0938,56.6719 C499.1563,56.2344 498.5625,56.0938 497.6875,56.0938 C495.0625,56.0938 493.0625,58.1719 493.0625,60.8906 L493.0625,62.0156 C493.0625,64.5938 495.1719,66.4844 498.0625,66.4844 C499.2813,66.4844 500.4375,66.1875 501.1875,65.6406 C501.7656,65.2344 502.0938,64.7813 502.0938,64.3906 C502.0938,63.9375 501.7031,63.5469 501.2344,63.5469 C501.0156,63.5469 500.8125,63.625 500.625,63.8125 C500.1719,64.2969 500.1719,64.2969 499.9844,64.3906 C499.5625,64.6563 498.875,64.7813 498.1094,64.7813 C496.0625,64.7813 494.7656,63.6875 494.7656,61.9844 L494.7656,60.8906 C494.7656,59.1094 496.0156,57.7969 497.75,57.7969 C498.3281,57.7969 498.9375,57.9531 499.4063,58.2031 C499.8906,58.4844 500.0625,58.7031 500.1563,59.1094 C500.2188,59.5156 500.25,59.6406 500.3906,59.7656 C500.5313,59.9063 500.7656,60.0156 500.9844,60.0156 C501.25,60.0156 501.5156,59.875 501.6875,59.6563 C501.7969,59.5 501.8281,59.3125 501.8281,58.8906 L501.8281,57.4688 C501.8281,57.0313 501.8125,56.9063 501.7188,56.75 C501.5625,56.4844 501.2813,56.3438 500.9844,56.3438 C500.6875,56.3438 500.4844,56.4375 500.2656,56.75 L500.0938,56.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="141" x="512.25" y="65.1543">CodeChartsCoordinator</text><line style="stroke:#A80036;stroke-width:1.5;" x1="481.5" x2="657.5" y1="77" y2="77"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="488.5" y="85"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="83" x="500.5" y="91.2104">speed: float[2]</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="488.5" y="97.8047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="500.5" y="104.0151">isTutorial: boolean</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="488.5" y="110.6094"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="109" x="500.5" y="116.8198">isRelative: boolean</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="488.5" y="123.4141"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="101" x="500.5" y="129.6245">dimensions: int[2]</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="488.5" y="136.2188"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="91" x="500.5" y="142.4292">strings: String[..]</text><ellipse cx="491.5" cy="168.8281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="134" x="500.5" y="172.0386">startCodeCharts() : void</text><line style="stroke:#A80036;stroke-width:1.5;" x1="481.5" x2="529" y1="155.4258" y2="155.4258"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="529" y="158.7339">public method</text><line style="stroke:#A80036;stroke-width:1.5;" x1="610" x2="657.5" y1="155.4258" y2="155.4258"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="488.5" y="195.4375"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="152" x="500.5" y="201.6479">loadConfigData() : boolean</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="488.5" y="208.2422"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="100" x="500.5" y="214.4526">tryTutorial() : void</text><line style="stroke:#A80036;stroke-width:1.5;" x1="481.5" x2="522.5" y1="185.0352" y2="185.0352"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="522.5" y="188.3433">private methods</text><line style="stroke:#A80036;stroke-width:1.5;" x1="616.5" x2="657.5" y1="185.0352" y2="185.0352"/><!--MD5=[716079bcf736c8b229d38dedc298d2f0]
+class CodeChartsInternerSpeicher--><rect codeLine="67" fill="#FEFECE" filter="url(#f1midrd0fx4tqx)" height="95.2188" id="CodeChartsInternerSpeicher" style="stroke:#A80036;stroke-width:1.5;" width="332" x="289.5" y="792"/><ellipse cx="365.75" cy="808" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M368.0938,803.6719 C367.1563,803.2344 366.5625,803.0938 365.6875,803.0938 C363.0625,803.0938 361.0625,805.1719 361.0625,807.8906 L361.0625,809.0156 C361.0625,811.5938 363.1719,813.4844 366.0625,813.4844 C367.2813,813.4844 368.4375,813.1875 369.1875,812.6406 C369.7656,812.2344 370.0938,811.7813 370.0938,811.3906 C370.0938,810.9375 369.7031,810.5469 369.2344,810.5469 C369.0156,810.5469 368.8125,810.625 368.625,810.8125 C368.1719,811.2969 368.1719,811.2969 367.9844,811.3906 C367.5625,811.6563 366.875,811.7813 366.1094,811.7813 C364.0625,811.7813 362.7656,810.6875 362.7656,808.9844 L362.7656,807.8906 C362.7656,806.1094 364.0156,804.7969 365.75,804.7969 C366.3281,804.7969 366.9375,804.9531 367.4063,805.2031 C367.8906,805.4844 368.0625,805.7031 368.1563,806.1094 C368.2188,806.5156 368.25,806.6406 368.3906,806.7656 C368.5313,806.9063 368.7656,807.0156 368.9844,807.0156 C369.25,807.0156 369.5156,806.875 369.6875,806.6563 C369.7969,806.5 369.8281,806.3125 369.8281,805.8906 L369.8281,804.4688 C369.8281,804.0313 369.8125,803.9063 369.7188,803.75 C369.5625,803.4844 369.2813,803.3438 368.9844,803.3438 C368.6875,803.3438 368.4844,803.4375 368.2656,803.75 L368.0938,803.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="171" x="386.25" y="812.1543">CodeChartsInternerSpeicher</text><line style="stroke:#A80036;stroke-width:1.5;" x1="290.5" x2="620.5" y1="824" y2="824"/><ellipse cx="300.5" cy="851.8047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="152" x="309.5" y="855.0151">addPic(pic: unknown) : void</text><ellipse cx="300.5" cy="864.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="306" x="309.5" y="867.8198">addSizeAndKord(size: int[2], coordinates: int[2]) : void</text><ellipse cx="300.5" cy="877.4141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="309.5" y="880.6245">saveData() : boolean</text><line style="stroke:#A80036;stroke-width:1.5;" x1="290.5" x2="415" y1="838.4023" y2="838.4023"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="415" y="841.7104">public method</text><line style="stroke:#A80036;stroke-width:1.5;" x1="496" x2="620.5" y1="838.4023" y2="838.4023"/><!--MD5=[48cc74a7e7e460afd8863a3fcc09bdcb]
+class CodeChartsBild--><rect codeLine="75" fill="#FEFECE" filter="url(#f1midrd0fx4tqx)" height="73.6094" id="CodeChartsBild" style="stroke:#A80036;stroke-width:1.5;" width="147" x="187" y="345.5"/><ellipse cx="212.35" cy="361.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M214.6938,357.1719 C213.7563,356.7344 213.1625,356.5938 212.2875,356.5938 C209.6625,356.5938 207.6625,358.6719 207.6625,361.3906 L207.6625,362.5156 C207.6625,365.0938 209.7719,366.9844 212.6625,366.9844 C213.8813,366.9844 215.0375,366.6875 215.7875,366.1406 C216.3656,365.7344 216.6938,365.2813 216.6938,364.8906 C216.6938,364.4375 216.3031,364.0469 215.8344,364.0469 C215.6156,364.0469 215.4125,364.125 215.225,364.3125 C214.7719,364.7969 214.7719,364.7969 214.5844,364.8906 C214.1625,365.1563 213.475,365.2813 212.7094,365.2813 C210.6625,365.2813 209.3656,364.1875 209.3656,362.4844 L209.3656,361.3906 C209.3656,359.6094 210.6156,358.2969 212.35,358.2969 C212.9281,358.2969 213.5375,358.4531 214.0063,358.7031 C214.4906,358.9844 214.6625,359.2031 214.7563,359.6094 C214.8188,360.0156 214.85,360.1406 214.9906,360.2656 C215.1313,360.4063 215.3656,360.5156 215.5844,360.5156 C215.85,360.5156 216.1156,360.375 216.2875,360.1563 C216.3969,360 216.4281,359.8125 216.4281,359.3906 L216.4281,357.9688 C216.4281,357.5313 216.4125,357.4063 216.3188,357.25 C216.1625,356.9844 215.8813,356.8438 215.5844,356.8438 C215.2875,356.8438 215.0844,356.9375 214.8656,357.25 L214.6938,357.1719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="92" x="228.65" y="365.6543">CodeChartsBild</text><line style="stroke:#A80036;stroke-width:1.5;" x1="188" x2="333" y1="377.5" y2="377.5"/><line style="stroke:#A80036;stroke-width:1.5;" x1="188" x2="333" y1="385.5" y2="385.5"/><ellipse cx="198" cy="396.5" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="121" x="207" y="399.7104">load(url: String) : void</text><ellipse cx="198" cy="409.3047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="72" x="207" y="412.5151">show() : void</text><!--MD5=[b9640045e029ffef06c931bcc3e11d89]
+class CodeChartsRaster--><rect codeLine="82" fill="#FEFECE" filter="url(#f1midrd0fx4tqx)" height="172.0469" id="CodeChartsRaster" style="stroke:#A80036;stroke-width:1.5;" width="305" x="303" y="539"/><ellipse cx="397.25" cy="555" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M399.5938,550.6719 C398.6563,550.2344 398.0625,550.0938 397.1875,550.0938 C394.5625,550.0938 392.5625,552.1719 392.5625,554.8906 L392.5625,556.0156 C392.5625,558.5938 394.6719,560.4844 397.5625,560.4844 C398.7813,560.4844 399.9375,560.1875 400.6875,559.6406 C401.2656,559.2344 401.5938,558.7813 401.5938,558.3906 C401.5938,557.9375 401.2031,557.5469 400.7344,557.5469 C400.5156,557.5469 400.3125,557.625 400.125,557.8125 C399.6719,558.2969 399.6719,558.2969 399.4844,558.3906 C399.0625,558.6563 398.375,558.7813 397.6094,558.7813 C395.5625,558.7813 394.2656,557.6875 394.2656,555.9844 L394.2656,554.8906 C394.2656,553.1094 395.5156,551.7969 397.25,551.7969 C397.8281,551.7969 398.4375,551.9531 398.9063,552.2031 C399.3906,552.4844 399.5625,552.7031 399.6563,553.1094 C399.7188,553.5156 399.75,553.6406 399.8906,553.7656 C400.0313,553.9063 400.2656,554.0156 400.4844,554.0156 C400.75,554.0156 401.0156,553.875 401.1875,553.6563 C401.2969,553.5 401.3281,553.3125 401.3281,552.8906 L401.3281,551.4688 C401.3281,551.0313 401.3125,550.9063 401.2188,550.75 C401.0625,550.4844 400.7813,550.3438 400.4844,550.3438 C400.1875,550.3438 399.9844,550.4375 399.7656,550.75 L399.5938,550.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="108" x="417.75" y="559.1543">CodeChartsRaster</text><line style="stroke:#A80036;stroke-width:1.5;" x1="304" x2="607" y1="571" y2="571"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="311" y="579"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="101" x="323" y="585.2104">dimensions: int[2]</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="311" y="591.8047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="91" x="323" y="598.0151">strings: String[..]</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="311" y="604.6094"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="66" x="323" y="610.8198">kords: int[2]</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="105" x="323" y="623.6245">__public method__</text><ellipse cx="314" cy="633.2188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="279" x="323" y="636.4292">setData(dimensions: int[2], strings: String[..]):void</text><ellipse cx="314" cy="646.0234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="72" x="323" y="649.2339">show() : void</text><ellipse cx="314" cy="658.8281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="323" y="662.0386">calculate() : void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="311" y="685.4375"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="117" x="323" y="691.6479">loadPastRuns() : void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="311" y="698.2422"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="323" y="704.4526">sendData() : void</text><line style="stroke:#A80036;stroke-width:1.5;" x1="304" x2="408.5" y1="675.0352" y2="675.0352"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="408.5" y="678.3433">private methods</text><line style="stroke:#A80036;stroke-width:1.5;" x1="502.5" x2="607" y1="675.0352" y2="675.0352"/><!--MD5=[a7f545f13df25b09c4dd936da65dfdd1]
+class CodeChartsEingabefenster--><rect codeLine="97" fill="#FEFECE" filter="url(#f1midrd0fx4tqx)" height="124.8281" id="CodeChartsEingabefenster" style="stroke:#A80036;stroke-width:1.5;" width="234" x="452.5" y="320"/><ellipse cx="485.95" cy="336" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M488.2938,331.6719 C487.3563,331.2344 486.7625,331.0938 485.8875,331.0938 C483.2625,331.0938 481.2625,333.1719 481.2625,335.8906 L481.2625,337.0156 C481.2625,339.5938 483.3719,341.4844 486.2625,341.4844 C487.4813,341.4844 488.6375,341.1875 489.3875,340.6406 C489.9656,340.2344 490.2938,339.7813 490.2938,339.3906 C490.2938,338.9375 489.9031,338.5469 489.4344,338.5469 C489.2156,338.5469 489.0125,338.625 488.825,338.8125 C488.3719,339.2969 488.3719,339.2969 488.1844,339.3906 C487.7625,339.6563 487.075,339.7813 486.3094,339.7813 C484.2625,339.7813 482.9656,338.6875 482.9656,336.9844 L482.9656,335.8906 C482.9656,334.1094 484.2156,332.7969 485.95,332.7969 C486.5281,332.7969 487.1375,332.9531 487.6063,333.2031 C488.0906,333.4844 488.2625,333.7031 488.3563,334.1094 C488.4188,334.5156 488.45,334.6406 488.5906,334.7656 C488.7313,334.9063 488.9656,335.0156 489.1844,335.0156 C489.45,335.0156 489.7156,334.875 489.8875,334.6563 C489.9969,334.5 490.0281,334.3125 490.0281,333.8906 L490.0281,332.4688 C490.0281,332.0313 490.0125,331.9063 489.9188,331.75 C489.7625,331.4844 489.4813,331.3438 489.1844,331.3438 C488.8875,331.3438 488.6844,331.4375 488.4656,331.75 L488.2938,331.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="161" x="504.05" y="340.1543">CodeChartsEingabefenster</text><line style="stroke:#A80036;stroke-width:1.5;" x1="453.5" x2="685.5" y1="352" y2="352"/><ellipse cx="463.5" cy="379.8047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="472.5" y="383.0151">show() : String</text><line style="stroke:#A80036;stroke-width:1.5;" x1="453.5" x2="529" y1="366.4023" y2="366.4023"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="529" y="369.7104">public method</text><line style="stroke:#A80036;stroke-width:1.5;" x1="610" x2="685.5" y1="366.4023" y2="366.4023"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="460.5" y="406.4141"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="135" x="472.5" y="412.6245">checkButton() : boolean</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="460.5" y="419.2188"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="208" x="472.5" y="425.4292">validateString(input: String): boolean</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="460.5" y="432.0234"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="472.5" y="438.2339">ErrorMessage() : void</text><line style="stroke:#A80036;stroke-width:1.5;" x1="453.5" x2="522.5" y1="396.0117" y2="396.0117"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="522.5" y="399.3198">private methods</text><line style="stroke:#A80036;stroke-width:1.5;" x1="616.5" x2="685.5" y1="396.0117" y2="396.0117"/><polygon fill="#FFFFFF" filter="url(#f1midrd0fx4tqx)" points="1049.5,356,1107.5,356,1114.5,378.2969,1121.5,378.2969,1121.5,408.5938,1049.5,408.5938,1049.5,356" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1049.5" x2="1114.5" y1="378.2969" y2="378.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="52" x="1053.5" y="370.9951">Config</text><polygon fill="#FFFFFF" filter="url(#f1midrd0fx4tqx)" points="379.5,969,517.5,969,524.5,991.2969,531.5,991.2969,531.5,1021.5938,379.5,1021.5938,379.5,969" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="379.5" x2="524.5" y1="991.2969" y2="991.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="132" x="383.5" y="983.9951">SpeicherMedium</text><!--MD5=[fccc419d627b37790932ddb688fb7ad6]
+class Tutorial--><rect codeLine="6" fill="#FEFECE" filter="url(#f1midrd0fx4tqx)" height="167.2422" id="Tutorial" style="stroke:#A80036;stroke-width:1.5;" width="236" x="1138.5" y="48.5"/><ellipse cx="1184.25" cy="64.5" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1186.3281,66.3125 L1186.7188,67.2969 L1186.3281,67.2969 C1185.875,67.2969 1185.7656,67.3125 1185.6094,67.4219 C1185.3594,67.5781 1185.2031,67.8594 1185.2031,68.1563 C1185.2031,68.4219 1185.3438,68.6719 1185.5625,68.8281 C1185.7031,68.9531 1185.9063,69 1186.3281,69 L1188.6875,69 C1189.0469,69 1189.2656,68.9688 1189.4063,68.875 C1189.6563,68.7344 1189.8125,68.4375 1189.8125,68.1563 C1189.8125,67.875 1189.6719,67.625 1189.4531,67.4688 C1189.2813,67.3281 1189.125,67.2969 1188.6563,67.2969 L1185.2656,59.0938 L1181.5938,59.0938 C1181.1406,59.0938 1181.0156,59.1094 1180.8594,59.2031 C1180.6094,59.375 1180.4531,59.6563 1180.4531,59.9375 C1180.4531,60.2188 1180.5938,60.4688 1180.8125,60.6406 C1180.9844,60.75 1181.1563,60.7813 1181.5938,60.7813 L1182.6719,60.7813 L1180.0313,67.2969 C1179.6094,67.2969 1179.4531,67.3125 1179.2969,67.4219 C1179.0469,67.5781 1178.8906,67.8594 1178.8906,68.1563 C1178.8906,68.7188 1179.2656,69 1180.0156,69 L1182.2813,69 C1182.6406,69 1182.8594,68.9688 1182.9844,68.875 C1183.25,68.7344 1183.3906,68.4375 1183.3906,68.1563 C1183.3906,67.875 1183.2656,67.625 1183.0469,67.4531 C1182.875,67.3281 1182.7344,67.2969 1182.2813,67.2969 L1181.8906,67.2969 L1182.2813,66.3125 L1186.3281,66.3125 Z M1185.625,64.6094 L1182.9531,64.6094 L1184.2969,61.3438 L1185.625,64.6094 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="45" x="1204.75" y="68.6543">Tutorial</text><rect fill="#FFFFFF" height="15.9688" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" width="89" x="1288.5" y="45.5"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="87" x="1289.5" y="57.6387">t: TutorialType</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1139.5" x2="1373.5" y1="80.5" y2="80.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1146.5" y="88.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="1158.5" y="94.7104">t: TutorialType</text><ellipse cx="1149.5" cy="121.1094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="68" x="1158.5" y="124.3198">start() : void</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1139.5" x2="1216" y1="107.707" y2="107.707"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="1216" y="111.0151">public method</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1297" x2="1373.5" y1="107.707" y2="107.707"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1146.5" y="147.7188"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="151" x="1158.5" y="153.9292">getConfigState() : boolean</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1146.5" y="160.5234"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="210" x="1158.5" y="166.7339">setConfigState(state: boolean) : void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1146.5" y="173.3281"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="1158.5" y="179.5386">show() : boolean</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1139.5" x2="1209.5" y1="137.3164" y2="137.3164"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="1209.5" y="140.6245">private methods</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1303.5" x2="1373.5" y1="137.3164" y2="137.3164"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1146.5" y="202.9375"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="84" x="1158.5" y="209.1479">tutorial() : void</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1139.5" x2="1207" y1="192.5352" y2="192.5352"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="99" x="1207" y="195.8433">abstract methods</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1306" x2="1373.5" y1="192.5352" y2="192.5352"/><!--MD5=[b51717a605764d924c74fe29f3a07c77]
+class TutorialType--><rect codeLine="18" fill="#FEFECE" filter="url(#f1midrd0fx4tqx)" height="86.4141" id="TutorialType" style="stroke:#A80036;stroke-width:1.5;" width="106" x="989.5" y="88.5"/><ellipse cx="1004.5" cy="104.5" fill="#EB937F" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1003.2969,105.375 L1004.75,105.375 L1004.75,105.4844 C1004.75,105.8906 1004.7813,106.0469 1004.8594,106.2031 C1005.0156,106.4531 1005.2969,106.6094 1005.5938,106.6094 C1005.8438,106.6094 1006.1094,106.4688 1006.2656,106.25 C1006.3906,106.0938 1006.4219,105.9375 1006.4219,105.4844 L1006.4219,103.5625 C1006.4219,103.4063 1006.4219,103.3594 1006.4063,103.2031 C1006.3438,102.7344 1006.0313,102.4219 1005.5781,102.4219 C1005.3281,102.4219 1005.0625,102.5625 1004.8906,102.7813 C1004.7813,102.9531 1004.75,103.1094 1004.75,103.5625 L1004.75,103.6875 L1003.2969,103.6875 L1003.2969,101.2813 L1007.2813,101.2813 L1007.2813,102.1406 C1007.2813,102.5469 1007.3125,102.7188 1007.3906,102.875 C1007.5625,103.125 1007.8438,103.2813 1008.125,103.2813 C1008.3906,103.2813 1008.6563,103.1406 1008.8281,102.9219 C1008.9375,102.75 1008.9688,102.6094 1008.9688,102.1406 L1008.9688,99.5938 L1001.3438,99.5938 C1000.9063,99.5938 1000.7813,99.6094 1000.625,99.7031 C1000.375,99.8594 1000.2188,100.1563 1000.2188,100.4375 C1000.2188,100.7188 1000.3594,100.9688 1000.5781,101.1406 C1000.7344,101.25 1000.9219,101.2813 1001.3438,101.2813 L1001.5938,101.2813 L1001.5938,107.7969 L1001.3438,107.7969 C1000.9375,107.7969 1000.7813,107.8125 1000.625,107.9219 C1000.375,108.0938 1000.2188,108.3594 1000.2188,108.6563 C1000.2188,108.9219 1000.3594,109.1719 1000.5781,109.3281 C1000.7188,109.4531 1000.9531,109.5 1001.3438,109.5 L1009.3438,109.5 L1009.3438,106.9219 C1009.3438,106.4844 1009.3125,106.3438 1009.2344,106.1875 C1009.0625,105.9375 1008.7813,105.7813 1008.5,105.7813 C1008.2344,105.7813 1007.9688,105.8906 1007.7969,106.1406 C1007.6875,106.2969 1007.6563,106.4375 1007.6563,106.9219 L1007.6563,107.7969 L1003.2969,107.7969 L1003.2969,105.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="74" x="1018.5" y="108.6543">TutorialType</text><line style="stroke:#A80036;stroke-width:1.5;" x1="990.5" x2="1094.5" y1="120.5" y2="120.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="35" x="995.5" y="134.7104">ZOOM</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="995.5" y="147.5151">EYETRACKING</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="79" x="995.5" y="160.3198">CODECHARTS</text><line style="stroke:#A80036;stroke-width:1.5;" x1="990.5" x2="1094.5" y1="166.9141" y2="166.9141"/><!--MD5=[626b00d2609f42ba755c8afb6d5f2b59]
+class Bild--><rect codeLine="31" fill="#FEFECE" filter="url(#f1midrd0fx4tqx)" height="73.6094" id="Bild" style="stroke:#A80036;stroke-width:1.5;" width="147" x="7" y="94.5"/><ellipse cx="65.25" cy="110.5" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M67.3281,112.3125 L67.7188,113.2969 L67.3281,113.2969 C66.875,113.2969 66.7656,113.3125 66.6094,113.4219 C66.3594,113.5781 66.2031,113.8594 66.2031,114.1563 C66.2031,114.4219 66.3438,114.6719 66.5625,114.8281 C66.7031,114.9531 66.9063,115 67.3281,115 L69.6875,115 C70.0469,115 70.2656,114.9688 70.4063,114.875 C70.6563,114.7344 70.8125,114.4375 70.8125,114.1563 C70.8125,113.875 70.6719,113.625 70.4531,113.4688 C70.2813,113.3281 70.125,113.2969 69.6563,113.2969 L66.2656,105.0938 L62.5938,105.0938 C62.1406,105.0938 62.0156,105.1094 61.8594,105.2031 C61.6094,105.375 61.4531,105.6563 61.4531,105.9375 C61.4531,106.2188 61.5938,106.4688 61.8125,106.6406 C61.9844,106.75 62.1563,106.7813 62.5938,106.7813 L63.6719,106.7813 L61.0313,113.2969 C60.6094,113.2969 60.4531,113.3125 60.2969,113.4219 C60.0469,113.5781 59.8906,113.8594 59.8906,114.1563 C59.8906,114.7188 60.2656,115 61.0156,115 L63.2813,115 C63.6406,115 63.8594,114.9688 63.9844,114.875 C64.25,114.7344 64.3906,114.4375 64.3906,114.1563 C64.3906,113.875 64.2656,113.625 64.0469,113.4531 C63.875,113.3281 63.7344,113.2969 63.2813,113.2969 L62.8906,113.2969 L63.2813,112.3125 L67.3281,112.3125 Z M66.625,110.6094 L63.9531,110.6094 L65.2969,107.3438 L66.625,110.6094 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="22" x="85.75" y="114.6543">Bild</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="153" y1="126.5" y2="126.5"/><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="153" y1="134.5" y2="134.5"/><ellipse cx="18" cy="145.5" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="121" x="27" y="148.7104">load(url: String) : void</text><ellipse cx="18" cy="158.3047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="72" x="27" y="161.5151">show() : void</text><!--MD5=[9bdf74ba08b45b42d4b5e25d73cb2a49]
+link TutorialType to Tutorial--><path codeLine="25" d="M1095.5,100.009 C1105.63,95.794 1116.52,92.459 1127.46,91.128 " fill="none" id="TutorialType-Tutorial" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1127.46" x2="1137.5" y1="91.128" y2="90.5"/><!--MD5=[fc4ffdc4bb2ac5a3cd1bd4c856213de4]
+link Tutorial to Config--><path codeLine="26" d="M1197.41,218.54 C1164.2,266.897 1125.1,323.837 1103.01,355.997 " fill="none" id="Tutorial-Config" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[c900c8497a661fa4184b5bb04c49372f]
+reverse link Bild to CodeChartsBild--><path codeLine="108" d="M118.482,185.042 C153.261,233.153 203.82,303.093 234.295,345.25 " fill="none" id="Bild-backto-CodeChartsBild" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="112.718,189.016,106.6735,168.707,124.063,180.814,112.718,189.016" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[1e1b7046ac2ce77f5695cfbd942bbe9e]
+reverse link Tutorial to CodeChartsTutorial--><path codeLine="109" d="M1113.13,222.15 C1053.06,258.308 1001.988,288.172 957.66,313.824 " fill="none" id="Tutorial-backto-CodeChartsTutorial" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="1109.57,216.122,1130.31,211.783,1116.8,228.109,1109.57,216.122" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[330c08158d1b261bc3f75486c3c78546]
+link CodeChartsCoordinator to CodeChartsBild--><path codeLine="113" d="M472.163,188.342 C442.314,207.117 410.091,229.139 382.5,252 C348.131,280.477 313.691,318.066 290.211,345.407 " fill="none" id="CodeChartsCoordinator-CodeChartsBild" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="383.7151,263.7672,392.4825,260.0815,388.6416,255.6321,383.7151,263.7672" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[af7fa7eefc847a19c654188e611c6a01]
+link CodeChartsCoordinator to CodeChartsRaster--><path codeLine="114" d="M472.181,218.491 C451.538,242.297 432.633,269.718 421.5,299 C392.014,376.554 407.315,471.567 425.853,538.779 " fill="none" id="CodeChartsCoordinator-CodeChartsRaster" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="425.7842,387.4485,429.9877,378.9173,424.1704,378.0759,425.7842,387.4485" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[acd6e22bd1b43ca41d1e169d29f8f975]
+link CodeChartsCoordinator to CodeChartsEingabefenster--><path codeLine="115" d="M659.5,167.5 C726.104,167.5 669.22,256.67 620.52,319.889 " fill="none" id="CodeChartsCoordinator-CodeChartsEingabefenster" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="669.2609,265.344,674.3497,257.3094,668.6552,255.8528,669.2609,265.344" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[45be10fb9057243d989f7112dab584ae]
+link CodeChartsCoordinator to CodeChartsTutorial--><path codeLine="116" d="M659.5,208.5 C673.776,208.5 721.033,254.321 763.543,298.8 " fill="none" id="CodeChartsCoordinator-CodeChartsTutorial" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="739.2761,263.7773,734.3714,255.629,730.5187,260.0681,739.2761,263.7773" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[430173a8cceee07f962d4a39f48ec6f9]
+link CodeChartsRaster to CodeChartsInternerSpeicher--><path codeLine="118" d="M455.5,711.007 C455.5,737.041 455.5,764.835 455.5,787.763 " fill="none" id="CodeChartsRaster-CodeChartsInternerSpeicher" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="460.5,744.5664,457.5611,753.6115,463.4389,753.6115,460.5,744.5664" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="10" x="469.5" y="754.0669">&gt;</text><!--MD5=[785a98a2d4f001b3a7e96305a4636287]
+link CodeChartsEingabefenster to CodeChartsRaster--><path codeLine="119" d="M540.29,445.122 C526.766,473.653 510.479,508.013 495.81,538.961 " fill="none" id="CodeChartsEingabefenster-CodeChartsRaster" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="519.3584,507.0181,525.8883,500.1036,520.5769,497.5859,519.3584,507.0181" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[98ba0babc1f2c9ceb0957566289f4661]
+link CodeChartsInternerSpeicher to SpeicherMedium--><path codeLine="124" d="M622.5,876 C686.224,876 578.834,934.0974 508.714,968.9332 " fill="none" id="CodeChartsInternerSpeicher-SpeicherMedium" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="595.6275,933.7292,604.492,930.2838,600.7739,925.7314,595.6275,933.7292" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="73" x="608.5" y="935.0669">saves Data</text><!--MD5=[ba0b6aad62bad149f99973f5ab313e4e]
+link CodeChartsCoordinator to Config--><path codeLine="126" d="M659.5,167.5 C825.445,167.5 992.764,298.769 1057.51,355.687 " fill="none" id="CodeChartsCoordinator-Config" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="942.9798,258.4292,949.9007,264.9524,952.4132,259.6386,942.9798,258.4292" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="100" x="956.5" y="265.0669">gets Initial Data</text><!--MD5=[78b9d5455f2a00feb190fad0b0e53366]
+@startuml
+' skinparam backgroundColor transparent
+'() System #DA70D5
+top to bottom direction
+
+' - - - TUTORIAL - - -
+abstract Tutorial<t: TutorialType> {
+  - t: TutorialType
+  __public method__
+  + start() : void
+  __private methods__
+  - getConfigState() : boolean
+  - setConfigState(state: boolean) : void
+  - show() : boolean
+  __abstract methods__
+  - {abstract} tutorial() : void
+}
+
+enum TutorialType {
+  ZOOM
+  EYETRACKING
+  CODECHARTS
+}
+
+' Interaktionen
+Tutorial::t -l- TutorialType
+Tutorial -d- Config
+
+
+' - - - BILD - - -
+
+abstract Bild {
+  + load(url: String) : void
+  + show() : void
+}
+
+' === CODE CHARTS ===
+package CodeCharts {
+
+    ' CodeCharts Tutorial 
+    class CodeChartsTutorial {
+      - t: TutorialType
+      __public method__
+      + start() : void
+      __private methods__
+      - getConfigState() : boolean
+      - setConfigState(state: boolean) : void
+      - show() : boolean
+      __abstract methods__
+      - {abstract} tutorial() : void
+    }
+  
+    ' CodeCharts Coordinator
+    class CodeChartsCoordinator {
+        - speed: float[2]
+        - isTutorial: boolean
+        - isRelative: boolean
+        - dimensions: int[2]
+        - strings: String[..]
+        __public method__
+        + startCodeCharts() : void
+        __private methods__
+        - loadConfigData() : boolean
+        - tryTutorial() : void
+    }
+
+    ' CodeCharts Interner Speicher
+    class CodeChartsInternerSpeicher {
+        __public method__
+        + addPic(pic: unknown) : void
+        + addSizeAndKord(size: int[2], coordinates: int[2]) : void
+        + saveData() : boolean
+    }
+
+    ' CodeCharts Bild
+    class CodeChartsBild {
+        ' Unsicher ob es sinnvoll ist das Bild vorzuladen
+        + load(url: String) : void
+        + show() : void
+    }
+
+    ' CodeCharts Raster
+    class CodeChartsRaster {
+        ' Unsicher ob es sinnvoll ist alle vorherigen Durchläufe auf einmal zu laden
+        - dimensions: int[2]
+        - strings: String[..]
+        - kords: int[2]
+        __public method__ 
+        + setData(dimensions: int[2], strings: String[..]):void
+        + show() : void
+        + calculate() : void
+        __private methods__
+        - loadPastRuns() : void
+        - sendData() : void
+    }
+
+    ' CodeCharts Eingabefenster
+    class CodeChartsEingabefenster {
+        __public method__
+        + show() : String
+        __private methods__
+        - checkButton() : boolean
+        - validateString(input: String): boolean
+        - ErrorMessage() : void
+    }
+
+
+    ' Vererbungen
+    Bild <|-d- CodeChartsBild
+    Tutorial <|-d- CodeChartsTutorial
+
+    ' Interaktionen
+    ' Bild & Raster mehrere Anbindungen (startCodeCharts, loadConfigData)
+    CodeChartsCoordinator - - CodeChartsBild : >
+    CodeChartsCoordinator - - CodeChartsRaster : >
+    CodeChartsCoordinator::startCodeCharts - - CodeChartsEingabefenster : >
+    CodeChartsCoordinator::tryTutorial - - CodeChartsTutorial : >
+    ' load & send Kante?
+    CodeChartsRaster - - CodeChartsInternerSpeicher : < >
+    CodeChartsEingabefenster - - CodeChartsRaster : >
+
+
+
+    ' Andere Module
+    CodeChartsInternerSpeicher::saveData - - SpeicherMedium : > saves Data
+    ' von startCodeCharts oder von loadConfigData
+    CodeChartsCoordinator::startCodeCharts - - Config : < gets Initial Data
+  
+}
+
+' Blackboxen / Andere Module
+package Config {}
+
+package SpeicherMedium {}
+@enduml
+
+@startuml
+top to bottom direction
+
+abstract Tutorial<t: TutorialType> {
+  - t: TutorialType
+  __public method__
+  + start() : void
+  __private methods__
+  - getConfigState() : boolean
+  - setConfigState(state: boolean) : void
+  - show() : boolean
+  __abstract methods__
+  - {abstract} tutorial() : void
+}
+
+enum TutorialType {
+  ZOOM
+  EYETRACKING
+  CODECHARTS
+}
+
+Tutorial::t -l- TutorialType
+Tutorial -d- Config
+
+
+
+abstract Bild {
+  + load(url: String) : void
+  + show() : void
+}
+
+package CodeCharts {
+
+    class CodeChartsTutorial {
+      - t: TutorialType
+      __public method__
+      + start() : void
+      __private methods__
+      - getConfigState() : boolean
+      - setConfigState(state: boolean) : void
+      - show() : boolean
+      __abstract methods__
+      - {abstract} tutorial() : void
+    }
+  
+    class CodeChartsCoordinator {
+        - speed: float[2]
+        - isTutorial: boolean
+        - isRelative: boolean
+        - dimensions: int[2]
+        - strings: String[..]
+        __public method__
+        + startCodeCharts() : void
+        __private methods__
+        - loadConfigData() : boolean
+        - tryTutorial() : void
+    }
+
+    class CodeChartsInternerSpeicher {
+        __public method__
+        + addPic(pic: unknown) : void
+        + addSizeAndKord(size: int[2], coordinates: int[2]) : void
+        + saveData() : boolean
+    }
+
+    class CodeChartsBild {
+        + load(url: String) : void
+        + show() : void
+    }
+
+    class CodeChartsRaster {
+        - dimensions: int[2]
+        - strings: String[..]
+        - kords: int[2]
+        __public method__ 
+        + setData(dimensions: int[2], strings: String[..]):void
+        + show() : void
+        + calculate() : void
+        __private methods__
+        - loadPastRuns() : void
+        - sendData() : void
+    }
+
+    class CodeChartsEingabefenster {
+        __public method__
+        + show() : String
+        __private methods__
+        - checkButton() : boolean
+        - validateString(input: String): boolean
+        - ErrorMessage() : void
+    }
+
+
+    Bild <|-d- CodeChartsBild
+    Tutorial <|-d- CodeChartsTutorial
+
+    CodeChartsCoordinator - - CodeChartsBild : >
+    CodeChartsCoordinator - - CodeChartsRaster : >
+    CodeChartsCoordinator::startCodeCharts - - CodeChartsEingabefenster : >
+    CodeChartsCoordinator::tryTutorial - - CodeChartsTutorial : >
+    CodeChartsRaster - - CodeChartsInternerSpeicher : < >
+    CodeChartsEingabefenster - - CodeChartsRaster : >
+
+
+
+    CodeChartsInternerSpeicher::saveData - - SpeicherMedium : > saves Data
+    CodeChartsCoordinator::startCodeCharts - - Config : < gets Initial Data
+  
+}
+
+package Config {}
+
+package SpeicherMedium {}
+@enduml
+
+PlantUML version 1.2021.13beta8(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
