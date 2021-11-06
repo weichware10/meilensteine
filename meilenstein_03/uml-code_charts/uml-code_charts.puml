@@ -111,8 +111,8 @@ package CodeCharts {
 
     ' Interaktionen
     ' Bild & Raster mehrere Anbindungen (startCodeCharts, loadConfigData)
-    CodeChartsCoordinator: -- CodeChartsBild : >
-    CodeChartsCoordinator: -- CodeChartsRaster : >
+    CodeChartsCoordinator -- CodeChartsBild : >
+    CodeChartsCoordinator -- CodeChartsRaster : >
     CodeChartsCoordinator::startCodeCharts -- CodeChartsEingabefenster : >
     CodeChartsCoordinator::tryTutorial -- CodeChartsTutorial : >
     ' load & send Kante?
