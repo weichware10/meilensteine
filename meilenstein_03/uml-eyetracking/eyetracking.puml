@@ -1,0 +1,59 @@
+@startuml
+' skinparam backgroundColor transparent
+() System #DA70D5
+top to bottom direction
+
+' === EYETRACKING ===
+package EYETRACKING {
+
+    ' Auge
+    class Auge {
+        - input camera
+        - get Eye() : void
+        - get Pupil() : void
+    }
+
+    ' Zoom Karte
+    class Karte {
+        - width: int
+        - height: int
+        __
+        + load grit
+    }
+  
+    ' Setup
+    class Setup {
+        - distance: float
+        - position: float
+        - angle_from _Auge
+        __private methods__
+        - calculate(input_pupil: position) : x,y
+        - save_in_results() : position
+    }
+
+    ' Results
+    class Results {
+        + send(position: x, y, time)
+    }
+
+
+    ' Vererbungen
+    Results <|-- Setup
+    Auge <|-- Setup
+    Karte <|-- Setup
+    
+
+    
+
+    ' Andere Module
+    Results::save -- SpeicherMedium : > saves Data (time / cordinates)
+    Karte -r- System : < screensize
+  
+}
+
+' Blackboxen / Andere Module
+
+
+
+package SpeicherMedium {}
+@enduml
