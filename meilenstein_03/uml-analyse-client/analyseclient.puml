@@ -11,11 +11,10 @@ package Analyse-Client{
     - analyzedData: List<String>
     __public methods__
     + getData(start: Date, end: Date, dataType: ToolType): boolean
-    + getDataForComp(start: Date, end: Date, dataType: ToolType): boolean
     + setAnalyseTypes(): boolean
-    + analyseData(): boolean
     + displayAnalyzedData(): void
     + export(): boolean
+    + analyseData(): boolean
   }
 
   ' Analyse
@@ -52,24 +51,16 @@ package Analyse-Client{
 
   ' Types
   class Types {
-    - heatmap: boolean
-    - compHeatmap: boolean
-    - verlauf: boolean
-    - relFrqImgArea: boolean
-    - viewTimeDistr: boolean
-    __public methods__
-    + Types(heatmap: boolean, compHeatmap: boolean, verlauf: boolean,
-     relFrqImgArea: boolean, viewTimeDistr: boolean)
-    + getHeatmap(): boolean
-    + getCompHeatmap(): boolean
-    + getVerlauf(): boolean
-    + getRelFrqImgArea(): boolean
-    + getViewTimeDistr(): boolean
+    + heatmap: boolean
+    + compHeatmap: boolean
+    + verlauf: boolean
+    + relFrqImgArea: boolean
+    + viewTimeDistr: boolean
   }
 
   ' Typen der erhobenen Daten
   enum ToolType {
-    ZOOM
+    ZOOMMAPS
     EYETRACKING
     CODECHARTS
   }
@@ -80,26 +71,21 @@ package Analyse-Client{
   Analyse <|-u- Diagramm
 
   ' Interaktionen
-  Client::getData -l- ToolType
-  Client::getDataForComp -l- ToolType
+  Client::getData -r- ToolType
   Client::analyseData -d- Heatmap 
   Client::analyseData -d- Verlauf
   Client::analyseData -d- Diagramm
+  Client -l- Types
 
   ' Andere Module
-  Client::getData -u- SpeicherMedium : > gets Data
-  Client::getDataForComp -u- SpeicherMedium : > gets Data
-  Client::export -r- PCSpeicher : > save to
+  Client::getData -u- SpeicherMedium : < gets Data
+  Client::export -u- PCSpeicher : > save to
 
 }
+
 ' Blackbox
 package SpeicherMedium {}
 
 package PCSpeicher {}
-
-'package GUI {}
-
-' Interaktion
-'Client::displayAnalyzedData -l- GUI : > output
 
 @enduml
