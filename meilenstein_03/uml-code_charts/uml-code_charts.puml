@@ -86,7 +86,8 @@ package CodeCharts {
         - strings: String[..]
         - kords: int[2]
         __public method__ 
-        + setData(dimensions: int[2], strings: String[..]):void
+        + setInput(input: String): void
+        + setData(dimensions: int[2], strings: String[..]): void
         + show() : void
         + calculate() : void
         __private methods__
@@ -110,13 +111,11 @@ package CodeCharts {
     Tutorial <|-d- CodeChartsTutorial
 
     ' Interaktionen
-    ' Bild & Raster mehrere Anbindungen (startCodeCharts, loadConfigData)
     CodeChartsCoordinator -- CodeChartsBild : >
     CodeChartsCoordinator -- CodeChartsRaster : >
     CodeChartsCoordinator::startCodeCharts -- CodeChartsEingabefenster : >
     CodeChartsCoordinator::loadConfigData -- CodeChartsInternerSpeicher : >
     CodeChartsCoordinator::tryTutorial -- CodeChartsTutorial : >
-    ' load & send Kante?
     CodeChartsRaster -- CodeChartsInternerSpeicher : <>
     CodeChartsEingabefenster -- CodeChartsRaster : >
 
@@ -124,7 +123,6 @@ package CodeCharts {
 
     ' Andere Module
     CodeChartsInternerSpeicher::saveData -- SpeicherMedium : > saves Data
-    ' von startCodeCharts oder von loadConfigData
     CodeChartsCoordinator::startCodeCharts -- Config : < gets Initial Data
   
 }
