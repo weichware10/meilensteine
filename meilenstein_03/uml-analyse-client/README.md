@@ -1,4 +1,4 @@
-# UML Diagramm {Modul}
+# UML Diagramm Datenanalyse Client
 
 ![Diagram](analyseclient.svg)
 
