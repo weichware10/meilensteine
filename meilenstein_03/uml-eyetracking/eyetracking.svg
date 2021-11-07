@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="400px" preserveAspectRatio="none" style="width:706px;height:400px;background:#FFFFFF;" version="1.1" viewBox="0 0 706 400" width="706px" zoomAndPan="magnify"><defs><filter height="300%" id="f1aufc53f1dmas" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[15e8d9eb20d97f96a8a970822392017a]
+cluster EYETRACKING--><polygon fill="#FFFFFF" filter="url(#f1aufc53f1dmas)" points="16,39.5659,131,39.5659,138,61.8628,503,61.8628,503,393.5659,16,393.5659,16,39.5659" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="138" y1="61.8628" y2="61.8628"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="109" x="20" y="54.561">EYETRACKING</text><!--MD5=[dbe15b140cda4176ff2227ff19165deb]
+class Auge--><rect codeLine="9" fill="#FEFECE" filter="url(#f1aufc53f1dmas)" height="86.4141" id="Auge" style="stroke:#A80036;stroke-width:1.5;" width="118" x="32" y="93.5659"/><ellipse cx="71.75" cy="109.5659" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M74.0938,105.2378 C73.1563,104.8003 72.5625,104.6597 71.6875,104.6597 C69.0625,104.6597 67.0625,106.7378 67.0625,109.4565 L67.0625,110.5815 C67.0625,113.1597 69.1719,115.0503 72.0625,115.0503 C73.2813,115.0503 74.4375,114.7534 75.1875,114.2065 C75.7656,113.8003 76.0938,113.3472 76.0938,112.9565 C76.0938,112.5034 75.7031,112.1128 75.2344,112.1128 C75.0156,112.1128 74.8125,112.1909 74.625,112.3784 C74.1719,112.8628 74.1719,112.8628 73.9844,112.9565 C73.5625,113.2222 72.875,113.3472 72.1094,113.3472 C70.0625,113.3472 68.7656,112.2534 68.7656,110.5503 L68.7656,109.4565 C68.7656,107.6753 70.0156,106.3628 71.75,106.3628 C72.3281,106.3628 72.9375,106.519 73.4063,106.769 C73.8906,107.0503 74.0625,107.269 74.1563,107.6753 C74.2188,108.0815 74.25,108.2065 74.3906,108.3315 C74.5313,108.4722 74.7656,108.5815 74.9844,108.5815 C75.25,108.5815 75.5156,108.4409 75.6875,108.2222 C75.7969,108.0659 75.8281,107.8784 75.8281,107.4565 L75.8281,106.0347 C75.8281,105.5972 75.8125,105.4722 75.7188,105.3159 C75.5625,105.0503 75.2813,104.9097 74.9844,104.9097 C74.6875,104.9097 74.4844,105.0034 74.2656,105.3159 L74.0938,105.2378 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="31" x="91.25" y="113.7202">Auge</text><line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="149" y1="125.5659" y2="125.5659"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40" y="133.5659"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="75" x="52" y="139.7764">input camera</text><line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="149" y1="146.3706" y2="146.3706"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40" y="154.3706"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="88" x="52" y="160.5811">get Eye() : void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40" y="167.1753"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="92" x="52" y="173.3857">get Pupil() : void</text><!--MD5=[bc149fc0d609a06700ade238e1b9b321]
+class Karte--><rect codeLine="16" fill="#FEFECE" filter="url(#f1aufc53f1dmas)" height="86.4141" id="Karte" style="stroke:#A80036;stroke-width:1.5;" width="83" x="185.5" y="93.5659"/><ellipse cx="209.05" cy="109.5659" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M211.3938,105.2378 C210.4563,104.8003 209.8625,104.6597 208.9875,104.6597 C206.3625,104.6597 204.3625,106.7378 204.3625,109.4565 L204.3625,110.5815 C204.3625,113.1597 206.4719,115.0503 209.3625,115.0503 C210.5813,115.0503 211.7375,114.7534 212.4875,114.2065 C213.0656,113.8003 213.3938,113.3472 213.3938,112.9565 C213.3938,112.5034 213.0031,112.1128 212.5344,112.1128 C212.3156,112.1128 212.1125,112.1909 211.925,112.3784 C211.4719,112.8628 211.4719,112.8628 211.2844,112.9565 C210.8625,113.2222 210.175,113.3472 209.4094,113.3472 C207.3625,113.3472 206.0656,112.2534 206.0656,110.5503 L206.0656,109.4565 C206.0656,107.6753 207.3156,106.3628 209.05,106.3628 C209.6281,106.3628 210.2375,106.519 210.7063,106.769 C211.1906,107.0503 211.3625,107.269 211.4563,107.6753 C211.5188,108.0815 211.55,108.2065 211.6906,108.3315 C211.8313,108.4722 212.0656,108.5815 212.2844,108.5815 C212.55,108.5815 212.8156,108.4409 212.9875,108.2222 C213.0969,108.0659 213.1281,107.8784 213.1281,107.4565 L213.1281,106.0347 C213.1281,105.5972 213.1125,105.4722 213.0188,105.3159 C212.8625,105.0503 212.5813,104.9097 212.2844,104.9097 C211.9875,104.9097 211.7844,105.0034 211.5656,105.3159 L211.3938,105.2378 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="32" x="224.95" y="113.7202">Karte</text><line style="stroke:#A80036;stroke-width:1.5;" x1="186.5" x2="267.5" y1="125.5659" y2="125.5659"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="193.5" y="133.5659"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="51" x="205.5" y="139.7764">width: int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="193.5" y="146.3706"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="57" x="205.5" y="152.5811">height: int</text><line style="stroke:#A80036;stroke-width:1.5;" x1="186.5" x2="267.5" y1="159.1753" y2="159.1753"/><ellipse cx="196.5" cy="170.1753" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="46" x="205.5" y="173.3857">load grit</text><!--MD5=[a541f3baafda59537ec3a67c6f74e0c5]
+class Setup--><rect codeLine="24" fill="#FEFECE" filter="url(#f1aufc53f1dmas)" height="120.8281" id="Setup" style="stroke:#A80036;stroke-width:1.5;" width="225" x="114.5" y="256.5659"/><ellipse cx="205.25" cy="272.5659" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M207.5938,268.2378 C206.6563,267.8003 206.0625,267.6597 205.1875,267.6597 C202.5625,267.6597 200.5625,269.7378 200.5625,272.4565 L200.5625,273.5815 C200.5625,276.1597 202.6719,278.0503 205.5625,278.0503 C206.7813,278.0503 207.9375,277.7534 208.6875,277.2065 C209.2656,276.8003 209.5938,276.3472 209.5938,275.9565 C209.5938,275.5034 209.2031,275.1128 208.7344,275.1128 C208.5156,275.1128 208.3125,275.1909 208.125,275.3784 C207.6719,275.8628 207.6719,275.8628 207.4844,275.9565 C207.0625,276.2222 206.375,276.3472 205.6094,276.3472 C203.5625,276.3472 202.2656,275.2534 202.2656,273.5503 L202.2656,272.4565 C202.2656,270.6753 203.5156,269.3628 205.25,269.3628 C205.8281,269.3628 206.4375,269.519 206.9063,269.769 C207.3906,270.0503 207.5625,270.269 207.6563,270.6753 C207.7188,271.0815 207.75,271.2065 207.8906,271.3315 C208.0313,271.4722 208.2656,271.5815 208.4844,271.5815 C208.75,271.5815 209.0156,271.4409 209.1875,271.2222 C209.2969,271.0659 209.3281,270.8784 209.3281,270.4565 L209.3281,269.0347 C209.3281,268.5972 209.3125,268.4722 209.2188,268.3159 C209.0625,268.0503 208.7813,267.9097 208.4844,267.9097 C208.1875,267.9097 207.9844,268.0034 207.7656,268.3159 L207.5938,268.2378 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="35" x="225.75" y="276.7202">Setup</text><line style="stroke:#A80036;stroke-width:1.5;" x1="115.5" x2="338.5" y1="288.5659" y2="288.5659"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="122.5" y="296.5659"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="80" x="134.5" y="302.7764">distance: float</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="122.5" y="309.3706"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="134.5" y="315.5811">position: float</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="122.5" y="322.1753"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="134.5" y="328.3857">angle_from _Auge</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="122.5" y="351.7847"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="199" x="134.5" y="357.9951">calculate(input_pupil: position) : x,y</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="122.5" y="364.5894"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="151" x="134.5" y="370.7998">save_in_results() : position</text><line style="stroke:#A80036;stroke-width:1.5;" x1="115.5" x2="180" y1="341.3823" y2="341.3823"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="180" y="344.6904">private methods</text><line style="stroke:#A80036;stroke-width:1.5;" x1="274" x2="338.5" y1="341.3823" y2="341.3823"/><!--MD5=[f856f85595ce4f8bf435bc42f531c692]
+class Results--><rect codeLine="34" fill="#FEFECE" filter="url(#f1aufc53f1dmas)" height="60.8047" id="Results" style="stroke:#A80036;stroke-width:1.5;" width="167" x="311.5" y="106.5659"/><ellipse cx="369.25" cy="122.5659" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M371.5938,118.2378 C370.6563,117.8003 370.0625,117.6597 369.1875,117.6597 C366.5625,117.6597 364.5625,119.7378 364.5625,122.4565 L364.5625,123.5815 C364.5625,126.1597 366.6719,128.0503 369.5625,128.0503 C370.7813,128.0503 371.9375,127.7534 372.6875,127.2065 C373.2656,126.8003 373.5938,126.3472 373.5938,125.9565 C373.5938,125.5034 373.2031,125.1128 372.7344,125.1128 C372.5156,125.1128 372.3125,125.1909 372.125,125.3784 C371.6719,125.8628 371.6719,125.8628 371.4844,125.9565 C371.0625,126.2222 370.375,126.3472 369.6094,126.3472 C367.5625,126.3472 366.2656,125.2534 366.2656,123.5503 L366.2656,122.4565 C366.2656,120.6753 367.5156,119.3628 369.25,119.3628 C369.8281,119.3628 370.4375,119.519 370.9063,119.769 C371.3906,120.0503 371.5625,120.269 371.6563,120.6753 C371.7188,121.0815 371.75,121.2065 371.8906,121.3315 C372.0313,121.4722 372.2656,121.5815 372.4844,121.5815 C372.75,121.5815 373.0156,121.4409 373.1875,121.2222 C373.2969,121.0659 373.3281,120.8784 373.3281,120.4565 L373.3281,119.0347 C373.3281,118.5972 373.3125,118.4722 373.2188,118.3159 C373.0625,118.0503 372.7813,117.9097 372.4844,117.9097 C372.1875,117.9097 371.9844,118.0034 371.7656,118.3159 L371.5938,118.2378 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="43" x="389.75" y="126.7202">Results</text><line style="stroke:#A80036;stroke-width:1.5;" x1="312.5" x2="477.5" y1="138.5659" y2="138.5659"/><line style="stroke:#A80036;stroke-width:1.5;" x1="312.5" x2="477.5" y1="146.5659" y2="146.5659"/><ellipse cx="322.5" cy="157.5659" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="141" x="331.5" y="160.7764">send(position: x, y, time)</text><polygon fill="#FFFFFF" filter="url(#f1aufc53f1dmas)" points="519,290.5659,657,290.5659,664,312.8628,671,312.8628,671,343.1597,519,343.1597,519,290.5659" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="519" x2="664" y1="312.8628" y2="312.8628"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="132" x="523" y="305.561">SpeicherMedium</text><!--MD5=[abea0b42432aea0f9ce66e53feda8644]
+entity System--><ellipse cx="531" cy="136.5659" fill="#DA70D5" filter="url(#f1aufc53f1dmas)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="504" y="166.561">System</text><!--MD5=[fcef8584b5d328f86a44cddecd557cfe]
+reverse link Results to Setup--><path codeLine="40" d="M349.975,185.4049 C329.444,207.2199 304.921,233.2749 283.195,256.3589 " fill="none" id="Results-backto-Setup" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="344.989,180.4889,363.794,170.7219,355.184,190.0839,344.989,180.4889" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e80f4773404a6f4428dd71720a6fdc82]
+reverse link Auge to Setup--><path codeLine="41" d="M135.452,195.9099 C150.253,215.3359 166.752,236.9909 181.622,256.5079 " fill="none" id="Auge-backto-Setup" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="129.783,200.0189,123.23,179.8679,140.919,191.5339,129.783,200.0189" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[0727fda445402017f6b799ec930aef21]
+reverse link Karte to Setup--><path codeLine="42" d="M227,200.0409 C227,218.3719 227,238.3639 227,256.5079 " fill="none" id="Karte-backto-Setup" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="220,199.8679,227,179.8679,234,199.8679,220,199.8679" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[8c71991090da22fa4a1caf09425f88e4]
+link Results to SpeicherMedium--><path codeLine="48" d="M432.15,170.7219 C470.897,205.3039 530.815,258.7809 566.149,290.3169 " fill="none" id="Results-SpeicherMedium" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="497.7303,221.4617,492.939,213.2462,489.0251,217.6315,497.7303,221.4617" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="195" x="503" y="222.6328">saves Data (time / cordinates)</text><!--MD5=[3274c2ec845e42ea41173bbea0edbcf3]
+link Karte to System--><path codeLine="49" d="M240.906,93.3359 C250.126,72.2349 264.557,48.8109 286,36.5659 C327.875,12.6519 464.579,7.4249 503,36.5659 C531.729,58.3559 532.659,107.1339 531.691,127.4319 " fill="none" id="Karte-System" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="353.534,14.55,362.1753,18.5223,362.8598,12.6845,353.534,14.55" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="68" x="367.5" y="19.6328">screensize</text><!--MD5=[22b6e7097dba7259b3d7ca6a96e63804]
+@startuml
+' skinparam backgroundColor transparent
+() System #DA70D5
+top to bottom direction
+
+' === EYETRACKING ===
+package EYETRACKING {
+
+    ' Auge
+    class Auge {
+        - input camera
+        - get Eye() : void
+        - get Pupil() : void
+    }
+
+    ' Zoom Karte
+    class Karte {
+        - width: int
+        - height: int
+        __
+        + load grit
+    }
+  
+    ' Setup
+    class Setup {
+        - distance: float
+        - position: float
+        - angle_from _Auge
+        __private methods__
+        - calculate(input_pupil: position) : x,y
+        - save_in_results() : position
+    }
+
+    ' Results
+    class Results {
+        + send(position: x, y, time)
+    }
+
+
+    ' Vererbungen
+    Results <|- - Setup
+    Auge <|- - Setup
+    Karte <|- - Setup
+    
+
+    
+
+    ' Andere Module
+    Results::save - - SpeicherMedium : > saves Data (time / cordinates)
+    Karte -r- System : < screensize
+  
+}
+
+' Blackboxen / Andere Module
+
+
+
+package SpeicherMedium {}
+@enduml
+
+@startuml
+() System #DA70D5
+top to bottom direction
+
+package EYETRACKING {
+
+    class Auge {
+        - input camera
+        - get Eye() : void
+        - get Pupil() : void
+    }
+
+    class Karte {
+        - width: int
+        - height: int
+        __
+        + load grit
+    }
+  
+    class Setup {
+        - distance: float
+        - position: float
+        - angle_from _Auge
+        __private methods__
+        - calculate(input_pupil: position) : x,y
+        - save_in_results() : position
+    }
+
+    class Results {
+        + send(position: x, y, time)
+    }
+
+
+    Results <|- - Setup
+    Auge <|- - Setup
+    Karte <|- - Setup
+    
+
+    
+
+    Results::save - - SpeicherMedium : > saves Data (time / cordinates)
+    Karte -r- System : < screensize
+  
+}
+
+
+
+
+package SpeicherMedium {}
+@enduml
+
+PlantUML version 1.2021.14beta2(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
