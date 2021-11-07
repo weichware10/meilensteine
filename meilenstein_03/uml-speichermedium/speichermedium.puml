@@ -1,0 +1,60 @@
+@startuml speichermedium
+' === Speichermedium ===
+package Speichermedium {
+      ' SpeicherUtilitys
+      class SpeicherUtilitys {
+         - Location: String
+         __public method__
+         + deleteData(data_client_input: String) : void
+         + searchData(data_client_input: String) : Data
+         + saveData(data: Data) : void
+         + setLocation(config_input: String) : void
+         + getLocation() : void
+     }
+
+      interface Data {
+         + type: SpeicherType
+         + config_id: int
+      }
+
+      note right of Data
+         Beinhaltet dann die Struktur/Variablen für die verschiedenen Daten, 
+         die abgespeichert werden
+      end note
+
+      ' SpeicherType
+      enum SpeicherType {
+         ZOOM
+         EYETRACKING
+         CODECHARTS
+      }
+
+      ' Interaktionen
+      SpeicherType -- Data::type
+      Data -- SpeicherUtilitys
+
+     ' Andere Module
+     SpeicherUtilitys::Location -- Config : < Location
+     SpeicherUtilitys::saveData -- CodeCharts : < Data
+     SpeicherUtilitys::saveData -- ZoomMaps : < Data
+     SpeicherUtilitys::saveData -- EyeTracking : < Data
+     SpeicherUtilitys::searchData -- AnalyseClient : Datenanfrage und Ausgabe
+     SpeicherUtilitys::deleteData -- AnalyseClient : < Löschanfrage
+     Data -- CodeCharts : > Layout
+     Data -- ZoomMaps : > Layout
+     Data -- EyeTracking : > Layout
+}
+
+
+' Blackboxen / Andere Module
+ package Config {}
+
+ package CodeCharts {}
+
+ package ZoomMaps {}
+
+ package EyeTracking {}
+
+ package AnalyseClient {}
+
+@enduml
