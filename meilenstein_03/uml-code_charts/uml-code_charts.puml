@@ -114,6 +114,7 @@ package CodeCharts {
     CodeChartsCoordinator -- CodeChartsBild : >
     CodeChartsCoordinator -- CodeChartsRaster : >
     CodeChartsCoordinator::startCodeCharts -- CodeChartsEingabefenster : >
+    CodeChartsCoordinator::loadConfigData -- CodeChartsInternerSpeicher : >
     CodeChartsCoordinator::tryTutorial -- CodeChartsTutorial : >
     ' load & send Kante?
     CodeChartsRaster -- CodeChartsInternerSpeicher : <>
