@@ -1,4 +1,16 @@
 @startuml config
+
+enum ToolTypes {
+  ZOOMMAPS
+  CODECHARTS
+  EYETRACKING
+}
+
+package ZoomMaps {}
+package CodeCharts {}
+package EyeTracking {}
+package Speicher {}
+
 package config {
   class ConfigClient {
     # configuration : Configuration
@@ -33,34 +45,39 @@ package config {
     + eye_tracking: EyetrackingConfiguration
   }
   class GeneralConfiguration {
-    + zoom_maps_enabled: boolean
-    + code_charts_enabled: boolean
-    + eye_tracking_enabled: boolean
-    + save_location: String
+    + tools : ToolTypes[0..3]
+    + save_location : String
   }
   class ZoomMapsConfiguration {
-    + image_url: String
-    + speed: float
+    + image_url : String
+    + tutorial : boolean
+    + speed : float
   }
   class CodeChartsConfiguration {
-    + image_url: String
+    + image_url : String
+    + tutorial : boolean
+    + strings : String[*]
+    + initial_size : float
+    + timings : float[2]
   }
   class EyetrackingConfiguration {
-    image_url: String
+    + image_url : String
+    + tutorial : boolean
   }
   abstract ToolConfiguration {
-    + {abstract} image_url: String
+    + {abstract} image_url : String
+    + {abstract} tutorial : boolean
   }
 
-  ConfigClient ..> Configuration
+  ' ConfigClient ..> Configuration
 
-  ConfigClient -u- ConfigLoader : < lädt Konfiguration
+  ConfigClient o-- ConfigLoader : < lädt Konfiguration
   ' ConfigLoader ..> Configuration
 
-  ConfigClient -u- ConfigWriter : < schreibt Konfiguration
+  ConfigClient o-- ConfigWriter : < schreibt Konfiguration
   ' ConfigWriter ..> Configuration
 
-  ConfigClient -u- ConfigGUI : < graphische Benutzeroberfläche
+  ConfigClient <-l- ConfigGUI : < graphische Benutzeroberfläche
 
   Configuration ..> GeneralConfiguration
   Configuration ..> ZoomMapsConfiguration
@@ -71,4 +88,8 @@ package config {
   CodeChartsConfiguration --|> ToolConfiguration
   EyetrackingConfiguration --|> ToolConfiguration
 }
+ConfigClient -- ZoomMaps
+ConfigClient -- CodeCharts
+ConfigClient -- EyeTracking
+ConfigClient -- Speicher
 @enduml
