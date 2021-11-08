@@ -17,7 +17,7 @@ link ZoomInput to ZoomCalculator--><path codeLine="94" d="M1098.76,358.043 C1093
 link ZoomCalculator to ZoomBild--><path codeLine="95" d="M800,512.685 C826.851,512.685 813.401,543.468 825,567.685 C853.161,626.483 825.806,698.685 891,698.685 " fill="none" id="ZoomCalculator-ZoomBild" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="844.1973,610.7427,842.8622,601.3263,837.5824,603.9094,844.1973,610.7427" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="851" y="610.7519">moves</text><!--MD5=[ab94cbc2495622a03fec4b24390f5618]
 link ZoomCalculator to SpeicherMedium--><path codeLine="98" d="M546,553.685 C461.948,553.685 378.276,615.672 336.464,651.9921 " fill="none" id="ZoomCalculator-SpeicherMedium" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="406.4734,608.3751,415.9104,607.1939,413.4138,601.8726,406.4734,608.3751" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="73" x="420" y="610.7519">saves Data</text><!--MD5=[1dd3167bd21ea9adc9b14ed1a4dd4238]
 link Config to ZoomCalculator--><path codeLine="99" d="M64.3537,148.422 C73.966,166.666 88.578,190.954 106,208.685 C265.674,371.194 318.173,471.685 546,471.685 " fill="none" id="Config-ZoomCalculator" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="266.1516,330.5378,260.2791,323.0569,257.0035,327.9374,266.1516,330.5378" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39" x="271" y="332.2519">speed</text><!--MD5=[917d2dfaeb525f74b5c3c05af4a701f0]
-link ZoomInput to System--><path codeLine="100" d="M1213.46,327.685 C1252.66,327.685 1300.94,327.685 1320.8,327.685 " fill="none" id="ZoomInput-System" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1240.5,316.2514,1231.4549,313.3125,1231.4549,319.1903,1240.5,316.2514" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="58" x="1244.5" y="320.7519">listens to</text><!--MD5=[20105382e4288f19da5b8bb2bbd4879d]
+link ZoomInput to System--><path codeLine="100" d="M1213.46,327.685 C1252.66,327.685 1300.94,327.685 1320.8,327.685 " fill="none" id="ZoomInput-System" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1240.5,316.2514,1231.4549,313.3125,1231.4549,319.1903,1240.5,316.2514" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="58" x="1244.5" y="320.7519">listens to</text><!--MD5=[2aefc51d72ab613d6ce20993ffa2e065]
 @startuml
 ' skinparam backgroundColor transparent
 () System #DA70D5
@@ -222,7 +222,7 @@ package Config {}
 package SpeicherMedium {}
 @enduml
 
-PlantUML version 1.2021.13beta8(Unknown compile time)
+PlantUML version 1.2021.14beta2(Unknown compile time)
 (GPL source distribution)
 Java Runtime: Java(TM) SE Runtime Environment
 JVM: Java HotSpot(TM) 64-Bit Server VM
