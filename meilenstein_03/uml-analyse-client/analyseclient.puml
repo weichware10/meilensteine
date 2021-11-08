@@ -79,15 +79,28 @@ package Analyse-Client{
 
 }
 
-' Typen der erhobenen Daten
-enum ToolType {
-  ZOOMMAPS
-  EYETRACKING
-  CODECHARTS
-}
-
 ' Blackbox
 package SpeicherMedium {}
+
+package DataStructure {
+  
+  ' Typen der erhobenen Daten
+  enum ToolType {
+    ZOOMMAPS
+    EYETRACKING
+    CODECHARTS
+  }
+
+  ' Daten
+  class Data {
+    + type: ToolType
+    + data: unknown
+    + config_id: int
+  }
+
+  ' Interaktionen
+  Data::type -l- ToolType
+}
 
 () System #DA70D5
 
