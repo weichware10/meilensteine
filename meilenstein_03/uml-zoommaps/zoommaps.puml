@@ -4,8 +4,8 @@
 top to bottom direction
 
 ' --- TUTORIAL ---
-abstract Tutorial<t: TutorialType> {
-  - t: TutorialType
+abstract Tutorial<t: ToolType> {
+  - t: ToolType
   __public method__
   + start() : void
   __private methods__
@@ -16,7 +16,7 @@ abstract Tutorial<t: TutorialType> {
   - {abstract} tutorial() : void
 }
 
-enum ToolType {
+enum {
   ZOOM
   EYETRACKING
   CODECHARTS
