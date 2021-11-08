@@ -3,6 +3,7 @@
 ![UML-Diagramm](gesamt.svg)
 ---
 ## Was ist seit dem letzten Meilenstein passiert ?
+- Besprechung am 03.11.2021 über die Vorgehensweise für diesen Meilenstein
 
 ## Was waren die Herausforderungen und Probleme ? Wie wurden sie gelöst ?
 
