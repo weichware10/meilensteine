@@ -20,7 +20,7 @@
 | --- | --------- |
 |Arbeit mit PlantUML     |Bestimmung der Datentypen gewisser Attribute und Methoden           |
 |Entwurf der Klassen aufgrund guter Vorarbeit (CRC-Karten)|In manchen Gruppen musste die bei den CRC-Karten überlegte Struktur nochmals umstrukturiert werden|
-|Gute Kommunikation innerhalb der Modulgruppen||
+|Gute Kommunikation innerhalb der Modulgruppen|Interfaces falsch verstanden rip|
 
 ## Was haben Sie gelernt ?
 
