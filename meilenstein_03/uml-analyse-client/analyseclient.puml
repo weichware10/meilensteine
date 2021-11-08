@@ -7,7 +7,7 @@ package Analyse-Client{
   class Client {
     - data: Data
     - dataForComp: Data
-    - analyseTypes: Types
+    - analyseTypes: List<Types>
     - analyzedData: List<String>
     __public methods__
     + getData(start: Date, end: Date, dataType: ToolType): boolean
@@ -50,19 +50,19 @@ package Analyse-Client{
   }
 
   ' Types
-  class Types {
-    + heatmap: boolean
-    + compHeatmap: boolean
-    + verlauf: boolean
-    + relFrqImgArea: boolean
-    + viewTimeDistr: boolean
+  enum Types {
+    HEATMAP
+    COMPHEATMAP
+    VERLAUF
+    RELFRQIMGAREA
+    VIEWTIMEDISTR
   }
 
-  ' Typen der erhobenen Daten
-  enum ToolType {
-    ZOOMMAPS
-    EYETRACKING
-    CODECHARTS
+  ' ClientGUI
+  class ClientGUI {
+    - client: Client
+    __public method__
+    + showClientGUI(): void
   }
 
   ' Vererbung
@@ -71,35 +71,30 @@ package Analyse-Client{
   Analyse <|-u- Diagramm
 
   ' Interaktionen
-  Client::getData -r- ToolType
-  Client::analyseData -d- Heatmap 
-  Client::analyseData -d- Verlauf
-  Client::analyseData -d- Diagramm
+  Client -d-> Heatmap 
+  Client -d-> Verlauf
+  Client -d-> Diagramm
   Client -l- Types
+  Client <-r- ClientGUI : < graphische Benutzeroberfläche
 
   ' Andere Module
-  Client::getData -u- SpeicherMedium : < gets Data
-  Client::export -u- PCSpeicher : > save to
+  Client -u- SpeicherMedium : < gets Data
+}
 
+' Typen der erhobenen Daten
+enum ToolType {
+  ZOOMMAPS
+  EYETRACKING
+  CODECHARTS
 }
 
 ' Blackbox
+package SpeicherMedium {}
 
-package PCSpeicher {}
-
-package SpeicherMedium {
-  
-  ' Data
-  class Data {
-    - type: SpeicherType
-    - data: unknown
-    - picture: String
-    - configData: unknown
-  }
-}
+() System
 
 ' Interaktionen
-Client -u- Data
-
+Client::getData -u- ToolType
+Client::export -- System: > save to 
 
 @enduml
