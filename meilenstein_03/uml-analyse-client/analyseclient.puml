@@ -44,7 +44,7 @@ package Analyse-Client{
     __public methods__
     + createRelFreqImgArea(data: Data): String
     + createViewTimeDistr(data: Data): String
-    __private method__
+    __private methods__
     - calcViewTimeDistr(): float[4]
     - drawDiagramm(diagrammData: float[4], type: int): String
   }
