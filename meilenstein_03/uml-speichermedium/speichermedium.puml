@@ -12,8 +12,9 @@ package Speichermedium {
          + getLocation() : void
      }
 
-      interface Data {
+      class Data {
          + type: SpeicherType
+         + data: unknown
          + config_id: int
       }
 
