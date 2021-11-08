@@ -23,8 +23,8 @@ package Speichermedium {
          die abgespeichert werden
       end note
 
-      ' SpeicherType
-      enum SpeicherType {
+      ' ToolType
+      enum ToolType {
          ZOOM
          EYETRACKING
          CODECHARTS
