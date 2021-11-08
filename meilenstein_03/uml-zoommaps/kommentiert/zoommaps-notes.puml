@@ -16,7 +16,7 @@ abstract Tutorial<t: TutorialType> {
   - {abstract} tutorial() : void
 }
 
-enum TutorialType {
+enum ToolType {
   ZOOM
   EYETRACKING
   CODECHARTS
@@ -35,7 +35,7 @@ note left of Tutorial::tutorial
 end note
 
 ' Interaktionen
-Tutorial::t -r- TutorialType
+Tutorial::t -r- ToolType
 Tutorial -l- Config
 
 
