@@ -23,15 +23,10 @@ package Speichermedium {
          die abgespeichert werden
       end note
 
-      ' ToolType
-      enum ToolType {
-         ZOOM
-         EYETRACKING
-         CODECHARTS
-      }
+      
 
       ' Interaktionen
-      SpeicherType -- Data::type
+      
       Data -- SpeicherUtilities
 
      ' Andere Module
@@ -42,6 +37,14 @@ package Speichermedium {
      SpeicherUtilities -- AnalyseClient
 }
 
+ToolType -- Data::type
+
+' ToolType
+      enum ToolType {
+         ZOOM
+         EYETRACKING
+         CODECHARTS
+      }
 
 ' Blackboxen / Andere Module
  package Config {}
