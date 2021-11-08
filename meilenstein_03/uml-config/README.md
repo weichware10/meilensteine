@@ -1,6 +1,6 @@
-# UML Diagramm {Modul}
+# UML Diagramm Config
 
-![Diagram]({modul}.svg)
+![Diagram](config.svg)
 
 ---
 ## Notizen
