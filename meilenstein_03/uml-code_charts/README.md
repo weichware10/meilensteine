@@ -1,4 +1,4 @@
-# UML Diagramm {Modul}
+# UML Diagramm CodeCharts
 
 ![Diagram]({modul}.svg)
 
