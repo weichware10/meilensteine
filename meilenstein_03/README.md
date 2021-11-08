@@ -29,8 +29,8 @@
 ## Was haben Sie gelernt ?
 - Nutzung von PlantUML
 - Grobe Strukturen (CRC) spezifizieren und gegebenenfalls nochmals abändern
-- Einabeitung in neue Modulgruppen, bzw. andere Gruppenmitglieder beim Einarbeiten unterstützen
-- Unklarheiten sollten gleich zu Beginn beseitigt werden, anstatt mit falschen Annahmen zu arbeiten
+- Einarbeitung in neue Modulgruppen, bzw. andere Gruppenmitglieder beim Einarbeiten unterstützen
+- Unklarheiten sollten gleich zu Beginn beseitigt werden, anstatt dass mit falschen Annahmen gearbeitet wird
 
 ## Was würden sie beim nächsten Mal anders machen ?
 - Bei Unklarheiten bzgl. einiger Begriffe (hier: Interfaces) sich zu Beginn mit anderen Gruppen absprechen um so unnötige Arbeit und nachträgliche Veränerungen zu vermeiden
