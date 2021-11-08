@@ -1,0 +1,74 @@
+@startuml config
+package config {
+  class ConfigClient {
+    # configuration : Configuration
+    + getConfig() : Configuration
+    + getString(category: String, option: String) : String
+    + getInt(category: String, option: String) : int
+    + getFloat(category: String, option: String) : float
+    + getBool(category: String, option: String) : boolean
+    + setString(category: String, option: String, value: String)
+    + setInt(category: String, option: String, value: Int)
+    + setFloat(category: String, option: String, value: float)
+    + setBool(category: String, option: String)
+  }
+
+  class ConfigLoader {
+    + loadConfiguration(location: String) : Configuration
+  }
+
+  class ConfigWriter {
+    + writeConfiguration(location: String, configuration: Configuration) : boolean
+  }
+
+  class ConfigGUI {
+    - configuration_state: Configuration
+    + showEditor() : void
+  }
+
+  class Configuration {
+    + general: GeneralConfiguration
+    + zoom_maps: ZoomMapsConfiguration
+    + code_charts: CodeChartsConfiguration
+    + eye_tracking: EyetrackingConfiguration
+  }
+  class GeneralConfiguration {
+    + zoom_maps_enabled: boolean
+    + code_charts_enabled: boolean
+    + eye_tracking_enabled: boolean
+    + save_location: String
+  }
+  class ZoomMapsConfiguration {
+    + image_url: String
+    + speed: float
+  }
+  class CodeChartsConfiguration {
+    + image_url: String
+  }
+  class EyetrackingConfiguration {
+    image_url: String
+  }
+  abstract ToolConfiguration {
+    + {abstract} image_url: String
+  }
+
+  ConfigClient ..> Configuration
+
+  ConfigClient -u- ConfigLoader : < lädt Konfiguration
+  ' ConfigLoader ..> Configuration
+
+  ConfigClient -u- ConfigWriter : < schreibt Konfiguration
+  ' ConfigWriter ..> Configuration
+
+  ConfigClient -u- ConfigGUI : < graphische Benutzeroberfläche
+
+  Configuration ..> GeneralConfiguration
+  Configuration ..> ZoomMapsConfiguration
+  Configuration ..> CodeChartsConfiguration
+  Configuration ..> EyetrackingConfiguration
+
+  ZoomMapsConfiguration --|> ToolConfiguration
+  CodeChartsConfiguration --|> ToolConfiguration
+  EyetrackingConfiguration --|> ToolConfiguration
+}
+@enduml
