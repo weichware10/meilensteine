@@ -12,22 +12,7 @@ package Speichermedium {
          + getLocation() : void
      }
 
-      class Data {
-         + type: SpeicherType
-         + data: unknown
-         + config_id: int
-      }
-
-      note right of Data
-         Beinhaltet dann die Struktur/Variablen für die verschiedenen Daten, 
-         die abgespeichert werden
-      end note
-
       
-
-      ' Interaktionen
-      
-      Data -- SpeicherUtilities
 
      ' Andere Module
      SpeicherUtilities::Location -- Config : < Location
@@ -36,6 +21,25 @@ package Speichermedium {
      SpeicherUtilities::saveData -- EyeTracking : < Data
      SpeicherUtilities -- AnalyseClient
 }
+
+package LayoutData {
+
+class Data {
+   + type: SpeicherType
+   + data: unknown
+   + config_id: int
+}
+
+note right of Data
+   Beinhaltet dann die Struktur/Variablen für die verschiedenen Daten, 
+   die abgespeichert werden
+end note
+
+      
+
+' Interaktionen
+      
+Data -- SpeicherUtilities
 
 ToolType -- Data::type
 
@@ -46,6 +50,7 @@ ToolType -- Data::type
          CODECHARTS
       }
 
+}
 ' Blackboxen / Andere Module
  package Config {}
 
