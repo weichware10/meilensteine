@@ -84,8 +84,22 @@ package Analyse-Client{
 }
 
 ' Blackbox
-package SpeicherMedium {}
 
 package PCSpeicher {}
+
+package SpeicherMedium {
+  
+  ' Data
+  class Data {
+    - type: SpeicherType
+    - data: unknown
+    - picture: String
+    - configData: unknown
+  }
+}
+
+' Interaktionen
+Client -u- Data
+
 
 @enduml
