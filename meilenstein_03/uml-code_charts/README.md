@@ -1,6 +1,6 @@
 # UML Diagramm CodeCharts
 
-![Diagram]({modul}.svg)
+![Diagram](code_charts.svg)
 
 ---
 ## Notizen
