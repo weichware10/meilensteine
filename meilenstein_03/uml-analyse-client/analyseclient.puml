@@ -7,7 +7,7 @@ package Analyse-Client{
   class Client {
     - data: Data
     - dataForComp: Data
-    - analyseTypes: List<Types>
+    - analyseTypes: List<AnalyseType>
     - analyzedData: List<String>
     __public methods__
     + getData(start: Date, end: Date, dataType: ToolType): boolean
@@ -49,8 +49,8 @@ package Analyse-Client{
     - drawDiagramm(diagrammData: float[4], type: int): String
   }
 
-  ' Types
-  enum Types {
+  ' Type
+  enum AnalyseType {
     HEATMAP
     COMPHEATMAP
     VERLAUF
@@ -74,11 +74,9 @@ package Analyse-Client{
   Client -d-> Heatmap 
   Client -d-> Verlauf
   Client -d-> Diagramm
-  Client -l- Types
+  Client -l- AnalyseType
   Client <-r- ClientGUI : < graphische Benutzeroberfläche
 
-  ' Andere Module
-  Client -u- SpeicherMedium : < gets Data
 }
 
 ' Typen der erhobenen Daten
@@ -91,10 +89,11 @@ enum ToolType {
 ' Blackbox
 package SpeicherMedium {}
 
-() System
+() System #DA70D5
 
 ' Interaktionen
 Client::getData -u- ToolType
-Client::export -- System: > save to 
+Client::export -- System: > save to
+Client -u- SpeicherMedium : < gets Data
 
 @enduml
