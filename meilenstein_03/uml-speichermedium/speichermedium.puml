@@ -1,8 +1,8 @@
 @startuml speichermedium
 ' === Speichermedium ===
 package Speichermedium {
-      ' SpeicherUtilitys
-      class SpeicherUtilitys {
+      ' SpeicherUtilities
+      class SpeicherUtilities {
          - Location: String
          __public method__
          + deleteData(data_client_input: String) : void
@@ -31,18 +31,14 @@ package Speichermedium {
 
       ' Interaktionen
       SpeicherType -- Data::type
-      Data -- SpeicherUtilitys
+      Data -- SpeicherUtilities
 
      ' Andere Module
-     SpeicherUtilitys::Location -- Config : < Location
-     SpeicherUtilitys::saveData -- CodeCharts : < Data
-     SpeicherUtilitys::saveData -- ZoomMaps : < Data
-     SpeicherUtilitys::saveData -- EyeTracking : < Data
-     SpeicherUtilitys::searchData -- AnalyseClient : Datenanfrage und Ausgabe
-     SpeicherUtilitys::deleteData -- AnalyseClient : < Löschanfrage
-     Data -- CodeCharts : > Layout
-     Data -- ZoomMaps : > Layout
-     Data -- EyeTracking : > Layout
+     SpeicherUtilities::Location -- Config : < Location
+     SpeicherUtilities::saveData -- CodeCharts : < Data
+     SpeicherUtilities::saveData -- ZoomMaps : < Data
+     SpeicherUtilities::saveData -- EyeTracking : < Data
+     SpeicherUtilities -- AnalyseClient
 }
 
 
