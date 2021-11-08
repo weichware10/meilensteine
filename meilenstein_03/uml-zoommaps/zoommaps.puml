@@ -16,7 +16,7 @@ abstract Tutorial<t: ToolType> {
   - {abstract} tutorial() : void
 }
 
-enum {
+enum ToolType {
   ZOOM
   EYETRACKING
   CODECHARTS
