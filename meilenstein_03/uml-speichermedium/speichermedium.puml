@@ -22,10 +22,10 @@ package Speichermedium {
      SpeicherUtilities -- AnalyseClient
 }
 
-package LayoutData {
+package DataStructure {
 
 class Data {
-   + type: SpeicherType
+   + type: ToolType
    + data: unknown
    + config_id: int
 }
