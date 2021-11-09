@@ -6,8 +6,8 @@ package Speichermedium {
          - Location: String
          __public method__
          + deleteData(data_client_input: String) : void
-         + searchData(data_client_input: String) : Data
-         + saveData(data: Data) : void
+         + searchData(data_client_input: String) : Util.Data
+         + saveData(data: Util.Data) : void
          + setLocation(config_input: String) : void
          + getLocation() : void
      }
@@ -38,8 +38,6 @@ end note
       
 
 ' Interaktionen
-      
-Data -- SpeicherUtilities
 ToolType -- Data::type
 
 ' ToolType
