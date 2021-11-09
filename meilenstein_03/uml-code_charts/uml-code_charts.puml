@@ -3,43 +3,10 @@
 '() System #DA70D5
 top to bottom direction
 
-' --- TUTORIAL ---
-abstract Tutorial<t: TutorialType> {
-  - t: TutorialType
-  __public method__
-  + start() : void
-  __private methods__
-  - getConfigState() : boolean
-  - setConfigState(state: boolean) : void
-  - show() : boolean
-  __abstract methods__
-  - {abstract} tutorial() : void
-}
-
-enum TutorialType {
-  ZOOM
-  EYETRACKING
-  CODECHARTS
-}
-
-' Interaktionen
-Tutorial::t -l- TutorialType
-Tutorial -d- Config
-
-
-' --- BILD ---
-
-abstract Bild {
-  + load(url: String) : void
-  + show() : void
-}
-
-' === CODE CHARTS ===
-package CodeCharts {
-
-    ' CodeCharts Tutorial 
-    class CodeChartsTutorial {
-      - t: TutorialType
+package Util {
+    ' --- TUTORIAL ---
+    abstract Tutorial<t: ToolType> {
+      - t: ToolType
       __public method__
       + start() : void
       __private methods__
@@ -48,6 +15,40 @@ package CodeCharts {
       - show() : boolean
       __abstract methods__
       - {abstract} tutorial() : void
+    }
+
+    enum ToolType {
+      ZOOM
+      EYETRACKING
+      CODECHARTS
+    }
+
+    ' Interaktionen
+    Tutorial -u- ToolType
+    Data -r- ToolType
+    Tutorial -d- Config
+
+
+    ' --- BILD ---
+
+    abstract Bild {
+      + load(url: String) : void
+      + show() : void
+    }
+
+    class Data<t: ToolType> {
+        + t: ToolType
+        + data: unknown
+        + config_id: int
+    }
+}
+
+' === CODE CHARTS ===
+package CodeCharts {
+
+    ' CodeCharts Tutorial 
+    class CodeChartsTutorial {
+      - tutorial() : void
     }
   
     ' CodeCharts Coordinator
@@ -74,8 +75,6 @@ package CodeCharts {
 
     ' CodeCharts Bild
     class CodeChartsBild {
-        + load(url: String) : void
-        + show() : void
     }
 
     ' CodeCharts Raster
@@ -104,25 +103,24 @@ package CodeCharts {
         - ErrorMessage() : void
     }
 
-    ' Vererbungen
-    Bild <|-d- CodeChartsBild
-    Tutorial <|-d- CodeChartsTutorial
+  ' Vererbungen
+  Bild <|-d- CodeChartsBild
+  Tutorial <|-d- CodeChartsTutorial
 
-    ' Interaktionen
-    CodeChartsCoordinator -- CodeChartsBild : > send initial data and show
-    CodeChartsCoordinator -- CodeChartsRaster : > send initial data and show
-    CodeChartsCoordinator::startCodeCharts -- CodeChartsEingabefenster : > show
-    CodeChartsCoordinator::loadConfigData -- CodeChartsInternerSpeicher : > send picture
-    CodeChartsCoordinator::tryTutorial -- CodeChartsTutorial : > start Tutorial?
-    CodeChartsRaster -- CodeChartsInternerSpeicher : < load data
-    CodeChartsRaster -- CodeChartsInternerSpeicher : > save data
-    CodeChartsEingabefenster -- CodeChartsRaster : > send Input
+  ' Interaktionen 
+  Tutorial -d- Config
+  CodeChartsCoordinator -- CodeChartsBild : > send initial data and show
+  CodeChartsCoordinator -- CodeChartsRaster : > send initial data and show
+  CodeChartsCoordinator::startCodeCharts -- CodeChartsEingabefenster : > show
+  CodeChartsCoordinator::loadConfigData -- CodeChartsInternerSpeicher : > send picture
+  CodeChartsCoordinator::tryTutorial -- CodeChartsTutorial : > start Tutorial?
+  CodeChartsRaster -- CodeChartsInternerSpeicher : < load data
+  CodeChartsRaster -- CodeChartsInternerSpeicher : > save data
+  CodeChartsEingabefenster -- CodeChartsRaster : > send Input
 
-
-
-    ' Andere Module
-    CodeChartsInternerSpeicher::saveData -- SpeicherMedium : > saves Data
-    CodeChartsCoordinator::startCodeCharts -- Config : < gets Initial Data
+  ' Andere Module
+  CodeChartsInternerSpeicher::saveData -- SpeicherMedium : > saves Data
+  CodeChartsCoordinator::startCodeCharts -- Config : < gets Initial Data
   
 }
 
