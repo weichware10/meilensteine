@@ -22,13 +22,13 @@ package Speichermedium {
      SpeicherUtilities -- AnalyseClient
 }
 
-package DataStructure {
+package Util {
 
-class Data {
-   + type: ToolType
-   + data: unknown
-   + config_id: int
-}
+class Data<t: ToolType> {
+         + t: ToolType
+         + data: unknown
+         + config_id: int
+     }
 
 note right of Data
    Beinhaltet dann die Struktur/Variablen für die verschiedenen Daten, 
@@ -40,15 +40,14 @@ end note
 ' Interaktionen
       
 Data -- SpeicherUtilities
-
 ToolType -- Data::type
 
 ' ToolType
       enum ToolType {
-         ZOOM
-         EYETRACKING
-         CODECHARTS
-      }
+       ZOOM
+       EYETRACKING
+       CODECHARTS
+     }
 
 }
 ' Blackboxen / Andere Module
