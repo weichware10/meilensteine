@@ -34,7 +34,7 @@ package Util {
 
 
 ' === EYETRACKING ===
-package EYETRACKING {
+package EyeTracking {
 
     ' Auge
     class Auge {
