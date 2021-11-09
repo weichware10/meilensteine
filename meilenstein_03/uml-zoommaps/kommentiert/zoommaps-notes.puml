@@ -3,48 +3,58 @@
 () System #DA70D5
 top to bottom direction
 
-' --- TUTORIAL ---
-abstract Tutorial<t: ToolType> {
-  - t: ToolType
-  __public method__
-  + start() : void
-  __private methods__
-  - getConfigState() : boolean
-  - setConfigState(state: boolean) : void
-  - show() : boolean
-  __abstract methods__
-  - {abstract} tutorial() : void
+package Util {
+    ' --- TUTORIAL ---
+    abstract Tutorial<t: ToolType> {
+      - t: ToolType
+      __public method__
+      + start() : void
+      __private methods__
+      - getConfigState() : boolean
+      - setConfigState(state: boolean) : void
+      - show() : boolean
+      __abstract methods__
+      - {abstract} tutorial() : void
+    }
+
+    enum ToolType {
+      ZOOM
+      EYETRACKING
+      CODECHARTS
+    }
+
+    ' Notes
+    note left of Tutorial::start
+        Startet Tutorial, beinhaltet interne Aufrufe
+    end note
+    note left of Tutorial::getConfigState
+        Sendet eine Anfrage an das Config-Modul,
+        abhängig vom Typ des Tutorials
+    end note
+    note left of Tutorial::tutorial
+        Beinhaltet eigentliche Implementierung der Tutorials
+    end note
+
+    ' Interaktionen
+    Tutorial -u- ToolType
+    Tutorial -d- Config
+
+
+    ' --- BILD ---
+
+    abstract Bild {
+      + load(url: String) : void
+      + show() : void
+    }
+
+    class Data {
+        + type: ToolType
+        + data: unknown
+        + config_id: int
+    }
 }
 
-enum ToolType {
-  ZOOM
-  EYETRACKING
-  CODECHARTS
-}
 
-' Notes
-note left of Tutorial::start
-    Startet Tutorial, beinhaltet interne Aufrufe
-end note
-note left of Tutorial::getConfigState
-    Sendet eine Anfrage an das Config-Modul,
-    abhängig vom Typ des Tutorials
-end note
-note left of Tutorial::tutorial
-    Beinhaltet eigentliche Implementierung der Tutorials
-end note
-
-' Interaktionen
-Tutorial::t -r- ToolType
-Tutorial -l- Config
-
-
-' --- BILD ---
-
-abstract Bild {
-  + load(url: String) : void
-  + show() : void
-}
 
 ' === ZOOM MAPS ===
 package ZoomMaps {
@@ -56,24 +66,25 @@ package ZoomMaps {
     }
 
     ' Notiz
-    note left of ZoomInput
+    note right of ZoomInput
         Kann sich noch ändern, je nachdem wie Schnittstelle zum System aussieht
     end note
 
-    ' Zoom Tutorial 
+    ' Zoom Tutorial
     class ZoomTutorial {
         - tutorial() : void
     }
-  
+
     ' Zoom Calculator
     class ZoomCalculator {
         - speed: float
         - position: float[3]
+        - data: Data
         __public method__
         + processInput(raw_input: unknown) : void
+        + save() : boolean
         __private methods__
         - calculate(raw_input: unknown) : float[3]
-        - save(position: float[3]) : boolean
     }
 
     ' Notiz
@@ -92,14 +103,14 @@ package ZoomMaps {
     Tutorial <|-- ZoomTutorial
 
     ' Interaktionen
-    ZoomInput -- ZoomCalculator::processInput
-    ZoomCalculator::processInput  -- ZoomBild::move : > moves
+    ZoomInput -d- ZoomCalculator
+    ZoomCalculator  -u- ZoomBild : > moves
 
     ' Andere Module
-    ZoomCalculator::save -- SpeicherMedium : > saves Data
-    ZoomCalculator::speed -l- Config : < speed
+    ZoomCalculator -- SpeicherMedium : > saves Data
+    ZoomCalculator -l- Config : < speed
     ZoomInput -r- System : > listens to
-  
+
 }
 
 ' Blackboxen / Andere Module
