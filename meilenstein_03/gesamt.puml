@@ -380,4 +380,6 @@ EyetrackingBild -- sys1 : < screensize
 Client -u- sys2 : > save to
 ZoomInput -- sys3 : > listens to
 
+note "Um die Übersichtlichkeit zu gewährleisten, werden hier nur Beziehungen zwischen Packages dargestellt.\nDie genauen Beziehungen können in den Diagrammen zu den einzelnen Packages eingesehen werden" as floatingnote
+
 @enduml
