@@ -72,7 +72,6 @@ package CodeCharts {
 
     ' CodeCharts Raster
     class CodeChartsRaster {
-        ' Unsicher ob es sinnvoll ist alle vorherigen Durchläufe auf einmal zu laden
         - dimensions: int[2]
         - strings: String[..]
         - coords: int[2]
@@ -96,19 +95,19 @@ package CodeCharts {
         - ErrorMessage() : void
     }
 
-  ' Vererbungen
-  Bild <|-d- CodeChartsBild
-  Tutorial <|-d- CodeChartsTutorial
+    ' Vererbungen
+    Bild <|-d- CodeChartsBild
+    Tutorial <|-d- CodeChartsTutorial
 
-  ' Interaktionen 
-  CodeChartsCoordinator -- CodeChartsBild : > send initial data and show
-  CodeChartsCoordinator -- CodeChartsRaster : > send data and show
-  CodeChartsCoordinator::startCodeCharts -- CodeChartsEingabefenster : > show
-  CodeChartsCoordinator::tryTutorial -- CodeChartsTutorial : > start Tutorial?
+    ' Interaktionen 
+    CodeChartsCoordinator -- CodeChartsBild : > send initial data and show
+    CodeChartsCoordinator -- CodeChartsRaster : > send data and show
+    CodeChartsCoordinator -- CodeChartsEingabefenster : > show
+    CodeChartsCoordinator -- CodeChartsTutorial : > start Tutorial?
 
-  ' Andere Module
-  CodeChartsCoordinator -- SpeicherMedium : > saves Data
-  CodeChartsCoordinator::startCodeCharts -- Config : < gets Initial Data
+    ' Andere Module
+    CodeChartsCoordinator -- SpeicherMedium : > saves Data
+    CodeChartsCoordinator -- Config : < gets Initial Data
   
 }
 
