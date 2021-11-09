@@ -46,7 +46,13 @@ package Analyse-Client{
         + createViewTimeDistr(data: Util.Data): String
         __private methods__
         - calcViewTimeDistr(): float[4]
-        - drawDiagramm(diagrammData: float[4], type: int): String
+        - drawDiagramm(diagrammData: float[4], type: DiagrammType): String
+    }
+
+    ' DiagrammType
+    enum DiagrammType {
+        RELFRQIMGAREA
+        VIEWTIMEDISTR
     }
 
     ' Type
@@ -76,6 +82,7 @@ package Analyse-Client{
     Client -d-> Diagramm
     Client -l- AnalyseType
     Client <-r- ClientGUI : < graphische Benutzeroberfläche
+    Diagramm -- DiagrammType
 
 }
 
