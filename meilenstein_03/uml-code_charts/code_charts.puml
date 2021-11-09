@@ -6,15 +6,15 @@ top to bottom direction
 package Util {
     ' --- TUTORIAL ---
     abstract Tutorial<t: ToolType> {
-      - t: ToolType
-      __public method__
-      + start() : void
-      __private methods__
-      - getConfigState() : boolean
-      - setConfigState(state: boolean) : void
-      - show() : boolean
-      __abstract methods__
-      - {abstract} tutorial() : void
+        - t: ToolType
+        __public method__
+        + start() : void
+        __private methods__
+        - getConfigState() : boolean
+        - setConfigState(state: boolean) : void
+        - show() : boolean
+        __abstract methods__
+        - {abstract} tutorial() : void
     }
 
     enum ToolType {
@@ -48,11 +48,11 @@ package Util {
 ' === CODE CHARTS ===
 package CodeCharts {
 
-    ' CodeCharts Tutorial 
-    class CodeChartsTutorial {
-      - tutorial() : void
+    ' CodeCharts Tutorial
+    class CodeChartsTutorial<t: ToolType> {
+        - tutorial() : void
     }
-  
+
     ' CodeCharts Coordinator
     class CodeChartsCoordinator {
         - data: Util.Data
@@ -60,25 +60,24 @@ package CodeCharts {
         - isTutorial: boolean
         - isRelative: boolean
         - dimensions: int[2]
-        - strings: String[..]
+        - strings: String[*]
         __public method__
         + startCodeCharts() : void
         __private methods__
         - loadConfigData() : boolean
-    }    
+    }
 
     ' CodeCharts Bild
-    class CodeChartsBild {
-    }
+    class CodeChartsBild
 
     ' CodeCharts Raster
     class CodeChartsRaster {
         - dimensions: int[2]
-        - strings: String[..]
+        - strings: String[*]
         - coords: int[2]
-        __public method__ 
-        + setInput(input: String): void
-        + setData(dimensions: int[2], strings: String[..]): void
+        __public methods__
+        + setInput(input: String) : void
+        + setData(dimensions: int[2], strings: String[*]) : void
         + show() : void
         + calculate(data: Util.Data) : void
         __private methods__
@@ -92,24 +91,26 @@ package CodeCharts {
         + show() : String
         __private methods__
         - checkButton() : boolean
-        - validateString(input: String): boolean
+        - validateString(input: String) : boolean
         - ErrorMessage() : void
     }
 
     ' Vererbungen
-    Bild <|-d- CodeChartsBild
-    Tutorial <|-d- CodeChartsTutorial
+    Bild <|-- CodeChartsBild
+    Tutorial <|-- CodeChartsTutorial
 
-    ' Interaktionen 
-    CodeChartsCoordinator -- CodeChartsBild : > send initial data and show
-    CodeChartsCoordinator -- CodeChartsRaster : > send data and show
-    CodeChartsCoordinator -- CodeChartsEingabefenster : > show
-    CodeChartsCoordinator -- CodeChartsTutorial : > start
+    ' Interaktionen
+    CodeChartsCoordinator -u- CodeChartsBild : > send initial data and show
+    CodeChartsCoordinator -d- CodeChartsRaster : > send data and show
+    CodeChartsCoordinator -u- CodeChartsEingabefenster : > show
+    CodeChartsCoordinator -r- CodeChartsTutorial : > start
+
+
 
     ' Andere Module
-    CodeChartsCoordinator -- SpeicherMedium : > saves Data
+    CodeChartsCoordinator -d- SpeicherMedium : > saves Data
     CodeChartsCoordinator -- Config : < gets Initial Data
-  
+
 }
 
 ' Blackboxen / Andere Module

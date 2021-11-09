@@ -6,15 +6,15 @@ top to bottom direction
 package Util {
     ' --- TUTORIAL ---
     abstract Tutorial<t: ToolType> {
-      - t: ToolType
-      __public method__
-      + start() : void
-      __private methods__
-      - getConfigState() : boolean
-      - setConfigState(state: boolean) : void
-      - show() : boolean
-      __abstract methods__
-      - {abstract} tutorial() : void
+        - t: ToolType
+        __public method__
+        + start() : void
+        __private methods__
+        - getConfigState() : boolean
+        - setConfigState(state: boolean) : void
+        - show() : boolean
+        __abstract methods__
+        - {abstract} tutorial() : void
     }
 
     enum ToolType {
@@ -48,11 +48,11 @@ package Util {
 ' === CODE CHARTS ===
 package CodeCharts {
 
-    ' CodeCharts Tutorial 
-    class CodeChartsTutorial {
-      - tutorial() : void
+    ' CodeCharts Tutorial
+    class CodeChartsTutorial<t: ToolType> {
+        - tutorial() : void
     }
-    
+
     ' CodeCharts Coordinator
     class CodeChartsCoordinator {
         - data: Util.Data
@@ -60,7 +60,7 @@ package CodeCharts {
         - isTutorial: boolean
         - isRelative: boolean
         - dimensions: int[2]
-        - strings: String[..]
+        - strings: String[*]
         __public method__
         + startCodeCharts() : void
         __private methods__
@@ -68,37 +68,36 @@ package CodeCharts {
     }
 
     ' Notes
-    note left of CodeChartsCoordinator::data
+    note right of CodeChartsCoordinator::data
         Speichern der Durchläufe
     end note
-    note left of CodeChartsCoordinator::speed
+    note right of CodeChartsCoordinator::speed
         speichert Wechselzeit zw. Bild-Raster-Eingabefenster
     end note
-    note left of CodeChartsCoordinator::isRelative
+    note right of CodeChartsCoordinator::isRelative
         speichert ob das Rater relativ oder feste Größe hat
     end note
-    note left of CodeChartsCoordinator::strings
+    note right of CodeChartsCoordinator::strings
         speichert Liste der Stings für Raster
     end note
-    note left of CodeChartsCoordinator::startCodeCharts
-        ruft tryTutorial auf & steuert die Anzeige von Bi. Ra. und Ei.
+    note right of CodeChartsCoordinator::startCodeCharts
+        ruft Tutorial auf & steuert die Anzeige von Bi. Ra. und Ei.
     end note
-    note left of CodeChartsCoordinator::loadConfigData
+    note right of CodeChartsCoordinator::loadConfigData
         sendet initiale Daten an andere Klassen
     end note
 
     ' CodeCharts Bild
-    class CodeChartsBild {
-    }
+    class CodeChartsBild
 
     ' CodeCharts Raster
     class CodeChartsRaster {
         - dimensions: int[2]
-        - strings: String[..]
+        - strings: String[*]
         - coords: int[2]
-        __public method__ 
-        + setInput(input: String): void
-        + setData(dimensions: int[2], strings: String[..]): void
+        __public methods__
+        + setInput(input: String) : void
+        + setData(dimensions: int[2], strings: String[*]) : void
         + show() : void
         + calculate(data: Util.Data) : void
         __private methods__
@@ -114,7 +113,7 @@ package CodeCharts {
         berrechnet Koordinaten und Raster
     end note
     note left of CodeChartsRaster::loadPastRuns
-        holt die vorherigen Durchläufe aus Interner Speicher zur Berechnung d. Rasters 
+        holt die vorherigen Durchläufe aus Interner Speicher zur Berechnung d. Rasters
     end note
     note left of CodeChartsRaster::sendData
         sendet Daten des Duchlaufs an Interner Speicher
@@ -126,37 +125,37 @@ package CodeCharts {
         + show() : String
         __private methods__
         - checkButton() : boolean
-        - validateString(input: String): boolean
+        - validateString(input: String) : boolean
         - ErrorMessage() : void
     }
 
     ' Notes
-    note right of CodeChartsEingabefenster::checkButton
+    note left of CodeChartsEingabefenster::checkButton
         überprüft ob Eingabe bestätigt wurde
     end note
-    note right of CodeChartsEingabefenster::validateString
+    note left of CodeChartsEingabefenster::validateString
         überprüft die Richtigkeit der Eingabe anhand der Strings-Liste
     end note
-    note right of CodeChartsEingabefenster::ErrorMessage
+    note left of CodeChartsEingabefenster::ErrorMessage
         gibt Fehlermeldung aus wenn falscher String eingegeben
     end note
 
     ' Vererbungen
-    Bild <|-r- CodeChartsBild
-    Tutorial <|-d- CodeChartsTutorial
+    Bild <|-- CodeChartsBild
+    Tutorial <|-- CodeChartsTutorial
 
-    ' Interaktionen 
-    CodeChartsCoordinator -r- CodeChartsBild : > send initial data and show
-    CodeChartsCoordinator -- CodeChartsRaster : > send data and show
-    CodeChartsCoordinator -r- CodeChartsEingabefenster : > show
-    CodeChartsCoordinator -- CodeChartsTutorial : > start
+    ' Interaktionen
+    CodeChartsCoordinator -u- CodeChartsBild : > send initial data and show
+    CodeChartsCoordinator -d- CodeChartsRaster : > send data and show
+    CodeChartsCoordinator -u- CodeChartsEingabefenster : > show
+    CodeChartsCoordinator -r- CodeChartsTutorial : > start
 
 
 
     ' Andere Module
-    CodeChartsCoordinator -- SpeicherMedium : > saves Data
+    CodeChartsCoordinator -d- SpeicherMedium : > saves Data
     CodeChartsCoordinator -- Config : < gets Initial Data
-  
+
 }
 
 ' Blackboxen / Andere Module
