@@ -19,6 +19,7 @@
 - Zeitgleiche Arbeit an dem selben PlantUML Code für ein Modul -> Erstellung der jeweiligen PlantUML Codes mit Hilfe von Visual Studio Code und LiveShare, sodass das zeitgleiches Arbeiten an einem Dokument einfacher wurde
 - Festlegung auf ein einheitliches Format zur internen Datenspeicherung und -übermittlung -> Eigenständige Klasse 
 - Internes Missverständnis bezüglich Interfaces, da diese in unterschiedlichen Sprachen unterschiedlich agieren (TypeScript / Java) -> [Gruppen-Meeting](08_11_21.md) zur Lösung des Problems und anschließende Überarbeitung
+- PlantUML ist für kleine Diagramme super, aber bei der Zusammenführung zu einem großen Diagramm wurde es schnell unübersichtlich. -> Großes Diagramm musste vereinfacht werden, die Informationen sind jedoch alle in den Unterverzeichnissen zu finden.
 
 ## Was lief gut ? Was lief nicht gut ?
 | gut                                                                        | nicht gut                                                                                      |

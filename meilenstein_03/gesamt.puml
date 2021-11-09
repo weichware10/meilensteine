@@ -1,17 +1,385 @@
 @startuml gesamt
-actor   Sarah
-actor   Philip
-actor   David
-actor   Justin
-actor   Joni
-actor   Nils
-actor   Josh
-"weichware-10" as (w10)
-Sarah .. w10
-Philip .. w10
-David .. w10
-Justin .. w10
-Joni .. w10
-Nils .. w10
-Josh .. w10
+() sys1 as "System" #DA70D5
+() sys2 as "System" #DA70D5
+() sys3 as "System" #DA70D5
+
+package Config {
+    class ConfigClient {
+        # configuration : Configuration
+        + getConfig() : Configuration
+        + getString(category: String, option: String) : String
+        + getInt(category: String, option: String) : int
+        + getFloat(category: String, option: String) : float
+        + getBool(category: String, option: String) : boolean
+        + setString(category: String, option: String, value: String)
+        + setInt(category: String, option: String, value: Int)
+        + setFloat(category: String, option: String, value: float)
+        + setBool(category: String, option: boolean)
+    }
+
+    class ConfigLoader {
+        + loadConfiguration(location: String) : Configuration
+    }
+
+    class ConfigWriter {
+        + writeConfiguration(location: String, configuration: Configuration) : boolean
+    }
+
+    class ConfigGUI {
+        - configuration_state: Configuration
+        + showEditor() : void
+    }
+
+    class Configuration {
+        + general: GeneralConfiguration
+        + zoom_maps: ZoomMapsConfiguration
+        + code_charts: CodeChartsConfiguration
+        + eye_tracking: EyetrackingConfiguration
+    }
+    class GeneralConfiguration {
+        + tools : Util.ToolType[0..3]
+        + save_location : String
+    }
+    class ZoomMapsConfiguration {
+        + image_url : String
+        + tutorial : boolean
+        + speed : float
+    }
+    class CodeChartsConfiguration {
+        + image_url : String
+        + tutorial : boolean
+        + strings : String[*]
+        + initial_size : float
+        + timings : float[2]
+    }
+    class EyetrackingConfiguration {
+        + image_url : String
+        + tutorial : boolean
+        + poll_intervall : float
+    }
+    abstract ToolConfiguration {
+        + {abstract} image_url : String
+        + {abstract} tutorial : boolean
+    }
+
+    ' ConfigClient ..> Configuration
+
+    ConfigClient o-- ConfigLoader : < lädt Konfiguration
+    ' ConfigLoader ..> Configuration
+
+    ConfigClient o-- ConfigWriter : < schreibt Konfiguration
+    ' ConfigWriter ..> Configuration
+
+    ConfigClient -r- ConfigGUI : < Konfigurationsbearbeitung
+
+    Configuration .r.> GeneralConfiguration
+    Configuration ..> ZoomMapsConfiguration
+    Configuration ..> CodeChartsConfiguration
+    Configuration ..> EyetrackingConfiguration
+
+    ZoomMapsConfiguration --|> ToolConfiguration
+    CodeChartsConfiguration --|> ToolConfiguration
+    EyetrackingConfiguration --|> ToolConfiguration
+}
+
+' === UTIL ===
+package Util {
+    ' --- TUTORIAL ---
+    abstract Tutorial<t: ToolType> {
+      - t: ToolType
+      __public method__
+      + start() : void
+      __private methods__
+      - getConfigState() : boolean
+      - setConfigState(state: boolean) : void
+      - show() : boolean
+      __abstract methods__
+      - {abstract} tutorial() : void
+    }
+
+    enum ToolType {
+        ZOOM
+        EYETRACKING
+        CODECHARTS
+    }
+
+    ' Interaktionen
+    Tutorial -u- ToolType
+    Data -r- ToolType
+
+
+    ' --- BILD ---
+
+    abstract Bild {
+        # location : String
+        + Bild(url: String)
+        + show() : void
+        + hide() : void
+    }
+
+    class Data<t: ToolType> {
+        + t: ToolType
+        + data: unknown
+        + config_id: int
+    }
+}
+
+' === ANALYSE CLIENT ===
+package AnalyseClient{
+
+    ' Client
+    class Client {
+        - data: Util.Data
+        - dataForComp: Util.Data
+        - analyseTypes: AnalyseType[0..5]
+        - analyzedData: String[*]
+        __public methods__
+        + getData(start: Date, end: Date, dataType: Util.ToolType): boolean
+        + setAnalyseTypes(): boolean
+        + displayAnalyzedData(): void
+        + export(): boolean
+        + analyseData(): boolean
+    }
+
+    ' Analyse
+    abstract Analyse {
+        - calcRelFreq(data: Util.Data): float[*][*]
+        - createTimeTable(data: Util.Data): float[*][*]
+    }
+
+    ' Heatmap
+    class Heatmap {
+        - heatmap: float[*][*]
+        __public methods__
+        + createHeatmap(data: Util.Data): String
+        + compHeatmaps(otherHeatmap: Heatmap): String
+    }
+
+    ' Verlauf
+    class Verlauf {
+        __public method__
+        + createVerlauf(data: Util.Data): String
+        __private method__
+        - drawDiagramm(diagrammData: float[*][*]): String
+    }
+
+    ' Diagramm
+    class Diagramm {
+        __public methods__
+        + createRelFreqImgArea(data: Util.Data): String
+        + createViewTimeDistr(data: Util.Data): String
+        __private methods__
+        - calcViewTimeDistr(): float[4]
+        - drawDiagramm(diagrammData: float[4], type: DiagrammType): String
+    }
+
+    ' DiagrammType
+    enum DiagrammType {
+        RELFRQIMGAREA
+        VIEWTIMEDISTR
+    }
+
+    ' Type
+    enum AnalyseType {
+        HEATMAP
+        COMPHEATMAP
+        VERLAUF
+        RELFRQIMGAREA
+        VIEWTIMEDISTR
+    }
+
+    ' ClientGUI
+    class ClientGUI {
+        - client: Client
+        __public method__
+        + showClientGUI(): void
+    }
+
+    ' Vererbung
+    Analyse <|-u- Heatmap
+    Analyse <|-u- Verlauf
+    Analyse <|-u- Diagramm
+
+    ' Interaktionen
+    Client -d-> Heatmap
+    Client -d-> Verlauf
+    Client -d-> Diagramm
+    Client -l- AnalyseType
+    Client <-r- ClientGUI : < graphische Benutzeroberfläche
+    Diagramm -- DiagrammType
+}
+
+' === EYETRACKING ===
+package EyeTracking {
+
+    ' Auge
+    class Auge {
+        + getEye() : void
+        + getPupil() : void
+    }
+
+    ' EyetrackingBild
+    class EyetrackingBild {
+        - width: int
+        - height: int
+        + loadGrid()
+    }
+
+
+ ' --- EYETRACKINGTUTORIAL ---
+    class EyeTrackingTutorial<t: ToolType> {
+        - tutorial() : void
+    }
+
+    ' Setup
+    class Setup {
+        - distance: float
+        - position: float
+        - data: Util.Data
+        __private methods__
+        + start() : void
+        - setup() : void
+        - calculate() : int[2]
+    }
+
+    ' Interaktionen
+    Auge -- Setup
+    EyetrackingBild -- Setup
+    EyeTrackingTutorial -- Setup
+}
+
+' === Speichermedium ===
+package Speichermedium {
+    ' SpeicherUtilities
+    class SpeicherUtilities {
+        - Location: String
+        __public method__
+        + deleteData(data_client_input: String) : boolean
+        + searchData(data_client_input: String) : Util.Data
+        + saveData(data: Util.Data) : boolean
+        + setLocation(config_input: String) : boolean
+        + getLocation() : String
+    }
+}
+
+' === CODE CHARTS ===
+package CodeCharts {
+
+    ' CodeCharts Tutorial
+    class CodeChartsTutorial<t: ToolType> {
+        - tutorial() : void
+    }
+
+    ' CodeCharts Coordinator
+    class CodeChartsCoordinator {
+        - data: Util.Data
+        - speed: float[2]
+        - isTutorial: boolean
+        - isRelative: boolean
+        - dimensions: int[2]
+        - strings: String[*]
+        __public method__
+        + startCodeCharts() : void
+        __private methods__
+        - loadConfigData() : boolean
+    }
+
+    ' CodeCharts Bild
+    class CodeChartsBild
+
+    ' CodeCharts Raster
+    class CodeChartsRaster {
+        - dimensions: int[2]
+        - strings: String[*]
+        - coords: int[2]
+        __public methods__
+        + setInput(input: String) : void
+        + setData(dimensions: int[2], strings: String[*]) : void
+        + show() : void
+        + calculate(data: Util.Data) : void
+        __private methods__
+        - loadPastRuns() : void
+        - sendData() : void
+    }
+
+    ' CodeCharts Eingabefenster
+    class CodeChartsEingabefenster {
+        __public method__
+        + show() : String
+        __private methods__
+        - checkButton() : boolean
+        - validateString(input: String) : boolean
+        - ErrorMessage() : void
+    }
+
+    ' Interaktionen
+    CodeChartsCoordinator -u- CodeChartsBild : > send initial data and show
+    CodeChartsCoordinator -d- CodeChartsRaster : > send data and show
+    CodeChartsCoordinator -u- CodeChartsEingabefenster : > show
+    CodeChartsCoordinator -r- CodeChartsTutorial : > start
+}
+
+' === ZOOM MAPS ===
+package ZoomMaps {
+
+    ' Zoom Input
+    class ZoomInput {
+        - onClick() : void
+        - onScroll() : void
+    }
+
+    ' Zoom Tutorial
+    class ZoomTutorial<t: ToolType> {
+        - tutorial() : void
+    }
+
+    ' Zoom Calculator
+    class ZoomCalculator {
+        - speed: float
+        - position: float[3]
+        - data: Util.Data
+        __public method__
+        + processInput(raw_input: unknown) : void
+        + save() : boolean
+        __private methods__
+        - calculate(raw_input: unknown) : float[3]
+    }
+
+    ' Zoom Bild
+    class ZoomBild {
+        + move(position: float[3]): float[3]
+    }
+
+    ' Interaktionen
+    ZoomInput -d- ZoomCalculator
+    ZoomCalculator  -u- ZoomBild : > moves
+}
+
+Config -- ZoomMaps : > speed
+Config -- CodeCharts : > gets Initial Data
+Config -- EyeTracking : > load Data
+Config -- Util
+
+
+SpeicherUtilities -- Config : < Location
+SpeicherUtilities -- CodeCharts : < Data
+SpeicherUtilities -- ZoomMaps : < Data
+SpeicherUtilities -- EyeTracking : < Data
+SpeicherUtilities -- AnalyseClient : > Data
+
+' Vererbungen
+Bild <|-- EyetrackingBild
+Bild <|-- ZoomBild
+Tutorial <|-- EyeTrackingTutorial
+Tutorial <|-- ZoomTutorial
+Bild <|-- CodeChartsBild
+Tutorial <|-- CodeChartsTutorial
+
+Auge -- sys1 : < cam
+EyetrackingBild -- sys1 : < screensize
+Client -u- sys2 : > save to
+ZoomInput -- sys3 : > listens to
+
+note "Um die Übersichtlichkeit zu gewährleisten, werden hier nur Beziehungen zwischen Packages dargestellt.\nDie genauen Beziehungen können in den Diagrammen zu den einzelnen Packages eingesehen werden" as floatingnote
+
 @enduml
