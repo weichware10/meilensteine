@@ -7,7 +7,18 @@ top to bottom direction
 package Util {
 
    
-
+ ' --- TUTORIAL ---
+    abstract Tutorial<t: ToolType> {
+      - t: ToolType
+      __public method__
+      + start() : void
+      __private methods__
+      - getConfigState() : boolean
+      - setConfigState(state: boolean) : void
+      - show() : boolean
+      __abstract methods__
+      - {abstract} tutorial() : void
+    }
   
 
 
@@ -16,6 +27,12 @@ package Util {
     abstract Bild {
       + load(url: String) : void
       + show() : void
+    }
+
+    class Data<t: ToolType> {
+        + t: ToolType
+        + data: unknown
+        + config_id: int
     }
 
   
@@ -27,47 +44,54 @@ package EYETRACKING {
 
     ' Auge
     class Auge {
-        - input camera
-        - get Eye() : void
-        - get Pupil() : void
+        + getEye() : void
+        + getPupil() : void
     }
 
-    ' EytrackingBild
-    class EytrackingBild {
+    ' EyetrackingBild
+    class EyetrackingBild {
         - width: int
         - height: int
         __
-        + load grit
+        + loadGrid()
     }
   
+   
+ ' --- EYETUTORIAL ---
+    class EYETutorial<t: ToolType> {
+      - tutorial() : void
+    }
+
+
     ' Setup
     class Setup {
         - distance: float
         - position: float
-        - angle_from _Auge
+        - data: Data
         __private methods__
-        - calculate(input_pupil: position, angle) : return coordinates
+        + start():
+        - setup():
+        - calculate() : int[2]
         - save_in_results(coordinates)
     }
 
-    ' Results
-    class Results {
-        + save(position: x, y, time)
-    }
-
+    
 
     ' Vererbungen
-    Results -- Setup
     Auge -- Setup
-    EytrackingBild -- Setup
-    Bild <|-- EytrackingBild
+    EyetrackingBild -- Setup
+    Bild <|-- EyetrackingBild
+    Tutorial <|-- EYETutorial
+    EYETutorial -- Setup
+    Data -- Setup
     
 
     
 
     ' Andere Module
-    Results::save -- SpeicherMedium : > saves Data 
-    EytrackingBild  -r- System : < screensize
+    Setup::save -- SpeicherMedium : > saves Data 
+    Setup::save -- Config : > load Data 
+    EyetrackingBild  -r- System : < screensize
     Auge -r- System : < cam
   
 }
@@ -77,4 +101,5 @@ package EYETRACKING {
 
 
 package SpeicherMedium {}
+package Config {}
 @enduml
