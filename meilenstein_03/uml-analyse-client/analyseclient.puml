@@ -19,13 +19,13 @@ package Analyse-Client{
 
     ' Analyse
     abstract Analyse {
-        - calcRelFreq(data: Util.Data): List<List<Float>>
-        - createTimeTable(data: Util.Data): List<List<Float>>
+        - calcRelFreq(data: Util.Data): float[*][*]
+        - createTimeTable(data: Util.Data): float[*][*]
     }
 
     ' Heatmap
     class Heatmap {
-        - heatmap: List<List<Float>>
+        - heatmap: float[*][*]
         __public methods__
         + createHeatmap(data: Util.Data): String
         + compHeatmaps(otherHeatmap: Heatmap): String
@@ -36,7 +36,7 @@ package Analyse-Client{
         __public method__
         + createVerlauf(data: Util.Data): String
         __private method__
-        - drawDiagramm(diagrammData: List<List<Float>>): String
+        - drawDiagramm(diagrammData: float[*][*]): String
     }
 
     ' Diagramm
