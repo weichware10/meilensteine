@@ -5,8 +5,8 @@ package Analyse-Client{
   
   ' Client
   class Client {
-    - data: Data
-    - dataForComp: Data
+    - data: Util.Data
+    - dataForComp: Util.Data
     - analyseTypes: List<AnalyseType>
     - analyzedData: List<String>
     __public methods__
@@ -19,22 +19,22 @@ package Analyse-Client{
 
   ' Analyse
   abstract Analyse {
-    - calcRelFreq(data: Data): List<List<Float>>
-    - createTimeTable(data: Data): List<List<Float>>
+    - calcRelFreq(data: Util.Data): List<List<Float>>
+    - createTimeTable(data: Util.Data): List<List<Float>>
   }
 
   ' Heatmap
   class Heatmap {
     - heatmap: List<List<Float>>
     __public methods__
-    + createHeatmap(data: Data): String
+    + createHeatmap(data: Util.Data): String
     + compHeatmaps(otherHeatmap: Heatmap): String
   }
 
   ' Verlauf
   class Verlauf {
     __public method__
-    + createVerlauf(data: Data): String
+    + createVerlauf(data: Util.Data): String
     __private method__
     - drawDiagramm(diagrammData: List<List<Float>>): String
   }
@@ -42,8 +42,8 @@ package Analyse-Client{
   ' Diagramm
   class Diagramm {
     __public methods__
-    + createRelFreqImgArea(data: Data): String
-    + createViewTimeDistr(data: Data): String
+    + createRelFreqImgArea(data: Util.Data): String
+    + createViewTimeDistr(data: Util.Data): String
     __private methods__
     - calcViewTimeDistr(): float[4]
     - drawDiagramm(diagrammData: float[4], type: int): String
