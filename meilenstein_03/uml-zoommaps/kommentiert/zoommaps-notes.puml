@@ -37,6 +37,7 @@ package Util {
 
     ' Interaktionen
     Tutorial -u- ToolType
+    Data -r- ToolType
     Tutorial -d- Config
 
 
@@ -47,8 +48,8 @@ package Util {
       + show() : void
     }
 
-    class Data {
-        + type: ToolType
+    class Data<t: ToolType> {
+        + t: ToolType
         + data: unknown
         + config_id: int
     }
@@ -71,7 +72,7 @@ package ZoomMaps {
     end note
 
     ' Zoom Tutorial
-    class ZoomTutorial {
+    class ZoomTutorial<t: ToolType> {
         - tutorial() : void
     }
 
