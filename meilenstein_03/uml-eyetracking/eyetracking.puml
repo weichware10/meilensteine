@@ -25,9 +25,9 @@ package Util {
     }
 
     class Data<t: ToolType> {
-            + t: ToolType
-            + data: unknown
-            + config_id: int
+        + t: ToolType
+        + data: unknown
+        + config_id: int
     }
 
 }
@@ -38,8 +38,8 @@ package EYETRACKING {
 
     ' Auge
     class Auge {
-            + getEye() : void
-            + getPupil() : void
+        + getEye() : void
+        + getPupil() : void
     }
 
     ' EyetrackingBild
