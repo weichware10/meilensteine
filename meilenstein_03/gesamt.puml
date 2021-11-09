@@ -254,11 +254,11 @@ package Speichermedium {
     class SpeicherUtilities {
         - Location: String
         __public method__
-        + deleteData(data_client_input: String) : void
+        + deleteData(data_client_input: String) : boolean
         + searchData(data_client_input: String) : Util.Data
-        + saveData(data: Util.Data) : void
-        + setLocation(config_input: String) : void
-        + getLocation() : void
+        + saveData(data: Util.Data) : boolean
+        + setLocation(config_input: String) : boolean
+        + getLocation() : String
     }
 }
 
