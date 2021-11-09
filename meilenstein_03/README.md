@@ -17,14 +17,14 @@
 - Für die Meisten war PlantUML ein zuvor unbekanntes Tool -> Erstellung von Templates, sodass ein leitender Rahmen gegeben war sowie Hilfe bei der Umsetzung durch andere Gruppenmitglieder
 - Zeitgleiche Arbeit an dem selben PlantUML Code für ein Modul -> Erstellung der jeweiligen PlantUML Codes mit Hilfe von Visual Studio Code und LiveShare, sodass das zeitgleiches Arbeiten an einem Dokument einfacher wurde
 - Festlegung auf ein einheitliches Format zur internen Datenspeicherung und -übermittlung -> Eigenständige Klasse 
-- (Einen zentralen Begriff (Interfaces) innerhalb der Aufgabenstellung missverstanden -> Absprache mit anderen Gruppen, neue Interpretation innerhalb der gesamten Gruppe besprochen und Ausarbeitungen angepasst)
+- Internes Missverständnis bezüglich Interfaces, da diese in unterschiedlichen Sprachen unterschiedlich agieren (TypeScript / Java) -> [Gruppen-Meeting](08_11_21.md) zur Lösung des Problems und anschließende Überarbeitung
 
 ## Was lief gut ? Was lief nicht gut ?
 | gut                                                                        | nicht gut                                                                                      |
 | -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | Entwurf der Klassen war aufgrund guter Vorarbeit (CRC-Karten) gut machbar  | In manchen Gruppen musste die bei den CRC-Karten überlegte Struktur nochmals abgeändert werden |
-| Gute Kommunikation innerhalb der Modulgruppen sowie der gesamten Gruppe    | (Interfaces falsch verstanden)                                                                 |
-| Gleichzeitiges Arbeiten an einem Dokument mit Hilfe von VSC und LiveShare  | Bestimmung der Datentypen gewisser Attribute und Methoden                                      |
+| Gute Kommunikation innerhalb der Modulgruppen sowie der gesamten Gruppe    | Bestimmung der Datentypen gewisser Attribute und Methoden                                      |
+| Gleichzeitiges Arbeiten an einem Dokument mit Hilfe von VSC und LiveShare  |                                                                                                |
 | Arbeit mit PlantUML war nach kurzer Einarbeitungsphase schnell und einfach |                                                                                                |
 
 ## Was haben Sie gelernt ?
