@@ -1,7 +1,7 @@
 @startuml config
 
 package Util {
-  enum ToolTypes {
+  enum ToolType {
   ZOOMMAPS
   CODECHARTS
   EYETRACKING
@@ -25,7 +25,7 @@ package config {
     + setString(category: String, option: String, value: String)
     + setInt(category: String, option: String, value: Int)
     + setFloat(category: String, option: String, value: float)
-    + setBool(category: String, option: String)
+    + setBool(category: String, option: boolean)
   }
 
   class ConfigLoader {
@@ -48,7 +48,7 @@ package config {
     + eye_tracking: EyetrackingConfiguration
   }
   class GeneralConfiguration {
-    + tools : ToolTypes[0..3]
+    + tools : Util.ToolType[0..3]
     + save_location : String
   }
   class ZoomMapsConfiguration {
@@ -66,6 +66,7 @@ package config {
   class EyetrackingConfiguration {
     + image_url : String
     + tutorial : boolean
+    + poll_intervall : float
   }
   abstract ToolConfiguration {
     + {abstract} image_url : String
