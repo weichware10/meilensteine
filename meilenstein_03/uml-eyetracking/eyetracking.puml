@@ -3,6 +3,25 @@
 () System #DA70D5
 top to bottom direction
 
+
+package Util {
+
+   
+
+  
+
+
+    ' --- BILD ---
+
+    abstract Bild {
+      + load(url: String) : void
+      + show() : void
+    }
+
+  
+}
+
+
 ' === EYETRACKING ===
 package EYETRACKING {
 
@@ -13,8 +32,8 @@ package EYETRACKING {
         - get Pupil() : void
     }
 
-    ' Zoom Karte
-    class Karte {
+    ' EytrackingBild
+    class EytrackingBild {
         - width: int
         - height: int
         __
@@ -27,27 +46,29 @@ package EYETRACKING {
         - position: float
         - angle_from _Auge
         __private methods__
-        - calculate(input_pupil: position) : x,y
-        - save_in_results() : position
+        - calculate(input_pupil: position, angle) : return coordinates
+        - save_in_results(coordinates)
     }
 
     ' Results
     class Results {
-        + send(position: x, y, time)
+        + save(position: x, y, time)
     }
 
 
     ' Vererbungen
-    Results <|-- Setup
-    Auge <|-- Setup
-    Karte <|-- Setup
+    Results -- Setup
+    Auge -- Setup
+    EytrackingBild -- Setup
+    Bild <|-- EytrackingBild
     
 
     
 
     ' Andere Module
-    Results::save -- SpeicherMedium : > saves Data (time / cordinates)
-    Karte -r- System : < screensize
+    Results::save -- SpeicherMedium : > saves Data 
+    EytrackingBild  -r- System : < screensize
+    Auge -r- System : < cam
   
 }
 
