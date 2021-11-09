@@ -1,0 +1,89 @@
+@startuml eyetracking
+' skinparam backgroundColor transparent
+() System #DA70D5
+top to bottom direction
+
+package Util {
+
+    ' --- TUTORIAL ---
+    abstract Tutorial<t: ToolType> {
+        - t: ToolType
+        __public method__
+        + start() : void
+        __private methods__
+        - getConfigState() : boolean
+        - setConfigState(state: boolean) : void
+        - show() : boolean
+        __abstract methods__
+        - {abstract} tutorial() : void
+    }
+
+      ' --- BILD ---
+    abstract Bild {
+        + load(url: String) : void
+        + show() : void
+    }
+
+    class Data<t: ToolType> {
+        + t: ToolType
+        + data: unknown
+        + config_id: int
+    }
+
+}
+
+
+' === EYETRACKING ===
+package EyeTracking {
+
+    ' Auge
+    class Auge {
+        + getEye() : void
+        + getPupil() : void
+    }
+
+    ' EyetrackingBild
+    class EyetrackingBild {
+        - width: int
+        - height: int
+        + loadGrid()
+    }
+
+
+ ' --- EYETRACKINGTUTORIAL ---
+    class EyeTrackingTutorial<t: ToolType> {
+        - tutorial() : void
+    }
+
+    ' Setup
+    class Setup {
+        - distance: float
+        - position: float
+        - data: Util.Data
+        __private methods__
+        + start() : void
+        - setup() : void
+        - calculate() : int[2]
+    }
+
+    ' Vererbungen
+    Bild <|-- EyetrackingBild
+    Tutorial <|-- EyeTrackingTutorial
+
+    ' Interaktionen
+    Auge -- Setup
+    EyetrackingBild -- Setup
+    EyeTrackingTutorial -- Setup
+
+    ' Andere Module
+    Setup -- SpeicherMedium : > saves Data
+    Setup -- Config : > load Data
+    Auge -u- System : < cam
+    EyetrackingBild -u- System : < screensize
+
+}
+
+' Blackboxen / Andere Module
+package SpeicherMedium {}
+package Config {}
+@enduml
