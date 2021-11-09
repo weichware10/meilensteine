@@ -1,10 +1,13 @@
 @startuml config
 
-enum ToolTypes {
+package Util {
+  enum ToolTypes {
   ZOOMMAPS
   CODECHARTS
   EYETRACKING
+  }
 }
+
 
 package ZoomMaps {}
 package CodeCharts {}
@@ -77,9 +80,9 @@ package config {
   ConfigClient o-- ConfigWriter : < schreibt Konfiguration
   ' ConfigWriter ..> Configuration
 
-  ConfigClient <-l- ConfigGUI : < graphische Benutzeroberfläche
+  ConfigClient -r- ConfigGUI : < Konfigurationsbearbeitung
 
-  Configuration ..> GeneralConfiguration
+  Configuration .r.> GeneralConfiguration
   Configuration ..> ZoomMapsConfiguration
   Configuration ..> CodeChartsConfiguration
   Configuration ..> EyetrackingConfiguration
