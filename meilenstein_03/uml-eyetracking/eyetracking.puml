@@ -64,7 +64,6 @@ package EYETRACKING {
         + start() : void
         - setup() : void
         - calculate() : int[2]
-        - save_in_results(coordinates)
     }
 
     ' Vererbungen
