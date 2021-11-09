@@ -61,8 +61,8 @@ package EYETRACKING {
         - position: float
         - data: Util.Data
         __private methods__
-        + start():
-        - setup():
+        + start() : void
+        - setup() : void
         - calculate() : int[2]
         - save_in_results(coordinates)
     }
