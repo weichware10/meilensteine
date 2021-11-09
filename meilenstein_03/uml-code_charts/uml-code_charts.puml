@@ -53,6 +53,7 @@ package CodeCharts {
   
     ' CodeCharts Coordinator
     class CodeChartsCoordinator {
+        - data: Data
         - speed: float[2]
         - isTutorial: boolean
         - isRelative: boolean
@@ -64,14 +65,6 @@ package CodeCharts {
         - loadConfigData() : boolean
         - tryTutorial() : void
     }    
-
-    ' CodeCharts Interner Speicher
-    class CodeChartsInternerSpeicher {
-        __public method__
-        + addPic(url: String) : void
-        + addSizeAndCord(size: int[2], coordinates: int[2]) : void
-        + saveData() : boolean
-    }
 
     ' CodeCharts Bild
     class CodeChartsBild {
@@ -108,18 +101,13 @@ package CodeCharts {
   Tutorial <|-d- CodeChartsTutorial
 
   ' Interaktionen 
-  Tutorial -d- Config
   CodeChartsCoordinator -- CodeChartsBild : > send initial data and show
-  CodeChartsCoordinator -- CodeChartsRaster : > send initial data and show
+  CodeChartsCoordinator -- CodeChartsRaster : > send data and show
   CodeChartsCoordinator::startCodeCharts -- CodeChartsEingabefenster : > show
-  CodeChartsCoordinator::loadConfigData -- CodeChartsInternerSpeicher : > send picture
   CodeChartsCoordinator::tryTutorial -- CodeChartsTutorial : > start Tutorial?
-  CodeChartsRaster -- CodeChartsInternerSpeicher : < load data
-  CodeChartsRaster -- CodeChartsInternerSpeicher : > save data
-  CodeChartsEingabefenster -- CodeChartsRaster : > send Input
 
   ' Andere Module
-  CodeChartsInternerSpeicher::saveData -- SpeicherMedium : > saves Data
+  CodeChartsCoordinator -- SpeicherMedium : > saves Data
   CodeChartsCoordinator::startCodeCharts -- Config : < gets Initial Data
   
 }
