@@ -1,0 +1,121 @@
+@startuml code_charts
+' skinparam backgroundColor transparent
+'() System #DA70D5
+top to bottom direction
+
+package Util {
+    ' --- TUTORIAL ---
+    abstract Tutorial<t: ToolType> {
+        - t: ToolType
+        __public method__
+        + start() : void
+        __private methods__
+        - getConfigState() : boolean
+        - setConfigState(state: boolean) : void
+        - show() : boolean
+        __abstract methods__
+        - {abstract} tutorial() : void
+    }
+
+    enum ToolType {
+        ZOOM
+        EYETRACKING
+        CODECHARTS
+    }
+
+    ' Interaktionen
+    Tutorial -u- ToolType
+    Data -r- ToolType
+    Tutorial -d- Config
+
+
+    ' --- BILD ---
+
+    abstract Bild {
+        # location : String
+        + Bild(url: String)
+        + show() : void
+        + hide() : void
+    }
+
+    class Data<t: ToolType> {
+        + t: ToolType
+        + data: unknown
+        + config_id: int
+    }
+}
+
+' === CODE CHARTS ===
+package CodeCharts {
+
+    ' CodeCharts Tutorial
+    class CodeChartsTutorial<t: ToolType> {
+        - tutorial() : void
+    }
+
+    ' CodeCharts Coordinator
+    class CodeChartsCoordinator {
+        - data: Util.Data
+        - speed: float[2]
+        - isTutorial: boolean
+        - isRelative: boolean
+        - dimensions: int[2]
+        - strings: String[*]
+        __public method__
+        + startCodeCharts() : void
+        __private methods__
+        - loadConfigData() : boolean
+    }
+
+    ' CodeCharts Bild
+    class CodeChartsBild
+
+    ' CodeCharts Raster
+    class CodeChartsRaster {
+        - dimensions: int[2]
+        - strings: String[*]
+        - coords: int[2]
+        __public methods__
+        + setInput(input: String) : void
+        + setData(dimensions: int[2], strings: String[*]) : void
+        + show() : void
+        + calculate(data: Util.Data) : void
+        __private methods__
+        - loadPastRuns() : void
+        - sendData() : void
+    }
+
+    ' CodeCharts Eingabefenster
+    class CodeChartsEingabefenster {
+        __public method__
+        + show() : String
+        __private methods__
+        - checkButton() : boolean
+        - validateString(input: String) : boolean
+        - ErrorMessage() : void
+    }
+
+    ' Vererbungen
+    Bild <|-- CodeChartsBild
+    Tutorial <|-- CodeChartsTutorial
+
+    ' Interaktionen
+    CodeChartsCoordinator -u- CodeChartsBild : > send initial data and show
+    CodeChartsCoordinator -d- CodeChartsRaster : > send data and show
+    CodeChartsCoordinator -u- CodeChartsEingabefenster : > show
+    CodeChartsCoordinator -r- CodeChartsTutorial : > start
+
+
+
+    ' Andere Module
+    CodeChartsCoordinator -d- SpeicherMedium : > saves Data
+    CodeChartsCoordinator -- Config : < gets Initial Data
+
+}
+
+' Blackboxen / Andere Module
+package Config {}
+
+package SpeicherMedium {}
+
+@enduml
