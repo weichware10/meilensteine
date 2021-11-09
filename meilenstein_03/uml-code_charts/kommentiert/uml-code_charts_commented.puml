@@ -22,6 +22,18 @@ enum TutorialType {
   CODECHARTS
 }
 
+' Notes
+note right of Tutorial::start
+    Startet Tutorial, beinhaltet interne Aufrufe
+end note
+note right of Tutorial::getConfigState
+    Sendet eine Anfrage an das Config-Modul,
+    abhängig vom Typ des Tutorials
+end note
+note right of Tutorial::tutorial
+    Beinhaltet eigentliche Implementierung der Tutorials
+end note
+
 ' Interaktionen
 Tutorial::t -l- TutorialType
 Tutorial -d- Config
@@ -64,27 +76,60 @@ package CodeCharts {
         - tryTutorial() : void
     }
 
+    ' Notes
+    note left of CodeChartsCoordinator::speed
+        speichert Wechselzeit zw. Bild-Raster-Eingabefenster
+    end note
+    note left of CodeChartsCoordinator::isRelative
+        speichert ob das Rater relativ oder feste Größe hat
+    end note
+    note left of CodeChartsCoordinator::strings
+        speichert Liste der Stings für Raster
+    end note
+    note left of CodeChartsCoordinator::startCodeCharts
+        ruft tryTutorial auf & steuert die Anzeige von Bi. Ra. und Ei.
+    end note
+    note left of CodeChartsCoordinator::loadConfigData
+        sendet initiale Daten an andere Klassen
+    end note
+    
+
     ' CodeCharts Interner Speicher
     class CodeChartsInternerSpeicher {
         __public method__
-        + addPic(pic: unknown) : void
-        + addSizeAndKord(size: int[2], coordinates: int[2]) : void
+        + addPic(url: String) : void
+        + addSizeAndCord(size: int[2], coordinates: int[2]) : void
         + saveData() : boolean
     }
 
+    ' Notes
+    note left of CodeChartsInternerSpeicher::addPic
+        Speichert URL des Bildes
+    end note
+    note left of CodeChartsInternerSpeicher::addSizeAndCord
+        Speichert Rastergröße & Koordinate des eingegebenen Strings
+    end note
+    note left of CodeChartsInternerSpeicher::saveData
+        sendet alle Durchläufe an Speichermedium
+    end note
+
     ' CodeCharts Bild
     class CodeChartsBild {
-        ' Unsicher ob es sinnvoll ist das Bild vorzuladen
         + load(url: String) : void
         + show() : void
     }
+
+    ' Notes
+    note right of CodeChartsBild::load
+        Unsicher ob es sinnvoll ist das Bild vorzuladen
+    end note
 
     ' CodeCharts Raster
     class CodeChartsRaster {
         ' Unsicher ob es sinnvoll ist alle vorherigen Durchläufe auf einmal zu laden
         - dimensions: int[2]
         - strings: String[..]
-        - kords: int[2]
+        - coords: int[2]
         __public method__ 
         + setInput(input: String): void
         + setData(dimensions: int[2], strings: String[..]): void
@@ -95,6 +140,20 @@ package CodeCharts {
         - sendData() : void
     }
 
+    ' Notes
+    note right of CodeChartsRaster
+        zeigt Raster an, berechnet dieses und die Koordinate des Strings
+    end note
+    note left of CodeChartsRaster::calculate
+        berrechnet Koordinaten und Raster
+    end note
+    note left of CodeChartsRaster::loadPastRuns
+        holt die vorherigen Durchläufe aus Interner Speicher zur Berechnung d. Rasters 
+    end note
+    note left of CodeChartsRaster::sendData
+        sendet Daten des Duchlaufs an Interner Speicher
+    end note
+
     ' CodeCharts Eingabefenster
     class CodeChartsEingabefenster {
         __public method__
@@ -104,6 +163,17 @@ package CodeCharts {
         - validateString(input: String): boolean
         - ErrorMessage() : void
     }
+
+    ' Notes
+    note left of CodeChartsEingabefenster::checkButton
+        überprüft ob Eingabe bestätigt wurde
+    end note
+    note left of CodeChartsEingabefenster::validateString
+        überprüft die Richtigkeit der Eingabe anhand der Strings-Liste
+    end note
+    note left of CodeChartsEingabefenster::ErrorMessage
+        gibt Fehlermeldung aus wenn falscher String eingegeben
+    end note
 
 
     ' Vererbungen

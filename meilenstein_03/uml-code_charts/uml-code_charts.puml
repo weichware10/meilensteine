@@ -62,19 +62,18 @@ package CodeCharts {
         __private methods__
         - loadConfigData() : boolean
         - tryTutorial() : void
-    }
+    }    
 
     ' CodeCharts Interner Speicher
     class CodeChartsInternerSpeicher {
         __public method__
-        + addPic(pic: unknown) : void
-        + addSizeAndKord(size: int[2], coordinates: int[2]) : void
+        + addPic(url: String) : void
+        + addSizeAndCord(size: int[2], coordinates: int[2]) : void
         + saveData() : boolean
     }
 
     ' CodeCharts Bild
     class CodeChartsBild {
-        ' Unsicher ob es sinnvoll ist das Bild vorzuladen
         + load(url: String) : void
         + show() : void
     }
@@ -84,7 +83,7 @@ package CodeCharts {
         ' Unsicher ob es sinnvoll ist alle vorherigen Durchläufe auf einmal zu laden
         - dimensions: int[2]
         - strings: String[..]
-        - kords: int[2]
+        - coords: int[2]
         __public method__ 
         + setInput(input: String): void
         + setData(dimensions: int[2], strings: String[..]): void
@@ -104,7 +103,6 @@ package CodeCharts {
         - validateString(input: String): boolean
         - ErrorMessage() : void
     }
-
 
     ' Vererbungen
     Bild <|-d- CodeChartsBild
