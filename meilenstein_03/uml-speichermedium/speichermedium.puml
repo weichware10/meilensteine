@@ -1,62 +1,58 @@
 @startuml speichermedium
 ' === Speichermedium ===
 package Speichermedium {
-      ' SpeicherUtilities
-      class SpeicherUtilities {
-         - Location: String
-         __public method__
-         + deleteData(data_client_input: String) : void
-         + searchData(data_client_input: String) : Util.Data
-         + saveData(data: Util.Data) : void
-         + setLocation(config_input: String) : void
-         + getLocation() : void
-     }
+    ' SpeicherUtilities
+    class SpeicherUtilities {
+        - Location: String
+        __public method__
+        + deleteData(data_client_input: String) : void
+        + searchData(data_client_input: String) : Util.Data
+        + saveData(data: Util.Data) : void
+        + setLocation(config_input: String) : void
+        + getLocation() : void
+    }
 
-      
-
-     ' Andere Module
-     SpeicherUtilities::Location -- Config : < Location
-     SpeicherUtilities::saveData -- CodeCharts : < Data
-     SpeicherUtilities::saveData -- ZoomMaps : < Data
-     SpeicherUtilities::saveData -- EyeTracking : < Data
-     SpeicherUtilities -- AnalyseClient
+    ' Andere Module
+    SpeicherUtilities -- Config : < Location
+    SpeicherUtilities -- CodeCharts : < Data
+    SpeicherUtilities -- ZoomMaps : < Data
+    SpeicherUtilities -- EyeTracking : < Data
+    SpeicherUtilities -- AnalyseClient : > Data
 }
 
 package Util {
 
-class Data<t: ToolType> {
-         + t: ToolType
-         + data: unknown
-         + config_id: int
-     }
+    class Data<t: ToolType> {
+        + t: ToolType
+        + data: unknown
+        + config_id: int
+    }
 
-note right of Data
-   Beinhaltet dann die Struktur/Variablen für die verschiedenen Daten, 
-   die abgespeichert werden
-end note
+    note right of Data
+        Beinhaltet dann die Struktur/Variablen für die verschiedenen Daten,
+        die abgespeichert werden
+    end note
 
-      
+    ' Interaktionen
+    ToolType -- Data::type
 
-' Interaktionen
-ToolType -- Data::type
-
-' ToolType
-      enum ToolType {
-       ZOOM
-       EYETRACKING
-       CODECHARTS
-     }
+    ' ToolType
+    enum ToolType {
+        ZOOM
+        EYETRACKING
+        CODECHARTS
+    }
 
 }
 ' Blackboxen / Andere Module
- package Config {}
+package Config {}
 
- package CodeCharts {}
+package CodeCharts {}
 
- package ZoomMaps {}
+package ZoomMaps {}
 
- package EyeTracking {}
+package EyeTracking {}
 
- package AnalyseClient {}
+package AnalyseClient {}
 
 @enduml
