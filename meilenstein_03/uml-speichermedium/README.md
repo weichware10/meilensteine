@@ -1,4 +1,4 @@
-# UML Diagramm {Modul}
+# UML Diagramm Speichermedium
 
 ![Diagram](speichermedium.svg)
 
