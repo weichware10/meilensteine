@@ -82,24 +82,24 @@ package Analyse-Client{
 ' Blackbox
 package SpeicherMedium {}
 
-package DataStructure {
+package Util {
   
   ' Typen der erhobenen Daten
   enum ToolType {
-    ZOOMMAPS
+    ZOOM
     EYETRACKING
     CODECHARTS
   }
 
   ' Daten
-  class Data {
-    + type: ToolType
+  class Data<t: ToolType> {
+    + t: ToolType
     + data: unknown
     + config_id: int
   }
 
   ' Interaktionen
-  Data::type -l- ToolType
+  Data -l- ToolType
 }
 
 () System #DA70D5
