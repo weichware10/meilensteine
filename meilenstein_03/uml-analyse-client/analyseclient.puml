@@ -1,0 +1,118 @@
+@startuml analyseclient
+
+' === ANALYSE CLIENT ===
+package Analyse-Client{
+
+    ' Client
+    class Client {
+        - data: Util.Data
+        - dataForComp: Util.Data
+        - analyseTypes: AnalyseType[0..5]
+        - analyzedData: String[*]
+        __public methods__
+        + getData(start: Date, end: Date, dataType: Util.ToolType): boolean
+        + setAnalyseTypes(): boolean
+        + displayAnalyzedData(): void
+        + export(): boolean
+        + analyseData(): boolean
+    }
+
+    ' Analyse
+    abstract Analyse {
+        - calcRelFreq(data: Util.Data): float[*][*]
+        - createTimeTable(data: Util.Data): float[*][*]
+    }
+
+    ' Heatmap
+    class Heatmap {
+        - heatmap: float[*][*]
+        __public methods__
+        + createHeatmap(data: Util.Data): String
+        + compHeatmaps(otherHeatmap: Heatmap): String
+    }
+
+    ' Verlauf
+    class Verlauf {
+        __public method__
+        + createVerlauf(data: Util.Data): String
+        __private method__
+        - drawDiagramm(diagrammData: float[*][*]): String
+    }
+
+    ' Diagramm
+    class Diagramm {
+        __public methods__
+        + createRelFreqImgArea(data: Util.Data): String
+        + createViewTimeDistr(data: Util.Data): String
+        __private methods__
+        - calcViewTimeDistr(): float[4]
+        - drawDiagramm(diagrammData: float[4], type: DiagrammType): String
+    }
+
+    ' DiagrammType
+    enum DiagrammType {
+        RELFRQIMGAREA
+        VIEWTIMEDISTR
+    }
+
+    ' Type
+    enum AnalyseType {
+        HEATMAP
+        COMPHEATMAP
+        VERLAUF
+        RELFRQIMGAREA
+        VIEWTIMEDISTR
+    }
+
+    ' ClientGUI
+    class ClientGUI {
+        - client: Client
+        __public method__
+        + showClientGUI(): void
+    }
+
+    ' Vererbung
+    Analyse <|-u- Heatmap
+    Analyse <|-u- Verlauf
+    Analyse <|-u- Diagramm
+
+    ' Interaktionen
+    Client -d-> Heatmap
+    Client -d-> Verlauf
+    Client -d-> Diagramm
+    Client -l- AnalyseType
+    Client <-r- ClientGUI : < graphische Benutzeroberfläche
+    Diagramm -- DiagrammType
+
+}
+
+' Blackbox
+package SpeicherMedium {}
+
+package Util {
+
+    ' Typen der erhobenen Daten
+    enum ToolType {
+        ZOOM
+        EYETRACKING
+        CODECHARTS
+    }
+
+    ' Daten
+    class Data<t: ToolType> {
+        + t: ToolType
+        + data: unknown
+        + config_id: int
+    }
+
+    ' Interaktionen
+    Data -l- ToolType
+}
+
+() System #DA70D5
+
+' Interaktionen
+Client -u- System: > save to
+Client -u- SpeicherMedium : < gets Data
+
+@enduml
