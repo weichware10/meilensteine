@@ -3,55 +3,10 @@
 '() System #DA70D5
 top to bottom direction
 
-' --- TUTORIAL ---
-abstract Tutorial<t: TutorialType> {
-  - t: TutorialType
-  __public method__
-  + start() : void
-  __private methods__
-  - getConfigState() : boolean
-  - setConfigState(state: boolean) : void
-  - show() : boolean
-  __abstract methods__
-  - {abstract} tutorial() : void
-}
-
-enum TutorialType {
-  ZOOM
-  EYETRACKING
-  CODECHARTS
-}
-
-' Notes
-note right of Tutorial::start
-    Startet Tutorial, beinhaltet interne Aufrufe
-end note
-note right of Tutorial::getConfigState
-    Sendet eine Anfrage an das Config-Modul,
-    abhängig vom Typ des Tutorials
-end note
-note right of Tutorial::tutorial
-    Beinhaltet eigentliche Implementierung der Tutorials
-end note
-
-' Interaktionen
-Tutorial::t -l- TutorialType
-Tutorial -d- Config
-
-
-' --- BILD ---
-
-abstract Bild {
-  + load(url: String) : void
-  + show() : void
-}
-
-' === CODE CHARTS ===
-package CodeCharts {
-
-    ' CodeCharts Tutorial 
-    class CodeChartsTutorial {
-      - t: TutorialType
+package Util {
+    ' --- TUTORIAL ---
+    abstract Tutorial<t: ToolType> {
+      - t: ToolType
       __public method__
       + start() : void
       __private methods__
@@ -61,9 +16,46 @@ package CodeCharts {
       __abstract methods__
       - {abstract} tutorial() : void
     }
-  
+
+    enum ToolType {
+        ZOOM
+        EYETRACKING
+        CODECHARTS
+    }
+
+    ' Interaktionen
+    Tutorial -u- ToolType
+    Data -r- ToolType
+    Tutorial -d- Config
+
+
+    ' --- BILD ---
+
+    abstract Bild {
+        # location : String
+        + Bild(url: String)
+        + show() : void
+        + hide() : void
+    }
+
+    class Data<t: ToolType> {
+        + t: ToolType
+        + data: unknown
+        + config_id: int
+    }
+}
+
+' === CODE CHARTS ===
+package CodeCharts {
+
+    ' CodeCharts Tutorial 
+    class CodeChartsTutorial {
+      - tutorial() : void
+    }
+    
     ' CodeCharts Coordinator
     class CodeChartsCoordinator {
+        - data: Util.Data
         - speed: float[2]
         - isTutorial: boolean
         - isRelative: boolean
@@ -73,10 +65,12 @@ package CodeCharts {
         + startCodeCharts() : void
         __private methods__
         - loadConfigData() : boolean
-        - tryTutorial() : void
     }
 
     ' Notes
+    note left of CodeChartsCoordinator::data
+        Speichern der Durchläufe
+    end note
     note left of CodeChartsCoordinator::speed
         speichert Wechselzeit zw. Bild-Raster-Eingabefenster
     end note
@@ -92,41 +86,13 @@ package CodeCharts {
     note left of CodeChartsCoordinator::loadConfigData
         sendet initiale Daten an andere Klassen
     end note
-    
-
-    ' CodeCharts Interner Speicher
-    class CodeChartsInternerSpeicher {
-        __public method__
-        + addPic(url: String) : void
-        + addSizeAndCord(size: int[2], coordinates: int[2]) : void
-        + saveData() : boolean
-    }
-
-    ' Notes
-    note left of CodeChartsInternerSpeicher::addPic
-        Speichert URL des Bildes
-    end note
-    note left of CodeChartsInternerSpeicher::addSizeAndCord
-        Speichert Rastergröße & Koordinate des eingegebenen Strings
-    end note
-    note left of CodeChartsInternerSpeicher::saveData
-        sendet alle Durchläufe an Speichermedium
-    end note
 
     ' CodeCharts Bild
     class CodeChartsBild {
-        + load(url: String) : void
-        + show() : void
     }
-
-    ' Notes
-    note right of CodeChartsBild::load
-        Unsicher ob es sinnvoll ist das Bild vorzuladen
-    end note
 
     ' CodeCharts Raster
     class CodeChartsRaster {
-        ' Unsicher ob es sinnvoll ist alle vorherigen Durchläufe auf einmal zu laden
         - dimensions: int[2]
         - strings: String[..]
         - coords: int[2]
@@ -134,7 +100,7 @@ package CodeCharts {
         + setInput(input: String): void
         + setData(dimensions: int[2], strings: String[..]): void
         + show() : void
-        + calculate() : void
+        + calculate(data: Util.Data) : void
         __private methods__
         - loadPastRuns() : void
         - sendData() : void
@@ -174,7 +140,6 @@ package CodeCharts {
     note left of CodeChartsEingabefenster::ErrorMessage
         gibt Fehlermeldung aus wenn falscher String eingegeben
     end note
-
 
     ' Vererbungen
     Bild <|-d- CodeChartsBild

@@ -18,9 +18,9 @@ package Util {
     }
 
     enum ToolType {
-      ZOOM
-      EYETRACKING
-      CODECHARTS
+        ZOOM
+        EYETRACKING
+        CODECHARTS
     }
 
     ' Interaktionen
@@ -32,10 +32,10 @@ package Util {
     ' --- BILD ---
 
     abstract Bild {
-      - location: String
-      __public method__
-      + create(url: String) : void
-      + show() : void
+        # location : String
+        + Bild(url: String)
+        + show() : void
+        + hide() : void
     }
 
     class Data<t: ToolType> {
