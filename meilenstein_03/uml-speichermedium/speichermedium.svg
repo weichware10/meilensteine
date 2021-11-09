@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="371px" preserveAspectRatio="none" style="width:1401px;height:371px;background:#FFFFFF;" version="1.1" viewBox="0 0 1401 371" width="1401px" zoomAndPan="magnify"><defs><filter height="300%" id="f1xysavscwu0e8" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[3a4ecbc1d133d64cf2ebb2949f5932ed]
+cluster Speichermedium--><polygon fill="#FFFFFF" filter="url(#f1xysavscwu0e8)" points="848,6,987,6,994,28.2969,1174,28.2969,1174,191,848,191,848,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="848" x2="994" y1="28.2969" y2="28.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="133" x="852" y="20.9951">Speichermedium</text><!--MD5=[a55135535b5c544b99c33b17428c3b14]
+cluster Util--><polygon fill="#FFFFFF" filter="url(#f1xysavscwu0e8)" points="16,30,51,30,58,52.2969,682,52.2969,682,364,16,364,16,30" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="58" y1="52.2969" y2="52.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="29" x="20" y="44.9951">Util</text><!--MD5=[827fa8af465d414750422ffafb762a0b]
+class SpeicherUtilities--><rect codeLine="4" fill="#FEFECE" filter="url(#f1xysavscwu0e8)" height="133.6328" id="SpeicherUtilities" style="stroke:#A80036;stroke-width:1.5;" width="294" x="864" y="41"/><ellipse cx="957.75" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M960.0938,52.6719 C959.1563,52.2344 958.5625,52.0938 957.6875,52.0938 C955.0625,52.0938 953.0625,54.1719 953.0625,56.8906 L953.0625,58.0156 C953.0625,60.5938 955.1719,62.4844 958.0625,62.4844 C959.2813,62.4844 960.4375,62.1875 961.1875,61.6406 C961.7656,61.2344 962.0938,60.7813 962.0938,60.3906 C962.0938,59.9375 961.7031,59.5469 961.2344,59.5469 C961.0156,59.5469 960.8125,59.625 960.625,59.8125 C960.1719,60.2969 960.1719,60.2969 959.9844,60.3906 C959.5625,60.6563 958.875,60.7813 958.1094,60.7813 C956.0625,60.7813 954.7656,59.6875 954.7656,57.9844 L954.7656,56.8906 C954.7656,55.1094 956.0156,53.7969 957.75,53.7969 C958.3281,53.7969 958.9375,53.9531 959.4063,54.2031 C959.8906,54.4844 960.0625,54.7031 960.1563,55.1094 C960.2188,55.5156 960.25,55.6406 960.3906,55.7656 C960.5313,55.9063 960.7656,56.0156 960.9844,56.0156 C961.25,56.0156 961.5156,55.875 961.6875,55.6563 C961.7969,55.5 961.8281,55.3125 961.8281,54.8906 L961.8281,53.4688 C961.8281,53.0313 961.8125,52.9063 961.7188,52.75 C961.5625,52.4844 961.2813,52.3438 960.9844,52.3438 C960.6875,52.3438 960.4844,52.4375 960.2656,52.75 L960.0938,52.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="98" x="978.25" y="61.1543">SpeicherUtilities</text><line style="stroke:#A80036;stroke-width:1.5;" x1="865" x2="1157" y1="73" y2="73"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="872" y="81"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="87" x="884" y="87.2104">Location: String</text><ellipse cx="875" cy="113.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="266" x="884" y="116.8198">deleteData(data_client_input: String) : boolean</text><ellipse cx="875" cy="126.4141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="268" x="884" y="129.6245">searchData(data_client_input: String) : Util.Data</text><ellipse cx="875" cy="139.2188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="200" x="884" y="142.4292">saveData(data: Util.Data) : boolean</text><ellipse cx="875" cy="152.0234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="238" x="884" y="155.2339">setLocation(config_input: String) : boolean</text><ellipse cx="875" cy="164.8281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="118" x="884" y="168.0386">getLocation() : String</text><line style="stroke:#A80036;stroke-width:1.5;" x1="865" x2="970.5" y1="100.207" y2="100.207"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="970.5" y="103.5151">public method</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1051.5" x2="1157" y1="100.207" y2="100.207"/><!--MD5=[60c9ed31c535bee25c55ce21b5b01399]
+class Data--><rect codeLine="24" fill="#FEFECE" filter="url(#f1xysavscwu0e8)" height="86.4141" id="Data" style="stroke:#A80036;stroke-width:1.5;" width="129" x="40.5" y="258"/><ellipse cx="55.5" cy="274" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M57.8438,269.6719 C56.9063,269.2344 56.3125,269.0938 55.4375,269.0938 C52.8125,269.0938 50.8125,271.1719 50.8125,273.8906 L50.8125,275.0156 C50.8125,277.5938 52.9219,279.4844 55.8125,279.4844 C57.0313,279.4844 58.1875,279.1875 58.9375,278.6406 C59.5156,278.2344 59.8438,277.7813 59.8438,277.3906 C59.8438,276.9375 59.4531,276.5469 58.9844,276.5469 C58.7656,276.5469 58.5625,276.625 58.375,276.8125 C57.9219,277.2969 57.9219,277.2969 57.7344,277.3906 C57.3125,277.6563 56.625,277.7813 55.8594,277.7813 C53.8125,277.7813 52.5156,276.6875 52.5156,274.9844 L52.5156,273.8906 C52.5156,272.1094 53.7656,270.7969 55.5,270.7969 C56.0781,270.7969 56.6875,270.9531 57.1563,271.2031 C57.6406,271.4844 57.8125,271.7031 57.9063,272.1094 C57.9688,272.5156 58,272.6406 58.1406,272.7656 C58.2813,272.9063 58.5156,273.0156 58.7344,273.0156 C59,273.0156 59.2656,272.875 59.4375,272.6563 C59.5469,272.5 59.5781,272.3125 59.5781,271.8906 L59.5781,270.4688 C59.5781,270.0313 59.5625,269.9063 59.4688,269.75 C59.3125,269.4844 59.0313,269.3438 58.7344,269.3438 C58.4375,269.3438 58.2344,269.4375 58.0156,269.75 L57.8438,269.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="27" x="69.5" y="278.1543">Data</text><rect fill="#FFFFFF" height="15.9688" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" width="68" x="104.5" y="255"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="66" x="105.5" y="267.1387">t: ToolType</text><line style="stroke:#A80036;stroke-width:1.5;" x1="41.5" x2="168.5" y1="290" y2="290"/><ellipse cx="51.5" cy="301" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="64" x="60.5" y="304.2104">t: ToolType</text><ellipse cx="51.5" cy="313.8047" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="60.5" y="317.0151">data: unknown</text><ellipse cx="51.5" cy="326.6094" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="60.5" y="329.8198">config_id: int</text><line style="stroke:#A80036;stroke-width:1.5;" x1="41.5" x2="168.5" y1="336.4141" y2="336.4141"/><path d="M212.5,281 L212.5,297 L177.736,301 L212.5,305 L212.5,321.2656 A0,0 0 0 0 212.5,321.2656 L665.5,321.2656 A0,0 0 0 0 665.5,321.2656 L665.5,291 L655.5,281 L212.5,281 A0,0 0 0 0 212.5,281 " fill="#FBFB77" filter="url(#f1xysavscwu0e8)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M655.5,281 L655.5,291 L665.5,291 L655.5,281 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="432" x="218.5" y="298.0669">Beinhaltet dann die Struktur/Variablen für die verschiedenen Daten,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="166" x="218.5" y="313.1997">die abgespeichert werden</text><!--MD5=[5c39798b83ace9e75333b1274a725e6c]
+class ToolType--><rect codeLine="39" fill="#FEFECE" filter="url(#f1xysavscwu0e8)" height="86.4141" id="ToolType" style="stroke:#A80036;stroke-width:1.5;" width="91" x="59.5" y="65"/><ellipse cx="75.85" cy="81" fill="#EB937F" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M74.6469,81.875 L76.1,81.875 L76.1,81.9844 C76.1,82.3906 76.1313,82.5469 76.2094,82.7031 C76.3656,82.9531 76.6469,83.1094 76.9438,83.1094 C77.1938,83.1094 77.4594,82.9688 77.6156,82.75 C77.7406,82.5938 77.7719,82.4375 77.7719,81.9844 L77.7719,80.0625 C77.7719,79.9063 77.7719,79.8594 77.7563,79.7031 C77.6938,79.2344 77.3813,78.9219 76.9281,78.9219 C76.6781,78.9219 76.4125,79.0625 76.2406,79.2813 C76.1313,79.4531 76.1,79.6094 76.1,80.0625 L76.1,80.1875 L74.6469,80.1875 L74.6469,77.7813 L78.6313,77.7813 L78.6313,78.6406 C78.6313,79.0469 78.6625,79.2188 78.7406,79.375 C78.9125,79.625 79.1938,79.7813 79.475,79.7813 C79.7406,79.7813 80.0063,79.6406 80.1781,79.4219 C80.2875,79.25 80.3188,79.1094 80.3188,78.6406 L80.3188,76.0938 L72.6938,76.0938 C72.2563,76.0938 72.1313,76.1094 71.975,76.2031 C71.725,76.3594 71.5688,76.6563 71.5688,76.9375 C71.5688,77.2188 71.7094,77.4688 71.9281,77.6406 C72.0844,77.75 72.2719,77.7813 72.6938,77.7813 L72.9438,77.7813 L72.9438,84.2969 L72.6938,84.2969 C72.2875,84.2969 72.1313,84.3125 71.975,84.4219 C71.725,84.5938 71.5688,84.8594 71.5688,85.1563 C71.5688,85.4219 71.7094,85.6719 71.9281,85.8281 C72.0688,85.9531 72.3031,86 72.6938,86 L80.6938,86 L80.6938,83.4219 C80.6938,82.9844 80.6625,82.8438 80.5844,82.6875 C80.4125,82.4375 80.1313,82.2813 79.85,82.2813 C79.5844,82.2813 79.3188,82.3906 79.1469,82.6406 C79.0375,82.7969 79.0063,82.9375 79.0063,83.4219 L79.0063,84.2969 L74.6469,84.2969 L74.6469,81.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="56" x="90.15" y="85.1543">ToolType</text><line style="stroke:#A80036;stroke-width:1.5;" x1="60.5" x2="149.5" y1="97" y2="97"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="35" x="65.5" y="111.2104">ZOOM</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="65.5" y="124.0151">EYETRACKING</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="79" x="65.5" y="136.8198">CODECHARTS</text><line style="stroke:#A80036;stroke-width:1.5;" x1="60.5" x2="149.5" y1="143.4141" y2="143.4141"/><polygon fill="#FFFFFF" filter="url(#f1xysavscwu0e8)" points="701,274.5,759,274.5,766,296.7969,773,296.7969,773,327.0938,701,327.0938,701,274.5" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="701" x2="766" y1="296.7969" y2="296.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="52" x="705" y="289.4951">Config</text><polygon fill="#FFFFFF" filter="url(#f1xysavscwu0e8)" points="808.5,274.5,907.5,274.5,914.5,296.7969,921.5,296.7969,921.5,327.0938,808.5,327.0938,808.5,274.5" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="808.5" x2="914.5" y1="296.7969" y2="296.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="93" x="812.5" y="289.4951">CodeCharts</text><polygon fill="#FFFFFF" filter="url(#f1xysavscwu0e8)" points="956.5,274.5,1051.5,274.5,1058.5,296.7969,1065.5,296.7969,1065.5,327.0938,956.5,327.0938,956.5,274.5" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="956.5" x2="1058.5" y1="296.7969" y2="296.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="89" x="960.5" y="289.4951">ZoomMaps</text><polygon fill="#FFFFFF" filter="url(#f1xysavscwu0e8)" points="1101,274.5,1205,274.5,1212,296.7969,1219,296.7969,1219,327.0938,1101,327.0938,1101,274.5" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1101" x2="1212" y1="296.7969" y2="296.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="98" x="1105" y="289.4951">EyeTracking</text><polygon fill="#FFFFFF" filter="url(#f1xysavscwu0e8)" points="1254,274.5,1370,274.5,1377,296.7969,1384,296.7969,1384,327.0938,1254,327.0938,1254,274.5" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1254" x2="1377" y1="296.7969" y2="296.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="110" x="1258" y="289.4951">AnalyseClient</text><!--MD5=[be61eeeb27be34ef4ae07c1a066952f1]
+link SpeicherUtilities to Config--><path codeLine="15" d="M896.068,175.164 C879.682,185.44 863.233,196.23 848,207 C821.19,225.956 816.165,232.909 791,254 C783.166,260.566 774.735,267.71 766.919,274.366 " fill="none" id="SpeicherUtilities-Config" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="856.9652,212.5206,848.0018,215.6998,851.5823,220.3612,856.9652,212.5206" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="54" x="862" y="220.0669">Location</text><!--MD5=[49d6d0147e3b94482ce135b8a0be2af5]
+link SpeicherUtilities to CodeCharts--><path codeLine="16" d="M960.346,175.266 C934.32,209.314 904.101,248.848 884.778,274.126 " fill="none" id="SpeicherUtilities-CodeCharts" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="942.0365,211.594,934.2085,216.9953,938.8784,220.5649,942.0365,211.594" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="31" x="948" y="220.0669">Data</text><!--MD5=[a5b1ade112710dc4f95c1b1987853db1]
+link SpeicherUtilities to ZoomMaps--><path codeLine="17" d="M1011,175.266 C1011,209.314 1011,248.848 1011,274.126 " fill="none" id="SpeicherUtilities-ZoomMaps" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1016,210.5664,1013.0611,219.6115,1018.9389,219.6115,1016,210.5664" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="31" x="1025" y="220.0669">Data</text><!--MD5=[389cbc08bfc7a7d01aa6d7f2a706f8d1]
+link SpeicherUtilities to EyeTracking--><path codeLine="18" d="M1062.69,175.266 C1089.26,209.314 1120.1,248.848 1139.82,274.126 " fill="none" id="SpeicherUtilities-EyeTracking" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1100.9244,211.6243,1104.1711,220.5635,1108.8054,216.9479,1100.9244,211.6243" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="31" x="1113" y="220.0669">Data</text><!--MD5=[7237edb64a5a2ff692c4c4aff579e11a]
+link SpeicherUtilities to AnalyseClient--><path codeLine="19" d="M1117.86,175.266 C1172.94,209.422 1236.92,249.098 1277.66,274.366 " fill="none" id="SpeicherUtilities-AnalyseClient" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="1202.2492,218.2016,1196.1112,210.9369,1193.0134,215.9322,1202.2492,218.2016" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="31" x="1207" y="220.0669">Data</text><!--MD5=[b0bc53235038902673d53aaf3a34627f]
+link ToolType to Data--><path codeLine="36" d="M105,151.389 C105,181.722 105,222.537 105,253.719 " fill="none" id="ToolType-Data" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[4b76986161580cda0938bae4613a75ce]
+@startuml
+' === Speichermedium ===
+package Speichermedium {
+    ' SpeicherUtilities
+    class SpeicherUtilities {
+        - Location: String
+        __public method__
+        + deleteData(data_client_input: String) : boolean
+        + searchData(data_client_input: String) : Util.Data
+        + saveData(data: Util.Data) : boolean
+        + setLocation(config_input: String) : boolean
+        + getLocation() : String
+    }
+
+    ' Andere Module
+    SpeicherUtilities - - Config : < Location
+    SpeicherUtilities - - CodeCharts : < Data
+    SpeicherUtilities - - ZoomMaps : < Data
+    SpeicherUtilities - - EyeTracking : < Data
+    SpeicherUtilities - - AnalyseClient : > Data
+}
+
+package Util {
+
+    class Data<t: ToolType> {
+        + t: ToolType
+        + data: unknown
+        + config_id: int
+    }
+
+    note right of Data
+        Beinhaltet dann die Struktur/Variablen für die verschiedenen Daten,
+        die abgespeichert werden
+    end note
+
+    ' Interaktionen
+    ToolType - - Data::type
+
+    ' ToolType
+    enum ToolType {
+        ZOOM
+        EYETRACKING
+        CODECHARTS
+    }
+
+}
+' Blackboxen / Andere Module
+package Config {}
+package CodeCharts {}
+package ZoomMaps {}
+package EyeTracking {}
+package AnalyseClient {}
+@enduml
+
+@startuml
+package Speichermedium {
+    class SpeicherUtilities {
+        - Location: String
+        __public method__
+        + deleteData(data_client_input: String) : boolean
+        + searchData(data_client_input: String) : Util.Data
+        + saveData(data: Util.Data) : boolean
+        + setLocation(config_input: String) : boolean
+        + getLocation() : String
+    }
+
+    SpeicherUtilities - - Config : < Location
+    SpeicherUtilities - - CodeCharts : < Data
+    SpeicherUtilities - - ZoomMaps : < Data
+    SpeicherUtilities - - EyeTracking : < Data
+    SpeicherUtilities - - AnalyseClient : > Data
+}
+
+package Util {
+
+    class Data<t: ToolType> {
+        + t: ToolType
+        + data: unknown
+        + config_id: int
+    }
+
+    note right of Data
+        Beinhaltet dann die Struktur/Variablen für die verschiedenen Daten,
+        die abgespeichert werden
+    end note
+
+    ToolType - - Data::type
+
+    enum ToolType {
+        ZOOM
+        EYETRACKING
+        CODECHARTS
+    }
+
+}
+package Config {}
+package CodeCharts {}
+package ZoomMaps {}
+package EyeTracking {}
+package AnalyseClient {}
+@enduml
+
+PlantUML version 1.2021.14beta4(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
