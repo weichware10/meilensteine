@@ -1,0 +1,99 @@
+@startuml config
+
+package Util {
+    enum ToolType {
+        ZOOMMAPS
+        CODECHARTS
+        EYETRACKING
+    }
+}
+
+
+package ZoomMaps {}
+package CodeCharts {}
+package EyeTracking {}
+package Speichermedium {}
+
+package Config {
+    class ConfigClient {
+        # configuration : Configuration
+        + getConfig() : Configuration
+        + getString(category: String, option: String) : String
+        + getInt(category: String, option: String) : int
+        + getFloat(category: String, option: String) : float
+        + getBool(category: String, option: String) : boolean
+        + setString(category: String, option: String, value: String)
+        + setInt(category: String, option: String, value: Int)
+        + setFloat(category: String, option: String, value: float)
+        + setBool(category: String, option: boolean)
+    }
+
+    class ConfigLoader {
+        + loadConfiguration(location: String) : Configuration
+    }
+
+    class ConfigWriter {
+        + writeConfiguration(location: String, configuration: Configuration) : boolean
+    }
+
+    class ConfigGUI {
+        - configuration_state: Configuration
+        + showEditor() : void
+    }
+
+    class Configuration {
+        + general: GeneralConfiguration
+        + zoom_maps: ZoomMapsConfiguration
+        + code_charts: CodeChartsConfiguration
+        + eye_tracking: EyetrackingConfiguration
+    }
+    class GeneralConfiguration {
+        + tools : Util.ToolType[0..3]
+        + save_location : String
+    }
+    class ZoomMapsConfiguration {
+        + image_url : String
+        + tutorial : boolean
+        + speed : float
+    }
+    class CodeChartsConfiguration {
+        + image_url : String
+        + tutorial : boolean
+        + strings : String[*]
+        + initial_size : float
+        + timings : float[2]
+    }
+    class EyetrackingConfiguration {
+        + image_url : String
+        + tutorial : boolean
+        + poll_intervall : float
+    }
+    abstract ToolConfiguration {
+        + {abstract} image_url : String
+        + {abstract} tutorial : boolean
+    }
+
+    ' ConfigClient ..> Configuration
+
+    ConfigClient o-- ConfigLoader : < lädt Konfiguration
+    ' ConfigLoader ..> Configuration
+
+    ConfigClient o-- ConfigWriter : < schreibt Konfiguration
+    ' ConfigWriter ..> Configuration
+
+    ConfigClient -r- ConfigGUI : < Konfigurationsbearbeitung
+
+    Configuration .r.> GeneralConfiguration
+    Configuration ..> ZoomMapsConfiguration
+    Configuration ..> CodeChartsConfiguration
+    Configuration ..> EyetrackingConfiguration
+
+    ZoomMapsConfiguration --|> ToolConfiguration
+    CodeChartsConfiguration --|> ToolConfiguration
+    EyetrackingConfiguration --|> ToolConfiguration
+}
+ConfigClient -u- ZoomMaps
+ConfigClient -u- CodeCharts
+ConfigClient -u- EyeTracking
+ConfigClient -u- Speichermedium
+@enduml
