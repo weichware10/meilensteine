@@ -7,8 +7,8 @@ package Analyse-Client{
     class Client {
         - data: Util.Data
         - dataForComp: Util.Data
-        - analyseTypes: List<AnalyseType>
-        - analyzedData: List<String>
+        - analyseTypes: AnalyseType[0..5]
+        - analyzedData: String[*]
         __public methods__
         + getData(start: Date, end: Date, dataType: Util.ToolType): boolean
         + setAnalyseTypes(): boolean
