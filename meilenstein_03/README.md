@@ -3,7 +3,7 @@
 ![UML-Diagramm](gesamt.svg)
 ---
 ## Was ist seit dem letzten Meilenstein passiert ?
-- Besprechung am 03.11.2021 über die Vorgehensweise für diesen Meilenstein -> Entscheidung PlantUML für Meilenstein 03 zu nutzen
+- Besprechung am [03.11.2021](03_11_21.md) über die Vorgehensweise für diesen Meilenstein -> Entscheidung PlantUML für Meilenstein 03 zu nutzen
 - Veränderungen innerhalb der Rollenaufteilung 
 - Erstellung der PlantUML Templates
 - Einarbeitung und Hilfe in PlantUML durch Gruppenmitglieder
