@@ -32,7 +32,9 @@ package Util {
     ' --- BILD ---
 
     abstract Bild {
-      + load(url: String) : void
+      - location: String
+      __public method__
+      + create(url: String) : void
       + show() : void
     }
 
@@ -53,7 +55,7 @@ package CodeCharts {
   
     ' CodeCharts Coordinator
     class CodeChartsCoordinator {
-        - data: Data
+        - data: Util.Data
         - speed: float[2]
         - isTutorial: boolean
         - isRelative: boolean
@@ -63,7 +65,6 @@ package CodeCharts {
         + startCodeCharts() : void
         __private methods__
         - loadConfigData() : boolean
-        - tryTutorial() : void
     }    
 
     ' CodeCharts Bild
@@ -79,7 +80,7 @@ package CodeCharts {
         + setInput(input: String): void
         + setData(dimensions: int[2], strings: String[..]): void
         + show() : void
-        + calculate() : void
+        + calculate(data: Util.Data) : void
         __private methods__
         - loadPastRuns() : void
         - sendData() : void
@@ -103,7 +104,7 @@ package CodeCharts {
     CodeChartsCoordinator -- CodeChartsBild : > send initial data and show
     CodeChartsCoordinator -- CodeChartsRaster : > send data and show
     CodeChartsCoordinator -- CodeChartsEingabefenster : > show
-    CodeChartsCoordinator -- CodeChartsTutorial : > start Tutorial?
+    CodeChartsCoordinator -- CodeChartsTutorial : > start
 
     ' Andere Module
     CodeChartsCoordinator -- SpeicherMedium : > saves Data
