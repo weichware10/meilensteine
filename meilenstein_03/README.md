@@ -10,6 +10,7 @@
 - In manchen Gruppen Umstrukturierung der zuvor ausgearbeiteten Struktur in den CRC-Karten
 - Ausarbeitung der Moduldiagramme mit Hilfe von PlantUML, Visual Studio Code und LiveShare
 - Review durch andere Gruppenmitglieder und eventuelle Verbesserungen
+- Besprechnung am [08.11.2021](08_11_21.md) über die Lösung des Interface-Problems und Überarbeitung bzw. Änderung bestehender Klassen
 
 ## Was waren die Herausforderungen und Probleme ? Wie wurden sie gelöst ?
 - Bei der bisherigen Rollenaufteilung hatten zwei Mitglieder weniger mit den Modulen zu tun als Andere, da sie bei der Dokumentation eingeteilt waren -> Entschluss, dass diese Mitglieder wöchentlich in andere Module eingeteilt und durch ein bisheriges Mitglied dieser Modulgruppen bei der Dokumentation gedeckt werden
