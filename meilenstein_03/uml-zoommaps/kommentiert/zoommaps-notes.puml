@@ -109,7 +109,7 @@ package ZoomMaps {
     ' Andere Module
     ZoomCalculator -- SpeicherMedium : > saves Data
     ZoomCalculator -l- Config : < speed
-    ZoomInput -r- System : > listens to
+    ZoomInput -u- System : > listens to
 
 }
 
