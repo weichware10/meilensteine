@@ -1,0 +1,102 @@
+@startuml zoommaps
+' skinparam backgroundColor transparent
+() System #DA70D5
+top to bottom direction
+
+package Util {
+    ' --- TUTORIAL ---
+    abstract Tutorial<t: ToolType> {
+      - t: ToolType
+      __public method__
+      + start() : void
+      __private methods__
+      - getConfigState() : boolean
+      - setConfigState(state: boolean) : void
+      - show() : boolean
+      __abstract methods__
+      - {abstract} tutorial() : void
+    }
+
+    enum ToolType {
+        ZOOM
+        EYETRACKING
+        CODECHARTS
+    }
+
+    ' Interaktionen
+    Tutorial -u- ToolType
+    Data -r- ToolType
+    Tutorial -d- Config
+
+
+    ' --- BILD ---
+
+    abstract Bild {
+        # location : String
+        + Bild(url: String)
+        + show() : void
+        + hide() : void
+    }
+
+    class Data<t: ToolType> {
+        + t: ToolType
+        + data: unknown
+        + config_id: int
+    }
+}
+
+
+
+' === ZOOM MAPS ===
+package ZoomMaps {
+
+    ' Zoom Input
+    class ZoomInput {
+        - onClick() : void
+        - onScroll() : void
+    }
+
+    ' Zoom Tutorial
+    class ZoomTutorial<t: ToolType> {
+        - tutorial() : void
+    }
+
+    ' Zoom Calculator
+    class ZoomCalculator {
+        - speed: float
+        - position: float[3]
+        - data: Util.Data
+        __public method__
+        + processInput(raw_input: unknown) : void
+        + save() : boolean
+        __private methods__
+        - calculate(raw_input: unknown) : float[3]
+    }
+
+    ' Zoom Bild
+    class ZoomBild {
+        + move(position: float[3]): float[3]
+    }
+
+
+    ' Vererbungen
+    Bild <|-- ZoomBild
+    Tutorial <|-- ZoomTutorial
+
+    ' Interaktionen
+    ZoomInput -d- ZoomCalculator
+    ZoomCalculator  -u- ZoomBild : > moves
+
+    ' Andere Module
+    ZoomCalculator -- SpeicherMedium : > saves Data
+    ZoomCalculator -l- Config : < speed
+    ZoomInput -u- System : > listens to
+
+}
+
+' Blackboxen / Andere Module
+package Config {}
+
+package SpeicherMedium {}
+
+@enduml

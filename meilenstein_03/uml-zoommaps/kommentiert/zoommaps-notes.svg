@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="907px" preserveAspectRatio="none" style="width:1590px;height:907px;background:#FFFFFF;" version="1.1" viewBox="0 0 1590 907" width="1590px" zoomAndPan="magnify"><defs><filter height="300%" id="f1i5bhbcu9ccpg" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[a55135535b5c544b99c33b17428c3b14]
+cluster Util--><polygon fill="#FFFFFF" filter="url(#f1i5bhbcu9ccpg)" points="16,6,51,6,58,28.2969,675,28.2969,675,384,16,384,16,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="58" y1="28.2969" y2="28.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="29" x="20" y="20.9951">Util</text><!--MD5=[7d78d958a1816327b68dab5e38143fdd]
+cluster ZoomMaps--><polygon fill="#FFFFFF" filter="url(#f1i5bhbcu9ccpg)" points="434,433,529,433,536,455.2969,1573,455.2969,1573,785,434,785,434,433" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="434" x2="536" y1="455.2969" y2="455.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="89" x="438" y="447.9951">ZoomMaps</text><!--MD5=[fccc419d627b37790932ddb688fb7ad6]
+class Tutorial--><rect codeLine="7" fill="#FEFECE" filter="url(#f1i5bhbcu9ccpg)" height="167.2422" id="Tutorial" style="stroke:#A80036;stroke-width:1.5;" width="236" x="423" y="201"/><ellipse cx="479.25" cy="217" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M481.3281,218.8125 L481.7188,219.7969 L481.3281,219.7969 C480.875,219.7969 480.7656,219.8125 480.6094,219.9219 C480.3594,220.0781 480.2031,220.3594 480.2031,220.6563 C480.2031,220.9219 480.3438,221.1719 480.5625,221.3281 C480.7031,221.4531 480.9063,221.5 481.3281,221.5 L483.6875,221.5 C484.0469,221.5 484.2656,221.4688 484.4063,221.375 C484.6563,221.2344 484.8125,220.9375 484.8125,220.6563 C484.8125,220.375 484.6719,220.125 484.4531,219.9688 C484.2813,219.8281 484.125,219.7969 483.6563,219.7969 L480.2656,211.5938 L476.5938,211.5938 C476.1406,211.5938 476.0156,211.6094 475.8594,211.7031 C475.6094,211.875 475.4531,212.1563 475.4531,212.4375 C475.4531,212.7188 475.5938,212.9688 475.8125,213.1406 C475.9844,213.25 476.1563,213.2813 476.5938,213.2813 L477.6719,213.2813 L475.0313,219.7969 C474.6094,219.7969 474.4531,219.8125 474.2969,219.9219 C474.0469,220.0781 473.8906,220.3594 473.8906,220.6563 C473.8906,221.2188 474.2656,221.5 475.0156,221.5 L477.2813,221.5 C477.6406,221.5 477.8594,221.4688 477.9844,221.375 C478.25,221.2344 478.3906,220.9375 478.3906,220.6563 C478.3906,220.375 478.2656,220.125 478.0469,219.9531 C477.875,219.8281 477.7344,219.7969 477.2813,219.7969 L476.8906,219.7969 L477.2813,218.8125 L481.3281,218.8125 Z M480.625,217.1094 L477.9531,217.1094 L479.2969,213.8438 L480.625,217.1094 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="45" x="499.75" y="221.1543">Tutorial</text><rect fill="#FFFFFF" height="15.9688" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" width="68" x="594" y="198"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="66" x="595" y="210.1387">t: ToolType</text><line style="stroke:#A80036;stroke-width:1.5;" x1="424" x2="658" y1="233" y2="233"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="431" y="241"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="64" x="443" y="247.2104">t: ToolType</text><ellipse cx="434" cy="273.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="68" x="443" y="276.8198">start() : void</text><line style="stroke:#A80036;stroke-width:1.5;" x1="424" x2="500.5" y1="260.207" y2="260.207"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="500.5" y="263.5151">public method</text><line style="stroke:#A80036;stroke-width:1.5;" x1="581.5" x2="658" y1="260.207" y2="260.207"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="431" y="300.2188"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="151" x="443" y="306.4292">getConfigState() : boolean</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="431" y="313.0234"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="210" x="443" y="319.2339">setConfigState(state: boolean) : void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="431" y="325.8281"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="443" y="332.0386">show() : boolean</text><line style="stroke:#A80036;stroke-width:1.5;" x1="424" x2="494" y1="289.8164" y2="289.8164"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="494" y="293.1245">private methods</text><line style="stroke:#A80036;stroke-width:1.5;" x1="588" x2="658" y1="289.8164" y2="289.8164"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="431" y="355.4375"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="84" x="443" y="361.6479">tutorial() : void</text><line style="stroke:#A80036;stroke-width:1.5;" x1="424" x2="491.5" y1="345.0352" y2="345.0352"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="99" x="491.5" y="348.3433">abstract methods</text><line style="stroke:#A80036;stroke-width:1.5;" x1="590.5" x2="658" y1="345.0352" y2="345.0352"/><!--MD5=[5c39798b83ace9e75333b1274a725e6c]
+class ToolType--><rect codeLine="19" fill="#FEFECE" filter="url(#f1i5bhbcu9ccpg)" height="86.4141" id="ToolType" style="stroke:#A80036;stroke-width:1.5;" width="91" x="254.5" y="47.5"/><ellipse cx="270.85" cy="63.5" fill="#EB937F" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M269.6469,64.375 L271.1,64.375 L271.1,64.4844 C271.1,64.8906 271.1313,65.0469 271.2094,65.2031 C271.3656,65.4531 271.6469,65.6094 271.9438,65.6094 C272.1938,65.6094 272.4594,65.4688 272.6156,65.25 C272.7406,65.0938 272.7719,64.9375 272.7719,64.4844 L272.7719,62.5625 C272.7719,62.4063 272.7719,62.3594 272.7563,62.2031 C272.6938,61.7344 272.3813,61.4219 271.9281,61.4219 C271.6781,61.4219 271.4125,61.5625 271.2406,61.7813 C271.1313,61.9531 271.1,62.1094 271.1,62.5625 L271.1,62.6875 L269.6469,62.6875 L269.6469,60.2813 L273.6313,60.2813 L273.6313,61.1406 C273.6313,61.5469 273.6625,61.7188 273.7406,61.875 C273.9125,62.125 274.1938,62.2813 274.475,62.2813 C274.7406,62.2813 275.0063,62.1406 275.1781,61.9219 C275.2875,61.75 275.3188,61.6094 275.3188,61.1406 L275.3188,58.5938 L267.6938,58.5938 C267.2563,58.5938 267.1313,58.6094 266.975,58.7031 C266.725,58.8594 266.5688,59.1563 266.5688,59.4375 C266.5688,59.7188 266.7094,59.9688 266.9281,60.1406 C267.0844,60.25 267.2719,60.2813 267.6938,60.2813 L267.9438,60.2813 L267.9438,66.7969 L267.6938,66.7969 C267.2875,66.7969 267.1313,66.8125 266.975,66.9219 C266.725,67.0938 266.5688,67.3594 266.5688,67.6563 C266.5688,67.9219 266.7094,68.1719 266.9281,68.3281 C267.0688,68.4531 267.3031,68.5 267.6938,68.5 L275.6938,68.5 L275.6938,65.9219 C275.6938,65.4844 275.6625,65.3438 275.5844,65.1875 C275.4125,64.9375 275.1313,64.7813 274.85,64.7813 C274.5844,64.7813 274.3188,64.8906 274.1469,65.1406 C274.0375,65.2969 274.0063,65.4375 274.0063,65.9219 L274.0063,66.7969 L269.6469,66.7969 L269.6469,64.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="56" x="285.15" y="67.6543">ToolType</text><line style="stroke:#A80036;stroke-width:1.5;" x1="255.5" x2="344.5" y1="79.5" y2="79.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="35" x="260.5" y="93.7104">ZOOM</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="260.5" y="106.5151">EYETRACKING</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="79" x="260.5" y="119.3198">CODECHARTS</text><line style="stroke:#A80036;stroke-width:1.5;" x1="255.5" x2="344.5" y1="125.9141" y2="125.9141"/><path d="M32.5,224 L32.5,249.1328 A0,0 0 0 0 32.5,249.1328 L322.5,249.1328 A0,0 0 0 0 322.5,249.1328 L322.5,242 L427,273.0117 L322.5,234 L322.5,234 L312.5,224 L32.5,224 A0,0 0 0 0 32.5,224 " fill="#FBFB77" filter="url(#f1i5bhbcu9ccpg)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M312.5,224 L312.5,234 L322.5,234 L312.5,224 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="269" x="38.5" y="241.0669">Startet Tutorial, beinhaltet interne Aufrufe</text><path d="M32.5,259.1328 L32.5,299.3984 A0,0 0 0 0 32.5,299.3984 L322.5,299.3984 A0,0 0 0 0 322.5,299.3984 L322.5,283.2656 L427,302.6211 L322.5,275.2656 L322.5,269.1328 L312.5,259.1328 L32.5,259.1328 A0,0 0 0 0 32.5,259.1328 " fill="#FBFB77" filter="url(#f1i5bhbcu9ccpg)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M312.5,259.1328 L312.5,269.1328 L322.5,269.1328 L312.5,259.1328 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="269" x="38.5" y="276.1997">Sendet eine Anfrage an das Config-Modul,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="206" x="38.5" y="291.3325">abhängig vom Typ des Tutorials</text><path d="M32.5,309.3984 L32.5,334.5313 A0,0 0 0 0 32.5,334.5313 L387.5,334.5313 A0,0 0 0 0 387.5,334.5313 L387.5,327.3984 L427,357.8398 L387.5,319.3984 L387.5,319.3984 L377.5,309.3984 L32.5,309.3984 A0,0 0 0 0 32.5,309.3984 " fill="#FBFB77" filter="url(#f1i5bhbcu9ccpg)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M377.5,309.3984 L377.5,319.3984 L387.5,319.3984 L377.5,309.3984 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="334" x="38.5" y="326.4653">Beinhaltet eigentliche Implementierung der Tutorials</text><!--MD5=[60c9ed31c535bee25c55ce21b5b01399]
+class Data--><rect codeLine="52" fill="#FEFECE" filter="url(#f1i5bhbcu9ccpg)" height="86.4141" id="Data" style="stroke:#A80036;stroke-width:1.5;" width="129" x="380.5" y="47.5"/><ellipse cx="395.5" cy="63.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M397.8438,59.1719 C396.9063,58.7344 396.3125,58.5938 395.4375,58.5938 C392.8125,58.5938 390.8125,60.6719 390.8125,63.3906 L390.8125,64.5156 C390.8125,67.0938 392.9219,68.9844 395.8125,68.9844 C397.0313,68.9844 398.1875,68.6875 398.9375,68.1406 C399.5156,67.7344 399.8438,67.2813 399.8438,66.8906 C399.8438,66.4375 399.4531,66.0469 398.9844,66.0469 C398.7656,66.0469 398.5625,66.125 398.375,66.3125 C397.9219,66.7969 397.9219,66.7969 397.7344,66.8906 C397.3125,67.1563 396.625,67.2813 395.8594,67.2813 C393.8125,67.2813 392.5156,66.1875 392.5156,64.4844 L392.5156,63.3906 C392.5156,61.6094 393.7656,60.2969 395.5,60.2969 C396.0781,60.2969 396.6875,60.4531 397.1563,60.7031 C397.6406,60.9844 397.8125,61.2031 397.9063,61.6094 C397.9688,62.0156 398,62.1406 398.1406,62.2656 C398.2813,62.4063 398.5156,62.5156 398.7344,62.5156 C399,62.5156 399.2656,62.375 399.4375,62.1563 C399.5469,62 399.5781,61.8125 399.5781,61.3906 L399.5781,59.9688 C399.5781,59.5313 399.5625,59.4063 399.4688,59.25 C399.3125,58.9844 399.0313,58.8438 398.7344,58.8438 C398.4375,58.8438 398.2344,58.9375 398.0156,59.25 L397.8438,59.1719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="27" x="409.5" y="67.6543">Data</text><rect fill="#FFFFFF" height="15.9688" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" width="68" x="444.5" y="44.5"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="66" x="445.5" y="56.6387">t: ToolType</text><line style="stroke:#A80036;stroke-width:1.5;" x1="381.5" x2="508.5" y1="79.5" y2="79.5"/><ellipse cx="391.5" cy="90.5" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="64" x="400.5" y="93.7104">t: ToolType</text><ellipse cx="391.5" cy="103.3047" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="400.5" y="106.5151">data: unknown</text><ellipse cx="391.5" cy="116.1094" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="400.5" y="119.3198">config_id: int</text><line style="stroke:#A80036;stroke-width:1.5;" x1="381.5" x2="508.5" y1="125.9141" y2="125.9141"/><!--MD5=[626b00d2609f42ba755c8afb6d5f2b59]
+class Bild--><rect codeLine="45" fill="#FEFECE" filter="url(#f1i5bhbcu9ccpg)" height="99.2188" id="Bild" style="stroke:#A80036;stroke-width:1.5;" width="114" x="545" y="41"/><ellipse cx="587" cy="57" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M589.0781,58.8125 L589.4688,59.7969 L589.0781,59.7969 C588.625,59.7969 588.5156,59.8125 588.3594,59.9219 C588.1094,60.0781 587.9531,60.3594 587.9531,60.6563 C587.9531,60.9219 588.0938,61.1719 588.3125,61.3281 C588.4531,61.4531 588.6563,61.5 589.0781,61.5 L591.4375,61.5 C591.7969,61.5 592.0156,61.4688 592.1563,61.375 C592.4063,61.2344 592.5625,60.9375 592.5625,60.6563 C592.5625,60.375 592.4219,60.125 592.2031,59.9688 C592.0313,59.8281 591.875,59.7969 591.4063,59.7969 L588.0156,51.5938 L584.3438,51.5938 C583.8906,51.5938 583.7656,51.6094 583.6094,51.7031 C583.3594,51.875 583.2031,52.1563 583.2031,52.4375 C583.2031,52.7188 583.3438,52.9688 583.5625,53.1406 C583.7344,53.25 583.9063,53.2813 584.3438,53.2813 L585.4219,53.2813 L582.7813,59.7969 C582.3594,59.7969 582.2031,59.8125 582.0469,59.9219 C581.7969,60.0781 581.6406,60.3594 581.6406,60.6563 C581.6406,61.2188 582.0156,61.5 582.7656,61.5 L585.0313,61.5 C585.3906,61.5 585.6094,61.4688 585.7344,61.375 C586,61.2344 586.1406,60.9375 586.1406,60.6563 C586.1406,60.375 586.0156,60.125 585.7969,59.9531 C585.625,59.8281 585.4844,59.7969 585.0313,59.7969 L584.6406,59.7969 L585.0313,58.8125 L589.0781,58.8125 Z M588.375,57.1094 L585.7031,57.1094 L587.0469,53.8438 L588.375,57.1094 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="22" x="607" y="61.1543">Bild</text><line style="stroke:#A80036;stroke-width:1.5;" x1="546" x2="658" y1="73" y2="73"/><polygon fill="none" points="556,79,560,83,556,87,552,83" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="88" x="565" y="87.2104">location : String</text><line style="stroke:#A80036;stroke-width:1.5;" x1="546" x2="658" y1="93.8047" y2="93.8047"/><ellipse cx="556" cy="104.8047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="83" x="565" y="108.0151">Bild(url: String)</text><ellipse cx="556" cy="117.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="72" x="565" y="120.8198">show() : void</text><ellipse cx="556" cy="130.4141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="68" x="565" y="133.6245">hide() : void</text><!--MD5=[9767bd966f4d33191914ccb96558e57c]
+class ZoomInput--><rect codeLine="65" fill="#FEFECE" filter="url(#f1i5bhbcu9ccpg)" height="73.6094" id="ZoomInput" style="stroke:#A80036;stroke-width:1.5;" width="114" x="908" y="468"/><ellipse cx="930.65" cy="484" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M932.9938,479.6719 C932.0563,479.2344 931.4625,479.0938 930.5875,479.0938 C927.9625,479.0938 925.9625,481.1719 925.9625,483.8906 L925.9625,485.0156 C925.9625,487.5938 928.0719,489.4844 930.9625,489.4844 C932.1813,489.4844 933.3375,489.1875 934.0875,488.6406 C934.6656,488.2344 934.9938,487.7813 934.9938,487.3906 C934.9938,486.9375 934.6031,486.5469 934.1344,486.5469 C933.9156,486.5469 933.7125,486.625 933.525,486.8125 C933.0719,487.2969 933.0719,487.2969 932.8844,487.3906 C932.4625,487.6563 931.775,487.7813 931.0094,487.7813 C928.9625,487.7813 927.6656,486.6875 927.6656,484.9844 L927.6656,483.8906 C927.6656,482.1094 928.9156,480.7969 930.65,480.7969 C931.2281,480.7969 931.8375,480.9531 932.3063,481.2031 C932.7906,481.4844 932.9625,481.7031 933.0563,482.1094 C933.1188,482.5156 933.15,482.6406 933.2906,482.7656 C933.4313,482.9063 933.6656,483.0156 933.8844,483.0156 C934.15,483.0156 934.4156,482.875 934.5875,482.6563 C934.6969,482.5 934.7281,482.3125 934.7281,481.8906 L934.7281,480.4688 C934.7281,480.0313 934.7125,479.9063 934.6188,479.75 C934.4625,479.4844 934.1813,479.3438 933.8844,479.3438 C933.5875,479.3438 933.3844,479.4375 933.1656,479.75 L932.9938,479.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="65" x="946.35" y="488.1543">ZoomInput</text><line style="stroke:#A80036;stroke-width:1.5;" x1="909" x2="1021" y1="500" y2="500"/><line style="stroke:#A80036;stroke-width:1.5;" x1="909" x2="1021" y1="508" y2="508"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="916" y="516"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="83" x="928" y="522.2104">onClick() : void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="916" y="528.8047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="88" x="928" y="535.0151">onScroll() : void</text><path d="M1057,492.5 L1057,501 L1022.11,505 L1057,509 L1057,517.6328 A0,0 0 0 0 1057,517.6328 L1557,517.6328 A0,0 0 0 0 1557,517.6328 L1557,502.5 L1547,492.5 L1057,492.5 A0,0 0 0 0 1057,492.5 " fill="#FBFB77" filter="url(#f1i5bhbcu9ccpg)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1547,492.5 L1547,502.5 L1557,502.5 L1547,492.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="479" x="1063" y="509.5669">Kann sich noch ändern, je nachdem wie Schnittstelle zum System aussieht</text><!--MD5=[e6f9a0eef67c9f7cee45e688f45a88fd]
+class ZoomTutorial--><rect codeLine="76" fill="#FEFECE" filter="url(#f1i5bhbcu9ccpg)" height="60.8047" id="ZoomTutorial" style="stroke:#A80036;stroke-width:1.5;" width="182" x="450" y="474.5"/><ellipse cx="465" cy="490.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M467.3438,486.1719 C466.4063,485.7344 465.8125,485.5938 464.9375,485.5938 C462.3125,485.5938 460.3125,487.6719 460.3125,490.3906 L460.3125,491.5156 C460.3125,494.0938 462.4219,495.9844 465.3125,495.9844 C466.5313,495.9844 467.6875,495.6875 468.4375,495.1406 C469.0156,494.7344 469.3438,494.2813 469.3438,493.8906 C469.3438,493.4375 468.9531,493.0469 468.4844,493.0469 C468.2656,493.0469 468.0625,493.125 467.875,493.3125 C467.4219,493.7969 467.4219,493.7969 467.2344,493.8906 C466.8125,494.1563 466.125,494.2813 465.3594,494.2813 C463.3125,494.2813 462.0156,493.1875 462.0156,491.4844 L462.0156,490.3906 C462.0156,488.6094 463.2656,487.2969 465,487.2969 C465.5781,487.2969 466.1875,487.4531 466.6563,487.7031 C467.1406,487.9844 467.3125,488.2031 467.4063,488.6094 C467.4688,489.0156 467.5,489.1406 467.6406,489.2656 C467.7813,489.4063 468.0156,489.5156 468.2344,489.5156 C468.5,489.5156 468.7656,489.375 468.9375,489.1563 C469.0469,489 469.0781,488.8125 469.0781,488.3906 L469.0781,486.9688 C469.0781,486.5313 469.0625,486.4063 468.9688,486.25 C468.8125,485.9844 468.5313,485.8438 468.2344,485.8438 C467.9375,485.8438 467.7344,485.9375 467.5156,486.25 L467.3438,486.1719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="80" x="479" y="494.6543">ZoomTutorial</text><rect fill="#FFFFFF" height="15.9688" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" width="68" x="567" y="471.5"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="66" x="568" y="483.6387">t: ToolType</text><line style="stroke:#A80036;stroke-width:1.5;" x1="451" x2="631" y1="506.5" y2="506.5"/><line style="stroke:#A80036;stroke-width:1.5;" x1="451" x2="631" y1="514.5" y2="514.5"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="458" y="522.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="470" y="528.7104">tutorial() : void</text><!--MD5=[72b9880496439479a2cac04af8a355bc]
+class ZoomCalculator--><rect codeLine="81" fill="#FEFECE" filter="url(#f1i5bhbcu9ccpg)" height="150.4375" id="ZoomCalculator" style="stroke:#A80036;stroke-width:1.5;" width="252" x="644" y="619"/><ellipse cx="718.25" cy="635" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M720.5938,630.6719 C719.6563,630.2344 719.0625,630.0938 718.1875,630.0938 C715.5625,630.0938 713.5625,632.1719 713.5625,634.8906 L713.5625,636.0156 C713.5625,638.5938 715.6719,640.4844 718.5625,640.4844 C719.7813,640.4844 720.9375,640.1875 721.6875,639.6406 C722.2656,639.2344 722.5938,638.7813 722.5938,638.3906 C722.5938,637.9375 722.2031,637.5469 721.7344,637.5469 C721.5156,637.5469 721.3125,637.625 721.125,637.8125 C720.6719,638.2969 720.6719,638.2969 720.4844,638.3906 C720.0625,638.6563 719.375,638.7813 718.6094,638.7813 C716.5625,638.7813 715.2656,637.6875 715.2656,635.9844 L715.2656,634.8906 C715.2656,633.1094 716.5156,631.7969 718.25,631.7969 C718.8281,631.7969 719.4375,631.9531 719.9063,632.2031 C720.3906,632.4844 720.5625,632.7031 720.6563,633.1094 C720.7188,633.5156 720.75,633.6406 720.8906,633.7656 C721.0313,633.9063 721.2656,634.0156 721.4844,634.0156 C721.75,634.0156 722.0156,633.875 722.1875,633.6563 C722.2969,633.5 722.3281,633.3125 722.3281,632.8906 L722.3281,631.4688 C722.3281,631.0313 722.3125,630.9063 722.2188,630.75 C722.0625,630.4844 721.7813,630.3438 721.4844,630.3438 C721.1875,630.3438 720.9844,630.4375 720.7656,630.75 L720.5938,630.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="95" x="738.75" y="639.1543">ZoomCalculator</text><line style="stroke:#A80036;stroke-width:1.5;" x1="645" x2="895" y1="651" y2="651"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="652" y="659"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="68" x="664" y="665.2104">speed: float</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="652" y="671.8047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="91" x="664" y="678.0151">position: float[3]</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="652" y="684.6094"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="80" x="664" y="690.8198">data: Util.Data</text><ellipse cx="655" cy="717.2188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="226" x="664" y="720.4292">processInput(raw_input: unknown) : void</text><ellipse cx="655" cy="730.0234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="664" y="733.2339">save() : boolean</text><line style="stroke:#A80036;stroke-width:1.5;" x1="645" x2="729.5" y1="703.8164" y2="703.8164"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="729.5" y="707.1245">public method</text><line style="stroke:#A80036;stroke-width:1.5;" x1="810.5" x2="895" y1="703.8164" y2="703.8164"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="652" y="756.6328"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="221" x="664" y="762.8433">calculate(raw_input: unknown) : float[3]</text><line style="stroke:#A80036;stroke-width:1.5;" x1="645" x2="723" y1="746.2305" y2="746.2305"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="723" y="749.5386">private methods</text><line style="stroke:#A80036;stroke-width:1.5;" x1="817" x2="895" y1="746.2305" y2="746.2305"/><path d="M931.5,681.5 L931.5,690 L896.079,694 L931.5,698 L931.5,706.6328 A0,0 0 0 0 931.5,706.6328 L1178.5,706.6328 A0,0 0 0 0 1178.5,706.6328 L1178.5,691.5 L1168.5,681.5 L931.5,681.5 A0,0 0 0 0 931.5,681.5 " fill="#FBFB77" filter="url(#f1i5bhbcu9ccpg)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1168.5,681.5 L1168.5,691.5 L1178.5,691.5 L1168.5,681.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="226" x="937.5" y="698.5669">Typ von raw_input noch unbekannt</text><!--MD5=[90447d4191c16dafea1a917a3aa79093]
+class ZoomBild--><rect codeLine="98" fill="#FEFECE" filter="url(#f1i5bhbcu9ccpg)" height="60.8047" id="ZoomBild" style="stroke:#A80036;stroke-width:1.5;" width="205" x="667.5" y="474.5"/><ellipse cx="736.75" cy="490.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M739.0938,486.1719 C738.1563,485.7344 737.5625,485.5938 736.6875,485.5938 C734.0625,485.5938 732.0625,487.6719 732.0625,490.3906 L732.0625,491.5156 C732.0625,494.0938 734.1719,495.9844 737.0625,495.9844 C738.2813,495.9844 739.4375,495.6875 740.1875,495.1406 C740.7656,494.7344 741.0938,494.2813 741.0938,493.8906 C741.0938,493.4375 740.7031,493.0469 740.2344,493.0469 C740.0156,493.0469 739.8125,493.125 739.625,493.3125 C739.1719,493.7969 739.1719,493.7969 738.9844,493.8906 C738.5625,494.1563 737.875,494.2813 737.1094,494.2813 C735.0625,494.2813 733.7656,493.1875 733.7656,491.4844 L733.7656,490.3906 C733.7656,488.6094 735.0156,487.2969 736.75,487.2969 C737.3281,487.2969 737.9375,487.4531 738.4063,487.7031 C738.8906,487.9844 739.0625,488.2031 739.1563,488.6094 C739.2188,489.0156 739.25,489.1406 739.3906,489.2656 C739.5313,489.4063 739.7656,489.5156 739.9844,489.5156 C740.25,489.5156 740.5156,489.375 740.6875,489.1563 C740.7969,489 740.8281,488.8125 740.8281,488.3906 L740.8281,486.9688 C740.8281,486.5313 740.8125,486.4063 740.7188,486.25 C740.5625,485.9844 740.2813,485.8438 739.9844,485.8438 C739.6875,485.8438 739.4844,485.9375 739.2656,486.25 L739.0938,486.1719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="58" x="757.25" y="494.6543">ZoomBild</text><line style="stroke:#A80036;stroke-width:1.5;" x1="668.5" x2="871.5" y1="506.5" y2="506.5"/><line style="stroke:#A80036;stroke-width:1.5;" x1="668.5" x2="871.5" y1="514.5" y2="514.5"/><ellipse cx="678.5" cy="525.5" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="179" x="687.5" y="528.7104">move(position: float[3]): float[3]</text><polygon fill="#FFFFFF" filter="url(#f1i5bhbcu9ccpg)" points="343,478.5,401,478.5,408,500.7969,415,500.7969,415,531.0938,343,531.0938,343,478.5" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="343" x2="408" y1="500.7969" y2="500.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="52" x="347" y="493.4951">Config</text><polygon fill="#FFFFFF" filter="url(#f1i5bhbcu9ccpg)" points="694,848,832,848,839,870.2969,846,870.2969,846,900.5938,694,900.5938,694,848" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="694" x2="839" y1="870.2969" y2="870.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="132" x="698" y="862.9951">SpeicherMedium</text><!--MD5=[abea0b42432aea0f9ce66e53feda8644]
+entity System--><ellipse cx="965" cy="284.5" fill="#DA70D5" filter="url(#f1i5bhbcu9ccpg)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="938" y="314.4951">System</text><!--MD5=[752ada4883e89279aa677b65655ebc35]
+link Tutorial$$$LEFT to Tutorial--><!--MD5=[e72ca73ac73eca3f18a81a671fe51a7c]
+link ToolType to Tutorial--><path codeLine="38" d="M345.614,127.839 C371.61,148.55 405.309,175.398 437.382,200.949 " fill="none" id="ToolType-Tutorial" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[9f1a00b177a5ae45176fc1e7f3c0daae]
+link Data to ToolType--><path codeLine="39" d="M380.154,90.5 C368.635,90.5 357.115,90.5 345.596,90.5 " fill="none" id="Data-ToolType" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[fc4ffdc4bb2ac5a3cd1bd4c856213de4]
+link Tutorial to Config--><path codeLine="40" d="M476.713,368.01 C462.484,386.632 447.6,406.396 434,425 C421.179,442.539 407.196,462.637 396.538,478.172 " fill="none" id="Tutorial-Config" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[91cffcbb8234028742b6ac8b9b57d54f]
+reverse link Bild to ZoomBild--><path codeLine="104" d="M651.451,156.841 C660.761,170.938 669.816,186.096 677,201 C722.756,295.923 752.097,418.383 763.978,474.066 " fill="none" id="Bild-backto-ZoomBild" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="645.618,160.713,640.076,140.261,657.162,152.792,645.618,160.713" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[74bcaaa80c1f5666ddc668b1a184278c]
+reverse link Tutorial to ZoomTutorial--><path codeLine="105" d="M541,388.554 C541,419.989 541,452.11 541,474.463 " fill="none" id="Tutorial-backto-ZoomTutorial" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="534,388.106,541,368.105,548,388.105,534,388.106" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[2708804abe4d1091750fa48cfee7ac00]
+link ZoomInput to ZoomCalculator--><path codeLine="108" d="M927.402,542.055 C904.714,563.813 874.961,592.345 847.437,618.74 " fill="none" id="ZoomInput-ZoomCalculator" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f1d0f4197788e2c83cd56df3430af640]
+link ZoomBild to ZoomCalculator--><path codeLine="109" d="M770,535.631 C770,557.979 770,589.652 770,618.731 " fill="none" id="ZoomBild-ZoomCalculator" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="775,575.5664,772.0611,584.6115,777.9389,584.6115,775,575.5664" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="784" y="585.0669">moves</text><!--MD5=[ab94cbc2495622a03fec4b24390f5618]
+link ZoomCalculator to SpeicherMedium--><path codeLine="112" d="M770,769.149 C770,797.119 770,827.1265 770,847.7501 " fill="none" id="ZoomCalculator-SpeicherMedium" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="775,814.5664,777.9389,805.5213,772.0611,805.5213,775,814.5664" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="73" x="784" y="814.0669">saves Data</text><!--MD5=[1dd3167bd21ea9adc9b14ed1a4dd4238]
+link Config to ZoomCalculator--><path codeLine="113" d="M415.192,530.834 C421.368,534.738 427.794,538.602 434,542 C501.454,578.935 579.674,614.488 643.663,641.808 " fill="none" id="Config-ZoomCalculator" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="534.4975,582.751,527.6455,576.1555,525.0774,581.4426,534.4975,582.751" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39" x="539" y="585.0669">speed</text><!--MD5=[a66380e3caa08a1b9c02995811f0cc12]
+link System to ZoomInput--><path codeLine="114" d="M965,293.536 C965,321.407 965,415.076 965,467.568 " fill="none" id="System-ZoomInput" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="970,403.5664,967.0611,412.6115,972.9389,412.6115,970,403.5664" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="58" x="979" y="413.0669">listens to</text><!--MD5=[3643df4873f31d888c3340cadcec8b9e]
+@startuml
+' skinparam backgroundColor transparent
+() System #DA70D5
+top to bottom direction
+
+package Util {
+    ' - - - TUTORIAL - - -
+    abstract Tutorial<t: ToolType> {
+      - t: ToolType
+      __public method__
+      + start() : void
+      __private methods__
+      - getConfigState() : boolean
+      - setConfigState(state: boolean) : void
+      - show() : boolean
+      __abstract methods__
+      - {abstract} tutorial() : void
+    }
+
+    enum ToolType {
+      ZOOM
+      EYETRACKING
+      CODECHARTS
+    }
+
+    ' Notes
+    note left of Tutorial::start
+        Startet Tutorial, beinhaltet interne Aufrufe
+    end note
+    note left of Tutorial::getConfigState
+        Sendet eine Anfrage an das Config-Modul,
+        abhängig vom Typ des Tutorials
+    end note
+    note left of Tutorial::tutorial
+        Beinhaltet eigentliche Implementierung der Tutorials
+    end note
+
+    ' Interaktionen
+    Tutorial -u- ToolType
+    Data -r- ToolType
+    Tutorial -d- Config
+
+
+    ' - - - BILD - - -
+
+    abstract Bild {
+        # location : String
+        + Bild(url: String)
+        + show() : void
+        + hide() : void
+    }
+
+    class Data<t: ToolType> {
+        + t: ToolType
+        + data: unknown
+        + config_id: int
+    }
+}
+
+
+
+' === ZOOM MAPS ===
+package ZoomMaps {
+
+    ' Zoom Input
+    class ZoomInput {
+        - onClick() : void
+        - onScroll() : void
+    }
+
+    ' Notiz
+    note right of ZoomInput
+        Kann sich noch ändern, je nachdem wie Schnittstelle zum System aussieht
+    end note
+
+    ' Zoom Tutorial
+    class ZoomTutorial<t: ToolType> {
+        - tutorial() : void
+    }
+
+    ' Zoom Calculator
+    class ZoomCalculator {
+        - speed: float
+        - position: float[3]
+        - data: Util.Data
+        __public method__
+        + processInput(raw_input: unknown) : void
+        + save() : boolean
+        __private methods__
+        - calculate(raw_input: unknown) : float[3]
+    }
+
+    ' Notiz
+    note right of ZoomCalculator
+        Typ von raw_input noch unbekannt
+    end note
+
+    ' Zoom Bild
+    class ZoomBild {
+        + move(position: float[3]): float[3]
+    }
+
+
+    ' Vererbungen
+    Bild <|- - ZoomBild
+    Tutorial <|- - ZoomTutorial
+
+    ' Interaktionen
+    ZoomInput -d- ZoomCalculator
+    ZoomCalculator  -u- ZoomBild : > moves
+
+    ' Andere Module
+    ZoomCalculator - - SpeicherMedium : > saves Data
+    ZoomCalculator -l- Config : < speed
+    ZoomInput -u- System : > listens to
+
+}
+
+' Blackboxen / Andere Module
+package Config {}
+
+package SpeicherMedium {}
+@enduml
+
+@startuml
+() System #DA70D5
+top to bottom direction
+
+package Util {
+    abstract Tutorial<t: ToolType> {
+      - t: ToolType
+      __public method__
+      + start() : void
+      __private methods__
+      - getConfigState() : boolean
+      - setConfigState(state: boolean) : void
+      - show() : boolean
+      __abstract methods__
+      - {abstract} tutorial() : void
+    }
+
+    enum ToolType {
+      ZOOM
+      EYETRACKING
+      CODECHARTS
+    }
+
+    note left of Tutorial::start
+        Startet Tutorial, beinhaltet interne Aufrufe
+    end note
+    note left of Tutorial::getConfigState
+        Sendet eine Anfrage an das Config-Modul,
+        abhängig vom Typ des Tutorials
+    end note
+    note left of Tutorial::tutorial
+        Beinhaltet eigentliche Implementierung der Tutorials
+    end note
+
+    Tutorial -u- ToolType
+    Data -r- ToolType
+    Tutorial -d- Config
+
+
+
+    abstract Bild {
+        # location : String
+        + Bild(url: String)
+        + show() : void
+        + hide() : void
+    }
+
+    class Data<t: ToolType> {
+        + t: ToolType
+        + data: unknown
+        + config_id: int
+    }
+}
+
+
+
+package ZoomMaps {
+
+    class ZoomInput {
+        - onClick() : void
+        - onScroll() : void
+    }
+
+    note right of ZoomInput
+        Kann sich noch ändern, je nachdem wie Schnittstelle zum System aussieht
+    end note
+
+    class ZoomTutorial<t: ToolType> {
+        - tutorial() : void
+    }
+
+    class ZoomCalculator {
+        - speed: float
+        - position: float[3]
+        - data: Util.Data
+        __public method__
+        + processInput(raw_input: unknown) : void
+        + save() : boolean
+        __private methods__
+        - calculate(raw_input: unknown) : float[3]
+    }
+
+    note right of ZoomCalculator
+        Typ von raw_input noch unbekannt
+    end note
+
+    class ZoomBild {
+        + move(position: float[3]): float[3]
+    }
+
+
+    Bild <|- - ZoomBild
+    Tutorial <|- - ZoomTutorial
+
+    ZoomInput -d- ZoomCalculator
+    ZoomCalculator  -u- ZoomBild : > moves
+
+    ZoomCalculator - - SpeicherMedium : > saves Data
+    ZoomCalculator -l- Config : < speed
+    ZoomInput -u- System : > listens to
+
+}
+
+package Config {}
+
+package SpeicherMedium {}
+@enduml
+
+PlantUML version 1.2021.14beta4(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,36 @@
+' @startuml tutorial
+' (*) --> start(): void
+
+' if "getConfigState()" then
+'   -->[true] ===B1===
+'   -->"show(): boolean" as show
+' else
+'   -->[false] (*)
+' endif
+
+' ===B1=== --> "tutorial()"
+
+' show --> if "" then
+'     -->[true] (*)
+' else
+'     -->[false] setConfigState(false)
+'     --> (*)
+' @enduml
+
+@startuml new
+start
+:start() : void;
+if (getConfigState() : boolean) then (true)
+    :show() : boolean;
+    fork    
+        if (returnvalue) then (false)
+            :setConfigState(false) : void;
+        else (true)
+        endif
+    fork again
+        :tutorial() : void;
+    end fork
+else (false)
+endif
+stop
+@enduml
