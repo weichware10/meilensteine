@@ -1,4 +1,4 @@
-@startuml {modul}
+@startuml Datenanalyse Client
 [*] -> State1
 State1 --> State2 : Succeeded
 State1 --> [*] : Aborted
