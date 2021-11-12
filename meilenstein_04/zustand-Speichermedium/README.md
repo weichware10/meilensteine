@@ -1,4 +1,4 @@
-# Zustandsdiagramm {modul}
+# Zustandsdiagramm Speichermedium
 
 ![Zustandsdiagramm](Speichermedium.svg)
 ---
