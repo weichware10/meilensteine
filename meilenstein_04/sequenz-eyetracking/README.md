@@ -1,5 +1,5 @@
-# Sequenzdiagramm {modul}
+# Sequenzdiagramm EyeTracking
 
-![Sequenzdiagramm]({modul}.svg)
+![Sequenzdiagramm](sequenz-eyetracking.svg)
 ---
 ## Notizen
