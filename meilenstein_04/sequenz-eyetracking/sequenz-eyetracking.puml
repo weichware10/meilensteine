@@ -15,15 +15,22 @@ collections SpeicherMedium  as sm
 activate n
 activate s
 
+activate es
 es -> c : load Data
+activate c
 c --> es : Data
+deactivate c
 eb -> s : erfrage screensize
+activate eb
 s --> eb : screensize : int[2]
 es -> eb : loadGrid() : int[2]
 eb --> es : screensize : int[2]
+deactivate eb
 n -> s : schaut auf den bildschirm und wird von Kamera gesehen 
 ea -> s : erfrage Camstream
+activate ea
 s --> ea : Camstream (sendet dauerhaft)
+deactivate ea
 
 == Tutorial ==
 es -> s : erfragt Distanz
@@ -31,23 +38,34 @@ n -> s : Eingabe per Tastatur
 s --> es : Distanz : float
 loop Kalibrierung
   es -> et : tutorialPosition(punkt : int[2]): int[2]
+  activate et
   et -> s : erfragt Mausdaten
   n -> s : Positionsbestätigung mit Maus
   s --> et : Kalibrierungsdaten
   et --> es : position: int[2]
+  deactivate et
   es -> ea : getEye() : float[2]
+  activate ea
   ea --> es : eye : float[2]
+  deactivate ea
   es -> ea : getPupil() : float[2]
+  activate ea
   ea --> es : Pupil : float[2]
+  deactivate ea
 end
 
 == Versuch ==
 loop Visual input
   es -> ea : getEye() : float[2]
-  ea -> es : eye : float[2]
+  activate ea
+  ea --> es : eye : float[2]
+  deactivate ea
   es -> ea : getPupil() : float[2]
-  ea -> es : Pupil : float[2]
+  activate ea
+  ea --> es : Pupil : float[2]
+  deactivate ea
 end
 es -> sm: save Data
+activate sm
 
 @enduml
