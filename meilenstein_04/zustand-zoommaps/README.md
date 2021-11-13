@@ -1,5 +1,5 @@
 # Zustandsdiagramm ZoomMaps
 
-![Zustandsdiagramm](zustand-zommaps.svg)
+![Zustandsdiagramm](zustand-zoommaps.svg)
 ---
 ## Notizen
