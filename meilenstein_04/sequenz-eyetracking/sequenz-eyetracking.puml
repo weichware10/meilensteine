@@ -50,5 +50,4 @@ loop Visual input
 end
 es -> sm: save Data
 
-
 @enduml
