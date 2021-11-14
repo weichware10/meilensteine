@@ -56,23 +56,24 @@ end
 
 alt analyseTypes contains COMPHEATMAP
     loop dataForComp == null
-    n -> s: Eingabe benötigter Daten (Zeitraum & ToolType)
-    s -> cg: Tastaturinformationen
-    cg -> c: getData(start, end, dataType)
-    alt start < end && dataType != null && data.t == dataForComp.t
-        c -> sm: Abfrage Daten
-        activate sm
-        alt dataFound
-            sm --> c: Daten setzen
-        else dataNotFound
-            sm --> c: Daten nicht gefunden
-            deactivate sm
-            c --> cg: Daten nicht gefunden
-            cg --> n: Daten nicht gefunden. Try again
+        n -> s: Eingabe benötigter Daten (Zeitraum & ToolType)
+        s -> cg: Tastaturinformationen
+        cg -> c: getData(start, end, dataType)
+        alt start < end && dataType != null && data.t == dataForComp.t
+            c -> sm: Abfrage Daten
+            activate sm
+            alt dataFound
+                sm --> c: Daten setzen
+            else dataNotFound
+                sm --> c: Daten nicht gefunden
+                deactivate sm
+                c --> cg: Daten nicht gefunden
+                cg --> n: Daten nicht gefunden. Try again
+            end
+        else start > end || dataType == null || data.t != dataForComp.t
+            c --> cg: Falsche Eingabe
+            cg --> n: Falsche Eingabe. Try again
         end
-    else start > end || dataType == null || data.t != dataForComp.t
-        c --> cg: Falsche Eingabe
-        cg --> n: Falsche Eingabe. Try again
     end
 end
 
