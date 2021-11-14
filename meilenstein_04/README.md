@@ -1,17 +1,19 @@
 # Bericht zum Meilenstein 2
-## Diagramme:
-![](https://http.cat/404.jpg)
----
+
 ## Was ist seit dem letzten Meilenstein passiert ?
+- Gruppentreffen am 11.11.2021: Aufgabenverteilung
+- Erstellung eines Templates
+- Ausarbeitung der Diagramme in Partnerarbeit
 
 
 ## Was waren die Herausforderungen und Probleme ? Wie wurden sie gelöst ?
+- Bei der in der Aufgabenstellung vorgesehenen Menge an zu bearbeitenden Diagrammen hätten einige keine eigenen Diagramme zum Bearbeiten bekommen -> Bearbeitung eines zustzlichen Sequenz-, sowie eines zusätzlichen Zustandsdiagramms
 
 
 ## Was lief gut ? Was lief nicht gut ?
 | gut | nicht gut |
 | --- | --------- |
-|     |           |
+|Vorarbeit des letzten Meilensteins erleichterte die Arbeit     |           |
 |     |           |
 
 
