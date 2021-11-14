@@ -1,4 +1,4 @@
-# Sequenzdiagramm {modul}
+# Sequenzdiagramm Datenanalyse Client
 
 ![Sequenzdiagramm](sequenz-analyseclient.svg)
 ---
