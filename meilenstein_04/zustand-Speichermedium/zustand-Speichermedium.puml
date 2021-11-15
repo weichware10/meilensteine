@@ -1,4 +1,17 @@
 @startuml Speichermedium
+
+[*] --> SpeicherUtilities_erstellt
+SpeicherUtilities_erstellt --> Location_gespeichert : setLocation()
+Location_gespeichert --> idle : Funktionsloop
+idle --> Location_geholt : saveData()
+idle --> Informationen_gefunden : searchData()
+Location_geholt --> long2 : eintragen in Datenbank
+Informationen_gefunden --> Daten_gelöscht : deleteData()
+Informationen_gefunden --> Daten_übertragen : Daten zum DataClient
+long2 --> idle : Funktion ausgeführt
+Daten_gelöscht --> idle : Funktion ausgeführt
+Daten_übertragen --> idle : Funktion ausgeführt
+
 state SpeicherUtilities_erstellt {
 
 }
@@ -7,32 +20,25 @@ state Location_gespeichert {
 
 }
 
-SpeicherUtilities_erstellt --> Location_gespeichert : setLocation()
-Location_gespeichert --> Utilities : Funktionsaufruf
+state idle{
 
-state Utilities {
-  
-  [*] --> Location_geholt : saveData()
-  [*] --> Informationen_gefunden : searchData()
-  Location_geholt --> long2 : eintragen in Datenbank
-  Informationen_gefunden --> Daten_gelöscht : deleteData()
-  Informationen_gefunden --> Daten_übertragen : Daten zum DataClient
-  Daten_übertragen --> Informationen_gefunden : searchData()
-
-    state Location_geholt{
-
-    }
-    state Informationen_gefunden{
-
-    }
-    state "Information in Datenbank eingetragen" as long2{
-
-    }
-    state Daten_gelöscht {
-
-    }
-    state Daten_übertragen {
-
-    }
 }
+
+state Location_geholt{
+
+}
+
+state Informationen_gefunden{
+
+}
+state "Information in Datenbank eingetragen" as long2{
+
+}
+state Daten_gelöscht {
+
+}
+state Daten_übertragen {
+
+}
+
 @enduml
