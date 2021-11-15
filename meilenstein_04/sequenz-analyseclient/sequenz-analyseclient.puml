@@ -79,7 +79,7 @@ end
 
 == Analyse ==
 cg -> c: analyseData()
-alt analyseTypes contains HEATMAP
+opt analyseTypes contains HEATMAP
     c -> h: createHeatmap(data)
     activate h
     h -> a: calcRelFreq(data)
@@ -89,7 +89,7 @@ alt analyseTypes contains HEATMAP
     h --> c: String
     deactivate h
 end
-alt analyseTypes contains COMPHEATMAP
+opt analyseTypes contains COMPHEATMAP
     c -> h: createHeatmap(data) [Heatmap1]
     activate h
     h -> a: calcRelFreq(data)
@@ -111,7 +111,7 @@ alt analyseTypes contains COMPHEATMAP
     h --> c: String
     deactivate h
 end
-alt analyseTypes contains VERLAUF
+opt analyseTypes contains VERLAUF
     c -> v: createVerlauf(data)
     activate v
     v -> a: createTimeTable(data)
@@ -122,7 +122,7 @@ alt analyseTypes contains VERLAUF
     v --> c: String
     deactivate v
 end
-alt analyseTypes contains RELFRQIMGAREA
+opt analyseTypes contains RELFRQIMGAREA
     c -> d: createRelFreqImgArea(data)
     activate d
     d -> a: calcRelFreq(data)
@@ -133,7 +133,7 @@ alt analyseTypes contains RELFRQIMGAREA
     d --> c: String
     deactivate d
 end
-alt analyseTypes contains VIEWTIMEDISTR
+opt analyseTypes contains VIEWTIMEDISTR
     c -> d: createViewTimeDistr(data)
     activate d
     d -> a: createTimeTable(data)
