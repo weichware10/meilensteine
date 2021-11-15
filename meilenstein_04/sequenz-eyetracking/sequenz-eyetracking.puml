@@ -12,25 +12,29 @@ end box
 collections Config          as c
 collections SpeicherMedium  as sm
 
+== Vorbereitungen ==
+
 activate n
 activate s
-
 activate es
 es -> c : load Data
 activate c
 c --> es : Data
 deactivate c
-eb -> s : erfrage screensize
-activate eb
-s --> eb : screensize : int[2]
 es -> eb : loadGrid() : int[2]
+activate eb
+eb -> s : erfrage screensize
+s --> eb : screensize : int[2]
 eb --> es : screensize : int[2]
 deactivate eb
 n -> s : schaut auf den bildschirm und wird von Kamera gesehen 
-ea -> s : erfrage Camstream
-activate ea
-s --> ea : Camstream (sendet dauerhaft)
-deactivate ea
+alt Müsste dauerhaft ausgeführt werden. Genaue Umsetzung noch Verhandelbar.
+  es -> ea : startStream() : void
+  activate ea
+  ea -> s : erfrage Camstream
+  s --> ea : Camstream (sendet dauerhaft)
+  deactivate ea
+end
 
 == Tutorial ==
 es -> s : erfragt Distanz
@@ -44,6 +48,13 @@ loop Kalibrierung
   s --> et : Kalibrierungsdaten
   et --> es : position: int[2]
   deactivate et
+  alt Müsste dann nicht paralel laufen
+    es -> ea : aktualisiereBild() : void
+    activate ea
+    ea -> s : erfrage Camstream
+    s --> ea : Camstream (sendet dauerhaft)
+    deactivate ea
+  end
   es -> ea : getEye() : float[2]
   activate ea
   ea --> es : eye : float[2]
@@ -56,6 +67,13 @@ end
 
 == Versuch ==
 loop Visual input
+  alt Müsste dann nicht paralel laufen
+    es -> ea : aktualisiereBild() : void
+    activate ea
+    ea -> s : erfrage Camstream
+    s --> ea : Camstream (sendet dauerhaft)
+    deactivate ea
+  end
   es -> ea : getEye() : float[2]
   activate ea
   ea --> es : eye : float[2]
@@ -65,6 +83,8 @@ loop Visual input
   ea --> es : Pupil : float[2]
   deactivate ea
 end
+
+== Abschluss ==
 es -> sm: save Data
 activate sm
 
