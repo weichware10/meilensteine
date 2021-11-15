@@ -149,7 +149,7 @@ end
 == Output ==
 loop !exit
     cg -> c: displayAnalyzedData()
-    c -> cg: Ausgabe Daten
+    c --> cg: Ausgabe Daten
     cg -> n: Anzeige
     n -> s: Click?
     s -> cg: Klickinformation
