@@ -1,0 +1,48 @@
+@startuml zoommaps
+state "Fehler" as err : informative Fehlermeldung
+state Speichern : der Data im Speichermedium
+
+state "Tutorial" as t {
+    state "Abfrage von Config" as ac : getConfigState()\nSoll Tutorial angezeigt werden?
+    state "Tutorial anzeigen" as ta
+    state "Config setzen" as cs : Config so ändern, dass Tutorial\nnicht mehr angezeigt wird
+    state checkbox <<choice>>
+    note left of checkbox
+        Tutorial wieder anzeigen?
+    end note
+    [*] --> ac
+    ac --> ta : Ja
+    ac --> s : Nein
+    ta --> checkbox
+    checkbox --> cs : Nein
+    checkbox --> s : Ja
+    cs -r-> s
+}
+
+state "Setup" as s {
+    state "Konfiguration abfragen" as ka : speed und image location
+    state "Vorbereitung Bild" as vb : instanziieren und anzeigen
+    [*] --> ka
+    ka --> vb : Konfiguration erhalten
+    ka -d-> err : Konfiguration nicht erhalten
+    vb -l-> v
+}
+
+state "Versuch" as v {
+    state "Auf Benutzerinput warten" as bi : Scrollen und Klicken
+    state "Berechnung Bildposition" as bb : aus Rohdaten
+    state "Anpassung Bildposition" as ab : Dauer hängt von speed ab
+    state "Abspeichern neuer Position" as ap
+    [*] --> bi
+    bi --> bb : Input
+    bb --> ab
+    ab --> ap
+    ap --> bi
+    ap -u-> Speichern : Versuch beendet
+}
+
+[*] --> t
+Speichern -u-> [*]
+err -d-> [*]
+
+@enduml
