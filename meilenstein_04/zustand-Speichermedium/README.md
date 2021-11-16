@@ -1,5 +1,5 @@
 # Zustandsdiagramm Speichermedium
 
-![Zustandsdiagramm](Speichermedium.svg)
+![Zustandsdiagramm](zustand_speichermedium.svg)
 ---
 ## Notizen

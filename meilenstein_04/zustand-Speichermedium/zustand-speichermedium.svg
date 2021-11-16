@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="786px" preserveAspectRatio="none" style="width:1137px;height:786px;background:#FFFFFF;" version="1.1" viewBox="0 0 1137 786" width="1137px" zoomAndPan="magnify"><defs><filter height="300%" id="fqcdcwrt1eso7" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><ellipse cx="558.5" cy="16" fill="#000000" filter="url(#fqcdcwrt1eso7)" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><g id="SpeicherUtilities_erstellt"><rect fill="#FEFECE" filter="url(#fqcdcwrt1eso7)" height="50" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="199" x="459" y="87"/><line style="stroke:#A80036;stroke-width:1.5;" x1="459" x2="658" y1="113.2969" y2="113.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179" x="469" y="104.9951">SpeicherUtilities_erstellt</text></g><g id="Location_gespeichert"><rect fill="#FEFECE" filter="url(#fqcdcwrt1eso7)" height="50" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="176" x="470.5" y="214"/><line style="stroke:#A80036;stroke-width:1.5;" x1="470.5" x2="646.5" y1="240.2969" y2="240.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156" x="480.5" y="231.9951">Location_gespeichert</text></g><g id="idle"><rect fill="#FEFECE" filter="url(#fqcdcwrt1eso7)" height="50" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="50" x="533.5" y="341"/><line style="stroke:#A80036;stroke-width:1.5;" x1="533.5" x2="583.5" y1="367.2969" y2="367.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="545.5" y="358.9951">idle</text></g><g id="Location_geholt"><rect fill="#FEFECE" filter="url(#fqcdcwrt1eso7)" height="50" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="136" x="401.5" y="468"/><line style="stroke:#A80036;stroke-width:1.5;" x1="401.5" x2="537.5" y1="494.2969" y2="494.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="411.5" y="485.9951">Location_geholt</text></g><g id="Löschende_Daten_gefunden"><rect fill="#FEFECE" filter="url(#fqcdcwrt1eso7)" height="50" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="223" x="7" y="595"/><line style="stroke:#A80036;stroke-width:1.5;" x1="7" x2="230" y1="621.2969" y2="621.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="203" x="17" y="612.9951">Löschende_Daten_gefunden</text></g><g id="Daten_löschen"><rect fill="#FEFECE" filter="url(#fqcdcwrt1eso7)" height="50" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="126" x="40.5" y="468"/><line style="stroke:#A80036;stroke-width:1.5;" x1="40.5" x2="166.5" y1="494.2969" y2="494.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="50.5" y="485.9951">Daten_löschen</text></g><g id="Informationen_gefunden"><rect fill="#FEFECE" filter="url(#fqcdcwrt1eso7)" height="50" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="198" x="772.5" y="468"/><line style="stroke:#A80036;stroke-width:1.5;" x1="772.5" x2="970.5" y1="494.2969" y2="494.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="178" x="782.5" y="485.9951">Informationen_gefunden</text></g><g id="long2"><rect fill="#FEFECE" filter="url(#fqcdcwrt1eso7)" height="50" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="298" x="268.5" y="595"/><line style="stroke:#A80036;stroke-width:1.5;" x1="268.5" x2="566.5" y1="621.2969" y2="621.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="278" x="278.5" y="612.9951">Information in Datenbank eingetragen</text></g><g id="Daten_gelöscht"><rect fill="#FEFECE" filter="url(#fqcdcwrt1eso7)" height="50" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="133" x="701" y="722"/><line style="stroke:#A80036;stroke-width:1.5;" x1="701" x2="834" y1="748.2969" y2="748.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="711" y="739.9951">Daten_gelöscht</text></g><g id="Daten_übertragen"><rect fill="#FEFECE" filter="url(#fqcdcwrt1eso7)" height="50" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="152" x="643.5" y="595"/><line style="stroke:#A80036;stroke-width:1.5;" x1="643.5" x2="795.5" y1="621.2969" y2="621.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="653.5" y="612.9951">Daten_übertragen</text></g><!--MD5=[1c295de5a76a73e1d85dacb15739fcb2]
+link *start to SpeicherUtilities_erstellt--><path d="M558.5,26.013 C558.5,38.698 558.5,62.409 558.5,81.57 " fill="none" id="*start-to-SpeicherUtilities_erstellt" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="558.5,86.84,562.5,77.84,558.5,81.84,554.5,77.84,558.5,86.84" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[560acb40dc23adfdf046a401450f485d]
+link SpeicherUtilities_erstellt to Location_gespeichert--><path d="M558.5,137.101 C558.5,157.593 558.5,187.076 558.5,208.884 " fill="none" id="SpeicherUtilities_erstellt-to-Location_gespeichert" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="558.5,213.973,562.5,204.973,558.5,208.973,554.5,204.973,558.5,213.973" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="84" x="559.5" y="180.0669">setLocation()</text><!--MD5=[d6300333cd29437210354afa762ac4a6]
+link Location_gespeichert to idle--><path d="M558.5,264.101 C558.5,284.593 558.5,314.076 558.5,335.884 " fill="none" id="Location_gespeichert-to-idle" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="558.5,340.973,562.5,331.973,558.5,335.973,554.5,331.973,558.5,340.973" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="88" x="559.5" y="307.0669">Funktionsloop</text><!--MD5=[12f01e9927f59772039512bf32d4d92c]
+link idle to Location_geholt--><path d="M533.422,390.793 C524.655,399.796 515.111,410.431 507.5,421 C498.113,434.034 489.498,449.67 482.853,462.946 " fill="none" id="idle-to-Location_geholt" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="480.496,467.722,488.0657,461.4213,482.7086,463.2382,480.8917,457.8811,480.496,467.722" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="72" x="508.5" y="434.0669">saveData()</text><!--MD5=[3b1d556b9ed89c7b9f4aaa09e024ac45]
+link idle to Informationen_gefunden--><path d="M583.585,377.018 C631.468,396.141 737.275,438.396 806.419,466.009 " fill="none" id="idle-to-Informationen_gefunden" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="811.333,467.972,804.4585,460.9192,806.6896,466.1175,801.4913,468.3486,811.333,467.972" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="84" x="735.5" y="434.0669">searchData()</text><!--MD5=[310c1962ca3e46e947bdd5b9670f95da]
+link Location_geholt to long2--><path d="M447.924,518.028 C441.031,526.889 434.024,537.373 429.5,548 C423.923,561.099 420.934,576.594 419.333,589.762 " fill="none" id="Location_geholt-to-long2" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="418.766,594.871,423.7341,586.367,419.3174,589.9015,415.7829,585.4848,418.766,594.871" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="150" x="430.5" y="561.0669">eintragen in Datenbank</text><!--MD5=[4f354d481ea0920ec2a8596f9f7d3400]
+link Informationen_gefunden to Daten_übertragen--><path d="M842.193,518.101 C816.539,539.198 779.296,569.826 752.58,591.796 " fill="none" id="Informationen_gefunden-to-Daten_übertragen" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="748.717,594.973,758.2084,592.3435,752.5781,591.7962,753.1254,586.1659,748.717,594.973" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="142" x="806.5" y="561.0669">Daten zum DataClient</text><!--MD5=[31b3120e0cc23e35a68b9a7d791913b7]
+link long2 to idle--><path d="M355.891,594.949 C295.047,567.533 216.11,519.769 253.5,468 C317.985,378.717 464.436,367.076 528.054,366.422 " fill="none" id="long2-to-idle" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="533.219,366.391,524.1952,362.4451,528.2191,366.421,524.2432,370.4449,533.219,366.391" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="128" x="254.5" y="497.5669">Funktion ausgeführt</text><!--MD5=[9f14228870b7f11b730be3b92d576689]
+link Daten_gelöscht to idle--><path d="M812.722,721.8304 C896.302,674.0333 1060.18,563.76 988.5,468 C939.954,403.142 678.622,376.544 588.823,369.231 " fill="none" id="Daten_gelöscht-to-idle" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="583.664,368.817,592.3138,373.5266,588.6479,369.2184,592.9561,365.5524,583.664,368.817" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="128" x="1001.5" y="561.0669">Funktion ausgeführt</text><!--MD5=[d842891822a39e2790fc15fb616a2178]
+link Daten_übertragen to idle--><path d="M691.577,594.693 C670.889,575.517 643.163,547.211 624.5,518 C599.483,478.844 604.572,463.37 585.5,421 C581.83,412.847 577.609,404.133 573.61,396.135 " fill="none" id="Daten_übertragen-to-idle" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="571.156,391.26,571.6284,401.0975,573.4035,395.7264,578.7746,397.5015,571.156,391.26" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="128" x="625.5" y="497.5669">Funktion ausgeführt</text><!--MD5=[86ccb5c8c9253ba85071fbf6b52f83ba]
+link idle to Daten_löschen--><path d="M533.253,366.686 C450.298,366.169 187.861,368.772 125.5,421 C113.341,431.184 107.786,447.954 105.2964,462.64 " fill="none" id="idle-to-Daten_löschen" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="104.5115,467.94,109.7874,459.6235,105.2444,462.994,101.8738,458.4509,104.5115,467.94" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="126.5" y="434.0669">DeleteData()</text><!--MD5=[73685f6dcfa30ebf51ee3896c5b2bcf7]
+link Daten_löschen to Löschende_Daten_gefunden--><path d="M106.3922,518.101 C108.851,538.593 112.389,568.076 115.006,589.884 " fill="none" id="Daten_löschen-to-Löschende_Daten_gefunden" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="115.617,594.973,118.5162,585.5605,115.0213,590.0086,110.5732,586.5137,115.617,594.973" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="84" x="113.5" y="561.0669">searchData()</text><!--MD5=[e06c5b8cd7a8f2e778b897da9fab95a9]
+link Löschende_Daten_gefunden to Daten_gelöscht--><path d="M230.067,642.488 C363.626,668.212 583.348,710.5316 696.006,732.2299 " fill="none" id="Löschende_Daten_gefunden-to-Daten_gelöscht" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="700.959,733.1839,692.878,727.5538,696.0492,732.2382,691.3649,735.4095,700.959,733.1839" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="92" x="483.5" y="688.0669">Daten löschen</text><!--MD5=[4f7db40cb84680f321592377dc5a3fab]
+@startuml
+[*] - -> SpeicherUtilities_erstellt
+SpeicherUtilities_erstellt - -> Location_gespeichert : setLocation()
+Location_gespeichert - -> idle : Funktionsloop
+idle - -> Location_geholt : saveData()
+idle - -> Informationen_gefunden : searchData()
+Location_geholt - -> long2 : eintragen in Datenbank
+Informationen_gefunden - -> Daten_übertragen : Daten zum DataClient
+long2 - -> idle : Funktion ausgeführt
+Daten_gelöscht - -> idle : Funktion ausgeführt
+Daten_übertragen - -> idle : Funktion ausgeführt
+idle - -> Daten_löschen : DeleteData()
+Daten_löschen - -> Löschende_Daten_gefunden : searchData()
+Löschende_Daten_gefunden - -> Daten_gelöscht : Daten löschen
+
+state SpeicherUtilities_erstellt {
+
+}
+
+state Location_gespeichert {
+
+}
+
+state idle{
+
+}
+
+state Location_geholt{
+
+}
+
+state Löschende_Daten_gefunden{
+
+}
+
+state Daten_löschen{
+
+}
+
+state Informationen_gefunden{
+
+}
+state "Information in Datenbank eingetragen" as long2{
+
+}
+state Daten_gelöscht {
+
+}
+state Daten_übertragen {
+
+}
+@enduml
+
+PlantUML version 1.2021.15beta2(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
