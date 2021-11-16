@@ -10,9 +10,8 @@ Informationen_gefunden --> Daten_übertragen : Daten zum DataClient
 long2 --> idle : Funktion ausgeführt
 Daten_gelöscht --> idle : Funktion ausgeführt
 Daten_übertragen --> idle : Funktion ausgeführt
-idle --> Daten_löschen : DeleteData()
-Daten_löschen --> Löschende_Daten_gefunden : searchData()
-Löschende_Daten_gefunden --> Daten_gelöscht : Daten löschen
+idle --> Daten_gelöscht : DeleteData() + searchData()
+
 
 state SpeicherUtilities_erstellt {
 
@@ -27,14 +26,6 @@ state idle{
 }
 
 state Location_geholt{
-
-}
-
-state Löschende_Daten_gefunden{
-
-}
-
-state Daten_löschen{
 
 }
 
