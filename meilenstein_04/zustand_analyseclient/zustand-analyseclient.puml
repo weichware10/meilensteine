@@ -1,0 +1,75 @@
+@startuml Datenanalyse Client
+
+note left of i
+    Bedingungen
+    <sup>1</sup> analysTypes.size == 0
+    <sup>2</sup> analyseTypes.size != 0
+    <sup>3</sup> (start > end) OR (start OR end != Date) OR (dataType == null)
+    <sup>4</sup> (start < end) AND (start AND end = Date) AND (dataType != null)
+    <sup>5</sup> data == null
+    <sup>6</sup> (data != null) AND (dataForComp == null) AND (analyseTypes contains COMPHEATMAP)
+    <sup>7</sup> (start < end) AND (start AND end = Date) AND (dataType != null) AND (data.t == dataForComp.t)
+    <sup>8</sup> (start > end) OR (start OR end != Date) OR (dataType == null) OR (data.t != dataForComp.t)
+    <sup>9</sup> [(analyseTypes contains COMPHEATMAP) AND (data != null) AND (dataForComp != null)] 
+        OR [(analyseTypes !contains COMPHEATMAP) AND (data != null)]
+end note
+
+' Input
+state "Input" as i {
+    ' States
+    state "InputAnalyseTypes" as iat: Auswahl Analyse Typen
+    state "InputData" as id: Eingabe benötigter Daten
+    state "WaitForSpeichermedium" as wfs: Benötigte Daten werden vom Speichermedium besorgt
+    state "InputDataForComp" as idfc: Eingabe benötigter Daten zum Vergleich
+
+    ' Transition
+    [*] -d-> iat
+    iat -d-> id: setAnalyseTypes()<sup>2</sup>
+    iat -r-> iat: setAnalyseTypes()<sup>1</sup>
+    id -d-> wfs: getData()<sup>4</sup>
+    id -> id: getData()<sup>3</sup>
+    wfs -u-> id: <sup>5</sup>
+    wfs -d-> idfc: <sup>6</sup>
+    idfc -u-> wfs: getData()<sup>7</sup>
+    idfc -> idfc: getData()<sup>8</sup>
+    wfs -u-> a: analyseData()<sup>9</sup>
+}
+
+state "Analyse" as a {
+    ' States
+    state "Diagramm" as d: Analyse und Erstellung der\nausgewählten Diagrammtypen
+    state "Verlauf" as v: Analyse und Erstellung des Verlaufs
+    state "Heatmap" as h: Analyse und Erstellung der\nausgewählten Heatmaptypen
+    state "AnalyseFinished" as af: Rückgabe der Ergebnisse
+
+    ' Transition
+    [*] -d-> d: <sup>1</sup>
+    [*] -d-> v: <sup>2</sup>
+    [*] -d-> h: <sup>3</sup>
+    d -d-> v: <sup>5</sup>
+    d -d-> h: <sup>4</sup>
+    v -> h: <sup>7</sup>
+    d -d-> af: <sup>6</sup>
+    v -d-> af: <sup>8</sup>
+    h -d-> af
+    af -r-> o
+
+    note "Bedingungen\nanalyseTypes contains <sup>x</sup>\n<sup>1</sup> R OR VT\n<sup>2</sup> V AND !R AND !VT\n<sup>3</sup> (H OR C) AND !V AND !R AND !VT\n<sup>4</sup> !V AND (H OR C)\n<sup>5</sup> V\n<sup>6</sup> !V AND !H AND !C\n<sup>7</sup> H OR C\n<sup>8</sup> !H AND !C\n\nAbkürzungen\nH = HEATMAP\nC = COMPHEATMAP\nV = VERLAUF\nR = RELFRQIMGAREA\nVT = VIEWTIMEDISTR" as note2
+}
+
+state "Output" as o {
+    ' States
+    state "Anzeige" as an: Ausgabe analysierter Daten
+    state "Export" as e: Export der analysierten Daten
+
+    ' Transition
+    [*] -d-> an: displayAnalyzedData()
+    an -> e: export()
+    e -u-> an
+}
+
+' Transition
+[*] -d-> i: start Client (showClientGUI)
+an -d-> [*]: Beenden
+
+@enduml
