@@ -1,6 +1,6 @@
 @startuml Datenanalyse Client
 
-note right of i
+note left of i
     Bedingungen
     <sup>1</sup> analysTypes.size == 0
     <sup>2</sup> analyseTypes.size != 0
@@ -12,26 +12,6 @@ note right of i
     <sup>8</sup> (start > end) OR (start OR end != Date) OR (dataType == null) OR (data.t != dataForComp.t)
     <sup>9</sup> [(analyseTypes contains COMPHEATMAP) AND (data != null) AND (dataForComp != null)] 
         OR [(analyseTypes !contains COMPHEATMAP) AND (data != null)]
-end note
-
-note left of a
-    Bedingungen
-    analyseTypes contains <sup>x</sup>
-    <sup>1</sup> R OR VT
-    <sup>2</sup> V AND !R AND !VT
-    <sup>3</sup> (H OR C) AND !V AND !R AND !VT
-    <sup>4</sup> !V AND (H OR C)
-    <sup>5</sup> V
-    <sup>6</sup> !V AND !H AND !C
-    <sup>7</sup> H OR C
-    <sup>8</sup> !H AND !C
-
-    Abkürzungen
-    H = HEATMAP
-    C = COMPHEATMAP
-    V = VERLAUF
-    R = RELFRQIMGAREA
-    VT = VIEWTIMEDISTR
 end note
 
 ' Input
@@ -73,6 +53,8 @@ state "Analyse" as a {
     v -d-> af: <sup>8</sup>
     h -d-> af
     af -r-> o
+
+    note "Bedingungen\nanalyseTypes contains <sup>x</sup>\n<sup>1</sup> R OR VT\n<sup>2</sup> V AND !R AND !VT\n<sup>3</sup> (H OR C) AND !V AND !R AND !VT\n<sup>4</sup> !V AND (H OR C)\n<sup>5</sup> V\n<sup>6</sup> !V AND !H AND !C\n<sup>7</sup> H OR C\n<sup>8</sup> !H AND !C\n\nAbkürzungen\nH = HEATMAP\nC = COMPHEATMAP\nV = VERLAUF\nR = RELFRQIMGAREA\nVT = VIEWTIMEDISTR" as note2
 }
 
 state "Output" as o {
