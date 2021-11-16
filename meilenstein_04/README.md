@@ -10,13 +10,13 @@
 
 ## Was waren die Herausforderungen und Probleme ? Wie wurden sie gelöst ?
 - Bei der in der Aufgabenstellung vorgesehenen Menge an zu bearbeitenden Diagrammen hätten einige keine eigenen Diagramme zum Bearbeiten bekommen -> Bearbeitung eines zustzlichen Sequenz-, sowie eines zusätzlichen Zustandsdiagramms
-- Es konnten nicht alle sowohl ein Sequenz-, als auch ein Zustandsdiagramm bearbeiten -> Gruppenmitglieder tauschten sich bei Interesse untereinander aus und Erklärten sich gegenseitig das Vorgehen bei den unterschiedlichen Diagrammarten
+- Es konnten nicht alle sowohl ein Sequenz-, als auch ein Zustandsdiagramm bearbeiten -> Gruppenmitglieder tauschten sich bei Interesse untereinander aus und erklärten sich gegenseitig das Vorgehen bei den unterschiedlichen Diagrammarten
 
 
 ## Was lief gut ? Was lief nicht gut ?
 | gut | nicht gut |
 | --- | --------- |
-|Kommunikation innerhalb der Gruppe, sowie innerhalb der Module|Gruppe lies sich bei den Gruppentreffen durch die gute Atmosphäre schnell Ablenken |
+|Kommunikation innerhalb der Gruppe, sowie innerhalb der Module|Gruppe lies sich bei den Gruppentreffen durch die gute Atmosphäre schnell ablenken |
 |Vorarbeit des letzten Meilensteins erleichterte die Arbeit     |Erkennung aller Bedingungen der Transitions (Zustandsdiagramm)           |
 |Syntax von PlantUML war durch den letzten Meilenstein schon bekannt     |           |
 
