@@ -1,0 +1,77 @@
+@startuml zoommaps
+skinparam defaultTextAlignment center
+
+
+actor       Nutzer          as n
+entity      System          as s    #DA70D5
+
+box ZoomMaps
+participant ZoomTutorial    as zt
+participant ZoomCalculator  as zc
+participant ZoomBild        as zb
+participant ZoomInput       as zi
+end box
+
+collections Config          as c
+collections SpeicherMedium  as sm
+
+activate n
+activate s
+
+== Tutorial ==
+zt -> c : getBool('zoom_maps', 'tutorial')
+activate zt
+activate c
+c --> zt : config_state : boolean
+deactivate c
+
+opt config_state == True
+    hnote over zt #FFFFFF: showing Tutorial
+    n -> zt : show_again : boolean
+    opt show_again == False
+        zt -> c : setBool('zoom_maps', 'tutorial', false)
+        activate c
+        deactivate c
+    end
+end
+
+deactivate zt
+
+== Setup ==
+zc -> c : getFloat('zoom_maps', 'speed')
+activate zc
+activate c
+c --> zc : speed : float
+zc -> c : getString('zoom_maps', 'image')
+c --> zc : location : String
+deactivate c
+
+zc ->o zb : location
+activate zb
+note over zc, zb : Instanziierung des\nZoomBild-Objekts
+zc -> zb : show()
+
+== Versuch ==
+loop Versuchsschleife
+    n -> s : Interaktion mit Maus
+    s -> zi : Klick- und Scrollinformationen
+    activate zi
+    zi -> zc : processInput(raw_input)
+    deactivate zi
+    zc -> zc : calculate(raw_input)
+    zc -> zb : move(calculated_position)
+    ... Dauer abhängig von speed ...
+    zb --> zc : new_position : float[3]
+    hnote over zc #FFFFFF: Abspeichern der neuen Position\nin data
+end
+destroy zb
+
+
+== Speichern ==
+zc -> sm : saveData(data)
+activate sm
+sm --> zc : success : boolean
+deactivate sm
+deactivate zc
+
+@enduml
