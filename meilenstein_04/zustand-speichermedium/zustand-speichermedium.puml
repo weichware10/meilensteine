@@ -1,0 +1,34 @@
+@startuml speichermedium
+
+state "Location gespeichert" as lgs : Speicherort der Daten
+state "idle" as i
+state active {
+    state "Location geholt" as lgh : Speicherort
+    state "Informationen gefunden" as ig
+    state "Information in Datenbank eingetragen" as ide
+    state "Daten gelöscht" as dg
+    state "Daten übertragen" as du : an AnalyseClient
+    state "Funktion ausgeführt"  as fa <<exitPoint>>
+    state "saveData()"  as sad <<entryPoint>>
+    state "searchData()"  as sed <<entryPoint>>
+    state "deleteData()"  as ded <<entryPoint>>
+}
+
+[*] -r-> lgs : setLocation()
+lgs -r-> i : Funktionsloop
+i --> sed
+i --> ded
+sed --> ig
+ded --> ig
+ig --> dg : deleteData()
+ig --> du : searchData()
+du --> fa
+dg --> fa
+i --> sad
+sad --> lgh
+lgh --> ide : eintragen in Datenbank
+ide --> fa
+fa --> i : Funktion ausgeführt
+i --> [*] : Beenden
+
+@enduml
