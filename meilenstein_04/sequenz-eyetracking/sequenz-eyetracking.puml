@@ -62,7 +62,7 @@ loop Visual input
   hnote over es #FFFFFF: calculate()
 end
 
-== Abschluss ==
+== Speichern ==
 es -> sm: save Data
 activate sm
 
