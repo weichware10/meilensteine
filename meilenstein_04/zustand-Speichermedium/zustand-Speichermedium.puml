@@ -6,11 +6,13 @@ Location_gespeichert --> idle : Funktionsloop
 idle --> Location_geholt : saveData()
 idle --> Informationen_gefunden : searchData()
 Location_geholt --> long2 : eintragen in Datenbank
-Informationen_gefunden --> Daten_gelöscht : deleteData()
 Informationen_gefunden --> Daten_übertragen : Daten zum DataClient
 long2 --> idle : Funktion ausgeführt
 Daten_gelöscht --> idle : Funktion ausgeführt
 Daten_übertragen --> idle : Funktion ausgeführt
+idle --> Daten_löschen : DeleteData()
+Daten_löschen --> Löschende_Daten_gefunden : searchData()
+Löschende_Daten_gefunden --> Daten_gelöscht : Daten löschen
 
 state SpeicherUtilities_erstellt {
 
@@ -25,6 +27,14 @@ state idle{
 }
 
 state Location_geholt{
+
+}
+
+state Löschende_Daten_gefunden{
+
+}
+
+state Daten_löschen{
 
 }
 
