@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="2919px" preserveAspectRatio="none" style="width:2083px;height:2919px;background:#FFFFFF;" version="1.1" viewBox="0 0 2083 2919" width="2083px" zoomAndPan="magnify"><defs><filter height="300%" id="f11rjty3w5s358" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#DDDDDD" height="2907.0391" style="stroke:#A80036;stroke-width:1.0;" width="1321" x="557.5" y="6"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="101" x="1167.5" y="18.0669">AnalyseClient</text><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="2719.4453" style="stroke:#A80036;stroke-width:1.0;" width="10" x="72" y="98.2969"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="2719.4453" style="stroke:#A80036;stroke-width:1.0;" width="10" x="421" y="98.2969"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="2668.1797" style="stroke:#A80036;stroke-width:1.0;" width="10" x="599" y="148.5625"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="2668.1797" style="stroke:#A80036;stroke-width:1.0;" width="10" x="845" y="148.5625"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="129.5313" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1056" y="2044.8828"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="171.6641" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1056" y="2234.6797"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="129.5313" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1403" y="1855.0859"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="87.3984" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1634" y="1384.9609"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="87.3984" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1634" y="1532.625"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="87.3984" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1634" y="1649.1563"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="29.1328" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1634" y="1765.6875"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="29.1328" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1833" y="1414.0938"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="29.1328" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1833" y="1561.7578"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="29.1328" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1833" y="1678.2891"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="29.1328" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1833" y="1884.2188"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="29.1328" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1833" y="2074.0156"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="29.1328" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1833" y="2263.8125"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="97.2031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1950.5" y="564.4219"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="97.2031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1950.5" y="1002.8906"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="193.9297" style="stroke:#000000;stroke-width:2.0;" width="870.5" x="30" y="206.6953"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="75.3984" style="stroke:#000000;stroke-width:2.0;" width="850.5" x="40" y="318.2266"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="400.3359" style="stroke:#000000;stroke-width:2.0;" width="2036.5" x="20" y="414.625"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="281.8047" style="stroke:#000000;stroke-width:2.0;" width="2016.5" x="30" y="526.1563"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="148.4688" style="stroke:#000000;stroke-width:2.0;" width="1996.5" x="40" y="579.4219"/><rect fill="#FFFFFF" height="102.2031" style="stroke:none;stroke-width:1.0;" width="1996.5" x="40" y="625.6875"/><rect fill="#FFFFFF" height="73.0703" style="stroke:none;stroke-width:1.0;" width="2016.5" x="30" y="734.8906"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="431.4688" style="stroke:#000000;stroke-width:2.0;" width="2056.5" x="10" y="828.9609"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="400.3359" style="stroke:#000000;stroke-width:2.0;" width="2036.5" x="20" y="853.0938"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="281.8047" style="stroke:#000000;stroke-width:2.0;" width="2016.5" x="30" y="964.625"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="148.4688" style="stroke:#000000;stroke-width:2.0;" width="1996.5" x="40" y="1017.8906"/><rect fill="#FFFFFF" height="102.2031" style="stroke:none;stroke-width:1.0;" width="1996.5" x="40" y="1064.1563"/><rect fill="#FFFFFF" height="73.0703" style="stroke:none;stroke-width:1.0;" width="2016.5" x="30" y="1173.3594"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="133.6641" style="stroke:#000000;stroke-width:2.0;" width="1075" x="809.5" y="1346.6953"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="308.4609" style="stroke:#000000;stroke-width:2.0;" width="1075" x="809.5" y="1494.3594"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="175.7969" style="stroke:#000000;stroke-width:2.0;" width="1075" x="809.5" y="1816.8203"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="175.7969" style="stroke:#000000;stroke-width:2.0;" width="1075" x="809.5" y="2006.6172"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="217.9297" style="stroke:#000000;stroke-width:2.0;" width="1075" x="809.5" y="2196.4141"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="338.2656" style="stroke:#000000;stroke-width:2.0;" width="860.5" x="40" y="2471.4766"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="161.4688" style="stroke:#000000;stroke-width:2.0;" width="504.5" x="386" y="2641.2734"/><rect fill="#FFFFFF" height="56.9375" style="stroke:none;stroke-width:1.0;" width="504.5" x="386" y="2745.8047"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="77" x2="77" y1="88.2969" y2="2826.7422"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="426" x2="426" y1="88.2969" y2="2826.7422"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="603.5" x2="603.5" y1="88.2969" y2="2826.7422"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="849.5" x2="849.5" y1="88.2969" y2="2826.7422"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1061" x2="1061" y1="88.2969" y2="2826.7422"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1407.5" x2="1407.5" y1="88.2969" y2="2826.7422"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1639" x2="1639" y1="88.2969" y2="2826.7422"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1837.5" x2="1837.5" y1="88.2969" y2="2826.7422"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1955.5" x2="1955.5" y1="88.2969" y2="2826.7422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="50" y="84.9951">Nutzer</text><ellipse cx="77" cy="15" fill="#FEFECE" filter="url(#f11rjty3w5s358)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M77,23 L77,50 M64,31 L90,31 M77,50 L64,65 M77,50 L90,65 " fill="none" filter="url(#f11rjty3w5s358)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="50" y="2838.7373">Nutzer</text><ellipse cx="77" cy="2852.0391" fill="#FEFECE" filter="url(#f11rjty3w5s358)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M77,2860.0391 L77,2887.0391 M64,2868.0391 L90,2868.0391 M77,2887.0391 L64,2902.0391 M77,2887.0391 L90,2902.0391 " fill="none" filter="url(#f11rjty3w5s358)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="396" y="84.9951">System</text><ellipse cx="426" cy="56" fill="#DA70D5" filter="url(#f11rjty3w5s358)" rx="12" ry="12" style="stroke:#A80036;stroke-width:2.0;"/><line style="stroke:#A80036;stroke-width:2.0;" x1="414" x2="438" y1="70" y2="70"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="396" y="2838.7373">System</text><ellipse cx="426" cy="2858.0391" fill="#DA70D5" filter="url(#f11rjty3w5s358)" rx="12" ry="12" style="stroke:#A80036;stroke-width:2.0;"/><line style="stroke:#A80036;stroke-width:2.0;" x1="414" x2="438" y1="2872.0391" y2="2872.0391"/><rect fill="#FEFECE" filter="url(#f11rjty3w5s358)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="81" x="561.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="568.5" y="72.9951">ClientGUI</text><rect fill="#FEFECE" filter="url(#f11rjty3w5s358)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="81" x="561.5" y="2825.7422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="568.5" y="2845.7373">ClientGUI</text><rect fill="#FEFECE" filter="url(#f11rjty3w5s358)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="57" x="819.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="826.5" y="72.9951">Client</text><rect fill="#FEFECE" filter="url(#f11rjty3w5s358)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="57" x="819.5" y="2825.7422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="826.5" y="2845.7373">Client</text><rect fill="#FEFECE" filter="url(#f11rjty3w5s358)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="88" x="1015" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="1022" y="72.9951">Diagramm</text><rect fill="#FEFECE" filter="url(#f11rjty3w5s358)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="88" x="1015" y="2825.7422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="1022" y="2845.7373">Diagramm</text><rect fill="#FEFECE" filter="url(#f11rjty3w5s358)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="65" x="1373.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="1380.5" y="72.9951">Verlauf</text><rect fill="#FEFECE" filter="url(#f11rjty3w5s358)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="65" x="1373.5" y="2825.7422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="1380.5" y="2845.7373">Verlauf</text><rect fill="#FEFECE" filter="url(#f11rjty3w5s358)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="80" x="1597" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="1604" y="72.9951">Heatmap</text><rect fill="#FEFECE" filter="url(#f11rjty3w5s358)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="80" x="1597" y="2825.7422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="1604" y="2845.7373">Heatmap</text><rect fill="#FEFECE" filter="url(#f11rjty3w5s358)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="69" x="1801.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="1808.5" y="72.9951">Analyse</text><rect fill="#FEFECE" filter="url(#f11rjty3w5s358)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="69" x="1801.5" y="2825.7422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="1808.5" y="2845.7373">Analyse</text><rect fill="#FEFECE" filter="url(#f11rjty3w5s358)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="134" x="1888.5" y="49"/><rect fill="#FEFECE" filter="url(#f11rjty3w5s358)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="134" x="1884.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="1891.5" y="72.9951">SpeicherMedium</text><rect fill="#FEFECE" filter="url(#f11rjty3w5s358)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="134" x="1888.5" y="2825.7422"/><rect fill="#FEFECE" filter="url(#f11rjty3w5s358)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="134" x="1884.5" y="2829.7422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="1891.5" y="2849.7373">SpeicherMedium</text><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="2719.4453" style="stroke:#A80036;stroke-width:1.0;" width="10" x="72" y="98.2969"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="2719.4453" style="stroke:#A80036;stroke-width:1.0;" width="10" x="421" y="98.2969"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="2668.1797" style="stroke:#A80036;stroke-width:1.0;" width="10" x="599" y="148.5625"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="2668.1797" style="stroke:#A80036;stroke-width:1.0;" width="10" x="845" y="148.5625"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="129.5313" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1056" y="2044.8828"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="171.6641" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1056" y="2234.6797"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="129.5313" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1403" y="1855.0859"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="87.3984" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1634" y="1384.9609"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="87.3984" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1634" y="1532.625"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="87.3984" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1634" y="1649.1563"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="29.1328" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1634" y="1765.6875"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="29.1328" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1833" y="1414.0938"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="29.1328" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1833" y="1561.7578"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="29.1328" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1833" y="1678.2891"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="29.1328" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1833" y="1884.2188"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="29.1328" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1833" y="2074.0156"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="29.1328" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1833" y="2263.8125"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="97.2031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1950.5" y="564.4219"/><rect fill="#FFFFFF" filter="url(#f11rjty3w5s358)" height="97.2031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1950.5" y="1002.8906"/><polygon fill="#A80036" points="409,115.4297,419,119.4297,409,123.4297,413,119.4297" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="82" x2="415" y1="119.4297" y2="119.4297"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="71" x="89" y="114.3638">Start Client</text><polygon fill="#A80036" points="587,144.5625,597,148.5625,587,152.5625,591,148.5625" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="431" x2="593" y1="148.5625" y2="148.5625"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="102" x="438" y="143.4966">showClientGUI()</text><rect fill="#EEEEEE" filter="url(#f11rjty3w5s358)" height="3" style="stroke:#EEEEEE;stroke-width:1.0;" width="2076.5" x="0" y="177.1289"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2076.5" y1="177.1289" y2="177.1289"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2076.5" y1="180.1289" y2="180.1289"/><rect fill="#EEEEEE" filter="url(#f11rjty3w5s358)" height="23.1328" style="stroke:#000000;stroke-width:2.0;" width="59" x="1008.75" y="166.5625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="40" x="1014.75" y="182.6294">Input</text><path d="M30,206.6953 L108,206.6953 L108,213.6953 L98,223.6953 L30,223.6953 L30,206.6953 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="193.9297" style="stroke:#000000;stroke-width:2.0;" width="870.5" x="30" y="206.6953"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="33" x="45" y="219.7622">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="164" x="123" y="218.9058">[analyseTypes.size == 0]</text><polygon fill="#A80036" points="409,240.9609,419,244.9609,409,248.9609,413,244.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="82" x2="415" y1="244.9609" y2="244.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="153" x="89" y="239.895">Auswahl Analyse Typen</text><polygon fill="#A80036" points="587,270.0938,597,274.0938,587,278.0938,591,274.0938" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="431" x2="593" y1="274.0938" y2="274.0938"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="102" x="438" y="269.0278">Klickinformation</text><polygon fill="#A80036" points="833,299.2266,843,303.2266,833,307.2266,837,303.2266" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="609" x2="839" y1="303.2266" y2="303.2266"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="120" x="616" y="298.1606">setAnalyseTypes()</text><path d="M40,318.2266 L106,318.2266 L106,325.2266 L96,335.2266 L40,335.2266 L40,318.2266 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="75.3984" style="stroke:#000000;stroke-width:2.0;" width="850.5" x="40" y="318.2266"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="21" x="55" y="331.2935">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="164" x="121" y="330.437">[analyseTypes.size == 0]</text><polygon fill="#A80036" points="620,352.4922,610,356.4922,620,360.4922,616,356.4922" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="614" x2="844" y1="356.4922" y2="356.4922"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="212" x="626" y="351.4263">Keine Analyse Typen ausgewählt</text><polygon fill="#A80036" points="93,381.625,83,385.625,93,389.625,89,385.625" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="87" x2="598" y1="385.625" y2="385.625"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="61" x="99" y="380.5591">Try Again</text><path d="M20,414.625 L98,414.625 L98,421.625 L88,431.625 L20,431.625 L20,414.625 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="400.3359" style="stroke:#000000;stroke-width:2.0;" width="2036.5" x="20" y="414.625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="33" x="35" y="427.6919">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="91" x="113" y="426.8354">[data == null]</text><polygon fill="#A80036" points="409,448.8906,419,452.8906,409,456.8906,413,452.8906" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="82" x2="415" y1="452.8906" y2="452.8906"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="315" x="89" y="447.8247">Eingabe benötigter Daten (Zeitraum &amp; ToolType)</text><polygon fill="#A80036" points="587,478.0234,597,482.0234,587,486.0234,591,482.0234" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="431" x2="593" y1="482.0234" y2="482.0234"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="144" x="438" y="476.9575">Tastaturinformationen</text><polygon fill="#A80036" points="833,507.1563,843,511.1563,833,515.1563,837,511.1563" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="609" x2="839" y1="511.1563" y2="511.1563"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="193" x="616" y="506.0903">getData(start, end, dataType)</text><path d="M30,526.1563 L96,526.1563 L96,533.1563 L86,543.1563 L30,543.1563 L30,526.1563 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="281.8047" style="stroke:#000000;stroke-width:2.0;" width="2016.5" x="30" y="526.1563"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="21" x="45" y="539.2231">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="224" x="111" y="538.3667">[start &lt; end &amp;&amp; dataType != null]</text><polygon fill="#A80036" points="1938.5,560.4219,1948.5,564.4219,1938.5,568.4219,1942.5,564.4219" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="855" x2="1944.5" y1="564.4219" y2="564.4219"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="94" x="862" y="559.356">Abfrage Daten</text><path d="M40,579.4219 L106,579.4219 L106,586.4219 L96,596.4219 L40,596.4219 L40,579.4219 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="148.4688" style="stroke:#000000;stroke-width:2.0;" width="1996.5" x="40" y="579.4219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="21" x="55" y="592.4888">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="81" x="121" y="591.6323">[dataFound]</text><polygon fill="#A80036" points="866,613.6875,856,617.6875,866,621.6875,862,617.6875" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="860" x2="1949.5" y1="617.6875" y2="617.6875"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="86" x="872" y="612.6216">Daten setzen</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="40" x2="2036.5" y1="626.6875" y2="626.6875"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="106" x="45" y="636.8979">[dataNotFound]</text><polygon fill="#A80036" points="866,657.625,856,661.625,866,665.625,862,661.625" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="860" x2="1954.5" y1="661.625" y2="661.625"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="139" x="872" y="656.5591">Daten nicht gefunden</text><polygon fill="#A80036" points="620,686.7578,610,690.7578,620,694.7578,616,690.7578" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="614" x2="844" y1="690.7578" y2="690.7578"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="139" x="626" y="685.6919">Daten nicht gefunden</text><polygon fill="#A80036" points="93,715.8906,83,719.8906,93,723.8906,89,719.8906" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="87" x2="598" y1="719.8906" y2="719.8906"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="207" x="99" y="714.8247">Daten nicht gefunden. Try again</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="30" x2="2046.5" y1="735.8906" y2="735.8906"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="215" x="35" y="746.1011">[start &gt; end || dataType == null]</text><polygon fill="#A80036" points="620,766.8281,610,770.8281,620,774.8281,616,770.8281" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="614" x2="844" y1="770.8281" y2="770.8281"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="103" x="626" y="765.7622">Falsche Eingabe</text><polygon fill="#A80036" points="93,795.9609,83,799.9609,93,803.9609,89,799.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="87" x2="598" y1="799.9609" y2="799.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="171" x="99" y="794.895">Falsche Eingabe. Try again</text><path d="M10,828.9609 L76,828.9609 L76,835.9609 L66,845.9609 L10,845.9609 L10,828.9609 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="431.4688" style="stroke:#000000;stroke-width:2.0;" width="2056.5" x="10" y="828.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="21" x="25" y="842.0278">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="267" x="91" y="841.1714">[analyseTypes contains COMPHEATMAP]</text><path d="M20,853.0938 L98,853.0938 L98,860.0938 L88,870.0938 L20,870.0938 L20,853.0938 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="400.3359" style="stroke:#000000;stroke-width:2.0;" width="2036.5" x="20" y="853.0938"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="33" x="35" y="866.1606">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="151" x="113" y="865.3042">[dataForComp == null]</text><polygon fill="#A80036" points="409,887.3594,419,891.3594,409,895.3594,413,891.3594" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="82" x2="415" y1="891.3594" y2="891.3594"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="315" x="89" y="886.2935">Eingabe benötigter Daten (Zeitraum &amp; ToolType)</text><polygon fill="#A80036" points="587,916.4922,597,920.4922,587,924.4922,591,920.4922" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="431" x2="593" y1="920.4922" y2="920.4922"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="144" x="438" y="915.4263">Tastaturinformationen</text><polygon fill="#A80036" points="833,945.625,843,949.625,833,953.625,837,949.625" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="609" x2="839" y1="949.625" y2="949.625"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="193" x="616" y="944.5591">getData(start, end, dataType)</text><path d="M30,964.625 L96,964.625 L96,971.625 L86,981.625 L30,981.625 L30,964.625 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="281.8047" style="stroke:#000000;stroke-width:2.0;" width="2016.5" x="30" y="964.625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="21" x="45" y="977.6919">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="422" x="111" y="976.8354">[start &lt; end &amp;&amp; dataType != null &amp;&amp; data.t == dataForComp.t]</text><polygon fill="#A80036" points="1938.5,998.8906,1948.5,1002.8906,1938.5,1006.8906,1942.5,1002.8906" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="855" x2="1944.5" y1="1002.8906" y2="1002.8906"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="94" x="862" y="997.8247">Abfrage Daten</text><path d="M40,1017.8906 L106,1017.8906 L106,1024.8906 L96,1034.8906 L40,1034.8906 L40,1017.8906 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="148.4688" style="stroke:#000000;stroke-width:2.0;" width="1996.5" x="40" y="1017.8906"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="21" x="55" y="1030.9575">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="81" x="121" y="1030.1011">[dataFound]</text><polygon fill="#A80036" points="866,1052.1563,856,1056.1563,866,1060.1563,862,1056.1563" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="860" x2="1949.5" y1="1056.1563" y2="1056.1563"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="86" x="872" y="1051.0903">Daten setzen</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="40" x2="2036.5" y1="1065.1563" y2="1065.1563"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="106" x="45" y="1075.3667">[dataNotFound]</text><polygon fill="#A80036" points="866,1096.0938,856,1100.0938,866,1104.0938,862,1100.0938" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="860" x2="1954.5" y1="1100.0938" y2="1100.0938"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="139" x="872" y="1095.0278">Daten nicht gefunden</text><polygon fill="#A80036" points="620,1125.2266,610,1129.2266,620,1133.2266,616,1129.2266" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="614" x2="844" y1="1129.2266" y2="1129.2266"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="139" x="626" y="1124.1606">Daten nicht gefunden</text><polygon fill="#A80036" points="93,1154.3594,83,1158.3594,93,1162.3594,89,1158.3594" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="87" x2="598" y1="1158.3594" y2="1158.3594"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="207" x="99" y="1153.2935">Daten nicht gefunden. Try again</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="30" x2="2046.5" y1="1174.3594" y2="1174.3594"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="398" x="35" y="1184.5698">[start &gt; end || dataType == null || data.t != dataForComp.t]</text><polygon fill="#A80036" points="620,1205.2969,610,1209.2969,620,1213.2969,616,1209.2969" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="614" x2="844" y1="1209.2969" y2="1209.2969"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="103" x="626" y="1204.231">Falsche Eingabe</text><polygon fill="#A80036" points="93,1234.4297,83,1238.4297,93,1242.4297,89,1238.4297" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="87" x2="598" y1="1238.4297" y2="1238.4297"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="171" x="99" y="1233.3638">Falsche Eingabe. Try again</text><rect fill="#EEEEEE" filter="url(#f11rjty3w5s358)" height="3" style="stroke:#EEEEEE;stroke-width:1.0;" width="2076.5" x="0" y="1287.9961"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2076.5" y1="1287.9961" y2="1287.9961"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2076.5" y1="1290.9961" y2="1290.9961"/><rect fill="#EEEEEE" filter="url(#f11rjty3w5s358)" height="23.1328" style="stroke:#000000;stroke-width:2.0;" width="76" x="1000.25" y="1277.4297"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="57" x="1006.25" y="1293.4966">Analyse</text><polygon fill="#A80036" points="833,1327.6953,843,1331.6953,833,1335.6953,837,1331.6953" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="609" x2="839" y1="1331.6953" y2="1331.6953"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="91" x="616" y="1326.6294">analyseData()</text><path d="M809.5,1346.6953 L881.5,1346.6953 L881.5,1353.6953 L871.5,1363.6953 L809.5,1363.6953 L809.5,1346.6953 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="133.6641" style="stroke:#000000;stroke-width:2.0;" width="1075" x="809.5" y="1346.6953"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="27" x="824.5" y="1359.7622">opt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="228" x="896.5" y="1358.9058">[analyseTypes contains HEATMAP]</text><polygon fill="#A80036" points="1622,1380.9609,1632,1384.9609,1622,1388.9609,1626,1384.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="855" x2="1628" y1="1384.9609" y2="1384.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="139" x="862" y="1379.895">createHeatmap(data)</text><polygon fill="#A80036" points="1821,1410.0938,1831,1414.0938,1821,1418.0938,1825,1414.0938" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1644" x2="1827" y1="1414.0938" y2="1414.0938"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="112" x="1651" y="1409.0278">calcRelFreq(data)</text><polygon fill="#A80036" points="1655,1439.2266,1645,1443.2266,1655,1447.2266,1651,1443.2266" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1649" x2="1837" y1="1443.2266" y2="1443.2266"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="63" x="1661" y="1438.1606">float[*][*]</text><polygon fill="#A80036" points="866,1468.3594,856,1472.3594,866,1476.3594,862,1472.3594" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="860" x2="1638" y1="1472.3594" y2="1472.3594"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="37" x="872" y="1467.2935">String</text><path d="M809.5,1494.3594 L881.5,1494.3594 L881.5,1501.3594 L871.5,1511.3594 L809.5,1511.3594 L809.5,1494.3594 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="308.4609" style="stroke:#000000;stroke-width:2.0;" width="1075" x="809.5" y="1494.3594"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="27" x="824.5" y="1507.4263">opt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="267" x="896.5" y="1506.5698">[analyseTypes contains COMPHEATMAP]</text><polygon fill="#A80036" points="1622,1528.625,1632,1532.625,1622,1536.625,1626,1532.625" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="855" x2="1628" y1="1532.625" y2="1532.625"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="220" x="862" y="1527.5591">createHeatmap(data) [Heatmap1]</text><polygon fill="#A80036" points="1821,1557.7578,1831,1561.7578,1821,1565.7578,1825,1561.7578" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1644" x2="1827" y1="1561.7578" y2="1561.7578"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="112" x="1651" y="1556.6919">calcRelFreq(data)</text><polygon fill="#A80036" points="1655,1586.8906,1645,1590.8906,1655,1594.8906,1651,1590.8906" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1649" x2="1837" y1="1590.8906" y2="1590.8906"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="63" x="1661" y="1585.8247">float[*][*]</text><polygon fill="#A80036" points="866,1616.0234,856,1620.0234,866,1624.0234,862,1620.0234" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="860" x2="1638" y1="1620.0234" y2="1620.0234"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="37" x="872" y="1614.9575">String</text><polygon fill="#A80036" points="1622,1645.1563,1632,1649.1563,1622,1653.1563,1626,1649.1563" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="855" x2="1628" y1="1649.1563" y2="1649.1563"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="278" x="862" y="1644.0903">createHeatmap(dataForComp) [Heatmap2]</text><polygon fill="#A80036" points="1821,1674.2891,1831,1678.2891,1821,1682.2891,1825,1678.2891" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1644" x2="1827" y1="1678.2891" y2="1678.2891"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="170" x="1651" y="1673.2231">calcRelFreq(dataForComp)</text><polygon fill="#A80036" points="1655,1703.4219,1645,1707.4219,1655,1711.4219,1651,1707.4219" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1649" x2="1837" y1="1707.4219" y2="1707.4219"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="63" x="1661" y="1702.356">float[*][*]</text><polygon fill="#A80036" points="866,1732.5547,856,1736.5547,866,1740.5547,862,1736.5547" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="860" x2="1638" y1="1736.5547" y2="1736.5547"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="37" x="872" y="1731.4888">String</text><polygon fill="#A80036" points="1622,1761.6875,1632,1765.6875,1622,1769.6875,1626,1765.6875" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="855" x2="1628" y1="1765.6875" y2="1765.6875"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="254" x="862" y="1760.6216">compHeatmaps(Heatmap1, Heatmap2)</text><polygon fill="#A80036" points="866,1790.8203,856,1794.8203,866,1798.8203,862,1794.8203" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="860" x2="1638" y1="1794.8203" y2="1794.8203"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="37" x="872" y="1789.7544">String</text><path d="M809.5,1816.8203 L881.5,1816.8203 L881.5,1823.8203 L871.5,1833.8203 L809.5,1833.8203 L809.5,1816.8203 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="175.7969" style="stroke:#000000;stroke-width:2.0;" width="1075" x="809.5" y="1816.8203"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="27" x="824.5" y="1829.8872">opt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="221" x="896.5" y="1829.0308">[analyseTypes contains VERLAUF]</text><polygon fill="#A80036" points="1391,1851.0859,1401,1855.0859,1391,1859.0859,1395,1855.0859" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="855" x2="1397" y1="1855.0859" y2="1855.0859"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="126" x="862" y="1850.02">createVerlauf(data)</text><polygon fill="#A80036" points="1821,1880.2188,1831,1884.2188,1821,1888.2188,1825,1884.2188" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1413" x2="1827" y1="1884.2188" y2="1884.2188"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="147" x="1420" y="1879.1528">createTimeTable(data)</text><polygon fill="#A80036" points="1424,1909.3516,1414,1913.3516,1424,1917.3516,1420,1913.3516" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1418" x2="1837" y1="1913.3516" y2="1913.3516"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="174" x="1430" y="1908.2856">float[*][*] (diagrammData)</text><line style="stroke:#A80036;stroke-width:1.0;" x1="1413" x2="1455" y1="1942.4844" y2="1942.4844"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1455" x2="1455" y1="1942.4844" y2="1955.4844"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1414" x2="1455" y1="1955.4844" y2="1955.4844"/><polygon fill="#A80036" points="1424,1951.4844,1414,1955.4844,1424,1959.4844,1420,1955.4844" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="207" x="1420" y="1937.4185">drawDiagramm(diagrammData)</text><polygon fill="#A80036" points="866,1980.6172,856,1984.6172,866,1988.6172,862,1984.6172" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="860" x2="1407" y1="1984.6172" y2="1984.6172"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="37" x="872" y="1979.5513">String</text><path d="M809.5,2006.6172 L881.5,2006.6172 L881.5,2013.6172 L871.5,2023.6172 L809.5,2023.6172 L809.5,2006.6172 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="175.7969" style="stroke:#000000;stroke-width:2.0;" width="1075" x="809.5" y="2006.6172"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="27" x="824.5" y="2019.6841">opt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="270" x="896.5" y="2018.8276">[analyseTypes contains RELFRQIMGAREA]</text><polygon fill="#A80036" points="1044,2040.8828,1054,2044.8828,1044,2048.8828,1048,2044.8828" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="855" x2="1050" y1="2044.8828" y2="2044.8828"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="182" x="862" y="2039.8169">createRelFreqImgArea(data)</text><polygon fill="#A80036" points="1821,2070.0156,1831,2074.0156,1821,2078.0156,1825,2074.0156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1066" x2="1827" y1="2074.0156" y2="2074.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="112" x="1073" y="2068.9497">calcRelFreq(data)</text><polygon fill="#A80036" points="1077,2099.1484,1067,2103.1484,1077,2107.1484,1073,2103.1484" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1071" x2="1837" y1="2103.1484" y2="2103.1484"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="63" x="1083" y="2098.0825">float[*][*]</text><line style="stroke:#A80036;stroke-width:1.0;" x1="1066" x2="1108" y1="2132.2813" y2="2132.2813"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1108" x2="1108" y1="2132.2813" y2="2145.2813"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1067" x2="1108" y1="2145.2813" y2="2145.2813"/><polygon fill="#A80036" points="1077,2141.2813,1067,2145.2813,1077,2149.2813,1073,2145.2813" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="323" x="1073" y="2127.2153">drawDiagramm(diagrammData, RELFRQIMGAREA)</text><polygon fill="#A80036" points="866,2170.4141,856,2174.4141,866,2178.4141,862,2174.4141" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="860" x2="1060" y1="2174.4141" y2="2174.4141"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="37" x="872" y="2169.3481">String</text><path d="M809.5,2196.4141 L881.5,2196.4141 L881.5,2203.4141 L871.5,2213.4141 L809.5,2213.4141 L809.5,2196.4141 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="217.9297" style="stroke:#000000;stroke-width:2.0;" width="1075" x="809.5" y="2196.4141"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="27" x="824.5" y="2209.481">opt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="266" x="896.5" y="2208.6245">[analyseTypes contains VIEWTIMEDISTR]</text><polygon fill="#A80036" points="1044,2230.6797,1054,2234.6797,1044,2238.6797,1048,2234.6797" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="855" x2="1050" y1="2234.6797" y2="2234.6797"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="173" x="862" y="2229.6138">createViewTimeDistr(data)</text><polygon fill="#A80036" points="1821,2259.8125,1831,2263.8125,1821,2267.8125,1825,2263.8125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1066" x2="1827" y1="2263.8125" y2="2263.8125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="147" x="1073" y="2258.7466">createTimeTable(data)</text><polygon fill="#A80036" points="1077,2288.9453,1067,2292.9453,1077,2296.9453,1073,2292.9453" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1071" x2="1837" y1="2292.9453" y2="2292.9453"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="63" x="1083" y="2287.8794">float[*][*]</text><line style="stroke:#A80036;stroke-width:1.0;" x1="1066" x2="1108" y1="2322.0781" y2="2322.0781"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1108" x2="1108" y1="2322.0781" y2="2335.0781"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1067" x2="1108" y1="2335.0781" y2="2335.0781"/><polygon fill="#A80036" points="1077,2331.0781,1067,2335.0781,1077,2339.0781,1073,2335.0781" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="223" x="1073" y="2317.0122">calcViewTimeDistr(timeTableData)</text><line style="stroke:#A80036;stroke-width:1.0;" x1="1066" x2="1108" y1="2364.2109" y2="2364.2109"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1108" x2="1108" y1="2364.2109" y2="2377.2109"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1067" x2="1108" y1="2377.2109" y2="2377.2109"/><polygon fill="#A80036" points="1077,2373.2109,1067,2377.2109,1077,2381.2109,1073,2377.2109" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="315" x="1073" y="2359.145">drawDiagramm(diagrammData, VIEWTIMEDISTR)</text><polygon fill="#A80036" points="866,2402.3438,856,2406.3438,866,2410.3438,862,2406.3438" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="860" x2="1060" y1="2406.3438" y2="2406.3438"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="37" x="872" y="2401.2778">String</text><rect fill="#EEEEEE" filter="url(#f11rjty3w5s358)" height="3" style="stroke:#EEEEEE;stroke-width:1.0;" width="2076.5" x="0" y="2441.9102"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2076.5" y1="2441.9102" y2="2441.9102"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2076.5" y1="2444.9102" y2="2444.9102"/><rect fill="#EEEEEE" filter="url(#f11rjty3w5s358)" height="23.1328" style="stroke:#000000;stroke-width:2.0;" width="73" x="1001.75" y="2431.3438"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="54" x="1007.75" y="2447.4106">Output</text><path d="M40,2471.4766 L118,2471.4766 L118,2478.4766 L108,2488.4766 L40,2488.4766 L40,2471.4766 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="338.2656" style="stroke:#000000;stroke-width:2.0;" width="860.5" x="40" y="2471.4766"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="33" x="55" y="2484.5435">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="42" x="133" y="2483.687">[!exit]</text><polygon fill="#A80036" points="833,2505.7422,843,2509.7422,833,2513.7422,837,2509.7422" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="609" x2="839" y1="2509.7422" y2="2509.7422"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="145" x="616" y="2504.6763">displayAnalyzedData()</text><polygon fill="#A80036" points="620,2534.875,610,2538.875,620,2542.875,616,2538.875" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="614" x2="844" y1="2538.875" y2="2538.875"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="99" x="626" y="2533.8091">Ausgabe Daten</text><polygon fill="#A80036" points="93,2564.0078,83,2568.0078,93,2572.0078,89,2568.0078" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="87" x2="598" y1="2568.0078" y2="2568.0078"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="51" x="99" y="2562.9419">Anzeige</text><polygon fill="#A80036" points="409,2593.1406,419,2597.1406,409,2601.1406,413,2597.1406" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="82" x2="415" y1="2597.1406" y2="2597.1406"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="89" y="2592.0747">Click?</text><polygon fill="#A80036" points="587,2622.2734,597,2626.2734,587,2630.2734,591,2626.2734" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="431" x2="593" y1="2626.2734" y2="2626.2734"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="102" x="438" y="2621.2075">Klickinformation</text><path d="M386,2641.2734 L452,2641.2734 L452,2648.2734 L442,2658.2734 L386,2658.2734 L386,2641.2734 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="161.4688" style="stroke:#000000;stroke-width:2.0;" width="504.5" x="386" y="2641.2734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="21" x="401" y="2654.3403">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="109" x="467" y="2653.4839">[click on export]</text><polygon fill="#A80036" points="833,2675.5391,843,2679.5391,833,2683.5391,837,2679.5391" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="609" x2="839" y1="2679.5391" y2="2679.5391"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="52" x="616" y="2674.4731">export()</text><polygon fill="#A80036" points="442,2704.6719,432,2708.6719,442,2712.6719,438,2708.6719" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="436" x2="844" y1="2708.6719" y2="2708.6719"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="48" x="448" y="2703.606">save to</text><polygon fill="#A80036" points="620,2733.8047,610,2737.8047,620,2741.8047,616,2737.8047" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="614" x2="844" y1="2737.8047" y2="2737.8047"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="114" x="626" y="2732.7388">Export erfolgreich</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="386" x2="890.5" y1="2746.8047" y2="2746.8047"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="90" x="391" y="2757.0151">[click on exit]</text><line style="stroke:#A80036;stroke-width:1.0;" x1="609" x2="651" y1="2781.7422" y2="2781.7422"/><line style="stroke:#A80036;stroke-width:1.0;" x1="651" x2="651" y1="2781.7422" y2="2794.7422"/><line style="stroke:#A80036;stroke-width:1.0;" x1="610" x2="651" y1="2794.7422" y2="2794.7422"/><polygon fill="#A80036" points="620,2790.7422,610,2794.7422,620,2798.7422,616,2794.7422" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="68" x="616" y="2776.6763">exit = true</text><!--MD5=[6e12cbed3b8d67d31cbaa63e24d1d8e5]
+@startuml
+actor       Nutzer          as n
+entity      System          as s    #DA70D5
+
+box AnalyseClient
+participant ClientGUI       as cg
+participant Client          as c
+participant Diagramm        as d
+participant Verlauf         as v
+participant Heatmap         as h
+participant Analyse         as a
+end box
+
+collections SpeicherMedium  as sm
+
+activate n
+activate s
+
+n -> s: Start Client
+s -> cg: showClientGUI()
+activate cg
+activate c
+
+== Input ==
+loop analyseTypes.size == 0
+    n -> s: Auswahl Analyse Typen
+    s -> cg: Klickinformation
+    cg -> c: setAnalyseTypes()
+    alt analyseTypes.size == 0
+        c - -> cg: Keine Analyse Typen ausgewählt
+        cg - -> n: Try Again
+    end
+end
+
+loop data == null
+    n -> s: Eingabe benötigter Daten (Zeitraum & ToolType)
+    s -> cg: Tastaturinformationen
+    cg -> c: getData(start, end, dataType)
+    alt start < end && dataType != null
+        c -> sm: Abfrage Daten
+        activate sm
+        alt dataFound
+            sm - -> c: Daten setzen
+        else dataNotFound
+            sm - -> c: Daten nicht gefunden
+            deactivate sm
+            c - -> cg: Daten nicht gefunden
+            cg - -> n: Daten nicht gefunden. Try again
+        end
+    else start > end || dataType == null
+        c - -> cg: Falsche Eingabe
+        cg - -> n: Falsche Eingabe. Try again
+    end
+end
+
+alt analyseTypes contains COMPHEATMAP
+    loop dataForComp == null
+        n -> s: Eingabe benötigter Daten (Zeitraum & ToolType)
+        s -> cg: Tastaturinformationen
+        cg -> c: getData(start, end, dataType)
+        alt start < end && dataType != null && data.t == dataForComp.t
+            c -> sm: Abfrage Daten
+            activate sm
+            alt dataFound
+                sm - -> c: Daten setzen
+            else dataNotFound
+                sm - -> c: Daten nicht gefunden
+                deactivate sm
+                c - -> cg: Daten nicht gefunden
+                cg - -> n: Daten nicht gefunden. Try again
+            end
+        else start > end || dataType == null || data.t != dataForComp.t
+            c - -> cg: Falsche Eingabe
+            cg - -> n: Falsche Eingabe. Try again
+        end
+    end
+end
+
+== Analyse ==
+cg -> c: analyseData()
+opt analyseTypes contains HEATMAP
+    c -> h: createHeatmap(data)
+    activate h
+    h -> a: calcRelFreq(data)
+    activate a
+    a - -> h: float[*][*]
+    deactivate a
+    h - -> c: String
+    deactivate h
+end
+opt analyseTypes contains COMPHEATMAP
+    c -> h: createHeatmap(data) [Heatmap1]
+    activate h
+    h -> a: calcRelFreq(data)
+    activate a
+    a - -> h: float[*][*]
+    deactivate a
+    h - -> c: String
+    deactivate h
+    c -> h: createHeatmap(dataForComp) [Heatmap2]
+    activate h
+    h -> a: calcRelFreq(dataForComp)
+    activate a
+    a - -> h: float[*][*]
+    deactivate a
+    h - -> c: String
+    deactivate h
+    c -> h: compHeatmaps(Heatmap1, Heatmap2)
+    activate h
+    h - -> c: String
+    deactivate h
+end
+opt analyseTypes contains VERLAUF
+    c -> v: createVerlauf(data)
+    activate v
+    v -> a: createTimeTable(data)
+    activate a
+    a - -> v: float[*][*] (diagrammData)
+    deactivate a
+    v -> v: drawDiagramm(diagrammData)
+    v - -> c: String
+    deactivate v
+end
+opt analyseTypes contains RELFRQIMGAREA
+    c -> d: createRelFreqImgArea(data)
+    activate d
+    d -> a: calcRelFreq(data)
+    activate a
+    a - -> d: float[*][*]
+    deactivate a
+    d -> d: drawDiagramm(diagrammData, RELFRQIMGAREA)
+    d - -> c: String
+    deactivate d
+end
+opt analyseTypes contains VIEWTIMEDISTR
+    c -> d: createViewTimeDistr(data)
+    activate d
+    d -> a: createTimeTable(data)
+    activate a
+    a - -> d: float[*][*]
+    deactivate a
+    d -> d: calcViewTimeDistr(timeTableData)
+    d -> d: drawDiagramm(diagrammData, VIEWTIMEDISTR)
+    d - -> c: String
+    deactivate d
+end
+
+== Output ==
+loop !exit
+    cg -> c: displayAnalyzedData()
+    c - -> cg: Ausgabe Daten
+    cg -> n: Anzeige
+    n -> s: Click?
+    s -> cg: Klickinformation
+    alt click on export
+        cg -> c: export()
+        c -> s: save to
+        c - -> cg: Export erfolgreich
+    else click on exit
+        cg -> cg: exit = true
+    end
+    
+end
+deactivate  c
+deactivate  cg
+
+'wer es bis hier hin geschafft hat: good job
+@enduml
+
+@startuml
+actor       Nutzer          as n
+entity      System          as s    #DA70D5
+
+box AnalyseClient
+participant ClientGUI       as cg
+participant Client          as c
+participant Diagramm        as d
+participant Verlauf         as v
+participant Heatmap         as h
+participant Analyse         as a
+end box
+
+collections SpeicherMedium  as sm
+
+activate n
+activate s
+
+n -> s: Start Client
+s -> cg: showClientGUI()
+activate cg
+activate c
+
+== Input ==
+loop analyseTypes.size == 0
+    n -> s: Auswahl Analyse Typen
+    s -> cg: Klickinformation
+    cg -> c: setAnalyseTypes()
+    alt analyseTypes.size == 0
+        c - -> cg: Keine Analyse Typen ausgewählt
+        cg - -> n: Try Again
+    end
+end
+
+loop data == null
+    n -> s: Eingabe benötigter Daten (Zeitraum & ToolType)
+    s -> cg: Tastaturinformationen
+    cg -> c: getData(start, end, dataType)
+    alt start < end && dataType != null
+        c -> sm: Abfrage Daten
+        activate sm
+        alt dataFound
+            sm - -> c: Daten setzen
+        else dataNotFound
+            sm - -> c: Daten nicht gefunden
+            deactivate sm
+            c - -> cg: Daten nicht gefunden
+            cg - -> n: Daten nicht gefunden. Try again
+        end
+    else start > end || dataType == null
+        c - -> cg: Falsche Eingabe
+        cg - -> n: Falsche Eingabe. Try again
+    end
+end
+
+alt analyseTypes contains COMPHEATMAP
+    loop dataForComp == null
+        n -> s: Eingabe benötigter Daten (Zeitraum & ToolType)
+        s -> cg: Tastaturinformationen
+        cg -> c: getData(start, end, dataType)
+        alt start < end && dataType != null && data.t == dataForComp.t
+            c -> sm: Abfrage Daten
+            activate sm
+            alt dataFound
+                sm - -> c: Daten setzen
+            else dataNotFound
+                sm - -> c: Daten nicht gefunden
+                deactivate sm
+                c - -> cg: Daten nicht gefunden
+                cg - -> n: Daten nicht gefunden. Try again
+            end
+        else start > end || dataType == null || data.t != dataForComp.t
+            c - -> cg: Falsche Eingabe
+            cg - -> n: Falsche Eingabe. Try again
+        end
+    end
+end
+
+== Analyse ==
+cg -> c: analyseData()
+opt analyseTypes contains HEATMAP
+    c -> h: createHeatmap(data)
+    activate h
+    h -> a: calcRelFreq(data)
+    activate a
+    a - -> h: float[*][*]
+    deactivate a
+    h - -> c: String
+    deactivate h
+end
+opt analyseTypes contains COMPHEATMAP
+    c -> h: createHeatmap(data) [Heatmap1]
+    activate h
+    h -> a: calcRelFreq(data)
+    activate a
+    a - -> h: float[*][*]
+    deactivate a
+    h - -> c: String
+    deactivate h
+    c -> h: createHeatmap(dataForComp) [Heatmap2]
+    activate h
+    h -> a: calcRelFreq(dataForComp)
+    activate a
+    a - -> h: float[*][*]
+    deactivate a
+    h - -> c: String
+    deactivate h
+    c -> h: compHeatmaps(Heatmap1, Heatmap2)
+    activate h
+    h - -> c: String
+    deactivate h
+end
+opt analyseTypes contains VERLAUF
+    c -> v: createVerlauf(data)
+    activate v
+    v -> a: createTimeTable(data)
+    activate a
+    a - -> v: float[*][*] (diagrammData)
+    deactivate a
+    v -> v: drawDiagramm(diagrammData)
+    v - -> c: String
+    deactivate v
+end
+opt analyseTypes contains RELFRQIMGAREA
+    c -> d: createRelFreqImgArea(data)
+    activate d
+    d -> a: calcRelFreq(data)
+    activate a
+    a - -> d: float[*][*]
+    deactivate a
+    d -> d: drawDiagramm(diagrammData, RELFRQIMGAREA)
+    d - -> c: String
+    deactivate d
+end
+opt analyseTypes contains VIEWTIMEDISTR
+    c -> d: createViewTimeDistr(data)
+    activate d
+    d -> a: createTimeTable(data)
+    activate a
+    a - -> d: float[*][*]
+    deactivate a
+    d -> d: calcViewTimeDistr(timeTableData)
+    d -> d: drawDiagramm(diagrammData, VIEWTIMEDISTR)
+    d - -> c: String
+    deactivate d
+end
+
+== Output ==
+loop !exit
+    cg -> c: displayAnalyzedData()
+    c - -> cg: Ausgabe Daten
+    cg -> n: Anzeige
+    n -> s: Click?
+    s -> cg: Klickinformation
+    alt click on export
+        cg -> c: export()
+        c -> s: save to
+        c - -> cg: Export erfolgreich
+    else click on exit
+        cg -> cg: exit = true
+    end
+    
+end
+deactivate  c
+deactivate  cg
+
+@enduml
+
+PlantUML version 1.2021.15beta1(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

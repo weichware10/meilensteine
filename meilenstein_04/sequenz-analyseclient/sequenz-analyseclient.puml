@@ -1,0 +1,169 @@
+@startuml Datenanalyse Client
+
+actor       Nutzer          as n
+entity      System          as s    #DA70D5
+
+box AnalyseClient
+participant ClientGUI       as cg
+participant Client          as c
+participant Diagramm        as d
+participant Verlauf         as v
+participant Heatmap         as h
+participant Analyse         as a
+end box
+
+collections SpeicherMedium  as sm
+
+activate n
+activate s
+
+n -> s: Start Client
+s -> cg: showClientGUI()
+activate cg
+activate c
+
+== Input ==
+loop analyseTypes.size == 0
+    n -> s: Auswahl Analyse Typen
+    s -> cg: Klickinformation
+    cg -> c: setAnalyseTypes()
+    alt analyseTypes.size == 0
+        c --> cg: Keine Analyse Typen ausgewählt
+        cg --> n: Try Again
+    end
+end
+
+loop data == null
+    n -> s: Eingabe benötigter Daten (Zeitraum & ToolType)
+    s -> cg: Tastaturinformationen
+    cg -> c: getData(start, end, dataType)
+    alt start < end && dataType != null
+        c -> sm: Abfrage Daten
+        activate sm
+        alt dataFound
+            sm --> c: Daten setzen
+        else dataNotFound
+            sm --> c: Daten nicht gefunden
+            deactivate sm
+            c --> cg: Daten nicht gefunden
+            cg --> n: Daten nicht gefunden. Try again
+        end
+    else start > end || dataType == null
+        c --> cg: Falsche Eingabe
+        cg --> n: Falsche Eingabe. Try again
+    end
+end
+
+alt analyseTypes contains COMPHEATMAP
+    loop dataForComp == null
+        n -> s: Eingabe benötigter Daten (Zeitraum & ToolType)
+        s -> cg: Tastaturinformationen
+        cg -> c: getData(start, end, dataType)
+        alt start < end && dataType != null && data.t == dataForComp.t
+            c -> sm: Abfrage Daten
+            activate sm
+            alt dataFound
+                sm --> c: Daten setzen
+            else dataNotFound
+                sm --> c: Daten nicht gefunden
+                deactivate sm
+                c --> cg: Daten nicht gefunden
+                cg --> n: Daten nicht gefunden. Try again
+            end
+        else start > end || dataType == null || data.t != dataForComp.t
+            c --> cg: Falsche Eingabe
+            cg --> n: Falsche Eingabe. Try again
+        end
+    end
+end
+
+== Analyse ==
+cg -> c: analyseData()
+opt analyseTypes contains HEATMAP
+    c -> h: createHeatmap(data)
+    activate h
+    h -> a: calcRelFreq(data)
+    activate a
+    a --> h: float[*][*]
+    deactivate a
+    h --> c: String
+    deactivate h
+end
+opt analyseTypes contains COMPHEATMAP
+    c -> h: createHeatmap(data) [Heatmap1]
+    activate h
+    h -> a: calcRelFreq(data)
+    activate a
+    a --> h: float[*][*]
+    deactivate a
+    h --> c: String
+    deactivate h
+    c -> h: createHeatmap(dataForComp) [Heatmap2]
+    activate h
+    h -> a: calcRelFreq(dataForComp)
+    activate a
+    a --> h: float[*][*]
+    deactivate a
+    h --> c: String
+    deactivate h
+    c -> h: compHeatmaps(Heatmap1, Heatmap2)
+    activate h
+    h --> c: String
+    deactivate h
+end
+opt analyseTypes contains VERLAUF
+    c -> v: createVerlauf(data)
+    activate v
+    v -> a: createTimeTable(data)
+    activate a
+    a --> v: float[*][*] (diagrammData)
+    deactivate a
+    v -> v: drawDiagramm(diagrammData)
+    v --> c: String
+    deactivate v
+end
+opt analyseTypes contains RELFRQIMGAREA
+    c -> d: createRelFreqImgArea(data)
+    activate d
+    d -> a: calcRelFreq(data)
+    activate a
+    a --> d: float[*][*]
+    deactivate a
+    d -> d: drawDiagramm(diagrammData, RELFRQIMGAREA)
+    d --> c: String
+    deactivate d
+end
+opt analyseTypes contains VIEWTIMEDISTR
+    c -> d: createViewTimeDistr(data)
+    activate d
+    d -> a: createTimeTable(data)
+    activate a
+    a --> d: float[*][*]
+    deactivate a
+    d -> d: calcViewTimeDistr(timeTableData)
+    d -> d: drawDiagramm(diagrammData, VIEWTIMEDISTR)
+    d --> c: String
+    deactivate d
+end
+
+== Output ==
+loop !exit
+    cg -> c: displayAnalyzedData()
+    c --> cg: Ausgabe Daten
+    cg -> n: Anzeige
+    n -> s: Click?
+    s -> cg: Klickinformation
+    alt click on export
+        cg -> c: export()
+        c -> s: save to
+        c --> cg: Export erfolgreich
+    else click on exit
+        cg -> cg: exit = true
+    end
+    
+end
+deactivate  c
+deactivate  cg
+
+'wer es bis hier hin geschafft hat: good job
+@enduml
