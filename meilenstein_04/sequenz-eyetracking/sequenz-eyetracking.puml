@@ -1,0 +1,69 @@
+@startuml eyetracking
+actor       Nutzer          as n
+entity      System          as s    #DA70D5
+
+box EyeTracking
+participant EyeTrackingTutorial    as et
+participant EyeTrackingSetup       as es
+participant EyeTrackingBild        as eb
+participant EyeTrackingAuge        as ea
+end box
+
+collections Config          as c
+collections SpeicherMedium  as sm
+
+== Vorbereitungen ==
+
+activate n
+activate s
+activate es
+es -> c : load Data
+activate c
+c --> es : Data
+deactivate c
+es -> eb : loadGrid() : int[2]
+activate eb
+eb -> s : erfrage screensize
+s --> eb : screensize : int[2]
+eb --> es : screensize : int[2]
+deactivate eb
+
+== Tutorial ==
+es -> s : erfragt Distanz
+n -> s : Eingabe per Tastatur
+s --> es : Distanz : float
+loop Kalibrierung
+  es -> et : tutorialPosition(punkt : int[2]): int[2]
+  activate et
+  et -> s : erfragt Mausdaten
+  n -> s : Positionsbestätigung mit Maus
+  s --> et : Kalibrierungsdaten
+  et --> es : position: int[2]
+  deactivate et
+  es -> ea : getPosition() : float[2][2]
+  activate ea
+  ea -> s : erfrage Camstream
+  n -> s : schaut auf den Bildschirm und wird von Kamera gesehen 
+  s --> ea : Camstream
+  ea --> es : position : float[2][2]
+  deactivate ea
+  hnote over es #FFFFFF: calculate()
+end
+
+== Versuch ==
+loop Visual input
+  es -> ea : getPosition() : float[2][2]
+  activate ea
+  ea -> s : erfrage Camstream
+  n -> s : schaut auf den Bildschirm und wird von Kamera gesehen 
+  s --> ea : Camstream
+  ea --> es : position : float[2][2]
+  deactivate ea
+  hnote over es #FFFFFF: calculate()
+end
+
+== Speichern ==
+es -> sm: save Data
+activate sm
+
+@enduml
