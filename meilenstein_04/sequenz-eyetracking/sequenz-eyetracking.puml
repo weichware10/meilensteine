@@ -40,24 +40,24 @@ loop Kalibrierung
   s --> et : Kalibrierungsdaten
   et --> es : position: int[2]
   deactivate et
-  es -> ea : getPosition() : float[4]
+  es -> ea : getPosition() : float[2][2]
   activate ea
   ea -> s : erfrage Camstream
   n -> s : schaut auf den Bildschirm und wird von Kamera gesehen 
   s --> ea : Camstream
-  ea --> es : position : float[4]
+  ea --> es : position : float[2][2]
   deactivate ea
   hnote over es #FFFFFF: calculate()
 end
 
 == Versuch ==
 loop Visual input
-  es -> ea : getPosition() : float[4]
+  es -> ea : getPosition() : float[2][2]
   activate ea
   ea -> s : erfrage Camstream
   n -> s : schaut auf den Bildschirm und wird von Kamera gesehen 
   s --> ea : Camstream
-  ea --> es : position : float[4]
+  ea --> es : position : float[2][2]
   deactivate ea
   hnote over es #FFFFFF: calculate()
 end
