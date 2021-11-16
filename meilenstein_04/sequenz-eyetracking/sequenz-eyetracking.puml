@@ -1,4 +1,4 @@
-@startuml {modul}
+@startuml eyetracking
 actor       Nutzer          as n
 entity      System          as s    #DA70D5
 
