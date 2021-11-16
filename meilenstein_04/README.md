@@ -1,5 +1,6 @@
 # Bericht zum Meilenstein 4
 
+
 ## Was ist seit dem letzten Meilenstein passiert ?
 - Gruppentreffen am 11.11.2021: Aufgabenverteilung
 - Erstellung eines Templates
@@ -46,3 +47,19 @@
     | Zustandsdiagramm ZoomMaps       | Josh,  Joni    | Philip, David  |
     | Zustandsdiagramm Speichermedium | Justin, David  | Josh, Joni     |
     | Dokumentation                   | Sarah, Nils    | alle           |
+
+---
+
+## Diagramme
+### Sequenzdiagramm Analyseclient
+![Sequenzdiagramm Analyseclient](sequenz-analyseclient/sequenz-analyseclient.svg)
+### Sequenzdiagramm EyeTracking
+![Sequenzdiagramm EyeTracking](sequenz-eyetracking/sequenz-eyetracking.svg)
+### Sequenzdiagramm ZoomMaps
+![Sequenzdiagramm ZoomMaps](sequenz-zoommaps/sequenz-zoommaps.svg)
+### Zustandsdiagramm Analyseclient
+![Zustandsdiagramm Analyseclient](zustand-analyseclient/zustand-analyseclient.svg)
+### Zustandsdiagramm Speichermedium
+![Zustandsdiagramm Speichermedium](zustand-speichermedium/zustand-speichermedium.svg)
+### Zustandsdiagramm ZoomMaps
+![Zustandsdiagramm ZoomMaps](zustand-zoommaps/zustand-zoommaps.svg)
