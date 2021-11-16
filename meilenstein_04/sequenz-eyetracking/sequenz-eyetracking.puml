@@ -27,14 +27,6 @@ eb -> s : erfrage screensize
 s --> eb : screensize : int[2]
 eb --> es : screensize : int[2]
 deactivate eb
-n -> s : schaut auf den bildschirm und wird von Kamera gesehen 
-alt Müsste dauerhaft ausgeführt werden. Genaue Umsetzung noch Verhandelbar.
-  es -> ea : startStream() : void
-  activate ea
-  ea -> s : erfrage Camstream
-  s --> ea : Camstream (sendet dauerhaft)
-  deactivate ea
-end
 
 == Tutorial ==
 es -> s : erfragt Distanz
@@ -48,40 +40,26 @@ loop Kalibrierung
   s --> et : Kalibrierungsdaten
   et --> es : position: int[2]
   deactivate et
-  alt Müsste dann nicht paralel laufen
-    es -> ea : aktualisiereBild() : void
-    activate ea
-    ea -> s : erfrage Camstream
-    s --> ea : Camstream (sendet dauerhaft)
-    deactivate ea
-  end
-  es -> ea : getEye() : float[2]
+  es -> ea : getPosition() : float[4]
   activate ea
-  ea --> es : eye : float[2]
+  ea -> s : erfrage Camstream
+  n -> s : schaut auf den Bildschirm und wird von Kamera gesehen 
+  s --> ea : Camstream
+  ea --> es : position : float[4]
   deactivate ea
-  es -> ea : getPupil() : float[2]
-  activate ea
-  ea --> es : Pupil : float[2]
-  deactivate ea
+  hnote over es #FFFFFF: calculate()
 end
 
 == Versuch ==
 loop Visual input
-  alt Müsste dann nicht paralel laufen
-    es -> ea : aktualisiereBild() : void
-    activate ea
-    ea -> s : erfrage Camstream
-    s --> ea : Camstream (sendet dauerhaft)
-    deactivate ea
-  end
-  es -> ea : getEye() : float[2]
+  es -> ea : getPosition() : float[4]
   activate ea
-  ea --> es : eye : float[2]
+  ea -> s : erfrage Camstream
+  n -> s : schaut auf den Bildschirm und wird von Kamera gesehen 
+  s --> ea : Camstream
+  ea --> es : position : float[4]
   deactivate ea
-  es -> ea : getPupil() : float[2]
-  activate ea
-  ea --> es : Pupil : float[2]
-  deactivate ea
+  hnote over es #FFFFFF: calculate()
 end
 
 == Abschluss ==
