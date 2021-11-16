@@ -1,45 +1,33 @@
-@startuml Speichermedium
+@startuml speichermedium
 
-[*] --> SpeicherUtilities_erstellt
-SpeicherUtilities_erstellt --> Location_gespeichert : setLocation()
-Location_gespeichert --> idle : Funktionsloop
-idle --> Location_geholt : saveData()
-idle --> Informationen_gefunden : searchData()
-Location_geholt --> long2 : eintragen in Datenbank
-Informationen_gefunden --> Daten_übertragen : Daten zum DataClient
-long2 --> idle : Funktion ausgeführt
-Daten_gelöscht --> idle : Funktion ausgeführt
-Daten_übertragen --> idle : Funktion ausgeführt
-idle --> Daten_gelöscht : DeleteData() + searchData()
-
-
-state SpeicherUtilities_erstellt {
-
+state "Location gespeichert" as lgs : Speicherort der Daten
+state "idle" as i
+state active {
+    state "Location geholt" as lgh : Speicherort
+    state "Informationen gefunden" as ig
+    state "Information in Datenbank eingetragen" as ide
+    state "Daten gelöscht" as dg
+    state "Daten übertragen" as du : an AnalyseClient
+    state "Funktion ausgeführt"  as fa <<exitPoint>>
+    state "saveData()"  as sad <<entryPoint>>
+    state "searchData()"  as sed <<entryPoint>>
+    state "deleteData()"  as ded <<entryPoint>>
 }
 
-state Location_gespeichert {
-
-}
-
-state idle{
-
-}
-
-state Location_geholt{
-
-}
-
-state Informationen_gefunden{
-
-}
-state "Information in Datenbank eingetragen" as long2{
-
-}
-state Daten_gelöscht {
-
-}
-state Daten_übertragen {
-
-}
+[*] -r-> lgs : setLocation()
+lgs -r-> i : Funktionsloop
+i --> sed
+i --> ded
+sed --> ig
+ded --> ig
+ig --> dg : deleteData()
+ig --> du : searchData()
+du --> fa
+dg --> fa
+i --> sad
+sad --> lgh
+lgh --> ide : eintragen in Datenbank
+ide --> fa
+fa --> i : Funktion ausgeführt
 
 @enduml
