@@ -15,17 +15,17 @@ jobs:
     - name: convert added and modified files
       run: |
         for changed_file in ${{ steps.files.outputs.added_modified }}; do
-          if [[ ${changed_file} == *.svg ]]
+          if [[ $changed_file == *.svg ]]
           then
-            svgexport ${changed_file} ${changed_file//.svg//.png}
+            svgexport $changed_file ${changed_file//.svg//.png}
           fi
         done
     - name: convert renamed files
       run : |
         for changed_file in ${{ steps.files.outputs.renamed }}; do
-          if [[ ${changed_file} == *.svg ]]
+          if [[ $changed_file == *.svg ]]
           then
-            svgexport ${changed_file} ${changed_file//.svg//.png}
+            svgexport $changed_file ${changed_file//.svg//.png}
           fi
         done
     - name: commit files
