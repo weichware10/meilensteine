@@ -8,16 +8,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-    # CHECKOUT
-    - name: checkout
-      uses: actions/checkout@v2
-      with:
-        fetch-depth: 1
+      # CHECKOUT
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
 
-    # GENERATE SVGs
-    - name: Generate SVGs
-      uses: grassedge/generate-plantuml-action@v1.5
-      with:
-        message: Render PlantUML SVGs
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # GENERATE SVGs
+      - name: Generate SVGs
+        uses: grassedge/generate-plantuml-action@v1.5
+        with:
+          message: Render PlantUML SVGs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
