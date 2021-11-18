@@ -24,14 +24,6 @@ jobs:
               svgexport $changed_file ${changed_file//.svg/.png}
             fi
           done
-      - name: convert renamed files
-        run : |
-          for changed_file in ${{ steps.changed-files.outputs.renamed_files }}; do
-            if [[ $changed_file == *.svg ]]
-            then
-              svgexport $changed_file ${changed_file//.svg/.png}
-            fi
-          done
       - name: commit & push changes
         uses: actions-js/push@master
         with:
