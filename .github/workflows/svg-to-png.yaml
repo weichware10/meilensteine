@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
       - name: install svgexport
         run: npm install svgexport -g
       - name: Get changed files
