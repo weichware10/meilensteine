@@ -2,7 +2,7 @@
 
 :First Actor:
 :Another\nactor: as Man2
-actor Woman3
+actor Woman300
 actor :Last actor: as Person100
 
 @enduml
