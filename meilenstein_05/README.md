@@ -20,15 +20,15 @@
 ## Teilnehmer und Rollen.
 
 - Verteilung der Aufgaben:
-    | Aufgabe                                  | Team            | Review        |
-    | ---------------------------------------- | --------------- | ------------- |
-    | Use-Case-Diagramm ZoomMaps               | Sarah, Josh     | Joni, Justin |
-    | Use-Case-Diagramm CodeCharts             | David, Joni     | Sarah, Josh   |
-    | Use-Case-Diagramm EyeTracking            | Nils, Joni      | David, Justin |
-    | Use-Case-Diagramm AnalyseClient Diagramm | Philip,  Josh   | Nils, Joni    |
-    | Use-Case-Diagramm AnalyseClient Verlauf  | Philip,  David  | Sarah, Josh   |
-    | Use-Case-Diagramm AnalyseClient Heatmap  | Philip,  Justin | Nils,  David  |
-    | Dokumentation                            | Sarah, Justin   | alle          |
+    | Aufgabe                                     | Team            | Review        |
+    | ------------------------------------------- | --------------- | ------------- |
+    | Use-Case-Diagramm ZoomMaps                  | Sarah, Josh     | Joni, Justin  |
+    | Use-Case-Diagramm CodeCharts                | David, Joni     | Sarah, Josh   |
+    | Use-Case-Diagramm EyeTracking               | Nils, Joni      | David, Justin |
+    | Use-Case-Diagramm AnalyseClient Zoommaps    | Philip,  Josh   | Nils, Joni    |
+    | Use-Case-Diagramm AnalyseClient Codecharts  | Philip,  David  | Sarah, Josh   |
+    | Use-Case-Diagramm AnalyseClient Eyetracking | Philip,  Justin | Nils,  David  |
+    | Dokumentation                               | Sarah, Justin   | alle          |
 
 ---
 
