@@ -40,8 +40,14 @@ jobs:
               svgexport $changed_file ${changed_file//.svg/.png}
             fi
           done
-      - name: commit & push changes
-        uses: actions-js/push@master
+      - name: commit files
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email github-actions[bot]@github.com
+          git add .
+          git commit -m "converted SVGs to PNGs"
+      - name: push changes
+        uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          message: Convert SVGs to PNGs
+          branch: ${{ github.ref }}
