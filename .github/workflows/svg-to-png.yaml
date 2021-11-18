@@ -1,0 +1,31 @@
+name: svg-to-png
+on:
+  workflow_run:
+    workflows: ["puml-to-svg"]
+    types:
+      - completed
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
+      - name: install svgexport
+        run: npm install svgexport -g
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v11.5
+      - name: convert added and modified files
+        run: |
+          for changed_file in ${{ steps.changed-files.outputs.all_modified_files }}; do
+            if [[ $changed_file == *.svg ]]
+            then
+              svgexport $changed_file ${changed_file//.svg/.png}
+            fi
+          done
+      - name: commit & push changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          message: converted SVGs to PNGs
