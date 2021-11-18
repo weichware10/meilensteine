@@ -16,6 +16,14 @@ jobs:
       - name: Get changed files
         id: changed-files
         uses: tj-actions/changed-files@v11.5
+      - name: List all modified files
+        run: |
+          for file in ${{ steps.changed-files.outputs.all_modified_files }}; do
+            echo "$file was modified"
+          done
+          for file in ${{ steps.changed-files.outputs.renamed }}; do
+            echo "$file was renamed"
+          done
       - name: convert added and modified files
         run: |
           for changed_file in ${{ steps.changed-files.outputs.all_modified_files }}; do
