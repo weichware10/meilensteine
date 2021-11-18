@@ -1,0 +1,40 @@
+name: svg-to-png
+on:
+  push:
+    paths:
+      - '**.svg'
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: install svgexport
+      run: npm install svgexport -g
+    - name: get changed files
+      uses: jitterbit/get-changed-files@v1
+    - name: convert added and modified files
+      run: |
+        for changed_file in ${{ steps.files.outputs.added_modified }}; do
+          if [[ ${changed_file} == *.svg ]]
+          then
+            svgexport ${changed_file} ${changed_file//.svg//.png}
+          fi
+        done
+    - name: convert renamed files
+      run : |
+        for changed_file in ${{ steps.files.outputs.renamed }}; do
+          if [[ ${changed_file} == *.svg ]]
+          then
+            svgexport ${changed_file} ${changed_file//.svg//.png}
+          fi
+        done
+    - name: commit files
+      run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git commit -m "converted SVGs to PNGs" -a
+    - name: push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
