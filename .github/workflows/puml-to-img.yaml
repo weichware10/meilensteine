@@ -8,7 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      # CHECKOUT
       - name: checkout
         uses: actions/checkout@v2
         with:
