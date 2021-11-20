@@ -17,7 +17,6 @@ jobs:
       - name: install plantuml
         run: |
           sudo apt install graphviz
-          sudo apt install openjdk.portable
           sudo apt install nodejs
           npm install -g node-plantuml
 
