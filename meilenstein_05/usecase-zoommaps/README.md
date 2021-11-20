@@ -1,5 +1,5 @@
 # Use-Case-Diagramm ZoomMaps
 
-![Use-Case-Diagramm](usecase-zoommaps.svg)
+![Use-Case-Diagramm](usecase-zoommaps.png)
 ---
 ## Notizen
