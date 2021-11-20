@@ -1,5 +1,4 @@
 @startuml {modul}
-skinparam backgroundColor #FFFFFF
 
 User -> (Start)
 User --> (Use the application) : A small label
