@@ -1,0 +1,42 @@
+name: puml-to-img
+on:
+  push:
+    paths:
+      - '**.puml'
+jobs:
+  puml-to-img:
+    runs-on: ubuntu-latest
+    steps:
+
+      # CHECKOUT
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
+
+      - name: install plantuml
+        run: |
+          choco install graphviz
+          choco install openjdk.portable
+          choco install nodejs
+          npm install -g node-plantuml
+
+      - name: get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v11.5
+
+      - name: convert files
+        run: |
+          for changed_file in ${{ steps.changed-files.outputs.all_modified_files }}; do
+            if [[ $changed_file == *.puml ]]
+            then
+              puml generate $changed_file -o ${changed_file//.puml/.png}
+              puml generate $changed_file --svg -o ${changed_file//.puml/.svg}
+            fi
+          done
+
+      - name: commit & push changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          message: rendered PNGs and SVGs
