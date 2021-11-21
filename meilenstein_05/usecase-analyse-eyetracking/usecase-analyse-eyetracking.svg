@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="473px" preserveAspectRatio="none" style="width:881px;height:473px;" version="1.1" viewBox="0 0 881 473" width="881px" zoomAndPan="magnify"><defs><filter height="300%" id="f13bzdeo1n76c2" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--cluster AnalyseClient - EyeTracking - Diagramm--><rect fill="#789DD5" filter="url(#f13bzdeo1n76c2)" height="438" style="stroke: #000000; stroke-width: 1.5;" width="455" x="136" y="24"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="313" x="207" y="38.9951">AnalyseClient - EyeTracking - Diagramm</text><ellipse cx="363.519" cy="305.2038" fill="#FEFECE" filter="url(#f13bzdeo1n76c2)" rx="211.519" ry="44.7038" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="135" x="296.019" y="289.5554">Versuch auswählen</text><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 1.0,2.0;" x1="161.2274" x2="565.8107" y1="292.8571" y2="292.8571"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="409" x="159.019" y="309.8522">der konkrete Versuch in dem Eyetracking verwendet wurde</text><ellipse cx="363.5607" cy="87.0233" fill="#FEFECE" filter="url(#f13bzdeo1n76c2)" rx="106.5607" ry="28.0233" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="123" x="302.0607" y="79.6871">Daten anschauen</text><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 1.0,2.0;" x1="259.1101" x2="468.0114" y1="82.9889" y2="82.9889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="156" x="285.5607" y="99.984">Generiertes Diagramm</text><ellipse cx="363.5051" cy="195.801" fill="#FEFECE" filter="url(#f13bzdeo1n76c2)" rx="134.5051" ry="29.301" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="125" x="301.0051" y="185.4572">Analyse anpassen</text><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 1.0,2.0;" x1="233.9424" x2="493.0678" y1="188.7589" y2="188.7589"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="226" x="250.5051" y="205.754">Optionen zur Veranschaulichung</text><ellipse cx="363.277" cy="415.0554" fill="#FEFECE" filter="url(#f13bzdeo1n76c2)" rx="140.777" ry="30.5554" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="79" x="323.777" y="401.4536">Exportieren</text><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 1.0,2.0;" x1="231.7395" x2="494.8144" y1="404.7554" y2="404.7554"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="256" x="235.277" y="421.7505">sowohl Rohdaten als auch Diagramm</text><!--entity f--><ellipse cx="47.5" cy="236.5" fill="#FEFECE" filter="url(#f13bzdeo1n76c2)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><path d="M47.5,244.5 L47.5,271.5 M34.5,252.5 L60.5,252.5 M47.5,271.5 L34.5,286.5 M47.5,271.5 L60.5,286.5 " fill="none" filter="url(#f13bzdeo1n76c2)" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="83" x="6" y="306.4951">Forschende</text><!--entity s--><rect fill="#FFFFFF" filter="url(#f13bzdeo1n76c2)" height="36.2969" style="stroke: #000000; stroke-width: 1.5;" width="137" x="733" y="159"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="117" x="743" y="181.9951">Speichermedium</text><!--link f to da--><path d="M66.7,226.44 C80.09,200.52 100.7,168.49 128,149 C166.11,121.78 215.37,106.51 258.89,97.95 " fill="none" id="f-da" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="263.9,96.98,254.3075,94.7475,258.9896,97.9221,255.8149,102.6042,263.9,96.98" style="stroke: #A80036; stroke-width: 1.0;"/><!--link f to aa--><path d="M89.11,254.31 C101.52,250.38 115.25,246.27 128,243 C168.51,232.6 213.45,223.11 253.05,215.42 " fill="none" id="f-aa" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="258.36,214.4,248.7601,212.1996,253.4527,215.3586,250.2938,220.0512,258.36,214.4" style="stroke: #A80036; stroke-width: 1.0;"/><!--link f to ex--><path d="M72.34,309.71 C86.07,330.04 105.14,353.05 128,367 C157.33,384.9 192.17,396.25 225.91,403.4 " fill="none" id="f-ex" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="230.88,404.43,222.881,398.6841,225.9844,403.4137,221.2548,406.5171,230.88,404.43" style="stroke: #A80036; stroke-width: 1.0;"/><!--link f to va--><path d="M89.23,272.8 C111.83,275.46 141.75,278.99 173.49,282.73 " fill="none" id="f-va" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="178.6,283.33,170.1315,278.3016,173.6345,282.7433,169.1928,286.2463,178.6,283.33" style="stroke: #A80036; stroke-width: 1.0;"/><!--link va to s--><path d="M499.11,270.84 C531.9,262.13 566.8,252.52 599,243 C648.02,228.51 703.14,210.32 743.33,196.71 " fill="none" id="va-s" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="748.15,195.07,738.3427,194.1657,743.4138,196.6726,740.9069,201.7436,748.15,195.07" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="88" x="611" y="208.0669">Datenabfrage</text><!--link da to s--><path d="M452.69,105.2 C535.48,122.29 657.54,147.49 732.87,163.04 " fill="none" id="da-s" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="447.79,104.19,455.7924,109.9313,452.6862,105.2035,457.414,102.0973,447.79,104.19" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="94" x="608" y="134.0669">Datenlieferung</text><!--link da to aa--><path d="M363.5,120.51 C363.5,135.1 363.5,152.07 363.5,166.22 " fill="none" id="da-aa" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="363.5,115.25,359.5,124.25,363.5,120.25,367.5,124.25,363.5,115.25" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="42" x="331" y="145.3169">ändert</text><!--
+@startuml Analyse-Eyetracking 
+left to right direction
+
+actor Forschende as f
+
+rectangle "AnalyseClient - EyeTracking - Diagramm" #789dd5 {
+    usecase va as "Versuch auswählen
+    ..
+    der konkrete Versuch in dem Eyetracking verwendet wurde"
+    usecase da as "Daten anschauen
+    ..
+    Generiertes Diagramm"
+    usecase aa as "Analyse anpassen
+    ..
+    Optionen zur Veranschaulichung"
+    usecase ex as "Exportieren
+    ..
+    sowohl Rohdaten als auch Diagramm"
+}
+
+rectangle Speichermedium as s #FFFFFF
+
+f - -> da
+f - -> aa
+f - -> ex
+f - -> va
+
+
+va ..> s : Datenabfrage
+s .l.> da : Datenlieferung
+
+
+da <.r. aa : ändert
+
+
+@enduml
+
+PlantUML version 1.2019.06(Fri May 24 17:10:25 UTC 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.11+9
+Operating System: Linux
+OS Version: 5.11.0-1021-azure
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
