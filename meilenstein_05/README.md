@@ -4,10 +4,11 @@
 ## Was ist seit dem letzten Meilenstein passiert ?
 - 18.11.2021: Aufgabenverteilung
 - Erstellung der Templates
-- Ausarbeiten der geplanten Use-Case-Diagramme in Zweiergruppen
+- Ausarbeiten der geplanten Use-Case-Diagramme in Zweiergruppen mit Hilfe von VSCode, PlantUML und LiveShare
 - Reviews der anderen Use-Case Diagramme
 
 ## Was waren die Herausforderungen und Probleme ? Wie wurden sie gelöst ?
+- Probleme beim Rendern von PNGs in Github -> Josh (Boss) hat den Bug gefunden und gefixt
 
 
 
