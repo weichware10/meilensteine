@@ -1,5 +1,5 @@
 @startuml CodeCharts
-' left to right direction
+left to right direction
 
 actor Testperson as t
 actor Forschende as f
@@ -10,7 +10,7 @@ rectangle CodeCharts as z #789dd5 {
     usecase "Bild betrachten" as bb
     usecase "Raster betrachten" as rb
     usecase "Eingabe tätigen" as et
-    usecase "Error-Message or Falsche Eingabe" as em
+    usecase "Fehler Anzeigen" as fa
 }
 
 rectangle AnalyseClient as a {
@@ -23,25 +23,21 @@ rectangle Config as c {
 }
 
 ' Testperson
-t --> td
-t --> tw
-t --> bb
-t --> rb
-t --> et
-t --> em
+t -- td
+t -- tw
+t -- bb
+t -- rb
+t -- et
 
 ' Forschende
-es <-- f
-ea <-- f
+es -- f
+ea -- f
 
 ' intern
 tw ..> tä : <<included>> 
 z <.. a : <<extended>> über Speichermedium
 z ..> c : <<included>> Versuchseinstellungen abfragen
-td ..> tw : <<included>>
-bb ..> rb : <<included>>
-rb ..> et : << included ? >>
-em ..> et : <<excluded>> 
+fa ..> et : <<excluded>> 
 
 
 @enduml
