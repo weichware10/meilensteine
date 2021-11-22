@@ -2,19 +2,28 @@
 
 
 ## Was ist seit dem letzten Meilenstein passiert ?
+- 18.11.2021: Aufgabenverteilung
+- Erstellung der Templates
+- Ausarbeiten der geplanten Use-Case-Diagramme in Zweiergruppen
+- Reviews der anderen Use-Case Diagramme
 
 ## Was waren die Herausforderungen und Probleme ? Wie wurden sie gelöst ?
+
 
 
 ## Was lief gut ? Was lief nicht gut ?
 | gut | nicht gut |
 | --- | --------- |
-|     |           |
+|- Arbeit mit PlantUML     |           |
+|- Schnelle Umsetzung der Aufgabe durch gute Vorarbeit in den letzten Meilensteinen||
+|- Use-Case-Diagramme waren wegen ihrer Ähnlichkeit gut zu vergleichen||
 
 ## Was haben Sie gelernt ?
+- Gute Vorarbeit zahlt sich aus
 
 
 ## Was würden sie beim nächsten Mal anders machen ?
+- Diese Woche lief alles schnell und wie geplant, daher würden wir momentan nichts ändern
 
 ---
 ## Teilnehmer und Rollen.
