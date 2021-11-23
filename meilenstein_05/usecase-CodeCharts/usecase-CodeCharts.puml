@@ -11,6 +11,10 @@ rectangle CodeCharts as z #789dd5 {
     usecase "Raster betrachten" as rb
     usecase "Eingabe tätigen" as et
     usecase "Fehler Anzeigen" as fa
+
+
+    fa .r.> et : <<extends>> 
+    td .r.> tw : <<includs>>
 }
 
 rectangle AnalyseClient as a {
@@ -34,10 +38,9 @@ es -- f
 ea -- f
 
 ' intern
-tw <.. tä : <<extended>> 
-z .. a : über Speichermedium
-z ..> c : <<included>> Versuchseinstellungen abfragen
-fa ..> et : <<extended>> 
+tw <.. tä : <<extends>> 
+z ..> a : über Speichermedium
+z <.l. c : Versuchseinstellungen
 
 
 @enduml
