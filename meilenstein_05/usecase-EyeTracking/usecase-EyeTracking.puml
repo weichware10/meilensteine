@@ -1,5 +1,6 @@
 @startuml EyeTracking
-left to right direction
+
+' left to right direction
 
 actor Testperson as t
 actor Forschende as f
@@ -24,7 +25,6 @@ rectangle Config as c {
 ' Testperson
 t -- db
 t -- kt
-t -- tw
 t -- bb
 
 ' Forschende
@@ -32,9 +32,10 @@ es -- f
 ea -- f
 
 ' intern
-tw <.. tä : <<excluded>> 
-z .. a : über Speichermedium
-z ..> c : <<included>> Versuchseinstellungen abfragen
-db <.. fa : <<excluded>>
+tw <.. tä : <<extended>> 
+z ..> a : über Speichermedium
+z <.. c : Versuchseinstellungen
+db <.. fa : <<extends>>
+kt ..> tw : <<include>>
 
 @enduml
