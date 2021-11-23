@@ -23,7 +23,7 @@ rectangle Config as c {
 }
 
 ' Testperson
-' t -- td
+t -- td
 t -- tw
 t -- bb
 t -- rb
