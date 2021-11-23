@@ -4,9 +4,6 @@ left to right direction
 actor Forschende as f
 
 rectangle "AnalyseClient - EyeTracking - Diagramm" #789dd5 {
-    ' usecase aw as "Analysemethode wählen
-    ' ..
-    ' hier: ViewTimeDistr"
     usecase va as "Versuch auswählen
     ..
     der konkrete Versuch in dem Eyetracking verwendet wurde"
@@ -19,23 +16,19 @@ rectangle "AnalyseClient - EyeTracking - Diagramm" #789dd5 {
     usecase ex as "Exportieren
     ..
     sowohl Rohdaten als auch Diagramm"
+
+    da <.r. aa : <<extends>>
 }
 
 rectangle Speichermedium as s #FFFFFF
 
-' f --> aw
-f --> da
-f --> aa
-f --> ex
-f --> va
-
+f -- da
+f -- aa
+f -- ex
+f -- va
 
 ' intern
 va ..> s : Datenabfrage
 s .l.> da : Datenlieferung
-
-
-da <.r. aa : ändert
-
 
 @enduml
