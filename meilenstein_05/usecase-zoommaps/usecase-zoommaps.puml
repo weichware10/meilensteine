@@ -9,7 +9,7 @@ rectangle ZoomMaps as z #789dd5 {
     usecase "Tutorial: zukünftige Sichtbarkeit wählen" as tw
     usecase "Bild betrachten" as bb
     usecase ba as "Bildausschnitt anpassen
-    --
+    ..
     Klicken & Scrollen"
 }
 
