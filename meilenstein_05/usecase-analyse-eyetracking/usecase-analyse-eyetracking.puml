@@ -1,0 +1,34 @@
+@startuml Analyse-Eyetracking
+left to right direction
+
+actor Forschende as f
+
+rectangle "AnalyseClient - EyeTracking - Diagramm" #789dd5 {
+    usecase va as "Versuch auswählen
+    ..
+    der konkrete Versuch in dem Eyetracking verwendet wurde"
+    usecase da as "Daten anschauen
+    ..
+    Generiertes Diagramm"
+    usecase aa as "Analyse anpassen
+    ..
+    Optionen zur Veranschaulichung"
+    usecase ex as "Exportieren
+    ..
+    sowohl Rohdaten als auch Diagramm"
+
+    da <.r. aa : <<extends>>
+}
+
+rectangle Speichermedium as s #FFFFFF
+
+f -- da
+f -- aa
+f -- ex
+f -- va
+
+' intern
+va ..> s : Datenabfrage
+s .l.> da : Datenlieferung
+
+@enduml
