@@ -6,6 +6,7 @@
 - Erstellung der Templates
 - Ausarbeiten der geplanten Use-Case-Diagramme in Zweiergruppen mit Hilfe von VSCode, PlantUML und LiveShare
 - Reviews der anderen Use-Case Diagramme
+- 23.11.2021: Virtuelle Teambesprechung um letzte Unklarheiten zu beseitigen und Fehler zu korrigieren
 
 ## Was waren die Herausforderungen und Probleme ? Wie wurden sie gelöst ?
 - Probleme beim Rendern von PNGs in Github -> Josh (Boss) hat den Bug gefunden und gefixt
