@@ -11,20 +11,16 @@
 ## Was waren die Herausforderungen und Probleme ? Wie wurden sie gelöst ?
 - Probleme beim Rendern von PNGs in Github -> Josh (Boss) hat den Bug gefunden und gefixt
 
-
-
 ## Was lief gut ? Was lief nicht gut ?
 | gut | nicht gut |
 | --- | --------- |
-|- Arbeit mit PlantUML     |           |
-|- Schnelle Umsetzung der Aufgabe durch gute Vorarbeit in den letzten Meilensteinen||
-|- Use-Case-Diagramme waren wegen ihrer Ähnlichkeit gut zu vergleichen||
-|Josh hat dieses Semester alles erreicht||
+|Arbeit mit PlantUML     |           |
+|Schnelle Umsetzung der Aufgabe durch gute Vorarbeit in den letzten Meilensteinen||
+|Use-Case-Diagramme waren wegen ihrer Ähnlichkeit gut zu vergleichen||
 
 ## Was haben Sie gelernt ?
 - Gute Vorarbeit zahlt sich aus
 - David's Schlafrhythmus ist schlechter als gedacht
-
 
 ## Was würden sie beim nächsten Mal anders machen ?
 - Diese Woche lief alles schnell und wie geplant, daher würden wir momentan nichts ändern
