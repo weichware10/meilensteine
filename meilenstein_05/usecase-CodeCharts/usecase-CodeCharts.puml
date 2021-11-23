@@ -34,10 +34,10 @@ es -- f
 ea -- f
 
 ' intern
-tw <.. tä : <<excluded>> 
+tw <.. tä : <<extended>> 
 z .. a : über Speichermedium
 z ..> c : <<included>> Versuchseinstellungen abfragen
-fa ..> et : <<excluded>> 
+fa ..> et : <<extended>> 
 
 
 @enduml
