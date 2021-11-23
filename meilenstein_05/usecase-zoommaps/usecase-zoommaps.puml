@@ -25,14 +25,14 @@ rectangle Config as c {
 }
 
 ' Testperson
-t --> td
-' t --> tw
-t --> bb
-' t --> ba
+t -- td
+t -- bb
+t -- ba
+t -- tw
 
 ' Forschende
-es <-- f
-ea <-- f
+es -- f
+ea -- f
 
 ' intern
 tw <.. tä : <<extends>>
