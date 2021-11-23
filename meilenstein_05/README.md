@@ -22,6 +22,7 @@
 
 ## Was haben Sie gelernt ?
 - Gute Vorarbeit zahlt sich aus
+- David's Schlafrhythmus ist schlechter als gedacht
 
 
 ## Was würden sie beim nächsten Mal anders machen ?
