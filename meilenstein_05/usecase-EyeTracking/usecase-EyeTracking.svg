@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="616px" preserveAspectRatio="none" style="width:1123px;height:616px;background:#FFFFFF;" version="1.1" viewBox="0 0 1123 616" width="1123px" zoomAndPan="magnify"><defs><filter height="300%" id="fzkeqy2opuult" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[0dddb7f964ed21e384072c4693cca302]
+cluster z--><rect fill="#789DD5" filter="url(#fzkeqy2opuult)" height="597" style="stroke:#000000;stroke-width:1.5;" width="371" x="143" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="98" x="279.5" y="21.9951">EyeTracking</text><!--MD5=[03c9795141fffc1586b10a901fd13311]
+cluster a--><rect fill="#FFFFFF" filter="url(#fzkeqy2opuult)" height="130" style="stroke:#000000;stroke-width:1.5;" width="243" x="721.5" y="474"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="110" x="788" y="488.9951">AnalyseClient</text><!--MD5=[b3179ce4f793cc951a1964cbf548eaa1]
+cluster c--><rect fill="#FFFFFF" filter="url(#fzkeqy2opuult)" height="213" style="stroke:#000000;stroke-width:1.5;" width="270" x="708" y="221"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="52" x="817" y="235.9951">Config</text><ellipse cx="328.4476" cy="370.8895" fill="#FEFECE" filter="url(#fzkeqy2opuult)" rx="134.9476" ry="29.3895" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="239" x="208.9476" y="373.7362">Distanz zum Bildschirm eingeben</text><ellipse cx="328.3872" cy="164.7774" fill="#FEFECE" filter="url(#fzkeqy2opuult)" rx="91.8872" ry="20.7774" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="255.3872" y="167.6241">Tutorial durchführen</text><ellipse cx="328.2771" cy="70.9554" fill="#FEFECE" filter="url(#fzkeqy2opuult)" rx="92.7771" ry="20.9554" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="254.2771" y="73.8021">Kalibrieren (Tutorial)</text><ellipse cx="328.3317" cy="272.1663" fill="#FEFECE" filter="url(#fzkeqy2opuult)" rx="161.3317" ry="34.6663" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="294" x="181.3317" y="275.013">zukünftige Sichtbarkeit wählen (Tutorial)</text><ellipse cx="328.495" cy="542.199" fill="#FEFECE" filter="url(#fzkeqy2opuult)" rx="83.995" ry="19.199" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="264.2335" y="545.1356">Bilder betrachten</text><ellipse cx="328.4652" cy="470.193" fill="#FEFECE" filter="url(#fzkeqy2opuult)" rx="78.9652" ry="18.193" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="268.4" y="473.6886">Fehler Anzeigen</text><ellipse cx="842.7599" cy="538.852" fill="#FEFECE" filter="url(#fzkeqy2opuult)" rx="97.2599" ry="21.852" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="158" x="763.7599" y="541.6987">Ergebnisse anschauen</text><ellipse cx="843.1693" cy="285.1339" fill="#FEFECE" filter="url(#fzkeqy2opuult)" rx="93.6693" ry="21.1339" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="768.1693" y="287.9805">Einstellungen setzen</text><ellipse cx="842.9811" cy="366.0962" fill="#FEFECE" filter="url(#fzkeqy2opuult)" rx="110.9811" ry="24.5962" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="188" x="748.9811" y="368.9429">Tutorialeinstellung ändern</text><!--MD5=[4b52362e67c82d91eba5cb75921775cc]
+entity t--><ellipse cx="47" cy="241" fill="#FEFECE" filter="url(#fzkeqy2opuult)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M47,249 L47,276 M34,257 L60,257 M47,276 L34,291 M47,276 L60,291 " fill="none" filter="url(#fzkeqy2opuult)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="6" y="309.4951">Testperson</text><!--MD5=[8f89c3b771be60a8fe1c771d5b27a045]
+entity f--><ellipse cx="1074.5" cy="355" fill="#FEFECE" filter="url(#fzkeqy2opuult)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M1074.5,363 L1074.5,390 M1061.5,371 L1087.5,371 M1074.5,390 L1061.5,405 M1074.5,390 L1087.5,405 " fill="none" filter="url(#fzkeqy2opuult)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="1033" y="423.4951">Forschende</text><!--MD5=[6b547ebd821da9e895994c1d786f03a8]
+reverse link kt to td--><path d="M328.5,97.464 C328.5,112.07 328.5,129.969 328.5,143.67 " fill="none" id="kt-backto-td" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="328.5,92.246,324.5,101.246,328.5,97.246,332.5,101.246,328.5,92.246" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="61" x="286.5" y="122.5669">«include»</text><!--MD5=[63c2835fdf1e15051d233d319bb70cdd]
+link td to tw--><path d="M328.5,186.17 C328.5,199.257 328.5,216.473 328.5,232.049 " fill="none" id="td-to-tw" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="328.5,237.26,332.5,228.26,328.5,232.26,324.5,228.26,328.5,237.26" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="61" x="286.5" y="216.3169">«include»</text><!--MD5=[4c346ed19b2295d2b702837ed1b5152c]
+link fa to db--><path d="M328.5,451.842 C328.5,439.003 328.5,421.385 328.5,405.873 " fill="none" id="fa-to-db" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="328.5,400.703,324.5,409.703,328.5,405.703,332.5,409.703,328.5,400.703" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="68" x="283" y="430.8169">«extends»</text><!--MD5=[fd67234e7733f64004cf957abd7060f0]
+link t to td--><path d="M88.4046,241.906 C100.3868,233.963 113.836,225.957 127,220 C168.599,201.176 218.044,187.526 257.423,178.533 " fill="none" id="t-td" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f4b652cb6e635502adcf6cbd29b1c2e6]
+link t to db--><path d="M88.2634,302.414 C100.2433,310.362 113.726,318.291 127,324 C156.313,336.608 189.556,346.137 220.427,353.202 " fill="none" id="t-db" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[1d038bd30d8cfb743713e1d9592c2619]
+link t to kt--><path d="M60.006,231.465 C71.8451,198.392 93.1496,152.888 127,126 C159.644,100.07 203.645,86.342 242.11,79.084 " fill="none" id="t-kt" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a47cc61414be02f1a1dc46a9068d5641]
+link t to bb--><path d="M49.6523,312.74 C54.1178,365.649 70.1656,457.008 127,506 C159.412,533.94 205.977,543.5105 246.075,545.8345 " fill="none" id="t-bb" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[af6959071ebafe7e84c012ab58a7e6fb]
+link t to tw--><path d="M88.0455,272 C109.555,272 137.641,272 166.975,272 " fill="none" id="t-tw" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[87062a31269c98bfe6fc3d0ae56b2396]
+link es to f--><path d="M917.479,297.805 C942.547,303.796 970.232,312.273 994,324 C1007.5,330.66 1020.9,339.843 1032.75,349.101 " fill="none" id="es-f" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[138a0e8de6b50cd1dd0c7fc97c7a4d6c]
+link ea to f--><path d="M877.018,518.178 C907.575,498.783 954.161,468.897 994,442 C1006.73,433.403 1020.46,423.842 1032.86,415.089 " fill="none" id="ea-f" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[2827afe277d74b8b1048bdf68fbae7e3]
+reverse link tw to tä--><path d="M456.601,295.312 C550.234,312.486 675.016,335.373 756.879,350.388 " fill="none" id="tw-backto-tä" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="451.605,294.396,459.7362,299.9533,456.523,295.2976,461.1787,292.0844,451.605,294.396" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="68" x="577" y="307.0669">«extends»</text><!--MD5=[63b0b4f2c04a4d4323df6b79656b845a]
+link z to a--><path d="M515.6297,596 C523.2445,596 530.9488,596 538.7127,596 C554.2405,596 570.007,596 585.7734,596 C617.3061,596 648.8383,596 678.4602,596 C693.2711,596 707.6044,596 721.2214,596 " fill="none" id="z-to-a" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="721.2214,596,712.2214,592,716.2214,596,712.2214,600,721.2214,596" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="141" x="540.5" y="592.0669">über Speichermedium</text><!--MD5=[e555bde5371ff03b38ff4a3e0b52fb34]
+reverse link z to c--><path d="M514.2454,582.455 C519.6005,580.8 524.8637,578.9862 530,577 C534.145,575.397 534.198,573.3013 538,571 C601.031,532.85 675.6595,497.1278 735.2,470.6853 C764.9703,457.464 790.9685,446.5627 809.8591,438.8378 C812.2204,437.8722 814.4706,436.9562 816.6033,436.0916 C817.6697,435.6592 818.7066,435.2397 819.7134,434.8332 C820.2167,434.63 820.7126,434.43 821.2007,434.2333 " fill="none" id="z-backto-c" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="514.2454,582.455,524.0252,583.6192,519.0225,580.9786,521.663,575.9759,514.2454,582.455" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="144" x="539" y="493.0669">Versuchseinstellungen</text><!--MD5=[b2002ff70dd1b91e3ea64ac487c5f612]
+@startuml
+left to right direction
+
+actor Testperson as t
+actor Forschende as f
+
+rectangle EyeTracking as z #789dd5 {
+    usecase "Distanz zum Bildschirm eingeben" as db
+    usecase "Tutorial durchführen" as td
+    usecase "Kalibrieren (Tutorial)" as kt
+    usecase "zukünftige Sichtbarkeit wählen (Tutorial)" as tw
+    usecase "Bilder betrachten" as bb
+    usecase "Fehler Anzeigen" as fa
+
+    td .l.> kt : <<include>>
+    td .r.> tw : <<include>>
+    db <.l. fa : <<extends>>
+}
+
+rectangle AnalyseClient as a {
+    usecase "Ergebnisse anschauen" as ea
+}
+
+rectangle Config as c {
+    usecase "Einstellungen setzen" as es
+    usecase "Tutorialeinstellung ändern" as tä
+}
+
+' Testperson
+t - - td
+t - - db
+t - - kt
+t - - bb
+t - - tw
+
+' Forschende
+es - - f
+ea - - f
+
+' intern
+tw <.. tä : <<extends>> 
+z ..> a : über Speichermedium
+z <.. c : Versuchseinstellungen
+@enduml
+
+@startuml
+left to right direction
+
+actor Testperson as t
+actor Forschende as f
+
+rectangle EyeTracking as z #789dd5 {
+    usecase "Distanz zum Bildschirm eingeben" as db
+    usecase "Tutorial durchführen" as td
+    usecase "Kalibrieren (Tutorial)" as kt
+    usecase "zukünftige Sichtbarkeit wählen (Tutorial)" as tw
+    usecase "Bilder betrachten" as bb
+    usecase "Fehler Anzeigen" as fa
+
+    td .l.> kt : <<include>>
+    td .r.> tw : <<include>>
+    db <.l. fa : <<extends>>
+}
+
+rectangle AnalyseClient as a {
+    usecase "Ergebnisse anschauen" as ea
+}
+
+rectangle Config as c {
+    usecase "Einstellungen setzen" as es
+    usecase "Tutorialeinstellung ändern" as tä
+}
+
+t - - td
+t - - db
+t - - kt
+t - - bb
+t - - tw
+
+es - - f
+ea - - f
+
+tw <.. tä : <<extends>> 
+z ..> a : über Speichermedium
+z <.. c : Versuchseinstellungen
+@enduml
+
+PlantUML version 1.2021.15beta6(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
