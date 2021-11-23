@@ -4,7 +4,7 @@ left to right direction
 actor Testperson as t
 actor Forschende as f
 
-rectangle CodeCharts as z #789dd5 {
+rectangle CodeCharts as z #789dd4 {
     usecase "Tutorial anschauen" as td
     usecase "Tutorial: zukünftige Sichtbarkeit wählen" as tw
     usecase "Bild betrachten" as bb
@@ -12,9 +12,8 @@ rectangle CodeCharts as z #789dd5 {
     usecase "Eingabe tätigen" as et
     usecase "Fehler Anzeigen" as fa
 
-
-    fa .r.> et : <<extends>> 
-    td .r.> tw : <<includs>>
+    fa .l.> et : <<extends>>
+    td .r.> tw : <<include>>
 }
 
 rectangle AnalyseClient as a {
@@ -38,7 +37,7 @@ es -- f
 ea -- f
 
 ' intern
-tw <.. tä : <<extends>> 
+tw <.. tä : <<extends>>
 z ..> a : über Speichermedium
 z <.l. c : Versuchseinstellungen
 
