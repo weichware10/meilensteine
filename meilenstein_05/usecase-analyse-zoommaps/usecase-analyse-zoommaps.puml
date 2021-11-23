@@ -21,11 +21,11 @@ rectangle "AnalyseClient - ZoomMaps - Heatmap(s)" #789dd5 {
 
 rectangle Speichermedium as s #FFFFFF
 
-f --> da
-f --> aa
-f --> ex
-f --> va
-f --> vv
+f -- da
+f -- aa
+f -- ex
+f -- va
+f -- vv
 
 ' intern
 va ..> s : Datenabfrage
