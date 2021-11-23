@@ -11,6 +11,8 @@ rectangle ZoomMaps as z #789dd5 {
     usecase ba as "Bildausschnitt anpassen
     ..
     Klicken & Scrollen"
+    td .l.> tw : <<include>>
+    bb .l.> ba : <<include>>
 }
 
 rectangle AnalyseClient as a {
@@ -24,17 +26,17 @@ rectangle Config as c {
 
 ' Testperson
 t --> td
-t --> tw
+' t --> tw
 t --> bb
-t --> ba
+' t --> ba
 
 ' Forschende
 es <-- f
 ea <-- f
 
 ' intern
-tw ..> tä
-z .r.> a : über Speichermedium
+tw <.. tä : <<extends>>
+z ..> a : über Speichermedium
 z <.. c : Versuchseinstellungen
 
 @enduml
