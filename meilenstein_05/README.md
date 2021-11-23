@@ -19,7 +19,8 @@
 |Use-Case-Diagramme waren wegen ihrer Ähnlichkeit gut zu vergleichen||
 
 ## Was haben Sie gelernt ?
-- Gute Vorarbeit zahlt sich aus
+- Vorarbeit aus den vorherigen Meilensteinen ist sehr hilfreich
+- Die Use-Case-Diagramme der Analysetools waren sehr ähnlich
 - David's Schlafrhythmus ist schlechter als gedacht
 
 ## Was würden sie beim nächsten Mal anders machen ?
