@@ -1,5 +1,5 @@
 # Use-Case-Diagramm EyeTracking
 
-![Use-Case-Diagramm](usecase-EyeTracking.svg)
+![Use-Case-Diagramm](usecase-eyetracking.svg)
 ---
 ## Notizen

@@ -1,5 +1,5 @@
 # Use-Case-Diagramm CodeCharts
 
-![Use-Case-Diagramm](usecase-CodeCharts.svg)
+![Use-Case-Diagramm](usecase-codecharts.svg)
 ---
 ## Notizen
