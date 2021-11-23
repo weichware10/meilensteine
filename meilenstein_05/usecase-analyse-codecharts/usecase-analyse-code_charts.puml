@@ -4,9 +4,6 @@ left to right direction
 actor Forschende as f
 
 rectangle "AnalyseClient - CodeCharts - Verlauf" #789dd5 {
-    ' usecase aw as "Analysemethode wählen
-    ' ..
-    ' hier: Verlauf"
     usecase va as "Versuch auswählen
     ..
     der konkrete Versuch in dem CodeCharts verwendet wurde"
@@ -23,17 +20,15 @@ rectangle "AnalyseClient - CodeCharts - Verlauf" #789dd5 {
 
 rectangle Speichermedium as s #FFFFFF
 
-' f --> aw
-f --> da
-f --> aa
-f --> ex
-f --> va
+f -- aa
+f -- da
+f -- ex
+f -- va
 
 ' intern
 va ..> s : Datenabfrage
 s .l.> da : Datenlieferung
 
-da <.r. aa : ändert
-' n .l. va
+da <.r. aa : <<extends>>
 
 @enduml
