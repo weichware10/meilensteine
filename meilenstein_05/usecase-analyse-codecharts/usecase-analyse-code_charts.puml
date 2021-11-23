@@ -8,7 +8,7 @@ rectangle "AnalyseClient - CodeCharts - Verlauf" #789dd5 {
     ' ..
     ' hier: Verlauf"
     usecase va as "Versuch auswählen
-    --
+    ..
     der konkrete Versuch in dem CodeCharts verwendet wurde"
     usecase da as "Daten anschauen
     ..
