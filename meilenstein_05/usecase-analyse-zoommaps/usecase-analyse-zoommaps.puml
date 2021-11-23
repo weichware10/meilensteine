@@ -8,7 +8,7 @@ rectangle "AnalyseClient - ZoomMaps - Heatmap(s)" #789dd5 {
     ' ..
     ' hier: Heatmap"
     usecase va as "Versuch auswählen
-    --
+    ..
     der konkrete Versuch in dem ZoomMaps verwendet wurden"
     usecase vv as "Versuch zum Vergleich auswählen"
     usecase da as "Daten anschauen
