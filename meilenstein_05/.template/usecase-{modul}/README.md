@@ -1,5 +1,5 @@
 # Use-Case-Diagramm {Modul}
 
-![Use-Case-Diagramm](usecase-{modul}.png)
+![Use-Case-Diagramm](usecase-{modul}.svg)
 ---
 ## Notizen

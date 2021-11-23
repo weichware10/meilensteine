@@ -1,0 +1,38 @@
+@startuml analyse-zoommaps
+left to right direction
+
+actor Forschende as f
+
+rectangle "AnalyseClient - ZoomMaps - Heatmap(s)" #789dd5 {
+    usecase va as "Versuch auswählen
+    ..
+    der konkrete Versuch in dem ZoomMaps verwendet wurden"
+    usecase vv as "anderen Versuch zum Vergleich auswählen"
+    usecase da as "Daten anschauen
+    ..
+    Generierte Heatmap"
+    usecase aa as "Analyse anpassen
+    ..
+    Optionen zur Veranschaulichung"
+    usecase ex as "Exportieren
+    ..
+    sowohl Rohdaten als auch Heatmap"
+}
+
+rectangle Speichermedium as s #FFFFFF
+
+f -- da
+f -- aa
+f -- ex
+f -- va
+f -- vv
+
+' intern
+va ..> s : Datenabfrage
+vv ..> s : Datenabfrage
+s ..> da : Datenlieferung
+
+va <.l. vv : <<extends>>
+da <.r. aa : <<extends>>
+
+@enduml

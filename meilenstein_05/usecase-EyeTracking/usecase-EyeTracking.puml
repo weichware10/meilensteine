@@ -1,0 +1,45 @@
+@startuml EyeTracking
+left to right direction
+
+actor Testperson as t
+actor Forschende as f
+
+rectangle EyeTracking as z #789dd5 {
+    usecase "Distanz zum Bildschirm eingeben" as db
+    usecase "Tutorial durchführen" as td
+    usecase "Kalibrieren (Tutorial)" as kt
+    usecase "zukünftige Sichtbarkeit wählen (Tutorial)" as tw
+    usecase "Bilder betrachten" as bb
+    usecase "Fehler Anzeigen" as fa
+
+    td .l.> kt : <<include>>
+    td .r.> tw : <<include>>
+    db <.l. fa : <<extends>>
+}
+
+rectangle AnalyseClient as a {
+    usecase "Ergebnisse anschauen" as ea
+}
+
+rectangle Config as c {
+    usecase "Einstellungen setzen" as es
+    usecase "Tutorialeinstellung ändern" as tä
+}
+
+' Testperson
+t -- td
+t -- db
+t -- kt
+t -- bb
+t -- tw
+
+' Forschende
+es -- f
+ea -- f
+
+' intern
+tw <.. tä : <<extends>> 
+z ..> a : über Speichermedium
+z <.. c : Versuchseinstellungen
+
+@enduml

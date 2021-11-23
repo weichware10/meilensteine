@@ -4,7 +4,7 @@ on:
     paths:
       - '**.puml'
 jobs:
-  puml-to-img:
+  puml-to-png:
     runs-on: ubuntu-latest
     steps:
 
@@ -29,12 +29,24 @@ jobs:
             if [[ $changed_file == *.puml ]]
             then
               puml generate $changed_file -o ${changed_file//.puml/.png}
-              puml generate $changed_file --svg -o ${changed_file//.puml/.svg}
             fi
           done
 
       - name: add and commit
         uses: EndBug/add-and-commit@v7
         with:
-          message: rendered PNGs and SVGs
+          message: rendered PNGs
           default_author: github_actions
+  puml-to-svg:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: checkout
+      uses: actions/checkout@v2
+
+    - name: convert files
+      uses: grassedge/generate-plantuml-action@v1.5
+      with:
+        message: rendered SVGs
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

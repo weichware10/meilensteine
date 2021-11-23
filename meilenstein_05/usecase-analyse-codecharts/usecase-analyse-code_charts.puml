@@ -1,0 +1,34 @@
+@startuml analyse-code_charts
+left to right direction
+
+actor Forschende as f
+
+rectangle "AnalyseClient - CodeCharts - Verlauf" #789dd5 {
+    usecase va as "Versuch auswählen
+    ..
+    der konkrete Versuch in dem CodeCharts verwendet wurde"
+    usecase da as "Daten anschauen
+    ..
+    Generierter Verlauf"
+    usecase aa as "Analyse anpassen
+    ..
+    Optionen zur Veranschaulichung"
+    usecase ex as "Exportieren
+    ..
+    sowohl Rohdaten als auch CodeCharts"
+}
+
+rectangle Speichermedium as s #FFFFFF
+
+f -- aa
+f -- da
+f -- ex
+f -- va
+
+' intern
+va ..> s : Datenabfrage
+s .l.> da : Datenlieferung
+
+da <.r. aa : <<extends>>
+
+@enduml
