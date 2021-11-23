@@ -19,6 +19,7 @@
 |- Arbeit mit PlantUML     |           |
 |- Schnelle Umsetzung der Aufgabe durch gute Vorarbeit in den letzten Meilensteinen||
 |- Use-Case-Diagramme waren wegen ihrer Ähnlichkeit gut zu vergleichen||
+|Josh hat dieses Semester alles erreicht||
 
 ## Was haben Sie gelernt ?
 - Gute Vorarbeit zahlt sich aus
