@@ -1,6 +1,5 @@
 # Bericht zum Meilenstein 5
 
-
 ## Was ist seit dem letzten Meilenstein passiert ?
 - 18.11.2021: Aufgabenverteilung
 - Erstellung der Templates
@@ -9,7 +8,7 @@
 - 23.11.2021: Virtuelle Teambesprechung um letzte Unklarheiten zu beseitigen und Fehler zu korrigieren
 
 ## Was waren die Herausforderungen und Probleme ? Wie wurden sie gelöst ?
-- Probleme beim Rendern von PNGs in Github -> Josh (Boss) hat den Bug gefunden und gefixt
+- Probleme beim Rendern von PNGs in Github -> Josh hat den Bug gefunden und gefixt
 
 ## Was lief gut ? Was lief nicht gut ?
 | gut | nicht gut |
@@ -43,4 +42,15 @@
 ---
 
 ## Diagramme
-![](https://http.cat/404)
+### Use-Case-Diagramm AnalyseClient Codecharts
+![Use-Case-Diagramm AnalyseClient Codecharts](usecase-analyse-codecharts\usecase-analyse-code_charts.svg)
+### Use-Case-Diagramm AnalyseClient Eyetracking
+![Use-Case-Diagramm AnalyseClient Eyetracking](usecase-analyse-eyetracking\usecase-analyse-eyetracking.svg)
+### Use-Case-Diagramm AnalyseClient Zoommaps
+![Use-Case-Diagramm AnalyseClient Zoommaps](usecase-analyse-zoommaps\usecase-analyse-zoommaps.svg)
+### Use-Case-Diagramm CodeCharts
+![Use-Case-Diagramm CodeCharts](usecase-codecharts\usecase-codecharts.svg)
+### Use-Case-Diagramm EyeTracking
+![Use-Case-Diagramm EyeTracking](usecase-eyetracking\usecase-eyetracking.svg)
+### Use-Case-Diagramm ZoomMaps
+![Use-Case-Diagramm ZoomMaps](usecase-zoommaps\usecase-zoommaps.svg)
