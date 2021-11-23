@@ -4,13 +4,10 @@ left to right direction
 actor Forschende as f
 
 rectangle "AnalyseClient - ZoomMaps - Heatmap(s)" #789dd5 {
-    ' usecase aw as "Analysemethode wählen
-    ' ..
-    ' hier: Heatmap"
     usecase va as "Versuch auswählen
     ..
     der konkrete Versuch in dem ZoomMaps verwendet wurden"
-    usecase vv as "Versuch zum Vergleich auswählen"
+    usecase vv as "anderen Versuch zum Vergleich auswählen"
     usecase da as "Daten anschauen
     ..
     Generierte Heatmap"
@@ -24,7 +21,6 @@ rectangle "AnalyseClient - ZoomMaps - Heatmap(s)" #789dd5 {
 
 rectangle Speichermedium as s #FFFFFF
 
-' f --> aw
 f --> da
 f --> aa
 f --> ex
@@ -36,8 +32,7 @@ va ..> s : Datenabfrage
 vv ..> s : Datenabfrage
 s ..> da : Datenlieferung
 
-va <.l. vv : braucht
-da <.r. aa : ändert
-' n .l. va
+va <.l. vv : <<extends>>
+da <.r. aa : <<extends>>
 
 @enduml
