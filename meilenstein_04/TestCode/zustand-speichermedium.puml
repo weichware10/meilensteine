@@ -23,9 +23,6 @@ ded --> ig
 ig --> dg : deleteData()
 ig --> du : searchData()
 du --> fa
-dg --> fa
-i --> sad
-sad --> lgh
 lgh --> ide : eintragen in Datenbank
 ide --> fa
 fa --> i : Funktion ausgeführt
