@@ -5,7 +5,7 @@
     - Festlegung der Programmiersprache auf Java
         - OOP
         - Verwendbare GUI über Swing 
-    - Installieren und einarbieten in Java 
+    - Installieren und Einarbeiten in Java 
     - Installieren und konfigurieren von Maven als Buildingtool
     - Als Testsystem wird JUnit eingesetzt
     - Einführen von Checkstyle als Linter
