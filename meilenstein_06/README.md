@@ -25,7 +25,7 @@
 ## Was waren die Herausforderungen und Probleme ? Wie wurden sie gelöst ?
 - Wegen aktueller Coronalage sind persönliche Treffen nicht mehr möglich
     - Nutzung von BigBlueButton
-- Sehr aufwändiger Meilenstein, da bei allen das Setup der genannten Tools eingerichtet und konfiguriert werden mussten
+- Sehr aufwändiger Meilenstein, da bei allen das Setup der genannten Tools eingerichtet und konfiguriert werden musste
     - Lösung: Virtuelles Teammeeting mit Bildschirmübertragung, gegenseitige Hilfe
 - Nicht alle Teammitglieder hatten Erfahrung mit Java
     - Lösung: YouTube-Tutorials, gegenseitige Hilfe
