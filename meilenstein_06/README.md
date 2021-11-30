@@ -16,7 +16,7 @@
         - [weichware10/analyse](https://github.com/weichware10/analyse)
     - [weichware10/util](https://github.com/weichware10/util)
         - Util benötigt ein eigenes Repository, da dieses Code für beide Programme (Toolbox und Analyse) bereitstellt.
-    - "repo-utils"
+    - [weichware10/repo-utils](https://github.com/weichware10/repo-util)
         - Beinhaltet die aktuellsten Workflows und Checkstyles
         - Dokumentation von Workflow und Checkstyle wird in "repo-utils" festgehalten
 
