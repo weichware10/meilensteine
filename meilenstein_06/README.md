@@ -14,7 +14,7 @@
     - Aufteilen von Toolbox und Analyse in 2 separate Programme, daher auch 2 verschiedene Repositories
         - [weichware10/toolbox](https://github.com/weichware10/toolbox)
         - [weichware10/analyse](https://github.com/weichware10/analyse)
-    - "util"
+    - [weichware10/util](https://github.com/weichware10/util)
         - Util benötigt ein eigenes Repository, da dieses Code für beide Programme (Toolbox und Analyse) bereitstellt.
     - "repo-utils"
         - Beinhaltet die aktuellsten Workflows und Checkstyles
