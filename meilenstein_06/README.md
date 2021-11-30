@@ -33,7 +33,7 @@
 ## Was lief gut ? Was lief nicht gut ?
 | gut                                                 | nicht gut      |
 | --------------------------------------------------- | -------------- |
-| Gute Teamarbeit                                     | Späterer Start |
+| Gute Teamarbeit                                     | Später Start |
 | Einheitlicher Code durch die Nutzung von Checkstyle |                |
 
 ## Was haben Sie gelernt ?
