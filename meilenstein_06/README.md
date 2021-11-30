@@ -2,30 +2,47 @@
 
 ## Was ist seit dem letzten Meilenstein passiert ?
 - Freitag 26.11.2021 Teammeeting
-- Festlegen der Programmiersprache auf Java
-- Installieren und Einarbieten in JDK und Maven
-- Einführen von Workflow und Stylechecks
-- Dokumentation von Workflow und Stylechecks in "repo-utils"
-- 3 neue Repos:
+    - Festlegung der Programmiersprache auf Java
+        - OOP
+        - Verwendbare GUI über Swing 
+    - Installieren und einarbieten in Java 
+    - Installieren und konfigurieren von Maven als Buildingtool
+    - Als Testsystem wird JUnit eingesetzt
+    - Einführen von Checkstyle als Linter
+
+- Vier neue Repositories:
     - Aufteilen von Toolbox und Analyse in 2 seperate Programme, daher auch 2 verschiedene Repositorys
-        - analyse
-        - toolbox
-    - drittes Repository für die "util", da dieser Code für beide Programme (Toolbox und Analyse) benötigt wird.
+        - "analyse"
+        - "toolbox"
+    - "util"
+        - Util benötigt ein eigenes Repositorie, da dieser Code für beide Programme (Toolbox und Analyse) benötigt wird.
+    - "repo-utils"
+        - Beinhaltet die aktuellsten Workflows und Checkstyles
+        - Dokumentation von Workflow und Checkstyle wird in "repo-utils" festgehalten
+
+- Hauptarbeit war das Ausarbeiten der Klassen und deren Tests für die zukünftige Implementation
 
 ## Was waren die Herausforderungen und Probleme ? Wie wurden sie gelöst ?
-- sehr viel Arbeit in diesem Meilenstein. Lösung: Überstunden 
-- Sehr Aufwändig das Setup bei allesn Einzurichten bzw. zum funnktionieren zu bekommen
+- Wegen aktueller Coronalage sind persönliche Treffen nicht mehr möglich
+    - Nutzung von BigBlueButton
+- Sehr aufwändiger Meilenstein, da bei allen das Setup der genannten Tools eingerichtet und konfiguriert werden mussten
+    - Lösung: Virtuelles Teammeeting mit Bildschirmübertragung, gegenseitige Hilfe
+- Nicht alle Teammitglieder hatten Erfahrung mit Java
+    - Lösung: YouTube-Tutorials, gegenseitige Hilfe
 
 ## Was lief gut ? Was lief nicht gut ?
-| gut | nicht gut |
-| --- | --------- |
-|     |           |
-|     |           |
-|     |           |
+| gut                                                 | nicht gut      |
+| --------------------------------------------------- | -------------- |
+| Gute Teamarbeit                                     | Späterer Start |
+| Einheitlicher Code durch die Nutzung von Checkstyle |                |
 
 ## Was haben Sie gelernt ?
+- Nutzung der oben genannten Tools
+- Implementierung von Tests
+- Java (für einige Gruppenmitglieder)
 
 ## Was würden sie beim nächsten Mal anders machen ?
+- Früher mit der Arbeit am nächsten Meilenstein beginnen
 
 ---
 ## Teilnehmer und Rollen.
