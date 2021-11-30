@@ -19,6 +19,7 @@
     - [weichware10/repo-utils](https://github.com/weichware10/repo-util)
         - Beinhaltet die aktuellsten Workflows und Checkstyles
         - Dokumentation von Workflow und Checkstyle wird in "repo-utils" festgehalten
+            - noch nicht fertig, wird innerhalb der nächsten Woche hinzugefügt
 
 - Hauptarbeit war das Ausarbeiten der Klassen und deren Tests für die zukünftige Implementation
 
