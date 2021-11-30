@@ -11,7 +11,7 @@
     - Einführen von Checkstyle als Linter
 
 - Vier neue Repositories:
-    - Aufteilen von Toolbox und Analyse in 2 seperate Programme, daher auch 2 verschiedene Repositorys
+    - Aufteilen von Toolbox und Analyse in 2 separate Programme, daher auch 2 verschiedene Repositories
         - "analyse"
         - "toolbox"
     - "util"
