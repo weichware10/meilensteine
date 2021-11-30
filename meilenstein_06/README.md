@@ -43,7 +43,7 @@
 - Java (für einige Gruppenmitglieder)
 
 ## Was würden sie beim nächsten Mal anders machen ?
-- Früher mit der Arbeit am nächsten Meilenstein beginnen
+- Früher mit der Arbeit am nächsten Meilenstein beginnen, allerdings wird das einfacher sein, da weniger Setup notwendig sein wird.
 
 ---
 ## Teilnehmer und Rollen.
