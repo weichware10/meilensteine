@@ -15,7 +15,7 @@
         - "analyse"
         - "toolbox"
     - "util"
-        - Util benötigt ein eigenes Repositorie, da dieser Code für beide Programme (Toolbox und Analyse) benötigt wird.
+        - Util benötigt ein eigenes Repository, da dieses Code für beide Programme (Toolbox und Analyse) bereitstellt.
     - "repo-utils"
         - Beinhaltet die aktuellsten Workflows und Checkstyles
         - Dokumentation von Workflow und Checkstyle wird in "repo-utils" festgehalten
