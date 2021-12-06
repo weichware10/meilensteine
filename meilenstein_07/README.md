@@ -1,4 +1,4 @@
-# Bericht zum Meilenstein 6
+# Bericht zum Meilenstein 7
 
 ## Was ist seit dem letzten Meilenstein passiert ?
 - Teambesprechung am 02.12.2021
@@ -8,7 +8,7 @@
 - Gruppenbesprechung zu Config-Client am 03.12.2021
 - Einführung in JavaFX 
   - Erstellung eines Boilerplates zur Nutzung von JavaFX
-  - Videotutorials auf [YouTube](https://www.youtube.com/watch?v=FLkOX4Eez6o)
+  - [Videotutorials]((https://www.youtube.com/watch?v=FLkOX4Eez6o)) auf YouTube
   - Selber lokal kleine Programme zur Übung erstellt
 - Erstellung einer globalen (?) Logger-Datei zur Unterstütung beim Testen
 
