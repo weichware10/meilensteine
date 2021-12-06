@@ -1,17 +1,49 @@
 name: puml-to-img
 on:
   push:
-    paths:
-      - '**.puml'
+    paths: ['**.puml']
 jobs:
-  puml-to-png:
+
+  puml-to-svg:
     runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '#')"
     steps:
 
       - name: checkout
         uses: actions/checkout@v2
         with:
-          fetch-depth: 2
+          token: ${{ secrets.WEICHBOT }}
+          fetch-depth: 0
+
+      # signed commits
+      - name: import GPG
+        id: import_gpg
+        uses: crazy-max/ghaction-import-gpg@v4
+        with:
+          gpg_private_key: ${{ secrets.WEICHBOT_GPG_PRIVATE }}
+          passphrase: ${{ secrets.WEICHBOT_GPG_PASSPHRASE }}
+          git_user_signingkey: true
+          git_commit_gpgsign: true
+
+      - name: convert files
+        uses: grassedge/generate-plantuml-action@master
+        with:
+          message: '[chore] rendered SVGs'
+        env:
+          GITHUB_TOKEN: ${{ secrets.WEICHBOT }}
+
+  puml-to-png:
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '#')"
+    needs: puml-to-svg
+    steps:
+
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.WEICHBOT }}
+          fetch-depth: 0
+
 
       - name: install plantuml
         run: |
@@ -26,27 +58,29 @@ jobs:
       - name: convert files
         run: |
           for changed_file in ${{ steps.changed-files.outputs.all_modified_files }}; do
-            if [[ $changed_file == *.puml ]]
+            if [[ $changed_file == **.puml ]]
             then
               puml generate $changed_file -o ${changed_file//.puml/.png}
             fi
           done
 
-      - name: add and commit
-        uses: EndBug/add-and-commit@v7
+      - run: git pull
+
+      # signed commits
+      - name: import GPG
+        id: import_gpg
+        uses: crazy-max/ghaction-import-gpg@v4
         with:
-          message: rendered PNGs
-          default_author: github_actions
-  puml-to-svg:
-    runs-on: ubuntu-latest
-    steps:
-
-    - name: checkout
-      uses: actions/checkout@v2
-
-    - name: convert files
-      uses: grassedge/generate-plantuml-action@v1.5
-      with:
-        message: rendered SVGs
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          gpg_private_key: ${{ secrets.WEICHBOT_GPG_PRIVATE }}
+          passphrase: ${{ secrets.WEICHBOT_GPG_PASSPHRASE }}
+          git_user_signingkey: true
+          git_commit_gpgsign: true
+      # commit changed pom file
+      - name: auto commit
+        id: auto-commit-action
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          file_pattern: '**.png'
+          commit_message: '[chore] rendered PNGs'
+          commit_user_name: 'weichbot10'
+          commit_user_email: 'weichbot10@users.noreply.github.com'
