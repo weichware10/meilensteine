@@ -24,9 +24,9 @@
 ## Was lief gut ? Was lief nicht gut ?
 | gut | nicht gut |
 | --- | ----------|
-| Arbeitsaufteilung für die aussehenden Meilensteine| |
-| JavaFX Einführung | |
-| Frühzeitigere Fertigstellung des Meilensteins ||
+| Arbeitsaufteilung für die aussehenden Meilensteine| - |
+| JavaFX Einführung | - |
+| Frühzeitigere Fertigstellung des Meilensteins | - |
 
 ## Was haben Sie gelernt ?
 - JavaFX
