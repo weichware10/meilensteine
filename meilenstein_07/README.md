@@ -42,8 +42,8 @@
 - Verteilung der Aufgaben:
     | Aufgabe              | Team        | Review        |
     | -------------------- | ----------- | ------------- |
-    | Überarbeitung Data | Philip |               |
-    | Überarbeitung ConfigClient | Josh | Justin, Sarah |
+    | Implementierung Data | Philip |               |
+    | Implementierung ConfigClient | Josh | Justin, Sarah |
     | Logger | Josh | Justin, Jonathan |
     | Dokumentation | Josh, Sarah | Alle |
     | JavaFX Tutorials | Alle | - |
