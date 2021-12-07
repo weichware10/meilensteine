@@ -19,7 +19,7 @@
   - Termine für Meilenstein 8 besprochen
 
 ## Was waren die Herausforderungen und Probleme ? Wie wurden sie gelöst ?
-- Einige Gruppenmitglieder hatten aufgrund eines Blockseminars wenig Zeit für diesen Meilenstein und konnten somit weniger beitragen. Deswegen haben wir diese Woche etwas kürzer getreten und Vorbereitungsarbeiten durchgeführt, die für spätere Meilensteine gebraucht werden
+- Einige Gruppenmitglieder hatten aufgrund eines Blockseminars wenig Zeit für diesen Meilenstein und konnten somit weniger beitragen. Deswegen sind wir diese Woche etwas kürzer getreten und haben Vorbereitungsarbeiten durchgeführt, die für spätere Meilensteine gebraucht werden
 
 ## Was lief gut ? Was lief nicht gut ?
 | gut | nicht gut |
