@@ -5,7 +5,7 @@
   - Erstellung einer [RoadMap](https://github.com/orgs/weichware10/projects/3) zum weiteren Verlauf
     - Es wurde darauf geachtet möglichst verständliche Ziele zu setzen, und eine Reihenfolge gefunden, in der eins auf dem anderen aufbaut
   - Besprechung und Überarbeitung der internen Struktur der Datenspeicherung
-  - Festlegung auf bestimmte [Form](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716) von Semantic Code Messages
+  - Festlegung auf bestimmte [Semantik](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716) bei den Commit Messages
 - Gruppenbesprechung zu Config-Client und zur Data-Klasse am 03.12.2021
   - Interne Struktur der Data-Klasse festegelegt (TrialData + DataPoint)
   - Vorüberlegungen zur Struktur der Datenbank (siehe [weichware10/dokumente](https://github.com/weichware10/dokumente/tree/main/uml-class/sonstige))
@@ -42,7 +42,7 @@
 - Verteilung der Aufgaben:
     | Aufgabe              | Team        | Review        |
     | -------------------- | ----------- | ------------- |
-    | Implementierung Data | Philip |               |
+    | Implementierung Data | Philip | Justin, Jonathan |
     | Implementierung ConfigClient | Josh | Justin, Sarah |
     | Logger | Josh | Justin, Jonathan |
     | Dokumentation | Josh, Sarah | Alle |
