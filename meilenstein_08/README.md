@@ -2,7 +2,7 @@
 
 ## Was ist seit dem letzten Meilenstein passiert ?
 - Anfang Toolbox GUI
-- Datenbank Package
+- Datenbank Package ([Setup](https://weichware10.github.io/dokumente/setup.html) - vorläufig)
 
 ## Was waren die Herausforderungen und Probleme ? Wie wurden sie gelöst ?
 - Datenbank Package größer als erwartet - dafür ersetzt es aber das Speichermedium Package
@@ -31,5 +31,5 @@
 - Verteilung der Aufgaben:
     | Aufgabe    | Team                                                  | Review                                  |
     | ---------- | ----------------------------------------------------- | --------------------------------------- |
-    | Toolbox    | Justin, Sarah, David                                  | nächste Woche (interner Meilenstein 8,5) |
-    | db-Package | größtenteils Philip und Joshua, Zuarbeit durch Andere | Die restlichen Teammitglieder                               |
+    | Toolbox    | Justin, Sarah, David                                  | Nächste Woche (interner Meilenstein 8,5) |
+    | db-Package | Größtenteils Philip und Joshua, Zuarbeit durch Andere | Die restlichen Teammitglieder                               |
