@@ -32,8 +32,12 @@
     | Aufgabe    | Team                                                  | Review                                  | Pull-Requests |
     | ---------- | ----------------------------------------------------- | --------------------------------------- | --- |
     | Toolbox    | Justin, Sarah, David                                  | Nächste Woche (interner Meilenstein 8,5) | [GUI ToolBox](https://github.com/weichware10/toolbox/pull/10) |
-    | db-Package | Größtenteils Philip und Joshua, Zuarbeit durch Andere | Die restlichen Teammitglieder            | [DataBaseClient](https://github.com/weichware10/util/pull/20) <br> [DataBase-SVG](https://github.com/weichware10/dokumente/blob/main/uml-class/sonstige/database.svg) <br> [Util-Package](https://github.com/weichware10/dokumente/tree/main/uml-class/util) |
+    | db-Package | Größtenteils Philip und Joshua, Zuarbeit durch Andere | Die restlichen Teammitglieder            | [DataBaseClient](https://github.com/weichware10/util/pull/20) |
     | Dokumentation | Joshua, Sarah | Alle | [Dokumentation](https://github.com/weichware10/meilensteine/pull/66) |
 
-## DataBase-SVG
+## Updates UML-Classes
+DataBase:
 ![DataBase-SVG](https://github.com/weichware10/dokumente/blob/main/uml-class/sonstige/database.svg)
+
+Util-Package:
+[Util-Package](https://github.com/weichware10/dokumente/tree/main/uml-class/util)
