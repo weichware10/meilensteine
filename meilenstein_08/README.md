@@ -15,7 +15,7 @@
 
 ## Was haben Sie gelernt ?
 - toString() von Float-Typ werden abhängig von Systemsprache formatiert (`3.0`/`3,0`)
-    - dadurch sind Tests bei manchen fehlgeschlagen, bei anderen nicht
+    - dadurch sind Tests bei manchen fehlgeschlagen, bei Anderen nicht
 - Datenbanken, Aufbau, Kommunikation mit Java, Abfragen, SQL, etc.
 - Erstellen einer GUI mit JavaFX
 - Arbeit mit .env Files
