@@ -2,21 +2,38 @@
 
 ## Was ist seit dem letzten Meilenstein passiert ?
 
+- Anfang Toolbox GUI
+- Datenbank Package
+
+
 ## Was waren die Herausforderungen und Probleme ? Wie wurden sie gelöst ?
+- Datenbank Package größer als erwartet - dafür ersetzt es aber Speichermedium Package
+    - Toolbox GUI größtenteils fertig, trotzdem auf Meilenstein 8,5 (nächste Woche, keine richtige Abgabe) verschoben
 
 ## Was lief gut ? Was lief nicht gut ?
-| gut | nicht gut |
-| --- | ----------|
-|||
+| gut                        | nicht gut                                                                               |
+| -------------------------- | --------------------------------------------------------------------------------------- |
+| Implementierung db-Package | Aufteilung der Aufgaben, da es schwierig ist an einzelnen Features zusammen zu arbeiten |
+|                            |                                                                                         |
 
 ## Was haben Sie gelernt ?
+- toString() von Float-Typ werden abhängig von Systemsprache formatiert (`3.0`/`3,0`)
+    - dadurch sind Tests bei manchen fehlgeschlagen, bei anderen nicht
+- Datenbanken, Aufbau, Kommunikation mit Java, Abfragen, SQL, etc.
+- Erstellen einer GUI mit JavaFX
+- Arbeit mit .env Files
+- Änderungen der Struktur bei Implementierung eines Features können sehr weitgreifend sein, da man noch nicht von Anfang an die richtige Struktur festgelegt hat (Lernen und Verbessern der Softwarestruktur)
 
 ## Was würden sie beim nächsten Mal anders machen ?
+- Mehr Pull Requests anstatt einen Riesen-Pull-Request mit 29 veränderten Dateien
+    - ist allerdings schwierig wenn man bestimmte Sachen erst bei der Arbeit in einem PR feststellt
 
 ---
 ## Teilnehmer und Rollen.
 
 - Verteilung der Aufgaben:
-    | Aufgabe              | Team        | Review        |
-    | -------------------- | ----------- | ------------- |
-    |||
+    | Aufgabe    | Team                                                  | Review                                  |
+    | ---------- | ----------------------------------------------------- | --------------------------------------- |
+    | Toolbox    | Justin, Sarah, David                                  | nächste Woche (Zwischenmeilenstein 8,5) |
+    | db-Package | größtenteils Philip und Joshua, Zuarbeit durch Andere | der Rest                                |
+    |            |                                                       |                                         |
