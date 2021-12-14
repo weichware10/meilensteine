@@ -26,10 +26,11 @@
     - Schwierig, wenn man bestimmte Sachen erst während der Arbeit innerhalb eines PRs feststellt
 
 ---
-## Teilnehmer und Rollen.
+## Teilnehmer und Rollen .
 
 - Verteilung der Aufgaben:
-    | Aufgabe    | Team                                                  | Review                                  |
-    | ---------- | ----------------------------------------------------- | --------------------------------------- |
-    | Toolbox    | Justin, Sarah, David                                  | Nächste Woche (interner Meilenstein 8,5) |
-    | db-Package | Größtenteils Philip und Joshua, Zuarbeit durch Andere | Die restlichen Teammitglieder                               |
+    | Aufgabe    | Team                                                  | Review                                  | Pull-Requests |
+    | ---------- | ----------------------------------------------------- | --------------------------------------- | --- |
+    | Toolbox    | Justin, Sarah, David                                  | Nächste Woche (interner Meilenstein 8,5) | [GUI ToolBox](https://github.com/weichware10/toolbox/pull/10) |
+    | db-Package | Größtenteils Philip und Joshua, Zuarbeit durch Andere | Die restlichen Teammitglieder            | [DataBaseClient](https://github.com/weichware10/util/pull/20) |                   |
+    | Dokumentation | Joshua, Sarah | Alle | [Dokumentation](https://github.com/weichware10/meilensteine/pull/66) |
