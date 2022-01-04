@@ -20,10 +20,10 @@ gefehlt haben: java.sql, java.management,java.security.sasl
     - Schwierig zu Lösen, Updates duch Teammitglieder mit mehr Zeit.(Gegenseitiges auf dem Laufenden halten)
 
 ## Was lief gut ? Was lief nicht gut ?
-| gut                        | nicht gut                                                                               |
-| -------------------------- | --------------------------------------------------------------------------------------- |
-| Umstellung auf FXML (langfristige Zeiterspaarniss) | Spätes Erkennen von Bugs |
-| | Probleme mit 4K-Bildschirmen, muss noch gelöst werden |
+| gut                                                | nicht gut                                             |
+| -------------------------------------------------- | ----------------------------------------------------- |
+| Umstellung auf FXML (langfristige Zeiterspaarniss) | Spätes Erkennen von Bugs                              |
+|                                                    | Probleme mit 4K-Bildschirmen, muss noch gelöst werden |
 
 ## Was haben Sie gelernt ?
 - Umgang mit FXML und Scenebuilder
@@ -42,13 +42,13 @@ gefehlt haben: java.sql, java.management,java.security.sasl
 ## Teilnehmer und Rollen .
 
 - Verteilung der Aufgaben:
-    | Aufgabe    | Team                                                  | Review                                  | Pull-Requests |
-    | ---------- | ----------------------------------------------------- | --------------------------------------- | --- |
-    | GUI Toolbox | Joshua, Justin, David | Jonathan, Philip| [GUI Toolbox](https://github.com/weichware10/toolbox/pull/10) |
-    | SpeicherUtilities | Sarah | Philip, Joshua | [SpeicherUtilities](https://github.com/weichware10/util/pull/25) |
-    | Einbindung von json | Philip, Justin | Joshua, Jonathan | [Json](https://github.com/weichware10/util/pull/23) |
-    | FXML | Philip, Justin, Joshua | David, Jonathan | [FXML](https://github.com/weichware10/toolbox/pull/14) |
-    | Permissions | Joshua | Philip, David | [Permissions](https://github.com/weichware10/util/pull/26) |
-    | ZoomMaps(Util) | Justin, Philip, Joshua | Jonathan | [ZoomMaps](https://github.com/weichware10/util/pull/28) |
-    | Logger | Joshua, Nils | Justin, Jonathan | [Logger](https://github.com/weichware10/util/pull/30) [Logger GUI](https://github.com/weichware10/toolbox/pull/16) |
-    | Dokumentation | Jonathan, Nils | alle | [Dokumentation](https://github.com/weichware10/meilensteine/pull/67) 
+    | Aufgabe             | Team                   | Review           | Pull-Requests                                                                                                      |
+    | ------------------- | ---------------------- | ---------------- | ------------------------------------------------------------------------------------------------------------------ |
+    | GUI Toolbox         | Joshua, Justin, David  | Jonathan, Philip | [GUI Toolbox](https://github.com/weichware10/toolbox/pull/10)                                                      |
+    | SpeicherUtilities   | Sarah                  | Philip, Joshua   | [SpeicherUtilities](https://github.com/weichware10/util/pull/25)                                                   |
+    | Einbindung von json | Philip, Justin         | Joshua, Jonathan | [Json](https://github.com/weichware10/util/pull/23)                                                                |
+    | FXML                | Philip, Justin, Joshua | David, Jonathan  | [FXML](https://github.com/weichware10/toolbox/pull/14)                                                             |
+    | Permissions         | Joshua                 | Philip, David    | [Permissions](https://github.com/weichware10/util/pull/26)                                                         |
+    | ZoomMaps(Util)      | Justin, Philip, Joshua | Jonathan         | [ZoomMaps](https://github.com/weichware10/util/pull/28)                                                            |
+    | Logger              | Joshua, Nils           | Justin, Jonathan | [Logger](https://github.com/weichware10/util/pull/30) [Logger GUI](https://github.com/weichware10/toolbox/pull/16) |
+    | Dokumentation       | Jonathan, Nils         | alle             | [Dokumentation](https://github.com/weichware10/meilensteine/pull/67)                                               |
