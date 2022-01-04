@@ -1,7 +1,7 @@
-# Bericht zum Meilenstein 8
+# Bericht zum Meilenstein 9
 
 ## Was ist seit dem letzten Meilenstein passiert ?
-- Zoommaps Gui
+- Zoommaps GUI
 - Zoommaps Funktionalitäten
 - Umstellung der GUI auf FXML + Scenebuilder
 - Logger + Logfenster
@@ -22,7 +22,7 @@ gefehlt haben: java.sql, java.management,java.security.sasl
 ## Was lief gut ? Was lief nicht gut ?
 | gut                        | nicht gut                                                                               |
 | -------------------------- | --------------------------------------------------------------------------------------- |
-| Umstellung auf FXML (langfristige Zeiterspaarniss) | spätes Erkennen von Bugs |
+| Umstellung auf FXML (langfristige Zeiterspaarniss) | Spätes Erkennen von Bugs |
 
 ## Was haben Sie gelernt ?
 - Umgang mit FXML und Scenebuilder
