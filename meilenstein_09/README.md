@@ -9,7 +9,7 @@
 - Einfügen von Installern
 - Rechteverwaltung in der DB 
     - Profile: Nutzer, Author, Admin, Beobachter)
-    - ([UML](https://github.com/weichware10/dokumente/blob/db-users/uml-usecase/db/users.png))
+    - ([UML](https://github.com/weichware10/dokumente/blob/main/uml-usecase/db/users.png))
 - Abspeicherung neben DB auch als .json
 
 ## Was waren die Herausforderungen und Probleme ? Wie wurden sie gelöst ?
