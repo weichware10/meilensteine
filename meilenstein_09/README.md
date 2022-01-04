@@ -23,6 +23,7 @@ gefehlt haben: java.sql, java.management,java.security.sasl
 | gut                        | nicht gut                                                                               |
 | -------------------------- | --------------------------------------------------------------------------------------- |
 | Umstellung auf FXML (langfristige Zeiterspaarniss) | Spätes Erkennen von Bugs |
+| | Probleme mit 4K-Bildschirmen, muss noch gelöst werden |
 
 ## Was haben Sie gelernt ?
 - Umgang mit FXML und Scenebuilder
