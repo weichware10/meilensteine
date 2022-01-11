@@ -22,8 +22,8 @@
         - Sonderzeichen haben Probleme mit SQL verursacht
 
 ## Was waren die Herausforderungen und Probleme ? Wie wurden sie gelöst ?
-- Aufbauen und Ausrichtung des Rasters (in CodeCharts) war schwieriger als gedacht
-    - Lösung: Verzichten auf vorgefertigte Raster, selbst kreativ ein Raster bauen
+- Bei dem Versuche ine Raster für CodeCharts aufzubauen war GridPlane nicht dynamisch genug
+    - Lösung: Erweiterung der AnchorPane Klasse, Anordnung mittels HBoxen und VBoxen (Klasse CodeChartsPane ist dafür zuständig)
 
 ## Was lief gut ? Was lief nicht gut ?
 | gut  | nicht gut  |
@@ -42,13 +42,13 @@
 - Verteilung der Aufgaben:
     | Aufgabe             | Team                   | Review    | Pull-Requests                     |
     | ------------------- | ---------------------- | --------------- | ---------------------------------------------- |
-    | Code Charts (toolbox) | Joshua, Justin, David  | ?, ? | [PR](https://github.com/weichware10/toolbox/pull/23) |
+    | Code Charts (toolbox) | Joshua, Justin, David  | Jonathan, David | [PR](https://github.com/weichware10/toolbox/pull/23) |
     | Code Charts (util) | Joshua | Justinb, David | [PR](https://github.com/weichware10/util/pull/35) |
-    | Analyse Client (analyse) | Joshua, Justin, David | ?, ? | [PR](https://github.com/weichware10/analyse/pull/7) |
+    | Analyse Client (analyse) | Joshua, Justin, David | / | [PR](https://github.com/weichware10/analyse/pull/7) |
     | Analyse Client (util) | Joahua | David | [PR](https://github.com/weichware10/util/pull/33) |
     | handshake fix | Philip | Joshua, Jonathan | Issue](https://github.com/weichware10/toolbox/issues/18), [PR](https://github.com/weichware10/toolbox/pull/20) |
     | zoomMapsBild -> zoomMapsImage | Jonathan | Joshua, David | [Issue](https://github.com/weichware10/toolbox/issues/24), [PR](https://github.com/weichware10/toolbox/pull/25) |
     | Probleme mit Sonderzeichen | Philip | Joshua | [Issue](https://github.com/weichware10/util/issues/31), [PR](https://github.com/weichware10/util/pull/32) |
     | Log schließt sich nicht | Josh | Philip, Jonathan | [Issue](https://github.com/weichware10/toolbox/issues/19), [PR](https://github.com/weichware10/toolbox/pull/21) |
-    | Datenbank Änderungen | Josh | ?, ? | [PR](https://github.com/weichware10/util/pull/34) |
+    | Datenbank Änderungen | Josh | Nils, Sarah | [PR](https://github.com/weichware10/util/pull/34) |
     | Dokumentation | Sarah, Jonathan | alle | [PR](https://github.com/weichware10/meilensteine/pull/68) |
