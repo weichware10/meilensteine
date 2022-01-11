@@ -13,7 +13,7 @@
         - Anbindung an Datenbank
             - datenbankverbindung
             - datenbankabfrage
-            - analyse konfiguration
+        - analyse konfiguration
         - Dieser PR ist allersings noch nicht gemerged, fertigstellung dann in Meilenstein 11
     - viele Fehlerbehebung 
         - Das Log Fenster hat sich nicht mit dem Hauptfenster geschlossen
