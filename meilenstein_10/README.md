@@ -11,8 +11,8 @@
         - Eigentlich war hier für diesen Meilenstein wirklich nur die GUI geplant,
         es ist dann aber doch viel mehr fertig geworden (einen Teil der Funktionen)
         - Anbindung an Datenbank
-            - datenbankverbindung
-            - datenbankabfrage
+            - Datenbankverbindung
+            - Datenbankabfrage
         - analyse konfiguration
         - Dieser PR ist allerdings noch nicht gemerged, Fertigstellung dann in Meilenstein 11
     - viele Fehlerbehebung 
