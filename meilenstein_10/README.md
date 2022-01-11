@@ -44,7 +44,7 @@
     | ------------------- | ---------------------- | --------------- | ---------------------------------------------- |
     | Code Charts (toolbox) | Joshua, Justin, David  | Jonathan, David | [PR](https://github.com/weichware10/toolbox/pull/23) |
     | Code Charts (util) | Joshua | Justin, David | [PR](https://github.com/weichware10/util/pull/35) |
-    | Analyse Client (analyse) | Joshua, Justin, David | / | [PR](https://github.com/weichware10/analyse/pull/7) |
+    | Analyse Client (analyse) | Joshua, Justin, Philip | / | [PR](https://github.com/weichware10/analyse/pull/7) |
     | Analyse Client (util) | Joshua | David | [PR](https://github.com/weichware10/util/pull/33) |
     | handshake fix | Philip | Joshua, Jonathan | [Issue](https://github.com/weichware10/toolbox/issues/18), [PR](https://github.com/weichware10/toolbox/pull/20) |
     | zoomMapsBild -> zoomMapsImage | Jonathan | Joshua, David | [Issue](https://github.com/weichware10/toolbox/issues/24), [PR](https://github.com/weichware10/toolbox/pull/25) |
