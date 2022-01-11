@@ -22,7 +22,7 @@
         - Sonderzeichen haben Probleme mit SQL verursacht
 
 ## Was waren die Herausforderungen und Probleme ? Wie wurden sie gelöst ?
-- Bei dem Versuche ein Raster für CodeCharts aufzubauen war GridPlane nicht dynamisch genug
+- Für die Erstellung von Rastern bei CodeCharts-Versuchen ist GridPane nicht dynamisch genug, da die Kacheln unterteilt werden müssen und je nach Konfiguration unterschiedlich groß sin.
     - Lösung: Erweiterung der AnchorPane Klasse, Anordnung mittels HBoxen und VBoxen (Klasse CodeChartsPane ist dafür zuständig)
 
 ## Was lief gut ? Was lief nicht gut ?
