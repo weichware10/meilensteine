@@ -22,7 +22,7 @@
         - Sonderzeichen haben Probleme mit SQL verursacht
 
 ## Was waren die Herausforderungen und Probleme ? Wie wurden sie gelöst ?
-- Aufbauen und Ausrichtung des Grids (in CodeCharts) war schieriger als Gedacht
+- Aufbauen und Ausrichtung des Rasters (in CodeCharts) war schwieriger als gedacht
     - Lösung: Verzichten auf Vorgefertigte Grids, selbst kreativ ein Grid bauen
 
 ## Was lief gut ? Was lief nicht gut ?
