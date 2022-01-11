@@ -50,5 +50,5 @@
     | zoomMapsBild -> zoomMapsImage | Jonathan | Joshua, David | [Issue](https://github.com/weichware10/toolbox/issues/24), [PR](https://github.com/weichware10/toolbox/pull/25) |
     | Probleme mit Sonderzeichen | Philip | Joshua | [Issue](https://github.com/weichware10/util/issues/31), [PR](https://github.com/weichware10/util/pull/32) |
     | Log schließt sich nicht | Josh | Philip, Jonathan | [Issue](https://github.com/weichware10/toolbox/issues/19), [PR](https://github.com/weichware10/toolbox/pull/21) |
-    | Datenbank änderungen | Josh | ?, ? | [PR](https://github.com/weichware10/util/pull/34) |
+    | Datenbank Änderungen | Josh | ?, ? | [PR](https://github.com/weichware10/util/pull/34) |
     | Dokumentation | Sarah, Jonathan | alle | [PR](https://github.com/weichware10/meilensteine/pull/68) |
