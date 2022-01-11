@@ -16,7 +16,7 @@
         - analyse konfiguration
         - Dieser PR ist allerdings noch nicht gemerged, Fertigstellung dann in Meilenstein 11
     - viele Fehlerbehebung 
-        - Das Log Fenster hat sich nicht mit dem Hauptfenster geschlossen
+        - das Log Fenster hat sich nicht mit dem Hauptfenster geschlossen
         - uneinheitlcihe Sprache (Englisch <> Deutsch)
         - Bilder wurden nicht angezeigt
         - Sonerzeichen haben Probleme mit SQL verursacht
