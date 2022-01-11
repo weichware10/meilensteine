@@ -23,7 +23,10 @@
 
 ## Was waren die Herausforderungen und Probleme ? Wie wurden sie gelöst ?
 - Für die Erstellung von Rastern bei CodeCharts-Versuchen ist GridPane nicht dynamisch genug, da die Kacheln unterteilt werden müssen und je nach Konfiguration unterschiedlich groß sin.
-    - Lösung: Erweiterung der AnchorPane Klasse, Anordnung mittels HBoxen und VBoxen (Klasse CodeChartsPane ist dafür zuständig)
+    - Lösung: Erweiterung von AnchorPane in CodeChartsPane
+        - beinhaltet HBoxen und VBoxen zur Unterteilung
+        - beinhaltet Labels für die Wörter
+        - führt alle Berechnungen zu angeschautem Bildbereich und eingegebenem Wort durch
 
 ## Was lief gut ? Was lief nicht gut ?
 | gut  | nicht gut  |
