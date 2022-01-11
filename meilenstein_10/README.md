@@ -2,23 +2,30 @@
 
 ## Was ist seit dem letzten Meilenstein passiert ?
 - Hauptsächlich:
-    - Code Charts (GUI & Funktion)
-    - AnalyseClient (allgemeine GUI)
+    - Code Charts
+        - Überarbeitung von Code Charts Configuration
+        - GUI
+        - Funktionen
+    - AnalyseClient 
+        - allgemeine GUI
+        - Anbindung an Datenbank
     - viele Fehlerbehebung 
+        - pass
 
 ## Was waren die Herausforderungen und Probleme ? Wie wurden sie gelöst ?
-- pass
+- Aufbauen und Ausrichtung des Grids (in CodeCharts) war schieriger asl Gedacht
+    - Lösung ?
 
 ## Was lief gut ? Was lief nicht gut ?
 | gut  | nicht gut  |
 | ---- | ---- |
-| pass | pass |
+| Erstellung der GUI ist einfach und schnell (FXML zahlt sich aus) | / |
 
 ## Was haben Sie gelernt ?
-- wir sind selbst Schuld
+- Umgang mit dynamischen Graphischen Elementen
 
 ## Was würden sie beim nächsten Mal anders machen ?
-- früher sterben
+- pass
 
 ---
 ## Teilnehmer und Rollen .
