@@ -19,7 +19,7 @@
         - das Log Fenster hat sich nicht mit dem Hauptfenster geschlossen
         - uneinheitlcihe Sprache (Englisch <> Deutsch)
         - Bilder wurden nicht angezeigt
-        - Sonerzeichen haben Probleme mit SQL verursacht
+        - Sonderzeichen haben Probleme mit SQL verursacht
 
 ## Was waren die Herausforderungen und Probleme ? Wie wurden sie gelöst ?
 - Aufbauen und Ausrichtung des Grids (in CodeCharts) war schieriger als Gedacht
