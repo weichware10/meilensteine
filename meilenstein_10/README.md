@@ -23,7 +23,7 @@
 
 ## Was waren die Herausforderungen und Probleme ? Wie wurden sie gelöst ?
 - Aufbauen und Ausrichtung des Rasters (in CodeCharts) war schwieriger als gedacht
-    - Lösung: Verzichten auf Vorgefertigte Grids, selbst kreativ ein Grid bauen
+    - Lösung: Verzichten auf vorgefertigte Raster, selbst kreativ ein Raster bauen
 
 ## Was lief gut ? Was lief nicht gut ?
 | gut  | nicht gut  |
