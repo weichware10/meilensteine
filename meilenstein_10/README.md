@@ -17,7 +17,7 @@
         - Dieser PR ist allerdings noch nicht gemerged, Fertigstellung dann in Meilenstein 11
     - viele Fehlerbehebung 
         - das Log Fenster hat sich nicht mit dem Hauptfenster geschlossen
-        - uneinheitlcihe Sprache (Englisch <> Deutsch)
+        - uneinheitliche Sprache (Englisch <> Deutsch)
         - Bilder wurden nicht angezeigt
         - Sonderzeichen haben Probleme mit SQL verursacht
 
