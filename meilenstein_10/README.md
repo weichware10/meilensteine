@@ -31,7 +31,7 @@
 | Erstellung der GUI ist einfach und schnell (FXML zahlt sich aus) | / |
 
 ## Was haben Sie gelernt ?
-- Umgang mit dynamischen Graphischen Elementen
+- Umgang mit dynamischen graphischen Elementen
 
 ## Was würden sie beim nächsten Mal anders machen ?
 - /
