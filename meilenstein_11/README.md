@@ -39,7 +39,7 @@
     | Aufgabe                                     | Team                   | Review                  | Pull-Requests                                             |
     | ------------------------------------------- | ---------------------- | ----------------------- | --------------------------------------------------------- |
     | Änderungen für AnalyseClient                | Joshua                 | Justin, David, Jonathan | [PR](https://github.com/weichware10/util/pull/33)         |
-    | GUI Grundstrucktur                          | Joshua, Justin, Philip | Jonathan                | [PR](https://github.com/weichware10/analyse/pull/7)       |
+    | GUI Grundstruktur                          | Joshua, Justin, Philip | Jonathan                | [PR](https://github.com/weichware10/analyse/pull/7)       |
     | Heatmap + Verlauf                           | Joshua, Philip         | Jonathan, Justin        | [PR](https://github.com/weichware10/analyse/pull/8)       |
     | Permissions für strings-Tabelle hinzugefügt | Joshua                 | Justin, David           | [PR](https://github.com/weichware10/util/pull/36)         |
     | imgUrl for macOS                            | Justin                 | Joshua                  | [PR](https://github.com/weichware10/toolbox/pull/26)      |
