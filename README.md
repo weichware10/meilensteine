@@ -1,5 +1,4 @@
 # Dokumentation der Meilensteine
 ## Softwareengineering Wintersemester 2021, Gruppe 10
----
 
-⚠️ nicht vergessen `.gitignore` updzudaten, um keine unerwünschten Sachen hochzuladen!
+Hier ist die Dokumentation der einzelnen Meilensteine zu finden, und eventuelle Abgaben (bis Meilenstein 05)
