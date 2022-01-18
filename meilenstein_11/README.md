@@ -18,7 +18,7 @@
 - Berechnung der Zoom-Tiefe
     - Erster Berechnungsversuch lieferte keine ausgeglichene Heatmap-Verteilung
     - Lösung:
-        - Normalisierungsrechnung: `10^(unnormalisierte Tiefe)`
+        - Normalisierungsrechnung: `(10^(unnormalisierte Tiefe) - 1) / 9`
 
 ## Was lief gut ? Was lief nicht gut ?
 | gut                                              | nicht gut |
