@@ -3,7 +3,7 @@
 ## Was ist seit dem letzten Meilenstein passiert ?
 - AnalyseClient
     - Fertigstellung der GUI
-        - Überarbeitung des Designes
+        - Überarbeitung des Designs
         - Konfigurator hinzugefügt
         - Trial-Ersteller hinzugefügt (TrialIDs aus KonfigID)
     - Analyse
