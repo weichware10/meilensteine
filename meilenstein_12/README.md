@@ -8,7 +8,7 @@
             - Kreis
         - Vergleich
             - Verlauf
-            - (Heatmap wurde gestrichen)
+            - (Heatmap wurde gestrichen, relativ wenig Sinn)
     - Fertigstellung des Configurators
         - Grundlegende Funktionalitäten
         - Laden und Speichern
