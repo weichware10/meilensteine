@@ -20,7 +20,6 @@
 - Behebung einiger Bugs
     - Scaling Probleme bei Windows
     - Exeptions bei logOut
-    - Probleme mit Umlauten bei ConfigWriter
 
 ## Was waren die Herausforderungen und Probleme ? Wie wurden sie gelöst ?
 - Probleme mit dem Heatmap-Vergleich
@@ -46,6 +45,14 @@
 ## Teilnehmer und Rollen .
 
 - Verteilung der Aufgaben:
-    | Aufgabe   | Team    | Review  | Pull-Requests                                     |
-    | --------- | ------- | ------- | ------------------------------------------------- |
-    | something | someone | someone | [PR](https://github.com/weichware10/util/pull/33) |
+    | Aufgabe                              | Team     | Review                          | Pull-Requests                                                                                                                                                                                                                     |
+    | ------------------------------------ | -------- | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    | Vergleich-Verlauf & Tiefenverteilung | Philip   | Joshua, Jonathan                | [PR](https://github.com/weichware10/analyse/pull/9)                                                                                                                                                                               |
+    | Configurator                         | joshua   | Jonsthan, Justin, David         | [PR](https://github.com/weichware10/analyse/pull/10)                                                                                                                                                                              |
+    | Trial Ersteller                      | Joshua   | Philip, Jonathan, Justin, David | [PR](https://github.com/weichware10/analyse/pull/13)                                                                                                                                                                              |
+    | Zoommaps Tutorial                    | Sarah    | Joshua                          | [PR](https://github.com/weichware10/dokumente/pull/18)                                                                                                                                                                            |
+    | Scaling Bug                          | Jonathan | Joshua, Justin, Philip          | [Issue](https://github.com/weichware10/toolbox/issues/17), [Util](https://github.com/weichware10/util/pull/41), [Toolbox](https://github.com/weichware10/toolbox/pull/29), [Analyse](https://github.com/weichware10/analyse/pull/14) |
+    | logOut Bug                           | Philip   | Joshua, Justin, David           | [Issue](https://github.com/weichware10/analyse/issues/11), [PR](https://github.com/weichware10/analyse/pull/12)                                                                                                                    |
+    | Tutorial einfügen                    | Justin   | David, Philip                   | [PR](https://github.com/weichware10/toolbox/pull/28)                                                                                                                                                                              |
+    | Automatisierte JavaDocs              | Joshua   | Justin, Nils                    | [PR](https://github.com/weichware10/dokumente/pull/19)                                                                                                                                                                            |
+    | Dokumentation                        | Jonathan | alle                            | [PR](https://github.com/weichware10/meilensteine/pull/70)                                                                                                                                                                                                                                  |
