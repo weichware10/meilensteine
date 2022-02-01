@@ -12,7 +12,7 @@
         - Klassendiagramme
     - Benutzerhandbuch & Entwicklerhandbuch
         - (Toolbox)[https://weichware10.github.io/dokumente/toolbox/]
-        - Analyse
+        - [Analyse](https://weichware10.github.io/dokumente/analyse/)
     - [Webseite](https://weichware10.github.io/dokumente/)
 - Fix für kleinere Bugs
     - Entfernung von Debug Keybindings
