@@ -11,7 +11,7 @@
         - Sequenzdiagramme
         - Klassendiagramme
     - Benutzerhandbuch & Entwicklerhandbuch
-        - Toolbox
+        - (Toolbox)[https://weichware10.github.io/dokumente/toolbox/]
         - Analyse
     - [Webseite](https://weichware10.github.io/dokumente/)
 - Fix für kleinere Bugs
