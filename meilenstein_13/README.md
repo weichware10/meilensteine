@@ -13,6 +13,7 @@
     - Benutzerhandbuch & Entwicklerhandbuch
         - Toolbox
         - Analyse
+    - [Webseite](https://weichware10.github.io/dokumente/)
 - Fix für kleinere Bugs
     - Entfernung von Debug Keybindings
     - Einheitlichkeit von Errormeldungen
@@ -53,7 +54,7 @@
     | Vorbereitung Abschlusspräsentation | Nils                     | alle             | /                                                         |
     | Dokumentation                      | Jonathan                 | alle             | [PR](https://github.com/weichware10/meilensteine/pull/71) |
 
-- Verteilung der Issues:
+- Lösen von Issues:
     | Aufgabe                      | Team   | Review                   | Issues                                                                                                              | Pull-Requests                                        |
     | ---------------------------- | ------ | ------------------------ | ------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
     | Einheitlicher Errordialog    | Joshua | Philip, David            | [Link](https://github.com/weichware10/toolbox/issues/32)                                                            | [PR](https://github.com/weichware10/toolbox/pull/33) |
