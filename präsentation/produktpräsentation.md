@@ -1,5 +1,14 @@
 # Produktpräsentation
 
+| Erfüllt                           | Offen       | Zusätzlich              |
+| --------------------------------- | ----------- | ----------------------- |
+| Zoommaps                          | Eyetracking | GUI für Konfiguration   |
+| Codecharts                        |             | Anpassung Analyse-Arten |
+| Konfiguration                     |             | diverse Admin/Dev-Tools |
+| Datenbank (Konfiguration + Daten) |             |                         |
+| JSON (Konfiguration + Daten)      |             |                         |
+| Analysefunktionen                 |             |                         |
+
 ## Vorstellen der Apps
 1. Laden einer vorbeiteten JSON-Konfiguration
 2. Speichern in der Datenbank
